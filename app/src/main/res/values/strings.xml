@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">BAFPHONEBOOK</string>
+    <string name="name_zhr">ZHR</string>
+    <string name="name_pkp">PKP</string>
+    <string name="app_mtr">MTR</string>
+    <string name="app_bsr">BSR</string>
+    <string name="app_bbd">BBD</string>
+    <string name="app_coxs">COXS</string>
+
 </resources>

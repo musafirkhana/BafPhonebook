@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@drawable/background_main"
     android:orientation="vertical">
 
     <ScrollView
@@ -16,37 +16,25 @@
             android:orientation="vertical"
             android:padding="15dp">
 
-            <ImageView
-                android:id="@+id/tvLoginInformation"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:background="@drawable/homeorange"
-                android:textStyle="normal"
-                android:visibility="gone"/>
-
             <RelativeLayout
                 android:id="@+id/llOrderfood"
                 android:layout_width="fill_parent"
                 android:layout_height="62dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="10dp"
-                android:onClick="MyFoodel"
+                android:layout_marginTop="1dp"
+                android:onClick="ZHRCLICK"
                 android:background="@drawable/radious_button"
                 >
-
                 <TextView
-                    android:id="@+id/textView1"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textColor="@color/white"
-                    android:text="ZHR"
+                    android:text="@string/name_zhr"
                     android:textSize="20sp" />
 
                 <ImageView
-                    android:id="@+id/ivCustomerimage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -56,28 +44,25 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:id="@+id/llTrackMyOrder"
                 android:layout_width="fill_parent"
                 android:layout_height="62dp"
                 android:layout_alignLeft="@+id/llOrderfood"
                 android:layout_below="@+id/llOrderfood"
-                android:layout_marginTop="4dp"
-                android:onClick="HelpCentre"
+                android:layout_marginTop="10dp"
+                android:onClick="BBDCLICK"
                 android:background="@drawable/radious_button"
                 >
 
                 <TextView
-                    android:id="@+id/textView12"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textColor="@color/white"
-                    android:text="@string/hs_help"
+                    android:text="@string/app_bbd"
                     android:textSize="20sp" />
 
                 <ImageView
-                    android:id="@+id/ivCustomerimage1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -87,18 +72,16 @@
             </RelativeLayout>
 
             <RelativeLayout
-                android:id="@+id/llLoyaltyPoints"
                 android:layout_width="fill_parent"
                 android:layout_height="62dp"
                 android:layout_alignLeft="@+id/llTrackMyOrder"
                 android:layout_below="@+id/llTrackMyOrder"
-                android:layout_marginTop="4dp"
-                android:onClick="TelAFriend"
+                android:layout_marginTop="10dp"
+                android:onClick="BSRCLICK"
                 android:background="@drawable/radious_button"
                 >
 
                 <ImageView
-                    android:id="@+id/ivCustomerimage123"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -113,23 +96,21 @@
                     android:layout_centerVertical="true"
                     android:textColor="@color/white"
                     android:layout_marginLeft="15dp"
-                    android:text="@string/hs_tellafriend"
+                    android:text="@string/app_bsr"
                     android:textSize="20sp" />
             </RelativeLayout>
 
             <RelativeLayout
-                android:id="@+id/llSignIn"
                 android:layout_width="fill_parent"
                 android:layout_height="62dp"
                 android:layout_alignLeft="@+id/llBookaTable"
                 android:layout_below="@id/llBookaTable"
-                android:layout_marginTop="4dp"
-                android:onClick="History"
+                android:layout_marginTop="10dp"
+                android:onClick="MTRCLICK"
                 android:background="@drawable/radious_button"
                 >
 
                 <ImageView
-                    android:id="@+id/ivSignIn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
@@ -138,26 +119,24 @@
                     android:src="@drawable/arrow" />
 
                 <TextView
-                    android:id="@+id/txtSignInf"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:textColor="@color/white"
                     android:layout_marginLeft="15dp"
-                    android:text="@string/hs_history"
+                    android:text="@string/app_mtr"
                     android:textSize="20sp" />
 
 
             </RelativeLayout>
 
             <RelativeLayout
-                android:id="@+id/llSignOut"
                 android:layout_width="fill_parent"
                 android:layout_height="62dp"
                 android:layout_alignLeft="@+id/llBookaTable"
                 android:layout_below="@id/llBookaTable"
-                android:layout_marginTop="4dp"
-                android:onClick="SignOut"
+                android:layout_marginTop="10dp"
+                android:onClick="PKPCLICK"
                 android:background="@drawable/radious_button"
                 >
 
@@ -177,7 +156,37 @@
                     android:layout_centerVertical="true"
                     android:textColor="@color/white"
                     android:layout_marginLeft="15dp"
-                    android:text="@string/hs_signout"
+                    android:text="@string/name_pkp"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="62dp"
+                android:layout_alignLeft="@+id/llBookaTable"
+                android:layout_below="@id/llBookaTable"
+                android:layout_marginTop="10dp"
+                android:onClick="COXCLICK"
+                android:background="@drawable/radious_button"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/arrow" />
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/app_coxs"
                     android:textSize="20sp" />
 
 
