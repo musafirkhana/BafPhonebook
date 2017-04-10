@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:background="@color/ripple_red"
+        android:gravity="center"
+        android:text="Glossary Of Terms"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/glosaryedit_seach"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/topbar"
+        android:hint="Search Glossary of Terms"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoCorrect"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#ff000000"
+        android:textSize="18.0dip" >
+
+        <requestFocus />
+    </EditText>
+
+    <ListView
+        android:id="@+id/glosary_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/glosaryedit_seach" >
+    </ListView>
+
+
+
+</LinearLayout>

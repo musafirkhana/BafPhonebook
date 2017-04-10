@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">BAFPHONEBOOK</string>
+    <string name="name_hq">AIR HQ</string>
+    <string name="name_search">SEARCH</string>
     <string name="name_zhr">ZHR</string>
     <string name="name_pkp">PKP</string>
     <string name="app_mtr">MTR</string>
@@ -10,4 +12,7 @@
     <string name="app_dir">/app</string>
     <string name="db_dir">/database_mea</string>
 
+
+    <string name="air_hq_lodger">AIR HQ &amp; ITS LODGER UNITS</string>
+    <string name="air_hq_lodger_cont">AIR HQ &amp; ITS LODGER UNITS (Cont/’d)</string>
 </resources>

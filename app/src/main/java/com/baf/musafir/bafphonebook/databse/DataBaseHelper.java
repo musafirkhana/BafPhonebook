@@ -21,7 +21,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 													// window
 	// destination path (location) of our database on device
 	// private static String DB_PATH = "";
-	private static String DB_NAME = "airforcebd.db";// Database name
+	private static String DB_NAME = AppConstant.DB_NAME;// Database name
 	private SQLiteDatabase mDataBase;
 	private final Context mContext;
 	private File sdCard = Environment.getExternalStorageDirectory();

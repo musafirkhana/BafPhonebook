@@ -15,7 +15,7 @@ import java.io.OutputStream;
 
 public class AssetDatabaseOpenHelper {
 
-	private static final String DB_NAME = "airforcebd.db";
+	private static final String DB_NAME = AppConstant.DB_NAME;
 	private File sdCard = Environment.getExternalStorageDirectory();
 	private static String DB_SD_CARD_PATH = "";
 

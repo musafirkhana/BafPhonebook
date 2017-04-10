@@ -56,7 +56,7 @@ public class SplashActivity extends Activity {
 
         flag = SharedPreferencesHelper.getFirstTime(context);
         if (flag) {
-            Toast.makeText(context, "Export Database Starting....", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Export Database Starting....", Toast.LENGTH_LONG).show();
             exportDatabse();
         }
         createFolderStructure();
@@ -187,7 +187,7 @@ public class SplashActivity extends Activity {
     private void createFolderStructure() {
         if (!mainDir.exists()) {
             mainDir.mkdirs();
-            Log.i(TAG,mainDir.getAbsolutePath());
+
         }
 
         if (!edenRefDir.exists()) {
@@ -223,6 +223,7 @@ public class SplashActivity extends Activity {
         @SuppressLint("NewApi")
         protected void onPostExecute(String getResult) {
             //progDialogConfirm.dismiss();
+
             dataBaseUtility.getContactData(context);
 
             final Intent intent = new Intent(SplashActivity.this, HomeActivity.class);

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="68dp"
+        android:background="@color/white"
+        android:gravity="center_vertical" >
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="68dp"
+            android:layout_marginLeft="5dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/designation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CAOS"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:background="@color/ripple_red" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/mobile_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2.5dp"
+                android:clickable="true"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="+8801911764894"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </TableRow>
+
+</LinearLayout>

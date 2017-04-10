@@ -5,6 +5,8 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
+import com.baf.musafir.bafphonebook.holder.AllContactListVector;
+import com.baf.musafir.bafphonebook.model.ContactListModel;
 
 
 public class DataBaseUtility {
@@ -16,25 +18,22 @@ private static String TAG="DataBaseUtility";
 		AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
 		SQLiteDatabase db = databaseOpenHelper.openDatabase();
 		Log.w("Contact Data Data", "cnt: " + db.getPath());
+		Log.w("Contact Data Data", "cnt: " + db.getVersion());
 
 		Cursor cursor = db.rawQuery(
-				"SELECT * from Telephone ;",
+				"SELECT * from mobile_no ;",
 				null);
 		Log.w("Contact Data Data", "cnt: " + cursor.getCount());
-		//AllContactListVector contactListVector = new AllContactListVector();
-		//contactListVector.removeContactlist();
+		AllContactListVector contactListVector = new AllContactListVector();
+		contactListVector.removeContactlist();
 		if (cursor.moveToFirst()) {
 			do {
-				/*ContactListModel contactListModel = new ContactListModel();
-				contactListModel.setName(cursor.getString(0));
-				contactListModel.setJobRole(cursor.getString(1));
-				contactListModel.setJobRoleDescription(cursor.getString(2));
-				contactListModel.setPhoto(cursor.getString(3));
-				contactListModel.setDisplayOnSite(cursor.getString(4));
-				contactListModel.setDisplayOrder(cursor.getString(5));
-				contactListModel.setPhone1(cursor.getString(6));
+				ContactListModel contactListModel = new ContactListModel();
+				contactListModel.setDesignation(cursor.getString(0));
+				contactListModel.setMobileno(cursor.getString(1));
+				contactListModel.setUnit1(cursor.getString(2));
 				contactListVector.setAllContactlist(contactListModel);
-				contactListModel = null;*/
+				contactListModel = null;
 				Log.w("Contact Data Data", "cnt: " + cursor.getString(0));
 			} while (cursor.moveToNext());
 		}

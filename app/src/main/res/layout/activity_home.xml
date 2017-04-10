@@ -9,7 +9,7 @@
         android:id="@+id/top_linear"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/ripple_red"
+        android:background="@color/home_bg"
         android:gravity="center">
 
         <TextView
@@ -22,7 +22,10 @@
 
     </LinearLayout>
 
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/divider"></View>
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -34,7 +37,6 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="0dp">
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -50,6 +52,90 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:clickable="true"
+                        android:onClick="AIRHQ"
+                        android:background="@drawable/home_selector"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/airforce_logo_1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/name_hq"
+                            android:textColor="@color/accent_color"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/divider"></View>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/home_box_hight"
+                    android:layout_weight="2"
+                    android:background="@color/home_bg_2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/home_selector"
+                        android:clickable="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/airforce_logo_1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/name_search"
+                            android:textColor="@color/accent_color"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/divider"></View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="0dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/home_box_hight"
+                    android:layout_weight="2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/home_selector"
+                        android:clickable="true"
                         android:orientation="vertical">
 
                         <ImageView
@@ -85,6 +171,8 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:background="@drawable/home_selector"
+                        android:clickable="true"
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -128,6 +216,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="@drawable/home_selector"
+                        android:clickable="true"
                         android:orientation="vertical">
 
                         <ImageView
@@ -164,6 +254,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="@drawable/home_selector"
+                        android:clickable="true"
                         android:orientation="vertical">
 
                         <ImageView
@@ -206,6 +298,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="@drawable/home_selector"
+                        android:clickable="true"
                         android:orientation="vertical">
 
                         <ImageView
@@ -242,6 +336,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:gravity="center"
+                        android:background="@drawable/home_selector"
+                        android:clickable="true"
                         android:orientation="vertical">
 
                         <ImageView
