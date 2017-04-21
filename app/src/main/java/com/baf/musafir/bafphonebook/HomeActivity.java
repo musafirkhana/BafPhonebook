@@ -8,8 +8,11 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
 
+import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
+
 public class HomeActivity extends Activity {
     private Context mContext;
+    private DataBaseUtility dataBaseUtility;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,12 +20,19 @@ public class HomeActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_home);
         mContext = this;
+        dataBaseUtility = new DataBaseUtility();
     }
 
     public void AIRHQ(View v) {
-        Intent intent = new Intent(this, AIrHqMainActivity.class);
+        dataBaseUtility.getAirHqLodgerData(mContext);
+        Intent intent = new Intent(this, ContactListActivity.class);
+        intent.putExtra("header","AIR HQ & ITS LODGER UNITS");
         startActivity(intent);
     }
-
+    public void ZHR(View v) {
+        Intent intent = new Intent(this, ZhrActivity.class);
+        intent.putExtra("header","AIR HQ & ITS LODGER UNITS");
+        startActivity(intent);
+    }
 
 }

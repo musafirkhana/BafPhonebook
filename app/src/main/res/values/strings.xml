@@ -15,4 +15,39 @@
 
     <string name="air_hq_lodger">AIR HQ &amp; ITS LODGER UNITS</string>
     <string name="air_hq_lodger_cont">AIR HQ &amp; ITS LODGER UNITS (Cont/’d)</string>
+
+
+    <string name="flying_wing">FLYING WING</string>
+    <string name="ops_wing">OPERATIONAL WING</string>
+    <string name="maintain_wing">MAINTANCE WING</string>
+    <string name="admin_wing">ADMIN WING</string>
+    <string name="trg_wing">TRAINING WING</string>
+
+    <string name="one_sqn">1 SQUADRON</string>
+    <string name="three_sqn">3 SQUADRON</string>
+    <string name="twentyone_sqn">21 SQUADRON</string>
+    <string name="twentyfive_sqn">25 SQUADRON</string>
+
+    <string name="maint_1">AIRCRAFT ENGINEERING SQN</string>
+    <string name="maint_2">CONTROL SQN</string>
+    <string name="maint_3">FIELD MAINTANANCE SQN</string>
+    <string name="maint_4">COMMUNICATION &amp;  ELECTRONICS SQN</string>
+    <string name="maint_5">MECHANICAL TRANSPORT SQN</string>
+    <string name="maint_6">ARMAMENT SQN</string>
+    <string name="maint_7">SUPPLY SQN</string>
+
+    <string name="ops_1">AIR TRAFFIC SQN</string>
+    <string name="ops_2">MET SQN</string>
+    <string name="ops_3">EXERCISE  SQN</string>
+
+    <string name="admin_1">PERSONNEL SQN</string>
+    <string name="admin_2">ACCOUNTS SQN</string>
+    <string name="admin_3">MEDICAL  SQN</string>
+    <string name="admin_4">SECURITY SQN</string>
+
+    <string name="training_1">EDN TRAINING SQN</string>
+    <string name="training_2">C &amp; E TRAINING SQN</string>
+    <string name="training_3">MEDICAL  TRAINING SQN</string>
+    <string name="training_4">ADMIN TRAINING SQN</string>
+
 </resources>

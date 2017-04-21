@@ -136,6 +136,7 @@
                         android:gravity="center"
                         android:background="@drawable/home_selector"
                         android:clickable="true"
+                        android:onClick="ZHR"
                         android:orientation="vertical">
 
                         <ImageView

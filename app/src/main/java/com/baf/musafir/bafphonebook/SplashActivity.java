@@ -37,7 +37,7 @@ public class SplashActivity extends Activity {
     private String text;
     private String respones_results;
 
-    private DataBaseUtility dataBaseUtility;
+
     public static ProgressDialog progDialogConfirm;
     boolean flag = true;
     private File sdCard = Environment.getExternalStorageDirectory();
@@ -50,7 +50,7 @@ public class SplashActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_splash);
         context = this;
-        dataBaseUtility = new DataBaseUtility();
+
        // initUI();
         // startTimer();
 
@@ -224,7 +224,7 @@ public class SplashActivity extends Activity {
         protected void onPostExecute(String getResult) {
             //progDialogConfirm.dismiss();
 
-            dataBaseUtility.getContactData(context);
+
 
             final Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
             startActivity(intent);

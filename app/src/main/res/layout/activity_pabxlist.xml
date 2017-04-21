@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        android:background="@color/home_bg"
+        android:gravity="center"
+        android:text="Header"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/mobile_no_search"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/topbar"
+        android:background="@color/btBG"
+        android:hint="Search By Designation"
+        android:imeOptions="actionSearch"
+        android:inputType="textAutoCorrect"
+        android:paddingLeft="20dp"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="@color/google_white"
+        android:textColorHint="@color/google_white"
+        android:textSize="18.0dip">
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/header_linear"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/mobile_no_search"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_rectaangle"
+        android:orientation="horizontal">
+
+        <TextView android:id="@+id/text_1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="Designation"
+            android:textSize="10sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight=".03"
+            android:background="@color/black"
+            android:layout_height="fill_parent"></View>
+
+        <TextView android:id="@+id/text_2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Office(ext)"
+            android:textSize="10sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight=".03"
+            android:background="@color/black"
+            android:layout_height="fill_parent"></View>
+
+        <TextView android:id="@+id/text_3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Office(auto)"
+            android:textSize="10sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight=".03"
+            android:background="@color/black"
+            android:layout_height="fill_parent"></View>
+
+        <TextView android:id="@+id/text_4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Res(ext)"
+            android:textStyle="bold"
+            android:textSize="10sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight=".03"
+            android:background="@color/black"
+            android:layout_height="fill_parent"></View>
+
+        <TextView android:id="@+id/text_5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Res(auto)"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/pabx_no_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/header_linear"
+        android:background="@color/divider"
+        ></ListView>
+
+
+</LinearLayout>
