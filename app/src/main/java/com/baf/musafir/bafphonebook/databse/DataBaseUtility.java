@@ -90,10 +90,10 @@ private static String TAG="DataBaseUtility";
 			do {
 				PabxListModel pabxListModel = new PabxListModel();
 				pabxListModel.setDesignation(cursor.getString(6));
-				pabxListModel.setOffice_auto(cursor.getString(7));
-				pabxListModel.setOffice_ext(cursor.getString(8));
-				pabxListModel.setResident_auto(cursor.getString(9));
-				pabxListModel.setResident_ext(cursor.getString(10));
+				pabxListModel.setOffice_auto(cursor.getString(8));
+				pabxListModel.setOffice_ext(cursor.getString(7));
+				pabxListModel.setResident_auto(cursor.getString(10));
+				pabxListModel.setResident_ext(cursor.getString(9));
 				pabxListVector.setAllPabxlist(pabxListModel);
 				pabxListModel = null;
 				Log.w("Contact Data Data", "cnt: " + cursor.getString(0));
