@@ -32,7 +32,6 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="15dp">
-
             <RelativeLayout
                 android:id="@+id/llOrderfood"
                 android:layout_width="fill_parent"
@@ -40,6 +39,32 @@
                 android:layout_centerHorizontal="true"
                 android:clickable="true"
                 android:layout_marginTop="1dp"
+                android:onClick="LODGER"
+                android:background="@drawable/home_selector"
+                >
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/white"
+                    android:text="@string/ops_1"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/arrow" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="62dp"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
                 android:onClick="LODGER"
                 android:background="@drawable/home_selector"
                 >

@@ -25,7 +25,7 @@ private Context mContext;
     }
     public void BASEHQ(View v) {
 
-        dataBaseUtility.getZhrHQData(mContext);
+        dataBaseUtility.getZhrHQData(mContext,"2","1","1");
         Intent intent = new Intent(this, PabxListActivity.class);
         intent.putExtra("header","BASE HEADQUARTER");
         startActivity(intent);

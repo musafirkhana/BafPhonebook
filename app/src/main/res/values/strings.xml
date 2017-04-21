@@ -23,6 +23,7 @@
     <string name="admin_wing">ADMIN WING</string>
     <string name="trg_wing">TRAINING WING</string>
 
+    <string name="fw_hq">FLYING WING HQ</string>
     <string name="one_sqn">1 SQUADRON</string>
     <string name="three_sqn">3 SQUADRON</string>
     <string name="twentyone_sqn">21 SQUADRON</string>
@@ -35,8 +36,9 @@
     <string name="maint_5">MECHANICAL TRANSPORT SQN</string>
     <string name="maint_6">ARMAMENT SQN</string>
     <string name="maint_7">SUPPLY SQN</string>
-
     <string name="ops_1">AIR TRAFFIC SQN</string>
+
+    <string name="ops_0"></string>
     <string name="ops_2">MET SQN</string>
     <string name="ops_3">EXERCISE  SQN</string>
 

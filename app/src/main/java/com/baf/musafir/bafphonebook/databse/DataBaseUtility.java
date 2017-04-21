@@ -74,14 +74,20 @@ private static String TAG="DataBaseUtility";
 	/**
 	 * Getting All Contact from DB
 	 */
-	public void getZhrHQData(Context context ){
+	public void getZhrHQData(Context context ,String baseID,String wingID,String sqnID){
 		AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
 		SQLiteDatabase db = databaseOpenHelper.openDatabase();
 		Log.w("Contact Data Data", "cnt: " + db.getPath());
 		Log.w("Contact Data Data", "cnt: " + db.getVersion());
 
 		Cursor cursor = db.rawQuery(
-				"SELECT * from pabs_data where base_id='2' and wing_id='1' and sqn_id='1';",
+				"SELECT * from pabs_data where base_id='" +
+						baseID +
+						"' and wing_id='" +
+						wingID +
+						"' and sqn_id='" +
+						sqnID +
+						"';",
 				null);
 		Log.w("Contact Data Data", "cnt: " + cursor.getCount());
 		AllPabxListVector pabxListVector = new AllPabxListVector();
