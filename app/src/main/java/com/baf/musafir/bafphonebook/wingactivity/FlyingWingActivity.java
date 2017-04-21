@@ -25,7 +25,7 @@ private Context mContext;
     }
 
     public void HQ(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","2","1");
+        dataBaseUtility.getZhrHQData(mContext,"2","2","2");
         Intent intent = new Intent(this, PabxListActivity.class);
         intent.putExtra("header",getString(R.string.fw_hq));
         startActivity(intent);
@@ -33,28 +33,28 @@ private Context mContext;
     }
 
     public void SQN0(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","2","2");
+        dataBaseUtility.getZhrHQData(mContext,"2","2","3");
         Intent intent = new Intent(this, PabxListActivity.class);
         intent.putExtra("header",getString(R.string.one_sqn));
         startActivity(intent);
 
     }
     public void SQN1(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","2","3");
+        dataBaseUtility.getZhrHQData(mContext,"2","2","4");
         Intent intent = new Intent(this, PabxListActivity.class);
         intent.putExtra("header",getString(R.string.three_sqn));
         startActivity(intent);
 
     }
     public void SQN2(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","2","4");
+        dataBaseUtility.getZhrHQData(mContext,"2","2","5");
         Intent intent = new Intent(this, PabxListActivity.class);
         intent.putExtra("header",getString(R.string.twentyone_sqn));
         startActivity(intent);
 
     }
     public void SQN3(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","2","5");
+        dataBaseUtility.getZhrHQData(mContext,"2","2","6");
         Intent intent = new Intent(this, PabxListActivity.class);
         intent.putExtra("header",getString(R.string.twentyfive_sqn));
         startActivity(intent);

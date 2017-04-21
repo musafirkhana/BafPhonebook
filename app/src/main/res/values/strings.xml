@@ -29,6 +29,7 @@
     <string name="twentyone_sqn">21 SQUADRON</string>
     <string name="twentyfive_sqn">25 SQUADRON</string>
 
+    <string name="maint_0">MAINTANANCE WING HQ</string>
     <string name="maint_1">AIRCRAFT ENGINEERING SQN</string>
     <string name="maint_2">CONTROL SQN</string>
     <string name="maint_3">FIELD MAINTANANCE SQN</string>
@@ -38,7 +39,7 @@
     <string name="maint_7">SUPPLY SQN</string>
     <string name="ops_1">AIR TRAFFIC SQN</string>
 
-    <string name="ops_0"></string>
+    <string name="ops_0">OPS WING HQ</string>
     <string name="ops_2">MET SQN</string>
     <string name="ops_3">EXERCISE  SQN</string>
 

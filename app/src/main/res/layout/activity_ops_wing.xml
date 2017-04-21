@@ -39,7 +39,7 @@
                 android:layout_centerHorizontal="true"
                 android:clickable="true"
                 android:layout_marginTop="1dp"
-                android:onClick="LODGER"
+                android:onClick="OPS1"
                 android:background="@drawable/home_selector"
                 >
                 <TextView
@@ -48,7 +48,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textColor="@color/white"
-                    android:text="@string/ops_1"
+                    android:text="@string/ops_0"
                     android:textSize="14sp" />
 
                 <ImageView
@@ -65,7 +65,7 @@
                 android:layout_centerHorizontal="true"
                 android:clickable="true"
                 android:layout_marginTop="10dp"
-                android:onClick="LODGER"
+                android:onClick="OPS2"
                 android:background="@drawable/home_selector"
                 >
                 <TextView
@@ -93,7 +93,7 @@
                 android:layout_below="@+id/llOrderfood"
                 android:layout_marginTop="10dp"
                 android:clickable="true"
-                android:onClick="CANTD"
+                android:onClick="OPS3"
                 android:background="@drawable/home_selector"
                 >
 
@@ -122,7 +122,7 @@
                 android:layout_below="@+id/llOrderfood"
                 android:layout_marginTop="10dp"
                 android:clickable="true"
-                android:onClick="CANTD"
+                android:onClick="OPS4"
                 android:background="@drawable/home_selector"
                 >
 
