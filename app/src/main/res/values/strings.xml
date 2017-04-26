@@ -43,14 +43,16 @@
     <string name="ops_2">MET SQN</string>
     <string name="ops_3">EXERCISE  SQN</string>
 
+    <string name="admin_0">ADMIN WING HQ</string>
     <string name="admin_1">PERSONNEL SQN</string>
     <string name="admin_2">ACCOUNTS SQN</string>
     <string name="admin_3">MEDICAL  SQN</string>
     <string name="admin_4">SECURITY SQN</string>
 
+    <string name="training_0">TRAINING WING HQ</string>
     <string name="training_1">EDN TRAINING SQN</string>
     <string name="training_2">C &amp; E TRAINING SQN</string>
-    <string name="training_3">MEDICAL  TRAINING SQN</string>
+    <string name="training_3">AERO  TRAINING SQN</string>
     <string name="training_4">ADMIN TRAINING SQN</string>
 
 </resources>

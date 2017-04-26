@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 
 import com.baf.musafir.bafphonebook.ContactListActivity;
+import com.baf.musafir.bafphonebook.PabxListActivity;
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
 
@@ -23,21 +24,40 @@ private Context mContext;
         dataBaseUtility = new DataBaseUtility();
     }
 
-    public void LODGER(View v) {
-        dataBaseUtility.getZhrData(mContext);
-        Intent intent = new Intent(this, ContactListActivity.class);
-        intent.putExtra("header","MOBILE");
+    public void TRG1(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","6","1");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.training_0));
         startActivity(intent);
 
     }
-
-    public void CANTD(View v) {
-      /*  dataBaseUtility.getAirHqLodgerContdData(mContext);
-        Intent intent = new Intent(this, ContactListActivity.class);
-        intent.putExtra("header","PABX");
-        startActivity(intent);*/
+    public void TRG2(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","6","2");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.training_1));
+        startActivity(intent);
 
     }
+    public void TRG3(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","6","3");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.training_2));
+        startActivity(intent);
 
+    }
+    public void TRG4(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","6","4");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.training_3));
+        startActivity(intent);
+
+    }
+    public void TRG5(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","6","5");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.training_4));
+        startActivity(intent);
+
+    }
 
 }

@@ -43,6 +43,13 @@ public class HomeActivity extends Activity  {
         intent.putExtra("header", "AIR HQ & ITS LODGER UNITS");
         startActivity(intent);
     }
+    public void SEARCH(View v) {
+        dataBaseUtility.getAllData(mContext);
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.maint_1));
+        startActivity(intent);
+
+    }
 
     public void ZHR(View v) {
         Intent intent = new Intent(this, ZhrActivity.class);

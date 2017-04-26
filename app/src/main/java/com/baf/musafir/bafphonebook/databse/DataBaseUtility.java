@@ -107,5 +107,34 @@ private static String TAG="DataBaseUtility";
 		}
 		db.close();
 	}
+	/**
+	 * Getting All Contact from DB
+	 */
+	public void getAllData(Context context){
+		AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
+		SQLiteDatabase db = databaseOpenHelper.openDatabase();
+		Log.w("Contact Data Data", "cnt: " + db.getPath());
+		Log.w("Contact Data Data", "cnt: " + db.getVersion());
 
+		Cursor cursor = db.rawQuery(
+				"SELECT * from pabs_data;",
+				null);
+		Log.w("Contact Data Data", "cnt: " + cursor.getCount());
+		AllPabxListVector pabxListVector = new AllPabxListVector();
+		pabxListVector.removePabxlist();
+		if (cursor.moveToFirst()) {
+			do {
+				PabxListModel pabxListModel = new PabxListModel();
+				pabxListModel.setDesignation(cursor.getString(6));
+				pabxListModel.setOffice_auto(cursor.getString(8));
+				pabxListModel.setOffice_ext(cursor.getString(7));
+				pabxListModel.setResident_auto(cursor.getString(10));
+				pabxListModel.setResident_ext(cursor.getString(9));
+				pabxListVector.setAllPabxlist(pabxListModel);
+				pabxListModel = null;
+				Log.w("Contact Data Data", "cnt: " + cursor.getString(0));
+			} while (cursor.moveToNext());
+		}
+		db.close();
+	}
 }

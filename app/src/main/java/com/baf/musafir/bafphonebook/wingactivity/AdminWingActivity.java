@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.Window;
 
 import com.baf.musafir.bafphonebook.ContactListActivity;
+import com.baf.musafir.bafphonebook.PabxListActivity;
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
 
@@ -23,19 +24,39 @@ private Context mContext;
         dataBaseUtility = new DataBaseUtility();
     }
 
-    public void LODGER(View v) {
-        dataBaseUtility.getZhrData(mContext);
-        Intent intent = new Intent(this, ContactListActivity.class);
-        intent.putExtra("header","MOBILE");
+    public void ADMIN1(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","5","1");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.admin_0));
         startActivity(intent);
 
     }
+    public void ADMIN2(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","5","2");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.admin_1));
+        startActivity(intent);
 
-    public void CANTD(View v) {
-      /*  dataBaseUtility.getAirHqLodgerContdData(mContext);
-        Intent intent = new Intent(this, ContactListActivity.class);
-        intent.putExtra("header","PABX");
-        startActivity(intent);*/
+    }
+    public void ADMIN3(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","5","3");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.admin_2));
+        startActivity(intent);
+
+    }
+    public void ADMIN4(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","5","4");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.admin_3));
+        startActivity(intent);
+
+    }
+    public void ADMIN5(View v) {
+        dataBaseUtility.getZhrHQData(mContext,"2","5","5");
+        Intent intent = new Intent(this, PabxListActivity.class);
+        intent.putExtra("header",getString(R.string.admin_4));
+        startActivity(intent);
 
     }
 

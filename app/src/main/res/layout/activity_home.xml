@@ -106,6 +106,7 @@
                         android:background="@drawable/home_selector"
                         android:clickable="true"
                         android:gravity="center"
+                        android:onClick="SEARCH"
                         android:orientation="vertical">
 
                         <ImageView

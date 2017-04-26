@@ -39,9 +39,9 @@ private Context mContext;
 
     }
     public void MAINT3(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","4","3");
+        dataBaseUtility.getZhrHQData(mContext,"2","4","7");
         Intent intent = new Intent(this, PabxListActivity.class);
-        intent.putExtra("header",getString(R.string.maint_2));
+        intent.putExtra("header",getString(R.string.maint_7));
         startActivity(intent);
 
     }
@@ -53,30 +53,31 @@ private Context mContext;
 
     }
     public void MAINT5(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","4","5");
+        dataBaseUtility.getZhrHQData(mContext,"2","4","8");
         Intent intent = new Intent(this, PabxListActivity.class);
         intent.putExtra("header",getString(R.string.maint_4));
         startActivity(intent);
 
     }
     public void MAINT6(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","4","6");
+        dataBaseUtility.getZhrHQData(mContext,"2","4","5");
         Intent intent = new Intent(this, PabxListActivity.class);
         intent.putExtra("header",getString(R.string.maint_5));
         startActivity(intent);
 
     }
     public void MAINT7(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","4","7");
+        dataBaseUtility.getZhrHQData(mContext,"2","4","6");
         Intent intent = new Intent(this, PabxListActivity.class);
         intent.putExtra("header",getString(R.string.maint_6));
         startActivity(intent);
 
     }
     public void MAINT8(View v) {
-        dataBaseUtility.getZhrHQData(mContext,"2","4","8");
+        dataBaseUtility.getZhrHQData(mContext,"2","4","3");
         Intent intent = new Intent(this, PabxListActivity.class);
-        intent.putExtra("header",getString(R.string.maint_7));
+
+        intent.putExtra("header",getString(R.string.maint_2));
         startActivity(intent);
 
     }
