@@ -62,6 +62,14 @@ private Context mContext;
         startActivity(intent);
 
     }
+    public void OTHERS(View v) {
+        Intent intent = new Intent(this, LodgerUnitActivity.class);
+        intent.putExtra("header",getString(R.string.lodger_niit));
+        startActivity(intent);
+
+    }
+
+
 
 
 }

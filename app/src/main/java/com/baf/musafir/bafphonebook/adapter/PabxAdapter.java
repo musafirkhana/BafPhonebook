@@ -1,12 +1,16 @@
 package com.baf.musafir.bafphonebook.adapter;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Environment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Filter;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.baf.musafir.bafphonebook.R;
@@ -60,6 +64,10 @@ public class PabxAdapter extends ArrayAdapter<PabxListModel> {
         private TextView txt_office_auto;
         private TextView txt_res_ext;
         private TextView txt_res_auto;
+        private RelativeLayout call_linear;
+        private TextView pabx_mobile_no;
+        private TextView txt_appoinment;
+
     }
 
     @Override
@@ -78,6 +86,9 @@ public class PabxAdapter extends ArrayAdapter<PabxListModel> {
             holder.txt_office_auto = (TextView) v.findViewById(R.id.txt_office_auto);
             holder.txt_res_ext = (TextView) v.findViewById(R.id.txt_res_ext);
             holder.txt_res_auto = (TextView) v.findViewById(R.id.txt_res_auto);
+            holder.pabx_mobile_no = (TextView) v.findViewById(R.id.pabx_mobile_no);
+            holder.txt_appoinment = (TextView) v.findViewById(R.id.txt_appoinment);
+            holder.call_linear=(RelativeLayout)v.findViewById(R.id.call_linear);
 
             v.setTag(holder);
         } else {
@@ -90,6 +101,23 @@ public class PabxAdapter extends ArrayAdapter<PabxListModel> {
             holder.txt_office_auto.setText(query.getOffice_auto());
             holder.txt_res_ext.setText(query.getResident_ext());
             holder.txt_res_auto.setText(query.getResident_auto());
+
+            if(query.getMobile_no().toString().length()<3){
+                holder.call_linear.setVisibility(View.GONE);
+            }else {
+                holder.call_linear.setVisibility(View.VISIBLE);
+                holder.txt_appoinment.setText(query.getDesignation());
+                holder.pabx_mobile_no.setText(query.getMobile_no().toString());
+                holder.call_linear.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        PabxListModel query1 = planetList.get(position);
+                        Intent callIntent = new Intent(Intent.ACTION_CALL);
+                        callIntent.setData(Uri.parse("tel:"+""+query1.getMobile_no()));
+                        context.startActivity(callIntent);
+                    }
+                });
+            }
 
 
         }

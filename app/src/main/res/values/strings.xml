@@ -22,6 +22,7 @@
     <string name="maintain_wing">MAINTANCE WING</string>
     <string name="admin_wing">ADMIN WING</string>
     <string name="trg_wing">TRAINING WING</string>
+    <string name="lodger_niit">LODGER UNIT</string>
 
     <string name="fw_hq">FLYING WING HQ</string>
     <string name="one_sqn">1 SQUADRON</string>
@@ -54,5 +55,16 @@
     <string name="training_2">C &amp; E TRAINING SQN</string>
     <string name="training_3">AERO  TRAINING SQN</string>
     <string name="training_4">ADMIN TRAINING SQN</string>
+
+
+
+    <string name="lodger_1">301 SAM UNIT</string>
+    <string name="lodger_2">2 PROVOST &amp; SECURITY UNIT</string>
+    <string name="lodger_3">202 MU</string>
+    <string name="lodger_4">EMBARKATION UNIT</string>
+    <string name="lodger_5">74 SQUADRON</string>
+    <string name="lodger_6">2 FIELD UNIT</string>
+    <string name="lodger_7">OFFICERS MESS</string>
+    <string name="lodger_8">OTHERS MESS</string>
 
 </resources>

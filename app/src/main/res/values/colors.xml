@@ -9,8 +9,8 @@
     <color name="windowBackgroundColor">#333333</color>
     <color name="black_translucent">#80000000</color>
     <color name="view_bg">#FF7E00</color>
-    <color name="home_bg">#022335</color>
-    <color name="home_bg_2">#013642</color>
+    <color name="home_bg">#3F51B5</color>
+    <color name="home_bg_2">#FFFFFF</color>
 
 
     <!-- Material Light_Blue Primary -->

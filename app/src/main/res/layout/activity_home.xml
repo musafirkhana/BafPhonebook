@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/home_bg"
+    android:background="@color/button_background"
     android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/top_linear"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/home_bg"
+        android:background="@color/button_background"
         >
 
         <ImageView android:id="@+id/menu_imageview"
@@ -64,7 +64,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/home_selector"
+                        android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
                         android:onClick="AIRHQ"
@@ -103,7 +103,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/home_selector"
+                        android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
                         android:onClick="SEARCH"
@@ -148,7 +148,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/home_selector"
+                        android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
                         android:onClick="ZHR"
@@ -187,7 +187,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/home_selector"
+                        android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
                         android:orientation="vertical">
@@ -231,7 +231,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/home_selector"
+                        android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
                         android:orientation="vertical">
@@ -269,7 +269,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/home_selector"
+                        android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
                         android:orientation="vertical">
@@ -313,7 +313,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/home_selector"
+                        android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
                         android:orientation="vertical">
@@ -351,7 +351,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:background="@drawable/home_selector"
+                        android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
                         android:orientation="vertical">

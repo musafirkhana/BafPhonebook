@@ -96,6 +96,13 @@
 
         </activity>
         <activity
+            android:name=".wingactivity.LodgerUnitActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
             android:name=".ContactListActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
@@ -110,7 +117,13 @@
 
         </activity>
 
+        <activity
+            android:name=".SearchListActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
 
+        </activity>
     </application>
 
 </manifest>

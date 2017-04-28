@@ -13,6 +13,7 @@ public class PabxListModel {
 	private String office_auto = "";
 	private String resident_ext = "";
 	private String resident_auto = "";
+	private String mobile_no = "";
 
 	public String getBase_name() {
 		return base_name;
@@ -102,6 +103,14 @@ public class PabxListModel {
 		this.resident_auto = resident_auto;
 	}
 
+	public String getMobile_no() {
+		return mobile_no;
+	}
+
+	public void setMobile_no(String mobile_no) {
+		this.mobile_no = mobile_no;
+	}
+
 	@Override
 	public String toString() {
 		return "PabxListModel{" +
@@ -116,6 +125,7 @@ public class PabxListModel {
 				", office_auto='" + office_auto + '\'' +
 				", resident_ext='" + resident_ext + '\'' +
 				", resident_auto='" + resident_auto + '\'' +
+				", mobile_no='" + mobile_no + '\'' +
 				'}';
 	}
 }
