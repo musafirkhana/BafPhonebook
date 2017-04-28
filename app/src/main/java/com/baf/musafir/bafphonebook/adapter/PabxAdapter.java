@@ -13,6 +13,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.baf.musafir.bafphonebook.DetailActivity;
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.holder.AllContactListVector;
 import com.baf.musafir.bafphonebook.holder.AllPabxListVector;
@@ -112,9 +113,13 @@ public class PabxAdapter extends ArrayAdapter<PabxListModel> {
                     @Override
                     public void onClick(View v) {
                         PabxListModel query1 = planetList.get(position);
-                        Intent callIntent = new Intent(Intent.ACTION_CALL);
+                       /* Intent callIntent = new Intent(Intent.ACTION_CALL);
                         callIntent.setData(Uri.parse("tel:"+""+query1.getMobile_no()));
-                        context.startActivity(callIntent);
+                        context.startActivity(callIntent);*/
+                        Intent intent = new Intent(context, DetailActivity.class);
+                        intent.putExtra("header",""+query1.getMobile_no());
+                        intent.putExtra("name",""+query1.getDesignation());
+                        context.startActivity(intent);
                     }
                 });
             }

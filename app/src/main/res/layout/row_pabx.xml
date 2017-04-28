@@ -93,10 +93,10 @@
 
         <ImageView
             android:id="@+id/call_image"
-            android:layout_width="40dp"
-            android:background="@drawable/call"
+            android:layout_width="35dp"
+            android:background="@drawable/call2"
             android:layout_centerVertical="true"
-            android:layout_height="40dp"
+            android:layout_height="35dp"
             android:layout_alignParentLeft="true" />
 
         <LinearLayout

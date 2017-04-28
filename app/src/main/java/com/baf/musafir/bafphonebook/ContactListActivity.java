@@ -46,10 +46,15 @@ private void initUI(){
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-            ContactListModel query= AllContactListVector.getAllContactlist().elementAt(position);
+           /* ContactListModel query= AllContactListVector.getAllContactlist().elementAt(position);
             Intent callIntent = new Intent(Intent.ACTION_CALL);
             callIntent.setData(Uri.parse("tel:"+""+query.getMobileno()));
-            startActivity(callIntent);
+            startActivity(callIntent);*/
+            ContactListModel query= AllContactListVector.getAllContactlist().elementAt(position);
+            Intent intent = new Intent(mContext, DetailActivity.class);
+            intent.putExtra("header",""+query.getMobileno());
+            intent.putExtra("name",""+query.getDesignation());
+            startActivity(intent);
 
         }
     });

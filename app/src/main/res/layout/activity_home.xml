@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/button_background"
+    android:background="@color/gray_light"
     android:orientation="vertical">
 
     <RelativeLayout
@@ -59,6 +59,7 @@
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="@dimen/home_box_hight"
+                    android:padding="10dp"
                     android:layout_weight="2">
 
                     <LinearLayout
@@ -98,7 +99,8 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/home_box_hight"
                     android:layout_weight="2"
-                    android:background="@color/home_bg_2">
+                    android:padding="10dp"
+                    >
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -143,6 +145,7 @@
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="@dimen/home_box_hight"
+                    android:padding="10dp"
                     android:layout_weight="2">
 
                     <LinearLayout
@@ -182,7 +185,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/home_box_hight"
                     android:layout_weight="2"
-                    android:background="@color/home_bg_2">
+                    android:padding="10dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -226,6 +229,7 @@
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="@dimen/home_box_hight"
+                    android:padding="10dp"
                     android:layout_weight="2">
 
                     <LinearLayout
@@ -264,7 +268,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/home_box_hight"
                     android:layout_weight="2"
-                    android:background="@color/home_bg_2">
+                    android:padding="10dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -308,6 +312,7 @@
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="@dimen/home_box_hight"
+                    android:padding="10dp"
                     android:layout_weight="2">
 
                     <LinearLayout
@@ -346,7 +351,7 @@
                     android:layout_width="0dp"
                     android:layout_height="@dimen/home_box_hight"
                     android:layout_weight="2"
-                    android:background="@color/home_bg_2">
+                    android:padding="10dp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
