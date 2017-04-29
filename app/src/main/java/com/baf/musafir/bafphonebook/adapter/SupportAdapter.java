@@ -77,7 +77,7 @@ public class SupportAdapter extends ArrayAdapter<ContactListModel> {
         }
         if (position < AllContactListVector.getAllContactlist().size()) {
             ContactListModel query = planetList.get(position);
-            holder.designation.setText(query.getDesignation());
+            holder.designation.setText(query.getDesignation()+","+query.getBase_name());
             holder.mobile_no.setText(query.getMobileno());
 
 

@@ -23,7 +23,7 @@ private static String TAG="DataBaseUtility";
 		Log.w("Contact Data Data", "cnt: " + db.getVersion());
 
 		Cursor cursor = db.rawQuery(
-				"SELECT * from mobile_no where unit_1='1' ;",
+				"SELECT * from mobile_no where base_id='1' ;",
 				null);
 		Log.w("Contact Data Data", "cnt: " + cursor.getCount());
 		AllContactListVector contactListVector = new AllContactListVector();
@@ -33,7 +33,8 @@ private static String TAG="DataBaseUtility";
 				ContactListModel contactListModel = new ContactListModel();
 				contactListModel.setDesignation(cursor.getString(0));
 				contactListModel.setMobileno(cursor.getString(1));
-				contactListModel.setUnit1(cursor.getString(2));
+				contactListModel.setBase_id(cursor.getString(2));
+				contactListModel.setBase_name(cursor.getString(3));
 				contactListVector.setAllContactlist(contactListModel);
 				contactListModel = null;
 				Log.w("Contact Data Data", "cnt: " + cursor.getString(0));
@@ -53,7 +54,7 @@ private static String TAG="DataBaseUtility";
 		Log.w("Contact Data Data", "cnt: " + db.getVersion());
 
 		Cursor cursor = db.rawQuery(
-				"SELECT * from mobile_no where unit_1='2' ;",
+				"SELECT * from mobile_no where base_id='2' ;",
 				null);
 		Log.w("Contact Data Data", "cnt: " + cursor.getCount());
 		AllContactListVector contactListVector = new AllContactListVector();
@@ -63,7 +64,8 @@ private static String TAG="DataBaseUtility";
 				ContactListModel contactListModel = new ContactListModel();
 				contactListModel.setDesignation(cursor.getString(0));
 				contactListModel.setMobileno(cursor.getString(1));
-				contactListModel.setUnit1(cursor.getString(2));
+				contactListModel.setBase_id(cursor.getString(2));
+				contactListModel.setBase_name(cursor.getString(3));
 				contactListVector.setAllContactlist(contactListModel);
 				contactListModel = null;
 				Log.w("Contact Data Data", "cnt: " + cursor.getString(0));

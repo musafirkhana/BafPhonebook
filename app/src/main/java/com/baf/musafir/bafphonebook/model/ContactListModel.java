@@ -4,7 +4,8 @@ public class ContactListModel {
 
 	private String Designation = "";
 	private String Mobileno = "";
-	private String Unit1 = "";
+	private String base_id = "";
+	private String base_name = "";
 
 	public String getDesignation() {
 		return Designation;
@@ -22,12 +23,20 @@ public class ContactListModel {
 		Mobileno = mobileno;
 	}
 
-	public String getUnit1() {
-		return Unit1;
+	public String getBase_id() {
+		return base_id;
 	}
 
-	public void setUnit1(String unit1) {
-		Unit1 = unit1;
+	public void setBase_id(String base_id) {
+		this.base_id = base_id;
+	}
+
+	public String getBase_name() {
+		return base_name;
+	}
+
+	public void setBase_name(String base_name) {
+		this.base_name = base_name;
 	}
 
 	@Override
@@ -35,7 +44,8 @@ public class ContactListModel {
 		return "ContactListModel{" +
 				"Designation='" + Designation + '\'' +
 				", Mobileno='" + Mobileno + '\'' +
-				", Unit1='" + Unit1 + '\'' +
+				", base_id='" + base_id + '\'' +
+				", base_name='" + base_name + '\'' +
 				'}';
 	}
 }

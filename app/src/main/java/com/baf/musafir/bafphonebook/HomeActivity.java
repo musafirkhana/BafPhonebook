@@ -14,6 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
+import com.baf.musafir.bafphonebook.wingactivity.NumberPlanningActivity;
 
 public class HomeActivity extends Activity  {
     private Context mContext;
@@ -57,7 +58,6 @@ public class HomeActivity extends Activity  {
         startActivity(intent);
     }
     public void MENU(View v) {
-        Toast.makeText(mContext,"dsdsds",Toast.LENGTH_LONG);
         if (main_menu_li.getVisibility() == View.VISIBLE) {
             main_menu_li.startAnimation(outToleftAnimation());
             main_menu_li.setVisibility(View.GONE);
@@ -68,7 +68,12 @@ public class HomeActivity extends Activity  {
 
         }
     }
-
+    public void NUMBERPLAN(View v) {
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, NumberPlanningActivity.class);
+        startActivity(intent);
+    }
 
     private Animation inFromLeftAnimation() {
         Animation inFromLeft = new TranslateAnimation(

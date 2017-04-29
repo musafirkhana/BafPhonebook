@@ -41,7 +41,7 @@
             android:inputType="textAutoCorrect"
             android:singleLine="true"
             android:text=""
-            android:textColor="@color/google_white"
+            android:textColor="@color/black"
             android:textColorHint="@color/gray"
             android:textSize="18.0dip">
 

@@ -17,24 +17,42 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/mobile_no_search"
-        android:layout_width="fill_parent"
-        android:layout_height="50dip"
-        android:layout_below="@+id/topbar"
-        android:hint="Search By Designation"
-        android:imeOptions="actionSearch"
-        android:inputType="textAutoCorrect"
-        android:paddingLeft="20dp"
-        android:background="@color/btBG"
-        android:textColorHint="@color/google_white"
-        android:singleLine="true"
-        android:text=""
-        android:textColor="@color/google_white"
-        android:textSize="18.0dip" >
 
-        <requestFocus />
-    </EditText>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray"
+        android:layout_below="@+id/topbar">
+
+        <EditText
+            android:id="@+id/mobile_no_search"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/google_white"
+            android:hint="Search By Designation"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="40dp"
+            android:inputType="textAutoCorrect"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="18.0dip">
+
+            <requestFocus />
+        </EditText>
+        <ImageView
+            android:id="@+id/search_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/search" />
+    </RelativeLayout>
 
     <ListView
         android:id="@+id/mobile_no_list"
