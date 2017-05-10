@@ -6,8 +6,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
 import com.baf.musafir.bafphonebook.holder.AllContactListVector;
+import com.baf.musafir.bafphonebook.holder.AllNwdListVector;
 import com.baf.musafir.bafphonebook.holder.AllPabxListVector;
 import com.baf.musafir.bafphonebook.model.ContactListModel;
+import com.baf.musafir.bafphonebook.model.NwdListModel;
 import com.baf.musafir.bafphonebook.model.PabxListModel;
 
 
@@ -108,6 +110,36 @@ private static String TAG="DataBaseUtility";
 				pabxListModel.setWing_name(cursor.getString(4));
 				pabxListVector.setAllPabxlist(pabxListModel);
 				pabxListModel = null;
+				Log.w("Contact Data Data", "cnt: " + cursor.getString(0));
+			} while (cursor.moveToNext());
+		}
+		db.close();
+	}
+
+	/***
+	 * Get All Nwd Data
+	 * @param context
+     */
+	public void getNwdData(Context context ){
+		AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
+		SQLiteDatabase db = databaseOpenHelper.openDatabase();
+		Log.w("Contact Data Data", "cnt: " + db.getPath());
+		Log.w("Contact Data Data", "cnt: " + db.getVersion());
+
+		Cursor cursor = db.rawQuery(
+				"SELECT * from nwd_code;",
+				null);
+		Log.w("Contact Data Data", "cnt: " + cursor.getCount());
+		AllNwdListVector allNwdListVector = new AllNwdListVector();
+		allNwdListVector.removeNwdlist();
+		if (cursor.moveToFirst()) {
+			do {
+				NwdListModel nwdListModel = new NwdListModel();
+				nwdListModel.setArea(cursor.getString(0));
+				nwdListModel.setCode(cursor.getString(1));
+
+				allNwdListVector.setAllNwdlist(nwdListModel);
+				nwdListModel = null;
 				Log.w("Contact Data Data", "cnt: " + cursor.getString(0));
 			} while (cursor.moveToNext());
 		}

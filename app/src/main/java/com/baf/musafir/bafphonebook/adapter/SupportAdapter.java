@@ -117,7 +117,7 @@ public class SupportAdapter extends ArrayAdapter<ContactListModel> {
                 for (ContactListModel p : planetList) {
 
                     if (p.getDesignation().toUpperCase().startsWith(constraint.toString().toUpperCase())||
-                            p.getDesignation().toUpperCase().contains(constraint.toString().toUpperCase())) {
+                            p.getBase_name().toUpperCase().startsWith(constraint.toString().toUpperCase())) {
                         nPlanetList.add(p);
                     }
 

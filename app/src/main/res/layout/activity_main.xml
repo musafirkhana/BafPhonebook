@@ -58,6 +58,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
+
                     android:textColor="@color/white"
                     android:text="@string/app_bbd"
                     android:textSize="20sp" />

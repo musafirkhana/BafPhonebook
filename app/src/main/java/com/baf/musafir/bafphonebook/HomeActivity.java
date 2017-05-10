@@ -75,6 +75,14 @@ public class HomeActivity extends Activity  {
         startActivity(intent);
     }
 
+    public void NWD(View v) {
+        dataBaseUtility.getNwdData(mContext);
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, NwdListActivity.class);
+        startActivity(intent);
+    }
+
     private Animation inFromLeftAnimation() {
         Animation inFromLeft = new TranslateAnimation(
                 Animation.RELATIVE_TO_PARENT, -1.0f,

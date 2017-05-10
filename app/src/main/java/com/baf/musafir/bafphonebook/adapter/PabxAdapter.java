@@ -161,7 +161,7 @@ public class PabxAdapter extends ArrayAdapter<PabxListModel> {
                 for (PabxListModel p : planetList) {
 
                     if (p.getDesignation().toUpperCase().startsWith(constraint.toString().toUpperCase())||
-                            p.getDesignation().toUpperCase().contains(constraint.toString().toUpperCase())) {
+                            p.getSqn_name().toUpperCase().startsWith(constraint.toString().toUpperCase())) {
                         nPlanetList.add(p);
                     }
 
