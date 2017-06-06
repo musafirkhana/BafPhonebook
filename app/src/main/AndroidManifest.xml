@@ -26,7 +26,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
 
-        <activity android:name=".SplashActivity" >
+        <activity android:name=".main.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,85 +34,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".main.MainActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".HomeActivity"
+            android:name=".main.HomeActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".ZhrActivity"
-            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
-        </activity>
-
-        <activity
-            android:name=".wingactivity.WingMainActivity"
-            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity
-            android:name=".wingactivity.FlyingWingActivity"
-            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity
-            android:name=".wingactivity.OperationalWingActivity"
-            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity
-            android:name=".wingactivity.MaintananceWingActivity"
-            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity
-            android:name=".wingactivity.AdminWingActivity"
-            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity
-            android:name=".wingactivity.TrainingWingActivity"
-            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity
-            android:name=".wingactivity.LodgerUnitActivity"
-            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity
-            android:name=".ContactListActivity"
-            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity
-            android:name=".PabxListActivity"
+            android:name=".main.ZhrActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
@@ -120,14 +56,29 @@
         </activity>
 
         <activity
-            android:name=".SearchListActivity"
+            android:name=".main.ContactListActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".DetailActivity"
+            android:name=".main.PabxListActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <activity
+            android:name=".main.SearchListActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".main.DetailActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
             android:theme="@android:style/Theme.Dialog"
@@ -135,14 +86,42 @@
 
         </activity>
         <activity
-            android:name=".NwdListActivity"
+            android:name=".main.NwdListActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".wingactivity.NumberPlanningActivity"
+            android:name=".main.OthersListActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".main.OthersMainActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".main.CadetCollegeListActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".main.SearchMainActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".main.MobileSearchListActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait">

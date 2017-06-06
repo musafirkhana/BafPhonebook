@@ -5,7 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.os.Environment;
 
 
-import com.baf.musafir.bafphonebook.AppConstant;
+import com.baf.musafir.bafphonebook.util.AppConstant;
 
 import java.io.File;
 import java.io.FileOutputStream;

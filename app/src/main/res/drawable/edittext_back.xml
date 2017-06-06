@@ -9,7 +9,7 @@
 
     <stroke
         android:width="3dp"
-        android:color="@color/accent_color" >
+        android:color="@color/google_red" >
     </stroke>
 
     <padding

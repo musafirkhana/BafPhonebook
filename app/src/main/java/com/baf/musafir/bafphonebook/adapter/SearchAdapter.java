@@ -2,7 +2,6 @@ package com.baf.musafir.bafphonebook.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Environment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,7 +11,7 @@ import android.widget.Filter;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.baf.musafir.bafphonebook.DetailActivity;
+import com.baf.musafir.bafphonebook.main.DetailActivity;
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.holder.AllPabxListVector;
 import com.baf.musafir.bafphonebook.model.PabxListModel;
@@ -24,11 +23,6 @@ import java.util.List;
 public class SearchAdapter extends ArrayAdapter<PabxListModel> {
     Context context;
     private File sdCard = Environment.getExternalStorageDirectory();
-    public String response;
-    public boolean asyncCheck = false;
-    public String ContentCode;
-    public String mobileNo;
-    File pathName = null;
 
     private Filter planetFilter;
     private List<PabxListModel> origPlanetList;
@@ -106,7 +100,7 @@ public class SearchAdapter extends ArrayAdapter<PabxListModel> {
             holder.txt_res_ext.setText(query.getResident_ext());
             holder.txt_res_auto.setText(query.getResident_auto());
 
-            holder.txt_basename.setText(query.getBase_name()+", "+query.getWing_name());
+            holder.txt_basename.setText(query.getBase_name()+ " "+query.getWing_name());
             holder.txt_sqnname.setText(query.getSqn_name());
 
             if(query.getMobile_no().toString().length()<3){
@@ -167,7 +161,8 @@ public class SearchAdapter extends ArrayAdapter<PabxListModel> {
                 for (PabxListModel p : planetList) {
 
                     if (p.getDesignation().toUpperCase().startsWith(constraint.toString().toUpperCase())||
-                            p.getSqn_name().toUpperCase().startsWith(constraint.toString().toUpperCase())) {
+                            p.getSqn_name().toUpperCase().startsWith(constraint.toString().toUpperCase())||
+                            p.getOffice_ext().toUpperCase().startsWith(constraint.toString().toUpperCase())) {
                         nPlanetList.add(p);
                     }
 

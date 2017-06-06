@@ -4,17 +4,34 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/topbar"
-        android:layout_width="fill_parent"
-        android:layout_height="50dip"
-        android:layout_alignParentTop="true"
+    <RelativeLayout
+        android:id="@+id/top_linear"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
         android:background="@color/button_background"
-        android:gravity="center"
-        android:text="Header"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/home"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:onClick="HOME"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true" />
+
+        <TextView android:id="@+id/topbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Bangladesh Airforce"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|normal" />
+
+    </RelativeLayout>
+
 
     <View
         android:layout_width="match_parent"
@@ -35,7 +52,7 @@
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
             android:background="@color/google_white"
-            android:hint="Search By Designation"
+            android:hint="Search By Designation or Office no"
             android:imeOptions="actionSearch"
             android:paddingLeft="40dp"
             android:inputType="textAutoCorrect"

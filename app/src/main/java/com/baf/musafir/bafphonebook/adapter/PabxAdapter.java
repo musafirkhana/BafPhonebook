@@ -2,22 +2,18 @@ package com.baf.musafir.bafphonebook.adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Environment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Filter;
-import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.baf.musafir.bafphonebook.DetailActivity;
+import com.baf.musafir.bafphonebook.main.DetailActivity;
 import com.baf.musafir.bafphonebook.R;
-import com.baf.musafir.bafphonebook.holder.AllContactListVector;
 import com.baf.musafir.bafphonebook.holder.AllPabxListVector;
-import com.baf.musafir.bafphonebook.model.ContactListModel;
 import com.baf.musafir.bafphonebook.model.PabxListModel;
 
 import java.io.File;

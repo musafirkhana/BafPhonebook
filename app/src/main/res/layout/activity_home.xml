@@ -193,6 +193,7 @@
                         android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
+                        android:onClick="PKP"
                         android:orientation="vertical">
 
                         <ImageView
@@ -237,6 +238,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/button_selector"
                         android:clickable="true"
+                        android:onClick="BSR"
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -276,6 +278,7 @@
                         android:background="@drawable/button_selector"
                         android:clickable="true"
                         android:gravity="center"
+                        android:onClick="BBD"
                         android:orientation="vertical">
 
                         <ImageView
@@ -320,6 +323,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/button_selector"
                         android:clickable="true"
+                        android:onClick="COXS"
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -358,6 +362,7 @@
                         android:layout_height="match_parent"
                         android:background="@drawable/button_selector"
                         android:clickable="true"
+                        android:onClick="MTR"
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -393,7 +398,7 @@
 
     <LinearLayout
         android:id="@+id/main_menu_li"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/top_linear"

@@ -11,13 +11,33 @@
         android:background="@color/button_background"
         android:gravity="center">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Bangladesh Airforce"
-            android:textColor="@color/white"
-            android:textSize="24sp"
-            android:textStyle="bold|normal" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/button_background"
+            >
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/home"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:onClick="HOME"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView android:id="@+id/topbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Bangladesh Airforce"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold|normal" />
+
+        </RelativeLayout>
+
 
     </LinearLayout>
 

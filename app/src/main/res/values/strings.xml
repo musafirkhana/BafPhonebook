@@ -6,7 +6,7 @@
     <string name="name_pkp">PKP</string>
     <string name="app_mtr">MTR</string>
     <string name="app_bsr">BSR</string>
-    <string name="app_bbd">BBDdfsfsdfdsf</string>
+    <string name="app_bbd">BBD</string>
     <string name="app_coxs">COXS</string>
     <string name="dir">/MEA</string>
     <string name="app_dir">/app</string>
@@ -34,8 +34,8 @@
     <string name="maint_1">AIRCRAFT ENGINEERING SQN</string>
     <string name="maint_2">CONTROL SQN</string>
     <string name="maint_3">FIELD MAINTANANCE SQN</string>
-    <string name="maint_4">COMMUNICATION &amp;  ELECTRONICS SQN</string>
-    <string name="maint_5">MECHANICAL TRANSPORT SQN</string>
+    <string name="maint_4">C &amp;  E SQN</string>
+    <string name="maint_5">MT SQN</string>
     <string name="maint_6">ARMAMENT SQN</string>
     <string name="maint_7">SUPPLY SQN</string>
     <string name="ops_1">AIR TRAFFIC SQN</string>

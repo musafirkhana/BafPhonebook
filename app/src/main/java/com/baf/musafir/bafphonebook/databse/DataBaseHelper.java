@@ -13,7 +13,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Environment;
 
-import com.baf.musafir.bafphonebook.AppConstant;
+import com.baf.musafir.bafphonebook.util.AppConstant;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
 
