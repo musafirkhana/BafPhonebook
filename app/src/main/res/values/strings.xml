@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">BAFPHONEBOOK</string>
+    <string name="app_name">BAF DIRECTORY</string>
     <string name="name_hq">AIR HQ</string>
     <string name="name_search">SEARCH</string>
+    <string name="name_abbr">GENERAL ABBREVIATION</string>
     <string name="name_zhr">ZHR</string>
     <string name="name_pkp">PKP</string>
     <string name="app_mtr">MTR</string>
@@ -11,25 +12,29 @@
     <string name="dir">/MEA</string>
     <string name="app_dir">/app</string>
     <string name="db_dir">/database_mea</string>
+    <string name="bottom_text">                  FREE SHALL WE KEEP THE SKY OF BANGLADESH                 </string>
 
-
+    <string name="initial_text"> \n       BY \n </string>
     <string name="air_hq_lodger">AIR HQ &amp; ITS LODGER UNITS</string>
     <string name="air_hq_lodger_cont">AIR HQ &amp; ITS LODGER UNITS (Cont/’d)</string>
 
-
+    <!--******************************************************************-->
+    <!--******************************************************************-->
+    <!--************************ZHR BASE ARTING***************************-->
     <string name="flying_wing">FLYING WING</string>
     <string name="ops_wing">OPERATIONAL WING</string>
     <string name="maintain_wing">MAINTANCE WING</string>
     <string name="admin_wing">ADMIN WING</string>
     <string name="trg_wing">TRAINING WING</string>
-    <string name="lodger_niit">LODGER UNIT</string>
-
-    <string name="fw_hq">FLYING WING HQ</string>
-    <string name="one_sqn">1 SQUADRON</string>
-    <string name="three_sqn">3 SQUADRON</string>
-    <string name="twentyone_sqn">21 SQUADRON</string>
-    <string name="twentyfive_sqn">25 SQUADRON</string>
-
+    <string name="lodger_unit">LODGER UNIT</string>
+    <string name="bafa">BAFA</string>
+    <!--FLYING WING-->
+    <string name="fly_1">FLYING WING HQ</string>
+    <string name="fly_2">1 SQUADRON</string>
+    <string name="fly_3">3 SQUADRON</string>
+    <string name="fly_4">21 SQUADRON</string>
+    <string name="fly_5">25 SQUADRON</string>
+    <!--MAINTANANCE WING-->
     <string name="maint_0">MAINTANANCE WING HQ</string>
     <string name="maint_1">AIRCRAFT ENGINEERING SQN</string>
     <string name="maint_2">CONTROL SQN</string>
@@ -38,26 +43,25 @@
     <string name="maint_5">MT SQN</string>
     <string name="maint_6">ARMAMENT SQN</string>
     <string name="maint_7">SUPPLY SQN</string>
-    <string name="ops_1">AIR TRAFFIC SQN</string>
 
+    <!--OPS WING-->
     <string name="ops_0">OPS WING HQ</string>
+    <string name="ops_1">AIR TRAFFIC SQN</string>
     <string name="ops_2">MET SQN</string>
     <string name="ops_3">EXERCISE  SQN</string>
-
+    <!--ADMIN WING-->
     <string name="admin_0">ADMIN WING HQ</string>
     <string name="admin_1">PERSONNEL SQN</string>
     <string name="admin_2">ACCOUNTS SQN</string>
     <string name="admin_3">MEDICAL  SQN</string>
     <string name="admin_4">SECURITY SQN</string>
-
+    <!--TRAINING WING-->
     <string name="training_0">TRAINING WING HQ</string>
     <string name="training_1">EDN TRAINING SQN</string>
     <string name="training_2">C &amp; E TRAINING SQN</string>
     <string name="training_3">AERO  TRAINING SQN</string>
     <string name="training_4">ADMIN TRAINING SQN</string>
-
-
-
+    <!-- LODGER UNIT ZHR BASE-->
     <string name="lodger_1">301 SAM UNIT</string>
     <string name="lodger_2">2 PROVOST &amp; SECURITY UNIT</string>
     <string name="lodger_3">202 MU</string>
@@ -66,5 +70,70 @@
     <string name="lodger_6">2 FIELD UNIT</string>
     <string name="lodger_7">OFFICERS MESS</string>
     <string name="lodger_8">OTHERS MESS</string>
+
+
+
+<!--MTR STRING-->
+    <!--Ops Wing-->
+    <string name="m_ops_0">OPS WING HQ</string>
+    <string name="m_ops_1">AIR TRAFFIC SQN</string>
+    <string name="m_ops_2">MET SQN</string>
+    <string name="m_ops_3">BAFA</string>
+    <string name="m_ops_4">FTW</string>
+    <string name="m_ops_5">NO 11 SQN</string>
+    <string name="m_ops_6">NO 15 SQN</string>
+    <string name="m_ops_7">NO 18 SQN</string>
+    <string name="m_ops_8">ATW</string>
+    <string name="m_ops_9">CW</string>
+
+
+    <!-- LODGER UNIT MTR BASE-->
+    <string name="m_lodger_1">"OTS"</string>
+    <string name="m_lodger_2">3 PROVOST &amp; SECURITY UNIT</string>
+    <string name="m_lodger_3">210 MU</string>
+    <string name="m_lodger_4">75 SQUADRON</string>
+    <string name="m_lodger_5">3 FIELD UNIT</string>
+    <string name="m_lodger_6">FIS</string>
+    <string name="m_lodger_7">OFFICERS MESS</string>
+    <string name="m_lodger_8">OTHERS MESS</string>
+    <string name="m_lodger_9">BAFWWA</string>
+
+
+
+    <!--PKP BASE-->
+    <!--MAINT WING-->
+    <string name="pkp_maint_1">RADAR SQN</string>
+    <string name="pkp_maint_2">FIELD MAINTANENCE SQN</string>
+    <string name="pkp_maint_3">C &amp; E  SQN</string>
+    <string name="pkp_maint_4">MT SQN</string>
+    <string name="pkp_maint_5">ARMT SQN</string>
+    <string name="pkp_maint_6">SUPPLY SQN</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="airforcr_history">The origin of Bangladesh Air Force (BAF) dates back to 1920 in British India when the Indian politicians demanded for inclusion of local people in the Royal Air Force because some members of Indian Royal Flying Core had earned name and fame in the 1st World War. The demand eventually got its shape in 1932 when Indian Air Force came into being on 08 October of that year. But until 1939 the Royal Air force hardly made any progress. Even during the 2nd World War period there was hardly any scope for training in the Bangladesh portion of the then sub-continent. However, airports were constructed in Comilla, Feni, Patenga, Cox’s Bazar and in few other places hastily. The only recruiting centre for this area was in Narayangonj.\n\n\n
+
+During 1951-52 the first fighter squadron of Pakistan was organized anew. It was commanded by Abdur Rahim Khan who became the Chief of Air Staff of Pakistan Air Force during 1969-71. Bengali PAF/AF officer Flight Lieutenant Towab was the Flight Commander of that squadron who later became Chief of Air Staff of independent Bangladesh in 1975. Of the Bengali pilots Flying Officer Alam died in plane crash in 1956. He Left behind his contemporary Flying Officer A K Khandker who later played a glorious role in our historic Liberation War. He was not only the Deputy Commander of the Bangladesh side in the Liberation War; he also represented Bangladesh side during the surrender of the occupation Force at Race Course Maidan (Now Suhrawardy Uddan) on 16 December 1971. It is worth mentioning that A K Khandker became the first Chief of Air Staff of Bangladesh Air Force (BAF).\n\n\n
+
+From 1947 to 1971 the Bengali nation had to struggle through the lives of myriad of people. The Bengali officers of the then Pakistan Air Force (PAF) had their name and sacrifice as well. Even during the Indo-Pak War in 1965, there were many glories of victory achieved by Shaheed (martyr) Squadron Leader Alam, Wing Commander Towab, Flight Lieutenant Saiful Azam and many others of them Flight lieutenant ( later on Group Captain) Saiful Azam became an ace fighter pilot. He showed success in three different countries in dog fight during real war. He became the only fighter pilot in the world who was awarded with state title by three different countries viz, Pakistan (Sitara-e-Jurat), Jordan (Hossam-e-Istiqlal) and Iraq (North S Suja). He proved his worthwhileness to such an extent that he was allowed to command a fighter squadron of Pakistan Air Force as a Flight Lieutenant which was supposed to be commanded by a Wing Commander. These officers had some praiseworthy airmen. One of them was Shaheed (martyr) Sergeant Zahurul Haque. He was a Ground Combat Instructor (GCI), a trade well known for conducting drill. Even such an airman had concern for his motherland. He was an accused in historic ‘Agartala Conspiracy Case’, obviously a historic plot to liberate the country. He succumbed to his injuries following constant torture on 15 February 1969. Bangladesh Air Force has recognized the contribution of this great airman since an important base of BAF (BAF Base Zahurul Haque) has been named in his name. Even the recognition has crossed the purview of BAF since a dormitory of Dhaka University has also been named after him.\n\n\n
+
+The glorious Liberation War took place in 1971. From the motivated drive of patristic zeal, a good number of Bengali officers and airmen including technicians renounced their previous services and joined the Liberation War to expedite victory. It was largely possible due to the sincerity of those members who established the Air Wing of the Liberation War on 28 September 1971 at Dimapur of Nagaland, India. The air wing possessed a scanty inventory of one DC-3 airplane, one Otter airplane and one Alluette helicopter. The patriotic pilots and technicians of the nascent Bangladesh Air Force formed a flying unit named, ‘Kilo Flight’ , under the able guidance of the then Squadron Leader Sultan Mahmud who later became Air Vice Marshal and Chief of Air Staff. However, the pilots of the historic ‘Kilo Flight’ made successful sorties to launch successful air attacks on a number of targets in Chittagong and Narayangonj. It was during the Liberation War that another great son of the soil, Flight Lieutenant Matiur Rahman sacrificed his life for his motherland. His sacrifice was not an ordinary one since it is difficult for a family man to endanger his life. It was not a fluke either. He not only sacrificed his life, but the happiness of his family life as well. While fleeing Pakistan with a T-33 aircraft to join the glorious Liberation War, he died at Thatta, a few kilometers away from the Indian border where his aircraft crashed. The heroic attempt has been rewarded by both BAF and the nation as well. The most important officers’ training base of BAF in Jessore has been named after him (BAF Base Matiur Rahman) and the nation has awarded him the highest state title, ‘Beershrestha’ Besides these great personalities, out of many, two more officers of BAF are worth mentioning, the two sector commanders. They are the then Squadron Leader Khademul Bashar who later became Air Vice Marshal and Chief of Air Staff and another officer is the then Squadron Leader Hamidullah who later became Wing Commander.\n\n\n
+
+Since independence, BAF underwent massive modification and expansion. Concentration has been given on both air power and air defense. Bases, Units and outposts have been established at different suitable places. As a mark of improvement, many foreign trainees both at officers and airmen levels underwent training in BAF. As a mark of recognition, Bangladesh Air Force (BAF) received ‘National Colours’ in 1980 by the then honorable President of the People’s Republic of Bangladesh. Later Bangladesh Air Force Academy (BAFA) received ‘National colours’ in 2003 by the then honorable Prime Minister of the People’s Republic of Bangladesh. Even the Recruits’ Training School (RTS) has been awarded with ‘BAF Colours’ by an ex Chief of Air Staff in 2004.
+
+In aid to civil power, BAF always responded in the best possible way. Bangladesh Air Force performed tremendously during deluge like flood in 1988 and after a devastating cyclonic storm in Chittagong in 1991. It performed election duties quite successfully in 2001 Parliamentary Election. The organization also responded well in international requirements like after earthquake in Gujrat, India in 2001; after Tsunami in Sri Lanka and the Maldives in 2004 and after earthquake in Mujaffarabad, Pakistan in 2005. It has responded to the call of United Nations by serving under its umbrella in 17 different war-torn countries of the world.</string>
+
 
 </resources>

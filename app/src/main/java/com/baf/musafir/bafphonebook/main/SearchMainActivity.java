@@ -10,8 +10,11 @@ import android.view.Window;
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
 import com.baf.musafir.bafphonebook.holder.AllPabxListVector;
+import com.baf.musafir.bafphonebook.mtr.MtrMainActivity;
+import com.baf.musafir.bafphonebook.pkp.PkpMainActivity;
 import com.baf.musafir.bafphonebook.util.*;
 import com.baf.musafir.bafphonebook.util.AppConstant;
+import com.baf.musafir.bafphonebook.zhr.ZhrMainActivity;
 
 public class SearchMainActivity extends Activity {
     private Context mContext;
@@ -43,44 +46,37 @@ public class SearchMainActivity extends Activity {
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "ZHR SEARCH");
             startActivity(intent);
-            this.finish();
         } else if (baseID.equalsIgnoreCase("3")) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "MTR SEARCH");
             startActivity(intent);
-            this.finish();
         } else if (baseID.equalsIgnoreCase("4")) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "BSR SEARCH");
             startActivity(intent);
-            this.finish();
         } else if (baseID.equalsIgnoreCase("5")) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "COXS SEARCH");
             startActivity(intent);
-            this.finish();
         } else if (baseID.equalsIgnoreCase("6")) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "BBD SEARCH");
             startActivity(intent);
-            this.finish();
         } else if (baseID.equalsIgnoreCase("7")) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "PKP SEARCH");
             startActivity(intent);
-            this.finish();
         } else if (baseID.equalsIgnoreCase("0")) {
 
             dataBaseUtility.getAllMobileData(mContext);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "SEARCH");
             startActivity(intent);
-            this.finish();
         }
 
 
@@ -89,18 +85,31 @@ public class SearchMainActivity extends Activity {
     public void PABX(View v) {
 
         if (baseID.equalsIgnoreCase("2")) {
-            dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
-            Intent intent = new Intent(this, SearchListActivity.class);
-            intent.putExtra("header", "ZHR SEARCH");
+            //dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
+            Intent intent = new Intent(this, ZhrMainActivity.class);
+            intent.putExtra("header", "ZHR");
+            intent.putExtra("base_id", baseID);
             startActivity(intent);
-            this.finish();
-        } else if (baseID.equalsIgnoreCase("3")) {
-            dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
+        }else if (baseID.equalsIgnoreCase("0")) {
+            dataBaseUtility.getAllData(mContext);
             Intent intent = new Intent(this, SearchListActivity.class);
-            intent.putExtra("header", "MTR SEARCH");
+            intent.putExtra("header", "SEARCH");
             startActivity(intent);
-            this.finish();
-        } else if (baseID.equalsIgnoreCase("4")) {
+        }else if (baseID.equalsIgnoreCase("3")) {
+            //dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
+            Intent intent = new Intent(this, MtrMainActivity.class);
+            intent.putExtra("header", "MTR");
+            intent.putExtra("base_id", baseID);
+            startActivity(intent);
+        }else if (baseID.equalsIgnoreCase("7")) {
+            //dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
+            Intent intent = new Intent(this, PkpMainActivity.class);
+            intent.putExtra("header", "PKP");
+            intent.putExtra("base_id", baseID);
+            startActivity(intent);
+        }
+
+        /* else if (baseID.equalsIgnoreCase("4")) {
             if (AllPabxListVector.getAllPabxlist().size() > 0) {
                 dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
                 Intent intent = new Intent(this, SearchListActivity.class);
@@ -146,7 +155,7 @@ public class SearchMainActivity extends Activity {
             intent.putExtra("header", "SEARCH");
             startActivity(intent);
             this.finish();
-        }
+        }*/
 
 
     }

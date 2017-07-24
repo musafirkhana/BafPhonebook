@@ -1,21 +1,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/toast_layout_root"
     android:layout_width="fill_parent"
-    android:layout_height="60dp"
-    android:background="@color/google_red"
+    android:layout_height="50dp"
+    android:background="@color/black_translucent"
     android:orientation="horizontal"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
     android:gravity="center|left"
     android:padding="10dp" >
-<ImageView android:id="@+id/image_toast"
+<!--<ImageView android:id="@+id/image_toast"
     android:layout_width="40dp"
     android:layout_height="40dp"
-    android:background="@drawable/airforce_logo_1"/>
+    android:background="@drawable/airforce_logo_1"/>-->
     <TextView
         android:id="@+id/toast_text"
         android:layout_width="fill_parent"
         android:layout_height="40dp"
         android:layout_gravity="center"
-        android:layout_toRightOf="@+id/image_toast"
         android:textColor="@color/google_white"
         android:gravity="center"
         android:paddingRight="10dp"

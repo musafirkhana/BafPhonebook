@@ -7,7 +7,7 @@
     <color name="blue">#304f9f</color>
     <color name="colorPrimary">#FF7E00</color>
     <color name="windowBackgroundColor">#333333</color>
-    <color name="black_translucent">#80000000</color>
+    <color name="black_translucent">#90333333</color>
     <color name="view_bg">#FF7E00</color>
     <color name="home_bg">#3F51B5</color>
     <color name="home_bg_2">#FFFFFF</color>
@@ -48,8 +48,7 @@
     <color name="google_text_disabled">#737373</color>
     <color name="google_text">#ffffff</color>
 
-
-
+    <!-- Others Colors -->
     <color name="refresh_progress_1">@color/accent_color_light</color>
     <color name="refresh_progress_2">@color/accent_color_dark</color>
     <color name="refresh_progress_3">@color/primary_color</color>

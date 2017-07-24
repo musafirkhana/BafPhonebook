@@ -136,7 +136,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="POLICE"
+                android:onClick="RANK"
                 android:orientation="horizontal"
                 android:padding="10dp"
                 android:weightSum="1.5">
@@ -155,7 +155,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/imageview_4"
                     android:gravity="center_vertical"
-                    android:text="POLICE"
+                    android:text="RANK"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -171,7 +171,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="AIRLINES"
+                android:onClick="HIS"
                 android:orientation="horizontal"
                 android:padding="10dp"
                 android:weightSum="1.5">
@@ -190,7 +190,7 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/imageview_5"
                     android:gravity="center_vertical"
-                    android:text="AIRLINES"
+                    android:text="AIRFORCE HISTORY"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -206,7 +206,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="HOSPITAL"
+                android:onClick="LOC"
                 android:orientation="horizontal"
                 android:padding="10dp"
                 android:weightSum="1.5">
@@ -225,49 +225,15 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/imageview_7"
                     android:gravity="center_vertical"
-                    android:text="HOSPITAL"
+                    android:text="BASE LOCATION"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
 
             </RelativeLayout>
 
-            <View
-                android:layout_width="fill_parent"
-                android:layout_height="1dp"
-                android:layout_marginLeft="10dp"
-                android:background="#c2c2c2" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="SCHOOL"
-                android:orientation="horizontal"
-                android:padding="10dp"
-                android:weightSum="1.5">
-
-                <ImageView
-                    android:id="@+id/imageview_8"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_alignParentLeft="true"
-                    android:src="@drawable/airforce_logo_1" />
-
-                <TextView
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="10dp"
-                    android:layout_toRightOf="@+id/imageview_8"
-                    android:gravity="center_vertical"
-                    android:text="SCHOOL COLLEGE"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
-
-
-            </RelativeLayout>
-
-            <View
+           <!-- <View
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
                 android:layout_marginLeft="10dp"
@@ -405,7 +371,7 @@
                     android:textStyle="bold" />
 
 
-            </RelativeLayout>
+            </RelativeLayout>-->
         </LinearLayout>
 
             <LinearLayout

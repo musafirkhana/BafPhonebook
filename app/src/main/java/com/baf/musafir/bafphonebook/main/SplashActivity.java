@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseHelper;
+import com.baf.musafir.bafphonebook.parser.AbbriviationListParser;
 import com.baf.musafir.bafphonebook.util.AppConstant;
 
 import java.io.File;
@@ -54,7 +55,7 @@ public class SplashActivity extends Activity {
 
        // initUI();
         // startTimer();
-
+        initUI();
         flag = SharedPreferencesHelper.getFirstTime(context);
         if (flag) {
             Toast.makeText(context, "Export Database Starting....", Toast.LENGTH_LONG).show();
@@ -64,6 +65,9 @@ public class SplashActivity extends Activity {
         new LoaddbAsyncTask().execute();
 
     }
+
+
+
 
     public void GO(View v) {
         Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
@@ -117,7 +121,7 @@ public class SplashActivity extends Activity {
      ***************/
     private void initUI() {
         try {
-            InputStream is = getAssets().open("collection.txt");
+            InputStream is = getAssets().open("abbrfile.txt");
 
             // We guarantee that the available method returns the total
             // size of the asset... of course, this does mean that a single
@@ -138,7 +142,7 @@ public class SplashActivity extends Activity {
             throw new RuntimeException(e);
         }
 
-        //themeList(text);
+        themeList(text);
 
     }
 
@@ -150,9 +154,9 @@ public class SplashActivity extends Activity {
 
                 try {
                     respones_results = url_string;
-                /*    if (CollectionListParser.connect(getApplicationContext(),
+                    if (AbbriviationListParser.connect(getApplicationContext(),
                             respones_results))
-                        ;*/
+                        ;
 
                 } catch (final Exception e) {
                     e.printStackTrace();
@@ -227,9 +231,9 @@ public class SplashActivity extends Activity {
 
 
 
-            final Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
+          /*  final Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
             startActivity(intent);
-            SplashActivity.this.finish();
+            SplashActivity.this.finish();*/
 
 			/*if (SharedPreferencesHelper.getUserName(context).equalsIgnoreCase("")) {
 				final Intent intent = new Intent(SplashActivity.this, LoginActivity.class);

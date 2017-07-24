@@ -42,6 +42,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_below="@+id/top_linear"
+        android:layout_above="@+id/excercise_scroll"
         android:layout_centerInParent="true">
 
         <LinearLayout
@@ -49,7 +50,55 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="0dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="0dp">
 
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="2"
+                    android:padding="10dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_selector"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:onClick="ABBR"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/airforce_logo_1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="@string/name_abbr"
+                            android:textColor="@color/accent_color"
+                            android:textSize="24sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/divider"></View>
+
+
+            kk88==
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -395,7 +444,24 @@
 
 
     </ScrollView>
-
+    <TextView
+        android:id="@+id/excercise_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/button_background"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:freezesText="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:text="@string/bottom_text"
+        android:textColor="@color/white" />
     <LinearLayout
         android:id="@+id/main_menu_li"
         android:layout_width="fill_parent"

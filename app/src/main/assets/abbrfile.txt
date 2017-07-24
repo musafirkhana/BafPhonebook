@@ -1,0 +1,8050 @@
+[
+  {
+    "Abbreviate":"Above Ground Level",
+    "abbr":"AGL"
+  },
+  {
+    "Abbreviate":"Above Mean Sea Level",
+    "abbr":"AMSL"
+  },
+  {
+    "Abbreviate":"Above mention",
+    "abbr":"a/m"
+  },
+  {
+    "Abbreviate":"Above Water Warfare",
+    "abbr":"AWW"
+  },
+  {
+    "Abbreviate":"Absent Without Leave",
+    "abbr":"AWOL"
+  },
+  {
+    "Abbreviate":"Abstract of Evidence",
+    "abbr":"A of E"
+  },
+  {
+    "Abbreviate":"Accommodation",
+    "abbr":"accn"
+  },
+  {
+    "Abbreviate":"Account",
+    "abbr":"acct"
+  },
+  {
+    "Abbreviate":"Accounting Unit ",
+    "abbr":"AU"
+  },
+  {
+    "Abbreviate":"Acknowledge",
+    "abbr":"ack"
+  },
+  {
+    "Abbreviate":"Action",
+    "abbr":"act"
+  },
+  {
+    "Abbreviate":"Action Information Organization",
+    "abbr":"AIO"
+  },
+  {
+    "Abbreviate":"Actual Time of Arrival",
+    "abbr":"ATA"
+  },
+  {
+    "Abbreviate":"Additional (ly)",
+    "abbr":"addl"
+  },
+  {
+    "Abbreviate":"Address",
+    "abbr":"adds"
+  },
+  {
+    "Abbreviate":"Address Indicating Group",
+    "abbr":"AIG"
+  },
+  {
+    "Abbreviate":"Addressed",
+    "abbr":"addsd"
+  },
+  {
+    "Abbreviate":"Administer",
+    "abbr":"admin"
+  },
+  {
+    "Abbreviate":"Administrative Order",
+    "abbr":"adminO"
+  },
+  {
+    "Abbreviate":"Advance",
+    "abbr":"adv"
+  },
+  {
+    "Abbreviate":"Advance Trade Training ",
+    "abbr":"ATT"
+  },
+  {
+    "Abbreviate":"Advantage",
+    "abbr":"Advtg"
+  },
+  {
+    "Abbreviate":"Air Command Operations Centre",
+    "abbr":"ACOC"
+  },
+  {
+    "Abbreviate":"Air Control Team",
+    "abbr":"ACT"
+  },
+  {
+    "Abbreviate":"Air Defence Artillery ",
+    "abbr":"AAA"
+  },
+  {
+    "Abbreviate":"Air Defence Control Centre",
+    "abbr":"ADCC"
+  },
+  {
+    "Abbreviate":"Air Defence Exercise",
+    "abbr":"ADEX"
+  },
+  {
+    "Abbreviate":"Air Defence Ground Environment",
+    "abbr":"ADGE"
+  },
+  {
+    "Abbreviate":"Air Defence Identification Zone",
+    "abbr":"ADIZ"
+  },
+  {
+    "Abbreviate":"Air Defence Notification Centre",
+    "abbr":"ADNC"
+  },
+  {
+    "Abbreviate":"Air Defence Operations Centre",
+    "abbr":"ADOC"
+  },
+  {
+    "Abbreviate":"Air Headquarter  Maintenance Area",
+    "abbr":"AHMA"
+  },
+  {
+    "Abbreviate":"Air Liaison Net",
+    "abbr":"ALN"
+  },
+  {
+    "Abbreviate":"Air Raid Precaution",
+    "abbr":"ARP"
+  },
+  {
+    "Abbreviate":"Air Raid Reporting Control Ship",
+    "abbr":"ARRCS"
+  },
+  {
+    "Abbreviate":"Air Support Operations Centre",
+    "abbr":"ASOC"
+  },
+  {
+    "Abbreviate":"Air Surveillance Radar",
+    "abbr":"ASR"
+  },
+  {
+    "Abbreviate":"Air to Air Guided Weapon",
+    "abbr":"AAGW"
+  },
+  {
+    "Abbreviate":"Air to Air Missile",
+    "abbr":"AAM"
+  },
+  {
+    "Abbreviate":"Air to Air Refueling",
+    "abbr":"AAR"
+  },
+  {
+    "Abbreviate":"Air to Surface Guided Weapon",
+    "abbr":"ASGW"
+  },
+  {
+    "Abbreviate":"Air to Surface Missile",
+    "abbr":"ASM"
+  },
+  {
+    "Abbreviate":"Air Traffic Control",
+    "abbr":"ATC"
+  },
+  {
+    "Abbreviate":"Air Traffic Control Centre",
+    "abbr":"ATCC"
+  },
+  {
+    "Abbreviate":"Airborne Early Warning",
+    "abbr":"AEW"
+  },
+  {
+    "Abbreviate":"Airborne Warning and Control (System)",
+    "abbr":"AWAC (S)"
+  },
+  {
+    "Abbreviate":"Aircraft",
+    "abbr":"ac"
+  },
+  {
+    "Abbreviate":"Aircraft Establishment",
+    "abbr":"AE"
+  },
+  {
+    "Abbreviate":"Aircraft on Ground",
+    "abbr":"AOG"
+  },
+  {
+    "Abbreviate":"Airfield",
+    "abbr":"air fd"
+  },
+  {
+    "Abbreviate":"Airhead",
+    "abbr":"ahd"
+  },
+  {
+    "Abbreviate":"All Up Weight",
+    "abbr":"AUW"
+  },
+  {
+    "Abbreviate":"Allocate",
+    "abbr":"alloc"
+  },
+  {
+    "Abbreviate":"Allotment",
+    "abbr":"Alt"
+  },
+  {
+    "Abbreviate":"Allowance",
+    "abbr":"allce"
+  },
+  {
+    "Abbreviate":"Alter Course",
+    "abbr":"a/c"
+  },
+  {
+    "Abbreviate":"Alternate",
+    "abbr":"altn"
+  },
+  {
+    "Abbreviate":"Alternating Current",
+    "abbr":"AC"
+  },
+  {
+    "Abbreviate":"Altitude",
+    "abbr":"alt"
+  },
+  {
+    "Abbreviate":"Ambulance",
+    "abbr":"amb"
+  },
+  {
+    "Abbreviate":"Amendment",
+    "abbr":"amdt"
+  },
+  {
+    "Abbreviate":"Ammunition",
+    "abbr":"ammo"
+  },
+  {
+    "Abbreviate":"Amphibious",
+    "abbr":"amph"
+  },
+  {
+    "Abbreviate":"Amphibious Beach Unit",
+    "abbr":"ABU"
+  },
+  {
+    "Abbreviate":"Amphibious Task Force",
+    "abbr":"ATF"
+  },
+  {
+    "Abbreviate":"Amplitude Modulated/Modulation",
+    "abbr":"AM"
+  },
+  {
+    "Abbreviate":"Annex",
+    "abbr":"anx"
+  },
+  {
+    "Abbreviate":"Annual Confidential Report",
+    "abbr":"ACR"
+  },
+  {
+    "Abbreviate":"Annual Training Grant",
+    "abbr":"ATG"
+  },
+  {
+    "Abbreviate":"Answer (s)",
+    "abbr":"Ans"
+  },
+  {
+    "Abbreviate":"Anti  Tank",
+    "abbr":"Atk"
+  },
+  {
+    "Abbreviate":"Anti Aircraft",
+    "abbr":"AA"
+  },
+  {
+    "Abbreviate":"Anti Aircraft Defence Commander",
+    "abbr":"AADC"
+  },
+  {
+    "Abbreviate":"Anti Personnel",
+    "abbr":"Apers"
+  },
+  {
+    "Abbreviate":"Anti Tank Guided Missile",
+    "abbr":"ATGM"
+  },
+  {
+    "Abbreviate":"Anti Tank Guided Weapon",
+    "abbr":"ATGW"
+  },
+  {
+    "Abbreviate":"Anti Tank Missile",
+    "abbr":"ATM"
+  },
+  {
+    "Abbreviate":"Anti-Air Warfare",
+    "abbr":"AAW"
+  },
+  {
+    "Abbreviate":"Anti-Air Warfare Coordinator",
+    "abbr":"AAWC"
+  },
+  {
+    "Abbreviate":"Anti-Radiation Missile",
+    "abbr":"ARM"
+  },
+  {
+    "Abbreviate":"Anti-Ship Missile  ",
+    "abbr":"ASM"
+  },
+  {
+    "Abbreviate":"Anti-Ship Missile Defence",
+    "abbr":"ASMD"
+  },
+  {
+    "Abbreviate":"Anti-Submarine Warfare",
+    "abbr":"ASW"
+  },
+  {
+    "Abbreviate":"Anti-Surface Warfare ",
+    "abbr":"A Su W"
+  },
+  {
+    "Abbreviate":"Appendix",
+    "abbr":"appx"
+  },
+  {
+    "Abbreviate":"Appoint",
+    "abbr":"appt"
+  },
+  {
+    "Abbreviate":"Appreciate",
+    "abbr":"aprc"
+  },
+  {
+    "Abbreviate":"Approach",
+    "abbr":"app"
+  },
+  {
+    "Abbreviate":"Approximate",
+    "abbr":"approx"
+  },
+  {
+    "Abbreviate":"Area Finance Controller",
+    "abbr":"AFC"
+  },
+  {
+    "Abbreviate":"Area of Interest ",
+    "abbr":"AOI"
+  },
+  {
+    "Abbreviate":"Area of Op",
+    "abbr":"AOP"
+  },
+  {
+    "Abbreviate":"Armament",
+    "abbr":"armt"
+  },
+  {
+    "Abbreviate":"Armed Forces Division",
+    "abbr":"AFD"
+  },
+  {
+    "Abbreviate":"Armed Forces Institute of Pathology",
+    "abbr":"AFIP"
+  },
+  {
+    "Abbreviate":"Armed Forces Medical Stores Depot",
+    "abbr":"AFMSD"
+  },
+  {
+    "Abbreviate":"Armed Forces War Course",
+    "abbr":"AFWC"
+  },
+  {
+    "Abbreviate":"Armour",
+    "abbr":"armr"
+  },
+  {
+    "Abbreviate":"Armour Piercing Discarding Sabot",
+    "abbr":"APDS"
+  },
+  {
+    "Abbreviate":"Armoured",
+    "abbr":"armd"
+  },
+  {
+    "Abbreviate":"Armoured Command Vehicle",
+    "abbr":"ACV"
+  },
+  {
+    "Abbreviate":"Armoured Fighting Vehicle",
+    "abbr":"AFV"
+  },
+  {
+    "Abbreviate":"Armoured Personnel Carrier",
+    "abbr":"APC"
+  },
+  {
+    "Abbreviate":"Armoured Piercing Incendiary",
+    "abbr":"API"
+  },
+  {
+    "Abbreviate":"Armoured Recovery Vehicle",
+    "abbr":"ARV"
+  },
+  {
+    "Abbreviate":"Armoured Vehicle Launched Bridge",
+    "abbr":"AVLB"
+  },
+  {
+    "Abbreviate":"Army Air Corps",
+    "abbr":"AAC"
+  },
+  {
+    "Abbreviate":"Army Aviation Unit",
+    "abbr":"AAU"
+  },
+  {
+    "Abbreviate":"Army Dress Regulations",
+    "abbr":"ADR"
+  },
+  {
+    "Abbreviate":"Army Headquarters",
+    "abbr":"AHQ"
+  },
+  {
+    "Abbreviate":"Army Post Office",
+    "abbr":"APO"
+  },
+  {
+    "Abbreviate":"Army Security Unit",
+    "abbr":"ASU"
+  },
+  {
+    "Abbreviate":"Army Sports Control Board",
+    "abbr":"ASCB"
+  },
+  {
+    "Abbreviate":"Army Training Instruction",
+    "abbr":"ATI"
+  },
+  {
+    "Abbreviate":"Army Training Note",
+    "abbr":"ATN"
+  },
+  {
+    "Abbreviate":"Arrive",
+    "abbr":"arr"
+  },
+  {
+    "Abbreviate":"Article (s) in use",
+    "abbr":"AinU"
+  },
+  {
+    "Abbreviate":"Artillery",
+    "abbr":"arty"
+  },
+  {
+    "Abbreviate":"Arty Course Shooting",
+    "abbr":"ACS"
+  },
+  {
+    "Abbreviate":"As Soon as Possible",
+    "abbr":"ASP"
+  },
+  {
+    "Abbreviate":"Assailability",
+    "abbr":"Asl"
+  },
+  {
+    "Abbreviate":"Assault",
+    "abbr":"aslt"
+  },
+  {
+    "Abbreviate":"Assault Ship (Landing Platform Dock)",
+    "abbr":"LPD"
+  },
+  {
+    "Abbreviate":"Assembly",
+    "abbr":"assy"
+  },
+  {
+    "Abbreviate":"Assembly Area",
+    "abbr":"Assy A"
+  },
+  {
+    "Abbreviate":"Assign",
+    "abbr":"asg"
+  },
+  {
+    "Abbreviate":"Assist",
+    "abbr":"asst"
+  },
+  {
+    "Abbreviate":"Assistant Engineer",
+    "abbr":"AE"
+  },
+  {
+    "Abbreviate":"Assistant Garrison Engineer",
+    "abbr":"AGE"
+  },
+  {
+    "Abbreviate":"Attach",
+    "abbr":"att"
+  },
+  {
+    "Abbreviate":"Attack",
+    "abbr":"attk"
+  },
+  {
+    "Abbreviate":"Attend ",
+    "abbr":"Atnd"
+  },
+  {
+    "Abbreviate":"Attention",
+    "abbr":"attn"
+  },
+  {
+    "Abbreviate":"Authenticate",
+    "abbr":"authen"
+  },
+  {
+    "Abbreviate":"Authorized Proportion ",
+    "abbr":"AP"
+  },
+  {
+    "Abbreviate":"Authorize",
+    "abbr":"auth"
+  },
+  {
+    "Abbreviate":"Automatic Data Processing",
+    "abbr":"ADP"
+  },
+  {
+    "Abbreviate":"Automatic Direction Finder",
+    "abbr":"ADF"
+  },
+  {
+    "Abbreviate":"Auxiliary",
+    "abbr":"aux"
+  },
+  {
+    "Abbreviate":"Avenue of Approach",
+    "abbr":"AA"
+  },
+  {
+    "Abbreviate":"Average",
+    "abbr":"avg"
+  },
+  {
+    "Abbreviate":"Aviation",
+    "abbr":"avn"
+  },
+  {
+    "Abbreviate":"Aviation Gasoline",
+    "abbr":"AVGAS"
+  },
+  {
+    "Abbreviate":"Aviation Oil",
+    "abbr":"AVOIL"
+  },
+  {
+    "Abbreviate":"Axis of Adv",
+    "abbr":"A of A"
+  },
+  {
+    "Abbreviate":"Azimuth",
+    "abbr":"az"
+  },
+  {
+    "Abbreviate":"Back Loading Point",
+    "abbr":"BLP"
+  },
+  {
+    "Abbreviate":"Backload",
+    "abbr":"bkld"
+  },
+  {
+    "Abbreviate":"Balance",
+    "abbr":"bal"
+  },
+  {
+    "Abbreviate":"Bangladesh Air Force",
+    "abbr":"BAF"
+  },
+  {
+    "Abbreviate":"Bangladesh Armed Services Board",
+    "abbr":"BASB"
+  },
+  {
+    "Abbreviate":"Bangladesh Army Order",
+    "abbr":"BAO"
+  },
+  {
+    "Abbreviate":"Bangladesh Infantry ",
+    "abbr":"BI"
+  },
+  {
+    "Abbreviate":"Bangladesh Infantry Regiment",
+    "abbr":"BIR"
+  },
+  {
+    "Abbreviate":"Bangladesh Machine Tools Factory",
+    "abbr":"BMTF"
+  },
+  {
+    "Abbreviate":"Bangladesh National Cadet Corps",
+    "abbr":"BNCC"
+  },
+  {
+    "Abbreviate":"Bangladesh Naval Armament Depot",
+    "abbr":"BNAD"
+  },
+  {
+    "Abbreviate":"Bangladesh Navy",
+    "abbr":"BN"
+  },
+  {
+    "Abbreviate":"Bangladesh Navy Hydrographic and Oceanographic Centre",
+    "abbr":"BNHOC"
+  },
+  {
+    "Abbreviate":"Bangladesh Navy Ship",
+    "abbr":"BNS"
+  },
+  {
+    "Abbreviate":"Bangladesh Ordnance Factory",
+    "abbr":"BOF"
+  },
+  {
+    "Abbreviate":"Bangladesh Rifles",
+    "abbr":"BDR"
+  },
+  {
+    "Abbreviate":"Barrack",
+    "abbr":"bk"
+  },
+  {
+    "Abbreviate":"Base Headquarters",
+    "abbr":"BHQ"
+  },
+  {
+    "Abbreviate":"Base Supply Depot",
+    "abbr":"BSD"
+  },
+  {
+    "Abbreviate":"Base Workshop",
+    "abbr":"BWksp"
+  },
+  {
+    "Abbreviate":"Basic Map Reading",
+    "abbr":"BMR"
+  },
+  {
+    "Abbreviate":"Basic Trade Training",
+    "abbr":"BTT"
+  },
+  {
+    "Abbreviate":"Battalion",
+    "abbr":"bn"
+  },
+  {
+    "Abbreviate":"Battery",
+    "abbr":"bty"
+  },
+  {
+    "Abbreviate":"Battery Command Post",
+    "abbr":"BCP"
+  },
+  {
+    "Abbreviate":"Battle",
+    "abbr":"btl"
+  },
+  {
+    "Abbreviate":"Battle Field Operating System",
+    "abbr":"BOS"
+  },
+  {
+    "Abbreviate":"Battle Group",
+    "abbr":"BG"
+  },
+  {
+    "Abbreviate":"Battle Inoculation",
+    "abbr":"BI"
+  },
+  {
+    "Abbreviate":"Battlefield Air Interdiction",
+    "abbr":"BAI"
+  },
+  {
+    "Abbreviate":"Beachhead",
+    "abbr":"bhd"
+  },
+  {
+    "Abbreviate":"Beacon",
+    "abbr":"bcn"
+  },
+  {
+    "Abbreviate":"Bearing",
+    "abbr":"bg"
+  },
+  {
+    "Abbreviate":"Beyond Economic Repair",
+    "abbr":"BER"
+  },
+  {
+    "Abbreviate":"Beyond Local Repair",
+    "abbr":"BLR"
+  },
+  {
+    "Abbreviate":"Bibliography",
+    "abbr":"bib"
+  },
+  {
+    "Abbreviate":"Biological Warfare",
+    "abbr":"BW"
+  },
+  {
+    "Abbreviate":"Binocular",
+    "abbr":"bino"
+  },
+  {
+    "Abbreviate":"Bir Protik",
+    "abbr":"BP"
+  },
+  {
+    "Abbreviate":"Bir Srestha",
+    "abbr":"BS"
+  },
+  {
+    "Abbreviate":"Bir Utttam",
+    "abbr":"BU"
+  },
+  {
+    "Abbreviate":"Bivouac",
+    "abbr":"biv"
+  },
+  {
+    "Abbreviate":"Board of Enquiry",
+    "abbr":"BOE"
+  },
+  {
+    "Abbreviate":"Board of Inquiry",
+    "abbr":"BOI"
+  },
+  {
+    "Abbreviate":"Board of Officers",
+    "abbr":"BofO"
+  },
+  {
+    "Abbreviate":"Boatswain",
+    "abbr":"BOS'N"
+  },
+  {
+    "Abbreviate":"Bomber",
+    "abbr":"B"
+  },
+  {
+    "Abbreviate":"Bombing",
+    "abbr":"Bx"
+  },
+  {
+    "Abbreviate":"Bombing Report",
+    "abbr":"BOMBREP"
+  },
+  {
+    "Abbreviate":"Book of Reference",
+    "abbr":"BR"
+  },
+  {
+    "Abbreviate":"Boundary",
+    "abbr":"bdry"
+  },
+  {
+    "Abbreviate":"Branch Recruiting Unit",
+    "abbr":"BRU"
+  },
+  {
+    "Abbreviate":"Break Clean Line",
+    "abbr":"BCL"
+  },
+  {
+    "Abbreviate":"Break Up Shot",
+    "abbr":"BUS"
+  },
+  {
+    "Abbreviate":"Bridgehead",
+    "abbr":"brH"
+  },
+  {
+    "Abbreviate":"Brigade",
+    "abbr":"bde"
+  },
+  {
+    "Abbreviate":"Broadcast",
+    "abbr":"bro"
+  },
+  {
+    "Abbreviate":"Building",
+    "abbr":"bldg"
+  },
+  {
+    "Abbreviate":"Built Up Area",
+    "abbr":"BUA"
+  },
+  {
+    "Abbreviate":"Bulk Breaking Point",
+    "abbr":"BBP"
+  },
+  {
+    "Abbreviate":"Butchery",
+    "abbr":"bchy"
+  },
+  {
+    "Abbreviate":"Cadet",
+    "abbr":"cdt"
+  },
+  {
+    "Abbreviate":"Calculation",
+    "abbr":"Cal"
+  },
+  {
+    "Abbreviate":"Calibrated",
+    "abbr":"cal"
+  },
+  {
+    "Abbreviate":"Camouflage",
+    "abbr":"cam"
+  },
+  {
+    "Abbreviate":"Camouflage and Concealment",
+    "abbr":"C/C"
+  },
+  {
+    "Abbreviate":"Canalize",
+    "abbr":"CNZ"
+  },
+  {
+    "Abbreviate":"Canteen Stores Department",
+    "abbr":"CSD"
+  },
+  {
+    "Abbreviate":"Cantonment",
+    "abbr":"cantt"
+  },
+  {
+    "Abbreviate":"Capability",
+    "abbr":"Cap"
+  },
+  {
+    "Abbreviate":"Capture",
+    "abbr":"capr"
+  },
+  {
+    "Abbreviate":"Care and Maintenance",
+    "abbr":"C&M"
+  },
+  {
+    "Abbreviate":"Carpenter",
+    "abbr":"Carp"
+  },
+  {
+    "Abbreviate":"Carrier Controlled Approach",
+    "abbr":"CCA"
+  },
+  {
+    "Abbreviate":"Carry",
+    "abbr":"carr"
+  },
+  {
+    "Abbreviate":"Cartesian Coordinate Grid",
+    "abbr":"CCG"
+  },
+  {
+    "Abbreviate":"Cartridge",
+    "abbr":"cart"
+  },
+  {
+    "Abbreviate":"Casualty Evacuation",
+    "abbr":"CASEVAC"
+  },
+  {
+    "Abbreviate":"Categorize",
+    "abbr":"cat"
+  },
+  {
+    "Abbreviate":"Cathode Ray Tube",
+    "abbr":"CRT"
+  },
+  {
+    "Abbreviate":"Cavalry",
+    "abbr":"cav"
+  },
+  {
+    "Abbreviate":"Central Ammunition Depot",
+    "abbr":"CAD"
+  },
+  {
+    "Abbreviate":"Central Mechanical Transport Depot",
+    "abbr":"CMTD"
+  },
+  {
+    "Abbreviate":"Central Officers' Record Office",
+    "abbr":"CORO"
+  },
+  {
+    "Abbreviate":"Central Ordnance Depot",
+    "abbr":"COD"
+  },
+  {
+    "Abbreviate":"Central Processing Unit",
+    "abbr":"CPU"
+  },
+  {
+    "Abbreviate":"Centralize, Centre",
+    "abbr":"cen"
+  },
+  {
+    "Abbreviate":"Centre of Gravity",
+    "abbr":"CG"
+  },
+  {
+    "Abbreviate":"Certify",
+    "abbr":"cert"
+  },
+  {
+    "Abbreviate":"Channelize",
+    "abbr":"ch"
+  },
+  {
+    "Abbreviate":"Chemical Warfare",
+    "abbr":"CW"
+  },
+  {
+    "Abbreviate":"Chittagong Hill Tracts",
+    "abbr":"CHT"
+  },
+  {
+    "Abbreviate":"Circuit",
+    "abbr":"CCT"
+  },
+  {
+    "Abbreviate":"Circular",
+    "abbr":"cir"
+  },
+  {
+    "Abbreviate":"Circular Error Probability",
+    "abbr":"CEP"
+  },
+  {
+    "Abbreviate":"Civil (ian)",
+    "abbr":"civ"
+  },
+  {
+    "Abbreviate":"Civil Affairs",
+    "abbr":"CA"
+  },
+  {
+    "Abbreviate":"Classify",
+    "abbr":"cl"
+  },
+  {
+    "Abbreviate":"Clearance Diving",
+    "abbr":"CD"
+  },
+  {
+    "Abbreviate":"Clearance Diving Team",
+    "abbr":"CDT"
+  },
+  {
+    "Abbreviate":"Close Air Support",
+    "abbr":"CAS"
+  },
+  {
+    "Abbreviate":"Closest Point of Approach",
+    "abbr":"CPA"
+  },
+  {
+    "Abbreviate":"Co-locate",
+    "abbr":"coloc"
+  },
+  {
+    "Abbreviate":"Column",
+    "abbr":"colm"
+  },
+  {
+    "Abbreviate":"Combat",
+    "abbr":"cbt"
+  },
+  {
+    "Abbreviate":"Combat  Supply",
+    "abbr":"C sup"
+  },
+  {
+    "Abbreviate":"Combat Air Patrol",
+    "abbr":"CAP"
+  },
+  {
+    "Abbreviate":"Combat Group",
+    "abbr":"cbt G"
+  },
+  {
+    "Abbreviate":"Combat Information Center",
+    "abbr":"CIC"
+  },
+  {
+    "Abbreviate":"Combat Team",
+    "abbr":"cbt T"
+  },
+  {
+    "Abbreviate":"Combat Vehicle Reconnaissance (Tracked or Wheeled)",
+    "abbr":"CVR(T)or (W)"
+  },
+  {
+    "Abbreviate":"Combat Zone",
+    "abbr":"CZ"
+  },
+  {
+    "Abbreviate":"Combine",
+    "abbr":"comb"
+  },
+  {
+    "Abbreviate":"Combined Anti-Submarine Exercise",
+    "abbr":"CASEX"
+  },
+  {
+    "Abbreviate":"Command",
+    "abbr":"comd"
+  },
+  {
+    "Abbreviate":"Command and Control",
+    "abbr":"C2"
+  },
+  {
+    "Abbreviate":"Command Post Exercise",
+    "abbr":"CPX"
+  },
+  {
+    "Abbreviate":"Command, Control and Communications",
+    "abbr":"C3"
+  },
+  {
+    "Abbreviate":"Command, Control, Communication, Computer and Intelligence",
+    "abbr":"C4I"
+  },
+  {
+    "Abbreviate":"Commander Amphibious Task Force",
+    "abbr":"CATF"
+  },
+  {
+    "Abbreviate":"Commander in Chief",
+    "abbr":"CinC"
+  },
+  {
+    "Abbreviate":"Commando",
+    "abbr":"cdo"
+  },
+  {
+    "Abbreviate":"Commencing an Exercise (time of)",
+    "abbr":"COMEX"
+  },
+  {
+    "Abbreviate":"Commitment",
+    "abbr":"cmt"
+  },
+  {
+    "Abbreviate":"Communicate",
+    "abbr":"comm"
+  },
+  {
+    "Abbreviate":"Communication Centre",
+    "abbr":"COMCEN"
+  },
+  {
+    "Abbreviate":"Communication Head",
+    "abbr":"COMHD"
+  },
+  {
+    "Abbreviate":"Communication Intelligence",
+    "abbr":"COMINT"
+  },
+  {
+    "Abbreviate":"Communication Plan",
+    "abbr":"COMPLAN"
+  },
+  {
+    "Abbreviate":"Communication Security",
+    "abbr":"COMSEC"
+  },
+  {
+    "Abbreviate":"Communication Zone",
+    "abbr":"comm Z"
+  },
+  {
+    "Abbreviate":"Company",
+    "abbr":"coy"
+  },
+  {
+    "Abbreviate":"Comparative Statement",
+    "abbr":"CST"
+  },
+  {
+    "Abbreviate":"Competent Financial Authority",
+    "abbr":"CFA"
+  },
+  {
+    "Abbreviate":"Competition",
+    "abbr":"cmpt"
+  },
+  {
+    "Abbreviate":"Composite",
+    "abbr":"comp"
+  },
+  {
+    "Abbreviate":"Composite Brigade",
+    "abbr":"COMBDE"
+  },
+  {
+    "Abbreviate":"Composite Maintenance Group",
+    "abbr":"CMG"
+  },
+  {
+    "Abbreviate":"Composition",
+    "abbr":"Composn"
+  },
+  {
+    "Abbreviate":"Composition Exploding",
+    "abbr":"CE"
+  },
+  {
+    "Abbreviate":"Computer",
+    "abbr":"com"
+  },
+  {
+    "Abbreviate":"Computer Assisted Action Information System",
+    "abbr":"CAAIS"
+  },
+  {
+    "Abbreviate":"Concealment",
+    "abbr":"conct"
+  },
+  {
+    "Abbreviate":"Concentrate",
+    "abbr":"conc"
+  },
+  {
+    "Abbreviate":"Concept of Op",
+    "abbr":"C of O"
+  },
+  {
+    "Abbreviate":"Conclude",
+    "abbr":"concl"
+  },
+  {
+    "Abbreviate":"Concentration Area",
+    "abbr":"conc A"
+  },
+  {
+    "Abbreviate":"Confer",
+    "abbr":"conf"
+  },
+  {
+    "Abbreviate":"Confidential(ity)",
+    "abbr":"confd"
+  },
+  {
+    "Abbreviate":"Confirm",
+    "abbr":"cfm"
+  },
+  {
+    "Abbreviate":"Confirmatory Notes",
+    "abbr":"CN"
+  },
+  {
+    "Abbreviate":"Construct",
+    "abbr":"constr"
+  },
+  {
+    "Abbreviate":"Contingency",
+    "abbr":"contg"
+  },
+  {
+    "Abbreviate":"Continue",
+    "abbr":"cont"
+  },
+  {
+    "Abbreviate":"Control",
+    "abbr":"con"
+  },
+  {
+    "Abbreviate":"Control and Reporting",
+    "abbr":"C&R"
+  },
+  {
+    "Abbreviate":"Control Zone (air traffic)",
+    "abbr":"CTZ"
+  },
+  {
+    "Abbreviate":"Convalesce",
+    "abbr":"convl"
+  },
+  {
+    "Abbreviate":"Conventional",
+    "abbr":"conv"
+  },
+  {
+    "Abbreviate":"Conventional Warfare",
+    "abbr":"CW"
+  },
+  {
+    "Abbreviate":"Conventional Warfare Force",
+    "abbr":"CWF"
+  },
+  {
+    "Abbreviate":"Conversation",
+    "abbr":"cnsn"
+  },
+  {
+    "Abbreviate":"Cook",
+    "abbr":"ck"
+  },
+  {
+    "Abbreviate":"Cooperation",
+    "abbr":"coop"
+  },
+  {
+    "Abbreviate":"Coordinate",
+    "abbr":"coord"
+  },
+  {
+    "Abbreviate":"Coronary Care Unit",
+    "abbr":"CCU"
+  },
+  {
+    "Abbreviate":"Correspondence",
+    "abbr":"corres"
+  },
+  {
+    "Abbreviate":"Corrugated Galvanized Iron",
+    "abbr":"CGI"
+  },
+  {
+    "Abbreviate":"Counter Attack",
+    "abbr":"C attk"
+  },
+  {
+    "Abbreviate":"Counter Countermeasure",
+    "abbr":"CCM"
+  },
+  {
+    "Abbreviate":"Counter Insurgency",
+    "abbr":"CI"
+  },
+  {
+    "Abbreviate":"Counter Insurgency Operation",
+    "abbr":"CIO"
+  },
+  {
+    "Abbreviate":"Counter Intelligence",
+    "abbr":"C int"
+  },
+  {
+    "Abbreviate":"Counter Penetration",
+    "abbr":"C pen"
+  },
+  {
+    "Abbreviate":"Countermeasure",
+    "abbr":"CM"
+  },
+  {
+    "Abbreviate":"Course of Action",
+    "abbr":"COA"
+  },
+  {
+    "Abbreviate":"Court of Inquiry",
+    "abbr":"C of I"
+  },
+  {
+    "Abbreviate":"Covering Troops",
+    "abbr":"CT"
+  },
+  {
+    "Abbreviate":"Cross",
+    "abbr":"X"
+  },
+  {
+    "Abbreviate":"Cross road",
+    "abbr":"xrd"
+  },
+  {
+    "Abbreviate":"Crossing",
+    "abbr":"Xing"
+  },
+  {
+    "Abbreviate":"Cruiser",
+    "abbr":"cc"
+  },
+  {
+    "Abbreviate":"Crypto Centre",
+    "abbr":"CRYPCEN"
+  },
+  {
+    "Abbreviate":"Cycle Ending Exercise",
+    "abbr":"CEE"
+  },
+  {
+    "Abbreviate":"Cycles per second",
+    "abbr":"cps"
+  },
+  {
+    "Abbreviate":"Daily Maintenance",
+    "abbr":"DM"
+  },
+  {
+    "Abbreviate":"Daily Maintenance Allowance",
+    "abbr":"DMA"
+  },
+  {
+    "Abbreviate":"Dangerously Ill",
+    "abbr":"DI"
+  },
+  {
+    "Abbreviate":"Date",
+    "abbr":"dt"
+  },
+  {
+    "Abbreviate":"Date-Time-Group",
+    "abbr":"DTG"
+  },
+  {
+    "Abbreviate":"Dead Reckoning",
+    "abbr":"DR"
+  },
+  {
+    "Abbreviate":"Debit Voucher",
+    "abbr":"DV"
+  },
+  {
+    "Abbreviate":"Debussing point",
+    "abbr":"D pt"
+  },
+  {
+    "Abbreviate":"Decision Making Process",
+    "abbr":"DMP"
+  },
+  {
+    "Abbreviate":"Decontaminate",
+    "abbr":"decon"
+  },
+  {
+    "Abbreviate":"Deficiency",
+    "abbr":"dfc"
+  },
+  {
+    "Abbreviate":"Degaussing",
+    "abbr":"DG"
+  },
+  {
+    "Abbreviate":"Degree",
+    "abbr":"deg"
+  },
+  {
+    "Abbreviate":"Deliver",
+    "abbr":"del"
+  },
+  {
+    "Abbreviate":"Demand",
+    "abbr":"dmd"
+  },
+  {
+    "Abbreviate":"Demi-Official",
+    "abbr":"DO"
+  },
+  {
+    "Abbreviate":"Demolish",
+    "abbr":"dml"
+  },
+  {
+    "Abbreviate":"Demonstrate",
+    "abbr":"demo"
+  },
+  {
+    "Abbreviate":"Department(al)",
+    "abbr":"dept"
+  },
+  {
+    "Abbreviate":"Deploy",
+    "abbr":"depl"
+  },
+  {
+    "Abbreviate":"Deputy",
+    "abbr":"Dy"
+  },
+  {
+    "Abbreviate":"Designate(s)",
+    "abbr":"des"
+  },
+  {
+    "Abbreviate":"Destroyer",
+    "abbr":"DD"
+  },
+  {
+    "Abbreviate":"Detach",
+    "abbr":"det"
+  },
+  {
+    "Abbreviate":"Detachment Ground Study Section",
+    "abbr":"DGSS"
+  },
+  {
+    "Abbreviate":"Develop",
+    "abbr":"dev"
+  },
+  {
+    "Abbreviate":"Diagram",
+    "abbr":"diag"
+  },
+  {
+    "Abbreviate":"Diesel Oil",
+    "abbr":"dieso"
+  },
+  {
+    "Abbreviate":"Direct (less than directive �directorate�",
+    "abbr":"dir"
+  },
+  {
+    "Abbreviate":"Direct Support",
+    "abbr":"DS"
+  },
+  {
+    "Abbreviate":"Director Engineers",
+    "abbr":"D Engrs"
+  },
+  {
+    "Abbreviate":"Directorate",
+    "abbr":"dte"
+  },
+  {
+    "Abbreviate":"Disadvantage",
+    "abbr":"disadv"
+  },
+  {
+    "Abbreviate":"Disaster Management",
+    "abbr":"DM"
+  },
+  {
+    "Abbreviate":"Discipline",
+    "abbr":"discip"
+  },
+  {
+    "Abbreviate":"Discussion",
+    "abbr":"Disc"
+  },
+  {
+    "Abbreviate":"Disengagement",
+    "abbr":"disengt"
+  },
+  {
+    "Abbreviate":"Dispersal",
+    "abbr":"disp"
+  },
+  {
+    "Abbreviate":"Dispersal Area",
+    "abbr":"Disp A"
+  },
+  {
+    "Abbreviate":"Disposition",
+    "abbr":"disposn"
+  },
+  {
+    "Abbreviate":"Distance",
+    "abbr":"Dstn"
+  },
+  {
+    "Abbreviate":"Distance Measuring Equipment",
+    "abbr":"DME"
+  },
+  {
+    "Abbreviate":"Distribute",
+    "abbr":"distr"
+  },
+  {
+    "Abbreviate":"District",
+    "abbr":"dist"
+  },
+  {
+    "Abbreviate":"Divide",
+    "abbr":"div"
+  },
+  {
+    "Abbreviate":"Divisional Administrative Area",
+    "abbr":"DAA"
+  },
+  {
+    "Abbreviate":"Docking and Essential Defects",
+    "abbr":"DED"
+  },
+  {
+    "Abbreviate":"Dockyard",
+    "abbr":"Dyd"
+  },
+  {
+    "Abbreviate":"Document",
+    "abbr":"docu"
+  },
+  {
+    "Abbreviate":"Double Side Band",
+    "abbr":"DSB"
+  },
+  {
+    "Abbreviate":"Dozen",
+    "abbr":"doz"
+  },
+  {
+    "Abbreviate":"Draft for Approval",
+    "abbr":"DFA"
+  },
+  {
+    "Abbreviate":"Drop Zone",
+    "abbr":"DZ"
+  },
+  {
+    "Abbreviate":"Earmark",
+    "abbr":"emk"
+  },
+  {
+    "Abbreviate":"East Bengal",
+    "abbr":"EB"
+  },
+  {
+    "Abbreviate":"Echelon",
+    "abbr":"ech"
+  },
+  {
+    "Abbreviate":"Economy",
+    "abbr":"Econ"
+  },
+  {
+    "Abbreviate":"Education Training Grant",
+    "abbr":"ETG"
+  },
+  {
+    "Abbreviate":"Education(al)",
+    "abbr":"edn"
+  },
+  {
+    "Abbreviate":"Effect",
+    "abbr":"eff"
+  },
+  {
+    "Abbreviate":"Effective Sonar Range",
+    "abbr":"ESR"
+  },
+  {
+    "Abbreviate":"Electronic Emission Control",
+    "abbr":"EMCON"
+  },
+  {
+    "Abbreviate":"Electrical (BN Branch)",
+    "abbr":"L"
+  },
+  {
+    "Abbreviate":"Electrical and Mechanical",
+    "abbr":"E&M"
+  },
+  {
+    "Abbreviate":"Electrical and Mechanical Engineering Regulations",
+    "abbr":"EMER"
+  },
+  {
+    "Abbreviate":"Electrical and Mechanical Engineers",
+    "abbr":"EME"
+  },
+  {
+    "Abbreviate":"Electromagnetic Pulse",
+    "abbr":"EMP"
+  },
+  {
+    "Abbreviate":"Electronic (Warfare) Support Measure",
+    "abbr":"ESM"
+  },
+  {
+    "Abbreviate":"Electronic Counter Countermeasures",
+    "abbr":"ECCM"
+  },
+  {
+    "Abbreviate":"Electronic Countermeasures",
+    "abbr":"ECM"
+  },
+  {
+    "Abbreviate":"Electronic Intelligence",
+    "abbr":"ELINT"
+  },
+  {
+    "Abbreviate":"Electronic Mail",
+    "abbr":"e-mail"
+  },
+  {
+    "Abbreviate":"Electronic Order of Battle",
+    "abbr":"EOB"
+  },
+  {
+    "Abbreviate":"Element (al) (ary)",
+    "abbr":"elm"
+  },
+  {
+    "Abbreviate":"Embark",
+    "abbr":"emb"
+  },
+  {
+    "Abbreviate":"Embussing Point",
+    "abbr":"EP"
+  },
+  {
+    "Abbreviate":"Emergency",
+    "abbr":"emg"
+  },
+  {
+    "Abbreviate":"Emplace",
+    "abbr":"empl"
+  },
+  {
+    "Abbreviate":"Employ",
+    "abbr":"emp"
+  },
+  {
+    "Abbreviate":"Enclose",
+    "abbr":"encl"
+  },
+  {
+    "Abbreviate":"Enemy",
+    "abbr":"en"
+  },
+  {
+    "Abbreviate":"Engagement",
+    "abbr":"engt"
+  },
+  {
+    "Abbreviate":"Engine",
+    "abbr":"eng"
+  },
+  {
+    "Abbreviate":"Engineer",
+    "abbr":"engr"
+  },
+  {
+    "Abbreviate":"Engineer Construction Battalion",
+    "abbr":"ECB"
+  },
+  {
+    "Abbreviate":"Engineering",
+    "abbr":"engg"
+  },
+  {
+    "Abbreviate":"Envelope",
+    "abbr":"env"
+  },
+  {
+    "Abbreviate":"Equipment",
+    "abbr":"eqpt"
+  },
+  {
+    "Abbreviate":"Equipment and Boot Repairer",
+    "abbr":"E&BR"
+  },
+  {
+    "Abbreviate":"Equipment Collecting Point",
+    "abbr":"ECP"
+  },
+  {
+    "Abbreviate":"Equipment Table",
+    "abbr":"ET"
+  },
+  {
+    "Abbreviate":"Equivalent",
+    "abbr":"eqvt"
+  },
+  {
+    "Abbreviate":"Essential Elements of Information",
+    "abbr":"EEI"
+  },
+  {
+    "Abbreviate":"Establish",
+    "abbr":"estb"
+  },
+  {
+    "Abbreviate":"Estimate",
+    "abbr":"est"
+  },
+  {
+    "Abbreviate":"Etceteras",
+    "abbr":"etc"
+  },
+  {
+    "Abbreviate":"Evacuate",
+    "abbr":"evac"
+  },
+  {
+    "Abbreviate":"Evaluate",
+    "abbr":"eval"
+  },
+  {
+    "Abbreviate":"Examine",
+    "abbr":"exam"
+  },
+  {
+    "Abbreviate":"Example",
+    "abbr":"eg"
+  },
+  {
+    "Abbreviate":"Exchange",
+    "abbr":"exch"
+  },
+  {
+    "Abbreviate":"Exchange of Life",
+    "abbr":"E of L"
+  },
+  {
+    "Abbreviate":"Exclude",
+    "abbr":"excl"
+  },
+  {
+    "Abbreviate":"Exclusive Economic Zone",
+    "abbr":"EEZ"
+  },
+  {
+    "Abbreviate":"Execute",
+    "abbr":"exec"
+  },
+  {
+    "Abbreviate":"Executive (BN Branch)",
+    "abbr":"(X)"
+  },
+  {
+    "Abbreviate":"Exercise",
+    "abbr":"ex"
+  },
+  {
+    "Abbreviate":"Expedite",
+    "abbr":"xpd"
+  },
+  {
+    "Abbreviate":"Explode",
+    "abbr":"expl"
+  },
+  {
+    "Abbreviate":"Explosive Ordnance Disposal",
+    "abbr":"EOD"
+  },
+  {
+    "Abbreviate":"Explosive Reactive Armour",
+    "abbr":"ERA"
+  },
+  {
+    "Abbreviate":"External",
+    "abbr":"extl"
+  },
+  {
+    "Abbreviate":"Extra Regimental Employment",
+    "abbr":"ERE"
+  },
+  {
+    "Abbreviate":"Facsimile",
+    "abbr":"FAX"
+  },
+  {
+    "Abbreviate":"Fast Attack Craft",
+    "abbr":"FAC"
+  },
+  {
+    "Abbreviate":"Fast Motor Boat",
+    "abbr":"FMB"
+  },
+  {
+    "Abbreviate":"Fast Patrol Boat",
+    "abbr":"FPB"
+  },
+  {
+    "Abbreviate":"Field",
+    "abbr":"fd"
+  },
+  {
+    "Abbreviate":"Field General Court-Martial",
+    "abbr":"FGCM"
+  },
+  {
+    "Abbreviate":"Field Intelligence Service",
+    "abbr":"FIS"
+  },
+  {
+    "Abbreviate":"Field Intelligence Unit",
+    "abbr":"FIU"
+  },
+  {
+    "Abbreviate":"Field of Fire",
+    "abbr":"F of F"
+  },
+  {
+    "Abbreviate":"Field Post Office",
+    "abbr":"FPO"
+  },
+  {
+    "Abbreviate":"Field Service Marching Order",
+    "abbr":"FSMO"
+  },
+  {
+    "Abbreviate":"Field Service Regulations",
+    "abbr":"FSR"
+  },
+  {
+    "Abbreviate":"Field Surgical Team",
+    "abbr":"FST"
+  },
+  {
+    "Abbreviate":"Field Training Exercise",
+    "abbr":"FTX"
+  },
+  {
+    "Abbreviate":"Fighter Controller Training Unit",
+    "abbr":"FCTU"
+  },
+  {
+    "Abbreviate":"Fighter Engagement Zone",
+    "abbr":"FEZ"
+  },
+  {
+    "Abbreviate":"Fighter Ground Attack",
+    "abbr":"FGA"
+  },
+  {
+    "Abbreviate":"Fighter Reconnaissance",
+    "abbr":"FR"
+  },
+  {
+    "Abbreviate":"Fighting",
+    "abbr":"ftg"
+  },
+  {
+    "Abbreviate":"Fighting in the Build up Areas",
+    "abbr":"FIBUA"
+  },
+  {
+    "Abbreviate":"Figure",
+    "abbr":"fig"
+  },
+  {
+    "Abbreviate":"Final Handling Test",
+    "abbr":"FHT"
+  },
+  {
+    "Abbreviate":"Financial Year",
+    "abbr":"FY"
+  },
+  {
+    "Abbreviate":"Finishing an Exercise (time of)",
+    "abbr":"FINEX"
+  },
+  {
+    "Abbreviate":"Fire and Move",
+    "abbr":"F and M"
+  },
+  {
+    "Abbreviate":"Fire Control Data Computer",
+    "abbr":"FCDC"
+  },
+  {
+    "Abbreviate":"Fire Control Equipment",
+    "abbr":"FCE"
+  },
+  {
+    "Abbreviate":"Fire Control System",
+    "abbr":"FCS"
+  },
+  {
+    "Abbreviate":"Fire Fighting",
+    "abbr":"F/F"
+  },
+  {
+    "Abbreviate":"Fire Support Coordination Centre",
+    "abbr":"FSCC"
+  },
+  {
+    "Abbreviate":"Fire Support Coordination Line",
+    "abbr":"FSCL"
+  },
+  {
+    "Abbreviate":"Fire Support Plan",
+    "abbr":"FSP"
+  },
+  {
+    "Abbreviate":"Fixed Wing",
+    "abbr":"FW"
+  },
+  {
+    "Abbreviate":"Fleet Maintenance Group",
+    "abbr":"FMG"
+  },
+  {
+    "Abbreviate":"Fleet Operational and Tactical Instruction",
+    "abbr":"FOTI"
+  },
+  {
+    "Abbreviate":"Fleet Orders",
+    "abbr":"FO"
+  },
+  {
+    "Abbreviate":"Flexible Steel Wire Rope",
+    "abbr":"FSWR"
+  },
+  {
+    "Abbreviate":"Flight",
+    "abbr":"Flt"
+  },
+  {
+    "Abbreviate":"Flight Control System",
+    "abbr":"FCS"
+  },
+  {
+    "Abbreviate":"Flight Information Region",
+    "abbr":"FIR"
+  },
+  {
+    "Abbreviate":"Flight Level",
+    "abbr":"FL"
+  },
+  {
+    "Abbreviate":"Flying",
+    "abbr":"flg"
+  },
+  {
+    "Abbreviate":"Flying Instructor Course",
+    "abbr":"FIC"
+  },
+  {
+    "Abbreviate":"Folding Boat Equipment",
+    "abbr":"FBE"
+  },
+  {
+    "Abbreviate":"Follow",
+    "abbr":"fol"
+  },
+  {
+    "Abbreviate":"Foot/feet",
+    "abbr":"ft"
+  },
+  {
+    "Abbreviate":"Formation",
+    "abbr":"fmn"
+  },
+  {
+    "Abbreviate":"Forming-up Place",
+    "abbr":"FUP"
+  },
+  {
+    "Abbreviate":"Forward",
+    "abbr":"fwd"
+  },
+  {
+    "Abbreviate":"Forward Air Base",
+    "abbr":"FAB"
+  },
+  {
+    "Abbreviate":"Forward Air Support Operation Centre",
+    "abbr":"FASOC"
+  },
+  {
+    "Abbreviate":"Forward Airhead Maintenance Area",
+    "abbr":"FAMA"
+  },
+  {
+    "Abbreviate":"Forward Assembly Area",
+    "abbr":"FAA"
+  },
+  {
+    "Abbreviate":"Forward Combat Zone",
+    "abbr":"FCZ"
+  },
+  {
+    "Abbreviate":"Forward Control Post",
+    "abbr":"FCP"
+  },
+  {
+    "Abbreviate":"Forward Defended Locality",
+    "abbr":"FDL"
+  },
+  {
+    "Abbreviate":"Forward Edge of Battle Area",
+    "abbr":"FFBA"
+  },
+  {
+    "Abbreviate":"Forward Line of Enemy Troops",
+    "abbr":"FLET"
+  },
+  {
+    "Abbreviate":"Forward Line of Own Troops",
+    "abbr":"FLOT"
+  },
+  {
+    "Abbreviate":"Forward Maintenance Area",
+    "abbr":"FMA"
+  },
+  {
+    "Abbreviate":"Forward Operational Base",
+    "abbr":"FOB"
+  },
+  {
+    "Abbreviate":"Forward Ordnance Depot",
+    "abbr":"FOD"
+  },
+  {
+    "Abbreviate":"Forward Repair Team",
+    "abbr":"FRT"
+  },
+  {
+    "Abbreviate":"Fragment",
+    "abbr":"frag"
+  },
+  {
+    "Abbreviate":"Fragmentary Order",
+    "abbr":"fragO"
+  },
+  {
+    "Abbreviate":"Free Fire Zone",
+    "abbr":"FFZ"
+  },
+  {
+    "Abbreviate":"Frequency",
+    "abbr":"Freq"
+  },
+  {
+    "Abbreviate":"Frequent",
+    "abbr":"freq"
+  },
+  {
+    "Abbreviate":"Fresh Ration Allowance",
+    "abbr":"FRA"
+  },
+  {
+    "Abbreviate":"Fresh Water",
+    "abbr":"FW"
+  },
+  {
+    "Abbreviate":"Friendly Aircraft Movement (net) ",
+    "abbr":"FAM"
+  },
+  {
+    "Abbreviate":"Function",
+    "abbr":"fun"
+  },
+  {
+    "Abbreviate":"Functional Check Flight",
+    "abbr":"FCF"
+  },
+  {
+    "Abbreviate":"Furnace Fuel Oil",
+    "abbr":"FFO"
+  },
+  {
+    "Abbreviate":"Furthest-on Circles",
+    "abbr":"FOC"
+  },
+  {
+    "Abbreviate":"Gallon",
+    "abbr":"Gal"
+  },
+  {
+    "Abbreviate":"Gallon per minute",
+    "abbr":"gpm"
+  },
+  {
+    "Abbreviate":"Garrison",
+    "abbr":"gar"
+  },
+  {
+    "Abbreviate":"Garrison Duty Officer",
+    "abbr":"GDO"
+  },
+  {
+    "Abbreviate":"Garrison Engineer",
+    "abbr":"GE"
+  },
+  {
+    "Abbreviate":"Gasoline",
+    "abbr":"gas"
+  },
+  {
+    "Abbreviate":"General Court Martial",
+    "abbr":"GCM"
+  },
+  {
+    "Abbreviate":"General Duties",
+    "abbr":"GD"
+  },
+  {
+    "Abbreviate":"General List",
+    "abbr":"GL"
+  },
+  {
+    "Abbreviate":"General Operations Plot",
+    "abbr":"GOP"
+  },
+  {
+    "Abbreviate":"General Purpose Machine Gun",
+    "abbr":"GPMG"
+  },
+  {
+    "Abbreviate":"General Service Training Pamphlet",
+    "abbr":"GSTP"
+  },
+  {
+    "Abbreviate":"General Staff",
+    "abbr":"GS"
+  },
+  {
+    "Abbreviate":"General Staff Policy Committee",
+    "abbr":"GSPC"
+  },
+  {
+    "Abbreviate":"General Transport",
+    "abbr":"GT"
+  },
+  {
+    "Abbreviate":"Generalize",
+    "abbr":"gen"
+  },
+  {
+    "Abbreviate":"Geographical Reference System",
+    "abbr":"GEOREF"
+  },
+  {
+    "Abbreviate":"Global Positioning System",
+    "abbr":"GPS"
+  },
+  {
+    "Abbreviate":"Government",
+    "abbr":"govt"
+  },
+  {
+    "Abbreviate":"Grenade",
+    "abbr":"gren"
+  },
+  {
+    "Abbreviate":"Ground",
+    "abbr":"grd"
+  },
+  {
+    "Abbreviate":"Ground Controlled Approach",
+    "abbr":"GCA"
+  },
+  {
+    "Abbreviate":"Ground Controlled Interception",
+    "abbr":"GCI"
+  },
+  {
+    "Abbreviate":"Ground Liaison Section",
+    "abbr":"GL Sec"
+  },
+  {
+    "Abbreviate":"Ground of Tactical Importance",
+    "abbr":"GTI"
+  },
+  {
+    "Abbreviate":"Ground Zero",
+    "abbr":"GZ"
+  },
+  {
+    "Abbreviate":"Group",
+    "abbr":"gp"
+  },
+  {
+    "Abbreviate":"Group Testing Officer",
+    "abbr":"GTO"
+  },
+  {
+    "Abbreviate":"Group Training",
+    "abbr":"GPT"
+  },
+  {
+    "Abbreviate":"Guard",
+    "abbr":"gd"
+  },
+  {
+    "Abbreviate":"Guided Missile",
+    "abbr":"GM"
+  },
+  {
+    "Abbreviate":"Guided Missile Cruiser",
+    "abbr":"CG"
+  },
+  {
+    "Abbreviate":"Guided Missile Destroyer",
+    "abbr":"DDG"
+  },
+  {
+    "Abbreviate":"Guided Weapon System",
+    "abbr":"GWS"
+  },
+  {
+    "Abbreviate":"Gun Controller",
+    "abbr":"GC"
+  },
+  {
+    "Abbreviate":"Gun Direction Room",
+    "abbr":"GDR"
+  },
+  {
+    "Abbreviate":"Gun Position Indicator",
+    "abbr":"GPI"
+  },
+  {
+    "Abbreviate":"Gun System Automation",
+    "abbr":"GSA"
+  },
+  {
+    "Abbreviate":"Gun Target Bearing",
+    "abbr":"GTB"
+  },
+  {
+    "Abbreviate":"Harbour",
+    "abbr":"har"
+  },
+  {
+    "Abbreviate":"Harbour Acceptance Trial",
+    "abbr":"HAT"
+  },
+  {
+    "Abbreviate":"Hardened Aircraft Shelter",
+    "abbr":"HAS"
+  },
+  {
+    "Abbreviate":"Head",
+    "abbr":"hd"
+  },
+  {
+    "Abbreviate":"Headquarters",
+    "abbr":"HQ"
+  },
+  {
+    "Abbreviate":"Heavy Anti-Aircraft",
+    "abbr":"HAA"
+  },
+  {
+    "Abbreviate":"Heavy Cruiser",
+    "abbr":"CA"
+  },
+  {
+    "Abbreviate":"Heavy/Heavily",
+    "abbr":"hy"
+  },
+  {
+    "Abbreviate":"Height",
+    "abbr":"ht"
+  },
+  {
+    "Abbreviate":"Helicopter",
+    "abbr":"hel"
+  },
+  {
+    "Abbreviate":"Helicopter Attack Group",
+    "abbr":"HAG"
+  },
+  {
+    "Abbreviate":"Helicopter Control Ship",
+    "abbr":"HCS"
+  },
+  {
+    "Abbreviate":"High Explosive Anti-Tank",
+    "abbr":"HEAT"
+  },
+  {
+    "Abbreviate":"High Explosive Incendiary Tracer",
+    "abbr":"HEIT"
+  },
+  {
+    "Abbreviate":"High Explosive Squash Head",
+    "abbr":"HESH"
+  },
+  {
+    "Abbreviate":"High Explosive Tracer",
+    "abbr":"HET"
+  },
+  {
+    "Abbreviate":"High Level Air Defence",
+    "abbr":"HLAD"
+  },
+  {
+    "Abbreviate":"High Power",
+    "abbr":"HP"
+  },
+  {
+    "Abbreviate":"High Tension",
+    "abbr":"HT"
+  },
+  {
+    "Abbreviate":"High Value Target",
+    "abbr":"HVT"
+  },
+  {
+    "Abbreviate":"High Water",
+    "abbr":"HW"
+  },
+  {
+    "Abbreviate":"History",
+    "abbr":"hist"
+  },
+  {
+    "Abbreviate":"Hollow Charge",
+    "abbr":"HC"
+  },
+  {
+    "Abbreviate":"Hostile Battery",
+    "abbr":"HB"
+  },
+  {
+    "Abbreviate":"Howitzer",
+    "abbr":"how"
+  },
+  {
+    "Abbreviate":"Hygiene",
+    "abbr":"hyg"
+  },
+  {
+    "Abbreviate":"Identification Friend or Foe",
+    "abbr":"IFF"
+  },
+  {
+    "Abbreviate":"Identify",
+    "abbr":"ident"
+  },
+  {
+    "Abbreviate":"Identity Card",
+    "abbr":"ID"
+  },
+  {
+    "Abbreviate":"Illuminate",
+    "abbr":"illum"
+  },
+  {
+    "Abbreviate":"Immediate",
+    "abbr":"imm"
+  },
+  {
+    "Abbreviate":"Immediate Photographic Interpretation Report",
+    "abbr":"IPIR"
+  },
+  {
+    "Abbreviate":"Improve",
+    "abbr":"impv"
+  },
+  {
+    "Abbreviate":"Improvised Explosive Device",
+    "abbr":"IED"
+  },
+  {
+    "Abbreviate":"Improvised Explosive Device Disposal",
+    "abbr":"IEDD"
+  },
+  {
+    "Abbreviate":"In respect of",
+    "abbr":"iro"
+  },
+  {
+    "Abbreviate":"In Support and Under Command for Movement",
+    "abbr":"INSPUCM"
+  },
+  {
+    "Abbreviate":"Include",
+    "abbr":"incl"
+  },
+  {
+    "Abbreviate":"Incorporate",
+    "abbr":"incorp"
+  },
+  {
+    "Abbreviate":"Indicated Air Speed",
+    "abbr":"IAS"
+  },
+  {
+    "Abbreviate":"Individual(ity) (ly)",
+    "abbr":"indl"
+  },
+  {
+    "Abbreviate":"Infantry",
+    "abbr":"inf"
+  },
+  {
+    "Abbreviate":"Infantry Battalion in Battle",
+    "abbr":"IBIB"
+  },
+  {
+    "Abbreviate":"Infantry Fighting Vehicle",
+    "abbr":"IFV"
+  },
+  {
+    "Abbreviate":"Infiltration",
+    "abbr":"infil"
+  },
+  {
+    "Abbreviate":"Inform",
+    "abbr":"info"
+  },
+  {
+    "Abbreviate":"Information Technology",
+    "abbr":"IT"
+  },
+  {
+    "Abbreviate":"Information Warfare",
+    "abbr":"IW"
+  },
+  {
+    "Abbreviate":"Infra-Red",
+    "abbr":"IR"
+  },
+  {
+    "Abbreviate":"Inshore Minesweeper",
+    "abbr":"IMS"
+  },
+  {
+    "Abbreviate":"Inspection",
+    "abbr":"insp"
+  },
+  {
+    "Abbreviate":"Install",
+    "abbr":"instl"
+  },
+  {
+    "Abbreviate":"Instruct",
+    "abbr":"instr"
+  },
+  {
+    "Abbreviate":"Instrument Flight Rules",
+    "abbr":"IFR"
+  },
+  {
+    "Abbreviate":"Instrument Landing System",
+    "abbr":"ILS"
+  },
+  {
+    "Abbreviate":"Instrument Meteorological Condition",
+    "abbr":"IMC"
+  },
+  {
+    "Abbreviate":"Intelligence and Electronic Warfare",
+    "abbr":"IEW"
+  },
+  {
+    "Abbreviate":"Intelligence Preparation of Battlefield",
+    "abbr":"IPB"
+  },
+  {
+    "Abbreviate":"Intelligence Summary",
+    "abbr":"INTSUM"
+  },
+  {
+    "Abbreviate":"Intelligent Report",
+    "abbr":"INTREP"
+  },
+  {
+    "Abbreviate":"Intensive Care Unit",
+    "abbr":"ICU"
+  },
+  {
+    "Abbreviate":"Inter Services Selection Board",
+    "abbr":"ISSB"
+  },
+  {
+    "Abbreviate":"Intercommunication",
+    "abbr":"intercom"
+  },
+  {
+    "Abbreviate":"Intercontinental Ballistic Missile",
+    "abbr":"ICBM"
+  },
+  {
+    "Abbreviate":"Intermediate",
+    "abbr":"intmed"
+  },
+  {
+    "Abbreviate":"Intermediate Range Ballistic Missile",
+    "abbr":"IRBM"
+  },
+  {
+    "Abbreviate":"Internal Security",
+    "abbr":"IS"
+  },
+  {
+    "Abbreviate":"International",
+    "abbr":"Intl"
+  },
+  {
+    "Abbreviate":"International Boundary",
+    "abbr":"IB"
+  },
+  {
+    "Abbreviate":"International Compressed Air Breathing Apparatus",
+    "abbr":"ICABA"
+  },
+  {
+    "Abbreviate":"Interrogate",
+    "abbr":"intg"
+  },
+  {
+    "Abbreviate":"Introduce",
+    "abbr":"intro"
+  },
+  {
+    "Abbreviate":"Issue Voucher",
+    "abbr":"IV"
+  },
+  {
+    "Abbreviate":"Jamming Report",
+    "abbr":"JAMREP"
+  },
+  {
+    "Abbreviate":"Joint",
+    "abbr":"jt (J in titles)"
+  },
+  {
+    "Abbreviate":"Joint (Force) Headquarters",
+    "abbr":"JHQ"
+  },
+  {
+    "Abbreviate":"Joint Command Centre",
+    "abbr":"JCC"
+  },
+  {
+    "Abbreviate":"Joint Command Operations Centre",
+    "abbr":"JCOC"
+  },
+  {
+    "Abbreviate":"Joint Force Commander",
+    "abbr":"JFC"
+  },
+  {
+    "Abbreviate":"Joint Interrogation Cell",
+    "abbr":"JIC"
+  },
+  {
+    "Abbreviate":"Joint Operations Center",
+    "abbr":"JOC"
+  },
+  {
+    "Abbreviate":"Joint Planning Staff",
+    "abbr":"JPS"
+  },
+  {
+    "Abbreviate":"Joint Services Instructions",
+    "abbr":"JSI"
+  },
+  {
+    "Abbreviate":"Joint Services Publication",
+    "abbr":"JSP"
+  },
+  {
+    "Abbreviate":"Joint Services Staff Duties (Manual)",
+    "abbr":"JSSD(M)"
+  },
+  {
+    "Abbreviate":"Junction",
+    "abbr":"junc"
+  },
+  {
+    "Abbreviate":"Junction Point",
+    "abbr":"JP"
+  },
+  {
+    "Abbreviate":"Jungle Lane Shooting",
+    "abbr":"JLS"
+  },
+  {
+    "Abbreviate":"Junior",
+    "abbr":"jr"
+  },
+  {
+    "Abbreviate":"Junior Command and Staff Course",
+    "abbr":"JCSC"
+  },
+  {
+    "Abbreviate":"Kerosene",
+    "abbr":"kero"
+  },
+  {
+    "Abbreviate":"Key Point",
+    "abbr":"KP"
+  },
+  {
+    "Abbreviate":"Key Point Installation",
+    "abbr":"KPI"
+  },
+  {
+    "Abbreviate":"Key Terrain",
+    "abbr":"KT"
+  },
+  {
+    "Abbreviate":"Killed in Action",
+    "abbr":"KIA"
+  },
+  {
+    "Abbreviate":"Killing Ground",
+    "abbr":"KG"
+  },
+  {
+    "Abbreviate":"Killing Zone",
+    "abbr":"KZ"
+  },
+  {
+    "Abbreviate":"Kilometer per hour",
+    "abbr":"kph"
+  },
+  {
+    "Abbreviate":"Kilometer per liter",
+    "abbr":"kpl"
+  },
+  {
+    "Abbreviate":"Kinetic Energy",
+    "abbr":"KE"
+  },
+  {
+    "Abbreviate":"Knock(ed) Out",
+    "abbr":"KO"
+  },
+  {
+    "Abbreviate":"Laser Guided Bomb",
+    "abbr":"LGB"
+  },
+  {
+    "Abbreviate":"Landing Area",
+    "abbr":"LA"
+  },
+  {
+    "Abbreviate":"Landing Craft Logistics",
+    "abbr":"LCL"
+  },
+  {
+    "Abbreviate":"Landing Craft Personnel",
+    "abbr":"LCP"
+  },
+  {
+    "Abbreviate":"Landing Craft Tank",
+    "abbr":"LCT"
+  },
+  {
+    "Abbreviate":"Landing Craft Vehicle and Personnel",
+    "abbr":"LCVP"
+  },
+  {
+    "Abbreviate":"Landing Ground",
+    "abbr":"LG"
+  },
+  {
+    "Abbreviate":"Landing Platform Dock (Assault Ship)",
+    "abbr":"LPD"
+  },
+  {
+    "Abbreviate":"Landing Platform Helicopter",
+    "abbr":"LPH"
+  },
+  {
+    "Abbreviate":"Landing Ship Logistic",
+    "abbr":"LSL"
+  },
+  {
+    "Abbreviate":"Landing Ship Tank",
+    "abbr":"LST"
+  },
+  {
+    "Abbreviate":"Landing Site",
+    "abbr":"LS"
+  },
+  {
+    "Abbreviate":"Landing Zone",
+    "abbr":"LZ"
+  },
+  {
+    "Abbreviate":"Laser Range Finder",
+    "abbr":"LRF"
+  },
+  {
+    "Abbreviate":"Last Pay Certificate",
+    "abbr":"LPC"
+  },
+  {
+    "Abbreviate":"Last Ration Certificate",
+    "abbr":"LRC"
+  },
+  {
+    "Abbreviate":"Latitude/latitudinal(ly)",
+    "abbr":"lat"
+  },
+  {
+    "Abbreviate":"Law of Armed Conflict",
+    "abbr":"LAC"
+  },
+  {
+    "Abbreviate":"Leader",
+    "abbr":"ldr"
+  },
+  {
+    "Abbreviate":"Leave",
+    "abbr":"lve"
+  },
+  {
+    "Abbreviate":"Leave Ration Allowance",
+    "abbr":"LRA"
+  },
+  {
+    "Abbreviate":"Left Out of Battle",
+    "abbr":"LOB"
+  },
+  {
+    "Abbreviate":"Letter",
+    "abbr":"ltr"
+  },
+  {
+    "Abbreviate":"Liberation War",
+    "abbr":"LW"
+  },
+  {
+    "Abbreviate":"Light (ly)",
+    "abbr":"lt"
+  },
+  {
+    "Abbreviate":"Light Aid Detachment",
+    "abbr":"LAD"
+  },
+  {
+    "Abbreviate":"Light Aircraft Cruiser",
+    "abbr":"CVL"
+  },
+  {
+    "Abbreviate":"Light Anti-Aircraft",
+    "abbr":"LAA"
+  },
+  {
+    "Abbreviate":"Light Cruiser",
+    "abbr":"CL"
+  },
+  {
+    "Abbreviate":"Light Machine Gun",
+    "abbr":"LMG"
+  },
+  {
+    "Abbreviate":"Limited",
+    "abbr":"ltd"
+  },
+  {
+    "Abbreviate":"Limited Line of Submerged Approach",
+    "abbr":"LLSuA"
+  },
+  {
+    "Abbreviate":"Line(s) of Communication",
+    "abbr":"L of C"
+  },
+  {
+    "Abbreviate":"Line of Defence",
+    "abbr":"L of D"
+  },
+  {
+    "Abbreviate":"Line of Departure",
+    "abbr":"LOD"
+  },
+  {
+    "Abbreviate":"Line of Fire",
+    "abbr":"LOF"
+  },
+  {
+    "Abbreviate":"Line of March",
+    "abbr":"LOM"
+  },
+  {
+    "Abbreviate":"Line of no Penetration",
+    "abbr":"LNP"
+  },
+  {
+    "Abbreviate":"Line of Sight",
+    "abbr":"LOS"
+  },
+  {
+    "Abbreviate":"Listening post",
+    "abbr":"LP"
+  },
+  {
+    "Abbreviate":"Local Anti-Air Warfare Coordinator",
+    "abbr":"LAAWC"
+  },
+  {
+    "Abbreviate":"Local Area Network",
+    "abbr":"LAN"
+  },
+  {
+    "Abbreviate":"Local Operations Plot",
+    "abbr":"LOP"
+  },
+  {
+    "Abbreviate":"Location Statement",
+    "abbr":"LOCSTAT"
+  },
+  {
+    "Abbreviate":"Logistic Exercise",
+    "abbr":"LOGEX"
+  },
+  {
+    "Abbreviate":"Logistic Exercise Without Troops",
+    "abbr":"LEWT"
+  },
+  {
+    "Abbreviate":"Logistics (al)(s)",
+    "abbr":"log"
+  },
+  {
+    "Abbreviate":"Long Range",
+    "abbr":"LR"
+  },
+  {
+    "Abbreviate":"Long Range Air Navigation",
+    "abbr":"LORAN"
+  },
+  {
+    "Abbreviate":"Loose Minute",
+    "abbr":"LM"
+  },
+  {
+    "Abbreviate":"Lorry",
+    "abbr":"lor"
+  },
+  {
+    "Abbreviate":"Low Flying Area",
+    "abbr":"LFA"
+  },
+  {
+    "Abbreviate":"Low Frequency",
+    "abbr":"LF"
+  },
+  {
+    "Abbreviate":"Low Level Air Defence",
+    "abbr":"LLAD"
+  },
+  {
+    "Abbreviate":"Low Tension",
+    "abbr":"LT"
+  },
+  {
+    "Abbreviate":"Low Water",
+    "abbr":"LW"
+  },
+  {
+    "Abbreviate":"Lubricate",
+    "abbr":"lub"
+  },
+  {
+    "Abbreviate":"Machine Gun",
+    "abbr":"MG"
+  },
+  {
+    "Abbreviate":"Machinery Control Room",
+    "abbr":"MCR"
+  },
+  {
+    "Abbreviate":"Magnetic Anomaly Detection",
+    "abbr":"MAD"
+  },
+  {
+    "Abbreviate":"Main Battle Tank",
+    "abbr":"MBT"
+  },
+  {
+    "Abbreviate":"Main Communication Office",
+    "abbr":"MCO"
+  },
+  {
+    "Abbreviate":"Main Dressing Station",
+    "abbr":"MDS"
+  },
+  {
+    "Abbreviate":"Main Operating Base",
+    "abbr":"MOB"
+  },
+  {
+    "Abbreviate":"Main Signal Office",
+    "abbr":"MSO"
+  },
+  {
+    "Abbreviate":"Main Supply Route",
+    "abbr":"MSR"
+  },
+  {
+    "Abbreviate":"Maintain",
+    "abbr":"maint"
+  },
+  {
+    "Abbreviate":"Maintenance Area",
+    "abbr":"MA"
+  },
+  {
+    "Abbreviate":"Maintenance Unit",
+    "abbr":"MU"
+  },
+  {
+    "Abbreviate":"Major(ity)",
+    "abbr":"maj"
+  },
+  {
+    "Abbreviate":"Manage",
+    "abbr":"man"
+  },
+  {
+    "Abbreviate":"Management",
+    "abbr":"Mgt"
+  },
+  {
+    "Abbreviate":"Manoeuver",
+    "abbr":"mnvr"
+  },
+  {
+    "Abbreviate":"Manual of Bangladesh Military Law",
+    "abbr":"MBML"
+  },
+  {
+    "Abbreviate":"Map Reading",
+    "abbr":"MR"
+  },
+  {
+    "Abbreviate":"Marine Sound Signal",
+    "abbr":"MSS"
+  },
+  {
+    "Abbreviate":"Maritime Headquarters",
+    "abbr":"MHQ"
+  },
+  {
+    "Abbreviate":"Maritime or Master (titles etc)",
+    "abbr":"M"
+  },
+  {
+    "Abbreviate":"Maritime Patrol Aircraft",
+    "abbr":"MPA"
+  },
+  {
+    "Abbreviate":"Maritime Radar Reconnaissance",
+    "abbr":"MRR"
+  },
+  {
+    "Abbreviate":"Mark",
+    "abbr":"mk"
+  },
+  {
+    "Abbreviate":"Maximize",
+    "abbr":"max"
+  },
+  {
+    "Abbreviate":"Maximum Effective Range",
+    "abbr":"MER"
+  },
+  {
+    "Abbreviate":"Meal Ready to Eat",
+    "abbr":"MRE"
+  },
+  {
+    "Abbreviate":"Mean High Water Springs",
+    "abbr":"MHWS"
+  },
+  {
+    "Abbreviate":"Mean Line of Advance",
+    "abbr":"MLA"
+  },
+  {
+    "Abbreviate":"Mean Low Water Springs",
+    "abbr":"MLWS"
+  },
+  {
+    "Abbreviate":"Mean Point of Impact",
+    "abbr":"MPI"
+  },
+  {
+    "Abbreviate":"Mean Sea Level",
+    "abbr":"MSL"
+  },
+  {
+    "Abbreviate":"Mechanical Transport Officer",
+    "abbr":"MTO"
+  },
+  {
+    "Abbreviate":"Mechanized",
+    "abbr":"mech"
+  },
+  {
+    "Abbreviate":"Mechanized Infantry Combat Vehicle",
+    "abbr":"MICV"
+  },
+  {
+    "Abbreviate":"Medical Inspection",
+    "abbr":"MI"
+  },
+  {
+    "Abbreviate":"Medium Frequency",
+    "abbr":"MF"
+  },
+  {
+    "Abbreviate":"Medium Machine Gun",
+    "abbr":"MMG"
+  },
+  {
+    "Abbreviate":"Medium Range Anti Submarine Torpedo-Carrying Helicopter",
+    "abbr":"MATCH"
+  },
+  {
+    "Abbreviate":"Memorandum",
+    "abbr":"memo"
+  },
+  {
+    "Abbreviate":"Memorandum(s) of Understanding",
+    "abbr":"MOU"
+  },
+  {
+    "Abbreviate":"Message",
+    "abbr":"msg"
+  },
+  {
+    "Abbreviate":"Mile per hour",
+    "abbr":"mph"
+  },
+  {
+    "Abbreviate":"Miles per gallon",
+    "abbr":"mpg"
+  },
+  {
+    "Abbreviate":"Military",
+    "abbr":"mil"
+  },
+  {
+    "Abbreviate":"Military Credit Note",
+    "abbr":"MC Note"
+  },
+  {
+    "Abbreviate":"Military Engineering Services",
+    "abbr":"MES"
+  },
+  {
+    "Abbreviate":"Military Intelligence",
+    "abbr":"MI"
+  },
+  {
+    "Abbreviate":"Military Load Classification",
+    "abbr":"MLC"
+  },
+  {
+    "Abbreviate":"Military Operations",
+    "abbr":"MO"
+  },
+  {
+    "Abbreviate":"Military Police",
+    "abbr":"MP"
+  },
+  {
+    "Abbreviate":"Military Station Library",
+    "abbr":"MSL"
+  },
+  {
+    "Abbreviate":"Military Training Area",
+    "abbr":"MTA"
+  },
+  {
+    "Abbreviate":"Military Training Pamphlet",
+    "abbr":"MTP"
+  },
+  {
+    "Abbreviate":"Mine Counter Measure Vessel",
+    "abbr":"MCMV"
+  },
+  {
+    "Abbreviate":"Mine Countermeasure",
+    "abbr":"MCM"
+  },
+  {
+    "Abbreviate":"Ministry of Defence",
+    "abbr":"MOD"
+  },
+  {
+    "Abbreviate":"Ministry of Defence Constabulary",
+    "abbr":"MODC"
+  },
+  {
+    "Abbreviate":"Miscellaneous",
+    "abbr":"misc"
+  },
+  {
+    "Abbreviate":"Missile",
+    "abbr":"msl"
+  },
+  {
+    "Abbreviate":"Missile Engagement Zone",
+    "abbr":"MEZ"
+  },
+  {
+    "Abbreviate":"Missing in Action",
+    "abbr":"MIA"
+  },
+  {
+    "Abbreviate":"Mission",
+    "abbr":"msn"
+  },
+  {
+    "Abbreviate":"Mission Essential Task",
+    "abbr":"MET"
+  },
+  {
+    "Abbreviate":"Mission Oriented Training",
+    "abbr":"MOT"
+  },
+  {
+    "Abbreviate":"Mission Report",
+    "abbr":"MISREP"
+  },
+  {
+    "Abbreviate":"Mobile Dental Unit",
+    "abbr":"MDU"
+  },
+  {
+    "Abbreviate":"Mobile Forward Base",
+    "abbr":"MFB"
+  },
+  {
+    "Abbreviate":"Mobile Surgical Team",
+    "abbr":"MST"
+  },
+  {
+    "Abbreviate":"Mobile Technical Detachment",
+    "abbr":"MTD"
+  },
+  {
+    "Abbreviate":"Model Discussion",
+    "abbr":"MD"
+  },
+  {
+    "Abbreviate":"Modify",
+    "abbr":"mod"
+  },
+  {
+    "Abbreviate":"Mortar",
+    "abbr":"mor"
+  },
+  {
+    "Abbreviate":"Mortar Bombing Report",
+    "abbr":"MORTREP"
+  },
+  {
+    "Abbreviate":"Motor Fishing Vessel",
+    "abbr":"MFV"
+  },
+  {
+    "Abbreviate":"Motor Launch",
+    "abbr":"ML"
+  },
+  {
+    "Abbreviate":"Motor Torpedo Boat",
+    "abbr":"MTB"
+  },
+  {
+    "Abbreviate":"Mount",
+    "abbr":"mt"
+  },
+  {
+    "Abbreviate":"Mountain",
+    "abbr":"mtn"
+  },
+  {
+    "Abbreviate":"Mountain Warfare",
+    "abbr":"MW"
+  },
+  {
+    "Abbreviate":"Mounted",
+    "abbr":"mtd"
+  },
+  {
+    "Abbreviate":"Mounting",
+    "abbr":"mtg"
+  },
+  {
+    "Abbreviate":"Move",
+    "abbr":"mov"
+  },
+  {
+    "Abbreviate":"Movement Order",
+    "abbr":"movO"
+  },
+  {
+    "Abbreviate":"Moving Target Indicator",
+    "abbr":"MTI"
+  },
+  {
+    "Abbreviate":"Multiple Launch Rocket System",
+    "abbr":"MLRS"
+  },
+  {
+    "Abbreviate":"Multiple Rocket Launcher",
+    "abbr":"MRL"
+  },
+  {
+    "Abbreviate":"Muzzle Velocity",
+    "abbr":"MV"
+  },
+  {
+    "Abbreviate":"Named Area of Interest",
+    "abbr":"NAI"
+  },
+  {
+    "Abbreviate":"National",
+    "abbr":"Ntl"
+  },
+  {
+    "Abbreviate":"National Security Intelligence",
+    "abbr":"NSI"
+  },
+  {
+    "Abbreviate":"Naval Armament Inspection Organization ",
+    "abbr":"NAIO"
+  },
+  {
+    "Abbreviate":"Naval Armament Store Depot",
+    "abbr":"NASD"
+  },
+  {
+    "Abbreviate":"Naval Gunfire Support",
+    "abbr":"NGS"
+  },
+  {
+    "Abbreviate":"Naval Headquarters",
+    "abbr":"NHQ"
+  },
+  {
+    "Abbreviate":"Naval Inflatable Lifesaving Equipment",
+    "abbr":"NILE"
+  },
+  {
+    "Abbreviate":"Naval Stores Depot",
+    "abbr":"NSD"
+  },
+  {
+    "Abbreviate":"Navigate",
+    "abbr":"nav"
+  },
+  {
+    "Abbreviate":"Navigation (BN only)",
+    "abbr":"(N)"
+  },
+  {
+    "Abbreviate":"Navigation and Direction (BN Only)",
+    "abbr":"(ND)"
+  },
+  {
+    "Abbreviate":"Navy Instructions",
+    "abbr":"NI"
+  },
+  {
+    "Abbreviate":"Navy Regulations",
+    "abbr":"NR"
+  },
+  {
+    "Abbreviate":"Necessitate",
+    "abbr":"nec"
+  },
+  {
+    "Abbreviate":"Next of Kin",
+    "abbr":"NOK"
+  },
+  {
+    "Abbreviate":"Night (ly)",
+    "abbr":"ni"
+  },
+  {
+    "Abbreviate":"Night Visibility Plan",
+    "abbr":"NVP"
+  },
+  {
+    "Abbreviate":"Night Vision Goggle",
+    "abbr":"NVG"
+  },
+  {
+    "Abbreviate":"No Further Action",
+    "abbr":"NFA"
+  },
+  {
+    "Abbreviate":"No Move Before",
+    "abbr":"NMB"
+  },
+  {
+    "Abbreviate":"No Penetration Line",
+    "abbr":"NPL"
+  },
+  {
+    "Abbreviate":"Nom De Plume",
+    "abbr":"NDP"
+  },
+  {
+    "Abbreviate":"Non Directional Beacon",
+    "abbr":"NDB"
+  },
+  {
+    "Abbreviate":"Not Applicable",
+    "abbr":"NA"
+  },
+  {
+    "Abbreviate":"Not to all addressees",
+    "abbr":"NOTAL"
+  },
+  {
+    "Abbreviate":"Nothing to Report",
+    "abbr":"NTR"
+  },
+  {
+    "Abbreviate":"Notice to Airmen",
+    "abbr":"NOTAM"
+  },
+  {
+    "Abbreviate":"Notice to Move",
+    "abbr":"NTM"
+  },
+  {
+    "Abbreviate":"Nuclear",
+    "abbr":"nuc"
+  },
+  {
+    "Abbreviate":"Nuclear Depth Bomb",
+    "abbr":"NDB"
+  },
+  {
+    "Abbreviate":"Nuclear Killing Zone",
+    "abbr":"NKZ"
+  },
+  {
+    "Abbreviate":"Nuclear Powered Guided Missile Submarine",
+    "abbr":"SSGN"
+  },
+  {
+    "Abbreviate":"Nuclear Powered Submarine",
+    "abbr":"SSN"
+  },
+  {
+    "Abbreviate":"Nuclear Reserved Area",
+    "abbr":"NRA"
+  },
+  {
+    "Abbreviate":"Nuclear, Biological and Chemical",
+    "abbr":"NBC"
+  },
+  {
+    "Abbreviate":"Nuclear, Biological and Chemical Defence and Damage Control",
+    "abbr":"NBCD"
+  },
+  {
+    "Abbreviate":"Number",
+    "abbr":"no"
+  },
+  {
+    "Abbreviate":"Observation",
+    "abbr":"obsn"
+  },
+  {
+    "Abbreviate":"Observation Post",
+    "abbr":"OP"
+  },
+  {
+    "Abbreviate":"Obstacle (s)",
+    "abbr":"obs"
+  },
+  {
+    "Abbreviate":"Occupation",
+    "abbr":"occu"
+  },
+  {
+    "Abbreviate":"Offensive",
+    "abbr":"offn"
+  },
+  {
+    "Abbreviate":"Offensive Air Support",
+    "abbr":"OAS"
+  },
+  {
+    "Abbreviate":"Officer",
+    "abbr":"offr"
+  },
+  {
+    "Abbreviate":"Officer Conducting the Exercise",
+    "abbr":"OCE"
+  },
+  {
+    "Abbreviate":"Officer in Charge",
+    "abbr":"OIC"
+  },
+  {
+    "Abbreviate":"Officers Weapon Course",
+    "abbr":"OWC"
+  },
+  {
+    "Abbreviate":"Officiating",
+    "abbr":"offg"
+  },
+  {
+    "Abbreviate":"On the Job Training",
+    "abbr":"OJT"
+  },
+  {
+    "Abbreviate":"Operate",
+    "abbr":"op"
+  },
+  {
+    "Abbreviate":"Operation Order",
+    "abbr":"opO"
+  },
+  {
+    "Abbreviate":"Operational Demand",
+    "abbr":"OPDEM"
+  },
+  {
+    "Abbreviate":"Operational Plan",
+    "abbr":"Ops Plan"
+  },
+  {
+    "Abbreviate":"Operational Readiness Platform",
+    "abbr":"ORP"
+  },
+  {
+    "Abbreviate":"Operational Sea Training Group",
+    "abbr":"OSTG"
+  },
+  {
+    "Abbreviate":"Oral Order",
+    "abbr":"OO"
+  },
+  {
+    "Abbreviate":"Order (when used in conjunction with other words)",
+    "abbr":"O"
+  },
+  {
+    "Abbreviate":"Order of Battle",
+    "abbr":"ORBAT"
+  },
+  {
+    "Abbreviate":"Order of March",
+    "abbr":"OOM"
+  },
+  {
+    "Abbreviate":"Orders Group",
+    "abbr":"O gp"
+  },
+  {
+    "Abbreviate":"Ordnance",
+    "abbr":"ord"
+  },
+  {
+    "Abbreviate":"Ordnance Depot",
+    "abbr":"ordep"
+  },
+  {
+    "Abbreviate":"Organize",
+    "abbr":"org"
+  },
+  {
+    "Abbreviate":"Originate",
+    "abbr":"orig"
+  },
+  {
+    "Abbreviate":"Other Rank (s)",
+    "abbr":"OR"
+  },
+  {
+    "Abbreviate":"Out Board Motor",
+    "abbr":"OBM"
+  },
+  {
+    "Abbreviate":"Over Head Cover",
+    "abbr":"OHC"
+  },
+  {
+    "Abbreviate":"Over Head Protection/Projector",
+    "abbr":"OHP"
+  },
+  {
+    "Abbreviate":"Over Staying Leave",
+    "abbr":"OSL"
+  },
+  {
+    "Abbreviate":"Packet",
+    "abbr":"pkt"
+  },
+  {
+    "Abbreviate":"Pamphlet",
+    "abbr":"pamp"
+  },
+  {
+    "Abbreviate":"Paper Under Consideration",
+    "abbr":"PUC"
+  },
+  {
+    "Abbreviate":"Passage in Line",
+    "abbr":"P in L"
+  },
+  {
+    "Abbreviate":"Passage of Information",
+    "abbr":"P of I"
+  },
+  {
+    "Abbreviate":"Passenger(s)",
+    "abbr":"pax"
+  },
+  {
+    "Abbreviate":"Passive Air Defence",
+    "abbr":"PAD"
+  },
+  {
+    "Abbreviate":"Patrol",
+    "abbr":"ptl"
+  },
+  {
+    "Abbreviate":"Patrol Craft",
+    "abbr":"PC"
+  },
+  {
+    "Abbreviate":"Patrol Craft Squadron",
+    "abbr":"PCS"
+  },
+  {
+    "Abbreviate":"Pay, Pension and Allowance",
+    "abbr":"PP&A"
+  },
+  {
+    "Abbreviate":"Penetrate",
+    "abbr":"pen"
+  },
+  {
+    "Abbreviate":"Period (ic) (ical)",
+    "abbr":"pd"
+  },
+  {
+    "Abbreviate":"Periodical Intelligence Report",
+    "abbr":"PERINTREP"
+  },
+  {
+    "Abbreviate":"Permanent (ly)",
+    "abbr":"perm"
+  },
+  {
+    "Abbreviate":"Personal Computer",
+    "abbr":"PC"
+  },
+  {
+    "Abbreviate":"Personal Radio Communications",
+    "abbr":"PRC"
+  },
+  {
+    "Abbreviate":"Personnel",
+    "abbr":"pers"
+  },
+  {
+    "Abbreviate":"Personnel Administration",
+    "abbr":"PA"
+  },
+  {
+    "Abbreviate":"Personnel Locator Beacon",
+    "abbr":"PLB"
+  },
+  {
+    "Abbreviate":"Personnel Service",
+    "abbr":"PS"
+  },
+  {
+    "Abbreviate":"Petroleum",
+    "abbr":"pet"
+  },
+  {
+    "Abbreviate":"Petroleum Pipehead",
+    "abbr":"PPH"
+  },
+  {
+    "Abbreviate":"Petroleum Point",
+    "abbr":"PP"
+  },
+  {
+    "Abbreviate":"Petroleum, Oil and Lubricants",
+    "abbr":"POL"
+  },
+  {
+    "Abbreviate":"Phase",
+    "abbr":"ph"
+  },
+  {
+    "Abbreviate":"Photograph",
+    "abbr":"photo"
+  },
+  {
+    "Abbreviate":"Physical Training",
+    "abbr":"PT"
+  },
+  {
+    "Abbreviate":"Picquet",
+    "abbr":"pqt"
+  },
+  {
+    "Abbreviate":"Pilot",
+    "abbr":"plt"
+  },
+  {
+    "Abbreviate":"Plain Paper Copier",
+    "abbr":"PPC"
+  },
+  {
+    "Abbreviate":"Plan Position Indicator",
+    "abbr":"PPI"
+  },
+  {
+    "Abbreviate":"Planning",
+    "abbr":"plg"
+  },
+  {
+    "Abbreviate":"Plastic Explosive",
+    "abbr":"PE"
+  },
+  {
+    "Abbreviate":"Point",
+    "abbr":"pt"
+  },
+  {
+    "Abbreviate":"Populate",
+    "abbr":"pop"
+  },
+  {
+    "Abbreviate":"Position",
+    "abbr":"posn"
+  },
+  {
+    "Abbreviate":"Position and Intended Movement",
+    "abbr":"PIM"
+  },
+  {
+    "Abbreviate":"Position, Course and Speed",
+    "abbr":"pcs"
+  },
+  {
+    "Abbreviate":"Possible/Possibility",
+    "abbr":"poss"
+  },
+  {
+    "Abbreviate":"Post Office",
+    "abbr":"PO"
+  },
+  {
+    "Abbreviate":"Pounder",
+    "abbr":"pdr"
+  },
+  {
+    "Abbreviate":"Practice",
+    "abbr":"prac"
+  },
+  {
+    "Abbreviate":"Pre-Action Calibration",
+    "abbr":"PAC"
+  },
+  {
+    "Abbreviate":"Pre-Joining Training",
+    "abbr":"PJT"
+  },
+  {
+    "Abbreviate":"Preliminary",
+    "abbr":"prelim"
+  },
+  {
+    "Abbreviate":"Prepare",
+    "abbr":"prep"
+  },
+  {
+    "Abbreviate":"President of Mess Committee",
+    "abbr":"PMC"
+  },
+  {
+    "Abbreviate":"President's Guard Regiment",
+    "abbr":"PGR"
+  },
+  {
+    "Abbreviate":"Priority",
+    "abbr":"pri"
+  },
+  {
+    "Abbreviate":"Private (ly)",
+    "abbr":"pte"
+  },
+  {
+    "Abbreviate":"Privilege Leave",
+    "abbr":"P Leave"
+  },
+  {
+    "Abbreviate":"Problem",
+    "abbr":"prob"
+  },
+  {
+    "Abbreviate":"Produce",
+    "abbr":"pro"
+  },
+  {
+    "Abbreviate":"Programme",
+    "abbr":"prog"
+  },
+  {
+    "Abbreviate":"Project",
+    "abbr":"proj"
+  },
+  {
+    "Abbreviate":"Propel",
+    "abbr":"prop"
+  },
+  {
+    "Abbreviate":"Protective Fire",
+    "abbr":"PF"
+  },
+  {
+    "Abbreviate":"Provision",
+    "abbr":"prov"
+  },
+  {
+    "Abbreviate":"Provost",
+    "abbr":"Pro"
+  },
+  {
+    "Abbreviate":"Psychological Warfare",
+    "abbr":"psy W"
+  },
+  {
+    "Abbreviate":"Public Address",
+    "abbr":"PA"
+  },
+  {
+    "Abbreviate":"Public Information",
+    "abbr":"P info"
+  },
+  {
+    "Abbreviate":"Publish/Publication",
+    "abbr":"pub"
+  },
+  {
+    "Abbreviate":"Put Up",
+    "abbr":"PU"
+  },
+  {
+    "Abbreviate":"Put Up Separately",
+    "abbr":"PUS"
+  },
+  {
+    "Abbreviate":"Qualified Flying Instructor",
+    "abbr":"QFI"
+  },
+  {
+    "Abbreviate":"Qualified Helicopter Instructor",
+    "abbr":"QHI"
+  },
+  {
+    "Abbreviate":"Qualified Weapon Instructor",
+    "abbr":"QWI"
+  },
+  {
+    "Abbreviate":"Qualify/Qualified/Qualification",
+    "abbr":"qual"
+  },
+  {
+    "Abbreviate":"Quantity",
+    "abbr":"qty"
+  },
+  {
+    "Abbreviate":"Quarter",
+    "abbr":"qtr"
+  },
+  {
+    "Abbreviate":"Quarter Ending",
+    "abbr":"QE"
+  },
+  {
+    "Abbreviate":"Quarter Guard",
+    "abbr":"QG"
+  },
+  {
+    "Abbreviate":"Question",
+    "abbr":"ques"
+  },
+  {
+    "Abbreviate":"Radiation Hazard",
+    "abbr":"RADHAZ"
+  },
+  {
+    "Abbreviate":"Radio Active",
+    "abbr":"rad A"
+  },
+  {
+    "Abbreviate":"Radio Teletype",
+    "abbr":"RATT"
+  },
+  {
+    "Abbreviate":"Radius of Action",
+    "abbr":"ROA"
+  },
+  {
+    "Abbreviate":"Railhead",
+    "abbr":"rhd"
+  },
+  {
+    "Abbreviate":"Railway",
+    "abbr":"rly"
+  },
+  {
+    "Abbreviate":"Rally Area",
+    "abbr":"RA"
+  },
+  {
+    "Abbreviate":"Range",
+    "abbr":"rng"
+  },
+  {
+    "Abbreviate":"Rank",
+    "abbr":"rk"
+  },
+  {
+    "Abbreviate":"Rapid Action Force",
+    "abbr":"RAF"
+  },
+  {
+    "Abbreviate":"Rapid Demolition Device",
+    "abbr":"RDD"
+  },
+  {
+    "Abbreviate":"Rapid Runway Repair",
+    "abbr":"RRR"
+  },
+  {
+    "Abbreviate":"Rate of Climb",
+    "abbr":"ROC"
+  },
+  {
+    "Abbreviate":"Rate of Descend",
+    "abbr":"ROD"
+  },
+  {
+    "Abbreviate":"Rate of Fire",
+    "abbr":"ROF"
+  },
+  {
+    "Abbreviate":"Ration Point",
+    "abbr":"rat P"
+  },
+  {
+    "Abbreviate":"Ration Returns",
+    "abbr":"RR"
+  },
+  {
+    "Abbreviate":"Ration(s)",
+    "abbr":"rat"
+  },
+  {
+    "Abbreviate":"Ready to Move",
+    "abbr":"RTM"
+  },
+  {
+    "Abbreviate":"Rear Combat Zone",
+    "abbr":"RCZ"
+  },
+  {
+    "Abbreviate":"Rear Maintenance Area",
+    "abbr":"RMA"
+  },
+  {
+    "Abbreviate":"Recognize",
+    "abbr":"Recog"
+  },
+  {
+    "Abbreviate":"Recommendation",
+    "abbr":"recom"
+  },
+  {
+    "Abbreviate":"Reconnaissance Group",
+    "abbr":"R gp"
+  },
+  {
+    "Abbreviate":"Reconnoiter",
+    "abbr":"recce"
+  },
+  {
+    "Abbreviate":"Recover",
+    "abbr":"rec"
+  },
+  {
+    "Abbreviate":"Recreation Leave",
+    "abbr":"R Leave"
+  },
+  {
+    "Abbreviate":"Recruit",
+    "abbr":"rect"
+  },
+  {
+    "Abbreviate":"Refer",
+    "abbr":"ref"
+  },
+  {
+    "Abbreviate":"Regiment (al) (ation)",
+    "abbr":"regt"
+  },
+  {
+    "Abbreviate":"Regimental Aid Post",
+    "abbr":"RAP"
+  },
+  {
+    "Abbreviate":"Regimental Command Post",
+    "abbr":"RCP"
+  },
+  {
+    "Abbreviate":"Regimental Headquarters",
+    "abbr":"RHQ"
+  },
+  {
+    "Abbreviate":"Region Military Commander",
+    "abbr":"RMC"
+  },
+  {
+    "Abbreviate":"Regulate",
+    "abbr":"reg"
+  },
+  {
+    "Abbreviate":"Rehabilitate",
+    "abbr":"Rehab"
+  },
+  {
+    "Abbreviate":"Reinforcement",
+    "abbr":"rft"
+  },
+  {
+    "Abbreviate":"Release Point",
+    "abbr":"rel P"
+  },
+  {
+    "Abbreviate":"Remarks",
+    "abbr":"rmk"
+  },
+  {
+    "Abbreviate":"Remotely Piloted Vehicle",
+    "abbr":"RPV"
+  },
+  {
+    "Abbreviate":"Repeated",
+    "abbr":"rptd"
+  },
+  {
+    "Abbreviate":"Replacement at Sea",
+    "abbr":"RAS"
+  },
+  {
+    "Abbreviate":"Replenish",
+    "abbr":"replen"
+  },
+  {
+    "Abbreviate":"Represent",
+    "abbr":"rep"
+  },
+  {
+    "Abbreviate":"Request",
+    "abbr":"req"
+  },
+  {
+    "Abbreviate":"Require",
+    "abbr":"reqr"
+  },
+  {
+    "Abbreviate":"Requisition",
+    "abbr":"rqn"
+  },
+  {
+    "Abbreviate":"Research and Development",
+    "abbr":"R&D"
+  },
+  {
+    "Abbreviate":"Reserve (s)",
+    "abbr":"res"
+  },
+  {
+    "Abbreviate":"Restricted",
+    "abbr":"restd"
+  },
+  {
+    "Abbreviate":"Retail Issue Shop",
+    "abbr":"RIS"
+  },
+  {
+    "Abbreviate":"Retired",
+    "abbr":"retd"
+  },
+  {
+    "Abbreviate":"Return to Base",
+    "abbr":"RTB"
+  },
+  {
+    "Abbreviate":"Return to Unit",
+    "abbr":"RTU"
+  },
+  {
+    "Abbreviate":"Revenue",
+    "abbr":"rev"
+  },
+  {
+    "Abbreviate":"Revolution per minute",
+    "abbr":"rpm"
+  },
+  {
+    "Abbreviate":"Rifleman",
+    "abbr":"rfn"
+  },
+  {
+    "Abbreviate":"Right",
+    "abbr":"rt"
+  },
+  {
+    "Abbreviate":"Rigorous Imprisonment",
+    "abbr":"RI"
+  },
+  {
+    "Abbreviate":"River",
+    "abbr":"riv"
+  },
+  {
+    "Abbreviate":"Road Block",
+    "abbr":"rd block"
+  },
+  {
+    "Abbreviate":"Roadhead",
+    "abbr":"rdH"
+  },
+  {
+    "Abbreviate":"Rocket",
+    "abbr":"rkt"
+  },
+  {
+    "Abbreviate":"Rocket Launcher",
+    "abbr":"RL"
+  },
+  {
+    "Abbreviate":"Rounds per gun",
+    "abbr":"rpg"
+  },
+  {
+    "Abbreviate":"Rounds per mortar",
+    "abbr":"r/mor"
+  },
+  {
+    "Abbreviate":"Route March",
+    "abbr":"RM"
+  },
+  {
+    "Abbreviate":"Routine in Line",
+    "abbr":"R in L"
+  },
+  {
+    "Abbreviate":"Routine Order",
+    "abbr":"RO"
+  },
+  {
+    "Abbreviate":"Rules of Engagement",
+    "abbr":"ROE"
+  },
+  {
+    "Abbreviate":"Safety  Fuze",
+    "abbr":"SF"
+  },
+  {
+    "Abbreviate":"Salvage",
+    "abbr":"sal"
+  },
+  {
+    "Abbreviate":"Scene of Action Commander",
+    "abbr":"SAC"
+  },
+  {
+    "Abbreviate":"Sea Acceptance Trials",
+    "abbr":"SAT"
+  },
+  {
+    "Abbreviate":"Sea Control Tactical Analysis Game",
+    "abbr":"SEATAG"
+  },
+  {
+    "Abbreviate":"Sea Exercise Programme",
+    "abbr":"SEP"
+  },
+  {
+    "Abbreviate":"Sea Lines of Communication",
+    "abbr":"SLOC"
+  },
+  {
+    "Abbreviate":"Search and Rescue",
+    "abbr":"SAR"
+  },
+  {
+    "Abbreviate":"Search and Rescue Beacon",
+    "abbr":"SRB"
+  },
+  {
+    "Abbreviate":"Search Attack Unit",
+    "abbr":"SAU"
+  },
+  {
+    "Abbreviate":"Search Light",
+    "abbr":"SL"
+  },
+  {
+    "Abbreviate":"Second (time)",
+    "abbr":"sec"
+  },
+  {
+    "Abbreviate":"Secretariat (e)/Secretarial",
+    "abbr":"sectt"
+  },
+  {
+    "Abbreviate":"Secretary",
+    "abbr":"secy"
+  },
+  {
+    "Abbreviate":"Sector Headquarters",
+    "abbr":"SHQ"
+  },
+  {
+    "Abbreviate":"Sector Operation Centre",
+    "abbr":"SOC"
+  },
+  {
+    "Abbreviate":"Security",
+    "abbr":"sy"
+  },
+  {
+    "Abbreviate":"Security Intelligence Report",
+    "abbr":"SIR"
+  },
+  {
+    "Abbreviate":"Selective Stockage List",
+    "abbr":"SSL"
+  },
+  {
+    "Abbreviate":"Self Loading Rifle",
+    "abbr":"SLR"
+  },
+  {
+    "Abbreviate":"Senior (ity)",
+    "abbr":"sr"
+  },
+  {
+    "Abbreviate":"Sequence",
+    "abbr":"seq"
+  },
+  {
+    "Abbreviate":"Serial (ly) (ity)",
+    "abbr":"ser"
+  },
+  {
+    "Abbreviate":"Service",
+    "abbr":"svc"
+  },
+  {
+    "Abbreviate":"Shelling Report",
+    "abbr":"SHELREP"
+  },
+  {
+    "Abbreviate":"Ship Controlled Approach",
+    "abbr":"SCA"
+  },
+  {
+    "Abbreviate":"Short Range",
+    "abbr":"SR"
+  },
+  {
+    "Abbreviate":"Short Range Air Defence",
+    "abbr":"SHORAD"
+  },
+  {
+    "Abbreviate":"Short Service Commission",
+    "abbr":"SSC"
+  },
+  {
+    "Abbreviate":"Short/Vertical Take-off and Landing",
+    "abbr":"S/VTOL"
+  },
+  {
+    "Abbreviate":"Signal",
+    "abbr":"sig"
+  },
+  {
+    "Abbreviate":"Signal Centre",
+    "abbr":"sigcen"
+  },
+  {
+    "Abbreviate":"Signal Despatch Service",
+    "abbr":"SDS"
+  },
+  {
+    "Abbreviate":"Signal Intelligence",
+    "abbr":"SIGINT"
+  },
+  {
+    "Abbreviate":"Signature",
+    "abbr":"sign"
+  },
+  {
+    "Abbreviate":"Simulate",
+    "abbr":"sim"
+  },
+  {
+    "Abbreviate":"Simulated Attack Profile",
+    "abbr":"SAP"
+  },
+  {
+    "Abbreviate":"Single Side Band",
+    "abbr":"SSB"
+  },
+  {
+    "Abbreviate":"Situation",
+    "abbr":"sit"
+  },
+  {
+    "Abbreviate":"Situation Report",
+    "abbr":"SITREP"
+  },
+  {
+    "Abbreviate":"Situational Training Exercise",
+    "abbr":"STX"
+  },
+  {
+    "Abbreviate":"Sketch",
+    "abbr":"sk"
+  },
+  {
+    "Abbreviate":"Small Arms",
+    "abbr":"SA"
+  },
+  {
+    "Abbreviate":"Small Arms Ammunition",
+    "abbr":"SAA"
+  },
+  {
+    "Abbreviate":"Small Arms Course",
+    "abbr":"SAC"
+  },
+  {
+    "Abbreviate":"Smoke",
+    "abbr":"smk"
+  },
+  {
+    "Abbreviate":"Soldier (ly)",
+    "abbr":"sldr"
+  },
+  {
+    "Abbreviate":"Solution",
+    "abbr":"soln"
+  },
+  {
+    "Abbreviate":"Sonar Control Room",
+    "abbr":"SCR"
+  },
+  {
+    "Abbreviate":"Sonar Sound Telephony",
+    "abbr":"SST"
+  },
+  {
+    "Abbreviate":"Sound Ranging",
+    "abbr":"Srg"
+  },
+  {
+    "Abbreviate":"Spanner patrol",
+    "abbr":"spnr ptl"
+  },
+  {
+    "Abbreviate":"Spare Parts Distributing Centre",
+    "abbr":"SPDC"
+  },
+  {
+    "Abbreviate":"Speak",
+    "abbr":"spk"
+  },
+  {
+    "Abbreviate":"Special Air Operation",
+    "abbr":"SAO"
+  },
+  {
+    "Abbreviate":"Special Bangladesh Army Order",
+    "abbr":"SBAO"
+  },
+  {
+    "Abbreviate":"Special Forces",
+    "abbr":"SF"
+  },
+  {
+    "Abbreviate":"Special Investigation Branch",
+    "abbr":"SIB"
+  },
+  {
+    "Abbreviate":"Special Occurrence Report",
+    "abbr":"SOR"
+  },
+  {
+    "Abbreviate":"Special Sea Exercise Program",
+    "abbr":"SSEP"
+  },
+  {
+    "Abbreviate":"Special Security Force",
+    "abbr":"SSF"
+  },
+  {
+    "Abbreviate":"Specialize",
+    "abbr":"spl"
+  },
+  {
+    "Abbreviate":"Specify",
+    "abbr":"spec"
+  },
+  {
+    "Abbreviate":"Speed",
+    "abbr":"spd"
+  },
+  {
+    "Abbreviate":"Speed of Advance",
+    "abbr":"SOA"
+  },
+  {
+    "Abbreviate":"Squadron",
+    "abbr":"sqn"
+  },
+  {
+    "Abbreviate":"Squadron Headquarters",
+    "abbr":"SHQ"
+  },
+  {
+    "Abbreviate":"Square",
+    "abbr":"sq"
+  },
+  {
+    "Abbreviate":"Staff Continuation Training",
+    "abbr":"SCT"
+  },
+  {
+    "Abbreviate":"Staff Course",
+    "abbr":"SC"
+  },
+  {
+    "Abbreviate":"Standardize",
+    "abbr":"std"
+  },
+  {
+    "Abbreviate":"Standing Operating Procedure",
+    "abbr":"SOP"
+  },
+  {
+    "Abbreviate":"Start Line",
+    "abbr":"SL"
+  },
+  {
+    "Abbreviate":"Station",
+    "abbr":"sta"
+  },
+  {
+    "Abbreviate":"Stationery",
+    "abbr":"sty"
+  },
+  {
+    "Abbreviate":"Steel Wire Rope",
+    "abbr":"SWR"
+  },
+  {
+    "Abbreviate":"Stenographer",
+    "abbr":"steno"
+  },
+  {
+    "Abbreviate":"Strafing",
+    "abbr":"Stg"
+  },
+  {
+    "Abbreviate":"Strategic(al)/Strategy",
+    "abbr":"start"
+  },
+  {
+    "Abbreviate":"Strength",
+    "abbr":"str"
+  },
+  {
+    "Abbreviate":"Sub Surface Raid Reporting Control Ship",
+    "abbr":"SSRRCS"
+  },
+  {
+    "Abbreviate":"Subject",
+    "abbr":"subj"
+  },
+  {
+    "Abbreviate":"Submachine Carbine",
+    "abbr":"SMC"
+  },
+  {
+    "Abbreviate":"Subordinate",
+    "abbr":"subord"
+  },
+  {
+    "Abbreviate":"Subscription",
+    "abbr":"Subs"
+  },
+  {
+    "Abbreviate":"Substantive",
+    "abbr":"subs"
+  },
+  {
+    "Abbreviate":"Summary Court Martial",
+    "abbr":"SCM"
+  },
+  {
+    "Abbreviate":"Summary General Court Martial",
+    "abbr":"SGCM"
+  },
+  {
+    "Abbreviate":"Summary of Evidence",
+    "abbr":"S of E"
+  },
+  {
+    "Abbreviate":"Summer Collective Training",
+    "abbr":"SCT"
+  },
+  {
+    "Abbreviate":"Super High Frequency",
+    "abbr":"SHF"
+  },
+  {
+    "Abbreviate":"Superintend ",
+    "abbr":"suptd"
+  },
+  {
+    "Abbreviate":"Superintending Engineer",
+    "abbr":"SE"
+  },
+  {
+    "Abbreviate":"Supernumerary",
+    "abbr":"Sny"
+  },
+  {
+    "Abbreviate":"Supplementary Intelligence Report",
+    "abbr":"SUPINTREP"
+  },
+  {
+    "Abbreviate":"Supply",
+    "abbr":"sup"
+  },
+  {
+    "Abbreviate":"Supply and Secretariat",
+    "abbr":"S & S"
+  },
+  {
+    "Abbreviate":"Supply and Transport",
+    "abbr":"ST"
+  },
+  {
+    "Abbreviate":"Supply Issue Point",
+    "abbr":"SIP"
+  },
+  {
+    "Abbreviate":"Supply Point",
+    "abbr":"sup P"
+  },
+  {
+    "Abbreviate":"Support",
+    "abbr":"sp"
+  },
+  {
+    "Abbreviate":"Support Helicopter",
+    "abbr":"SH"
+  },
+  {
+    "Abbreviate":"Supporting Arms Coordinating Centre",
+    "abbr":"SACC"
+  },
+  {
+    "Abbreviate":"Suppression of Enemy Air Defence",
+    "abbr":"SEAD"
+  },
+  {
+    "Abbreviate":"Surface",
+    "abbr":"su"
+  },
+  {
+    "Abbreviate":"Surface Action Group",
+    "abbr":"SAG"
+  },
+  {
+    "Abbreviate":"Self Propelled; Signal Publication; Start Point",
+    "abbr":"SP"
+  },
+  {
+    "Abbreviate":"Surface Raid Reporting Control Ship",
+    "abbr":"SRRCS"
+  },
+  {
+    "Abbreviate":"Surface to Air Missile",
+    "abbr":"SAM"
+  },
+  {
+    "Abbreviate":"Surface to Surface Guided Weapon",
+    "abbr":"SSGW"
+  },
+  {
+    "Abbreviate":"Surface to Surface Missile",
+    "abbr":"SSM"
+  },
+  {
+    "Abbreviate":"Surface Warfare",
+    "abbr":"SW"
+  },
+  {
+    "Abbreviate":"Surplus",
+    "abbr":"sur"
+  },
+  {
+    "Abbreviate":"Surveil",
+    "abbr":"surv"
+  },
+  {
+    "Abbreviate":"Surveillance and Target Acquisition (Plan)",
+    "abbr":"STA(P)"
+  },
+  {
+    "Abbreviate":"Survey",
+    "abbr":"svy"
+  },
+  {
+    "Abbreviate":"Switchboard",
+    "abbr":"swbd"
+  },
+  {
+    "Abbreviate":"Synchronize",
+    "abbr":"sync"
+  },
+  {
+    "Abbreviate":"Syndicate",
+    "abbr":"syn"
+  },
+  {
+    "Abbreviate":"System",
+    "abbr":"sys"
+  },
+  {
+    "Abbreviate":"Table of Organization and Equipment",
+    "abbr":"TO&E"
+  },
+  {
+    "Abbreviate":"Tabulated Record and Comparative Evaluation",
+    "abbr":"TRACE"
+  },
+  {
+    "Abbreviate":"Tactic(al)(s)",
+    "abbr":"tac"
+  },
+  {
+    "Abbreviate":"Tactical Air Control Centre",
+    "abbr":"TACC"
+  },
+  {
+    "Abbreviate":"Tactical Air Control Party",
+    "abbr":"TACP"
+  },
+  {
+    "Abbreviate":"Tactical Air Management",
+    "abbr":"TAM"
+  },
+  {
+    "Abbreviate":"Tactical Air Request",
+    "abbr":"TAR"
+  },
+  {
+    "Abbreviate":"Tactical Air Support of Land/Maritime Operations",
+    "abbr":"TASLO/"
+  },
+  {
+    "Abbreviate":"",
+    "abbr":"TASMO"
+  },
+  {
+    "Abbreviate":"Tactical Area of Operational Responsibility",
+    "abbr":"TAOR"
+  },
+  {
+    "Abbreviate":"Tactical Doctrine",
+    "abbr":"TD"
+  },
+  {
+    "Abbreviate":"Tactical Exercise Without Troops",
+    "abbr":"TEWT"
+  },
+  {
+    "Abbreviate":"Tactical Headquarters",
+    "abbr":"THQ"
+  },
+  {
+    "Abbreviate":"Tactical Reconnaissance",
+    "abbr":"tac R"
+  },
+  {
+    "Abbreviate":"Tactical Redeployment",
+    "abbr":"TRD"
+  },
+  {
+    "Abbreviate":"Taka",
+    "abbr":"Tk"
+  },
+  {
+    "Abbreviate":"Taken on Strength",
+    "abbr":"TOS"
+  },
+  {
+    "Abbreviate":"Tank",
+    "abbr":"tk"
+  },
+  {
+    "Abbreviate":"Target",
+    "abbr":"tgt"
+  },
+  {
+    "Abbreviate":"Target Area of Interest",
+    "abbr":"TAI"
+  },
+  {
+    "Abbreviate":"Target Engagement Message",
+    "abbr":"TEM"
+  },
+  {
+    "Abbreviate":"Target Indicator Unit",
+    "abbr":"TIU"
+  },
+  {
+    "Abbreviate":"Technical Investigation Report",
+    "abbr":"TIR"
+  },
+  {
+    "Abbreviate":"Technical Maintenance",
+    "abbr":"TM"
+  },
+  {
+    "Abbreviate":"Telephone Control Box",
+    "abbr":"TCB"
+  },
+  {
+    "Abbreviate":"Telephone Conversation",
+    "abbr":"telcon"
+  },
+  {
+    "Abbreviate":"Temperature",
+    "abbr":"temp"
+  },
+  {
+    "Abbreviate":"Temporary",
+    "abbr":"ty"
+  },
+  {
+    "Abbreviate":"Temporary Duty",
+    "abbr":"tdy"
+  },
+  {
+    "Abbreviate":"Tentacle",
+    "abbr":"tcl"
+  },
+  {
+    "Abbreviate":"Terrain Analysis",
+    "abbr":"TERAN"
+  },
+  {
+    "Abbreviate":"Time Mechanical Fuze",
+    "abbr":"TM fuze"
+  },
+  {
+    "Abbreviate":"Time of Despatch",
+    "abbr":"TOD"
+  },
+  {
+    "Abbreviate":"Time of Receipt",
+    "abbr":"TOR"
+  },
+  {
+    "Abbreviate":"Time Past a Point",
+    "abbr":"TPP"
+  },
+  {
+    "Abbreviate":"Top Secret",
+    "abbr":"TOPSEC"
+  },
+  {
+    "Abbreviate":"Torpedo Countermeasure",
+    "abbr":"TCM"
+  },
+  {
+    "Abbreviate":"Torpedo Danger Area",
+    "abbr":"TDA"
+  },
+  {
+    "Abbreviate":"Torpedo Danger Zone",
+    "abbr":"TDZ"
+  },
+  {
+    "Abbreviate":"Toxic Incident Report",
+    "abbr":"TOXREP"
+  },
+  {
+    "Abbreviate":"Track",
+    "abbr":"tr"
+  },
+  {
+    "Abbreviate":"Tractor",
+    "abbr":"tcr"
+  },
+  {
+    "Abbreviate":"Tradesman (men)",
+    "abbr":"tdn"
+  },
+  {
+    "Abbreviate":"Traffic (ability)",
+    "abbr":"tfc"
+  },
+  {
+    "Abbreviate":"Traffic Control",
+    "abbr":"TC"
+  },
+  {
+    "Abbreviate":"Traffic Control Post",
+    "abbr":"TCP"
+  },
+  {
+    "Abbreviate":"Trailer",
+    "abbr":"tlr"
+  },
+  {
+    "Abbreviate":"Train Despatch Service",
+    "abbr":"TDS"
+  },
+  {
+    "Abbreviate":"Training",
+    "abbr":"trg"
+  },
+  {
+    "Abbreviate":"Transmission",
+    "abbr":"tx"
+  },
+  {
+    "Abbreviate":"Transmitting Station",
+    "abbr":"TS"
+  },
+  {
+    "Abbreviate":"Transport (ed) (ing)",
+    "abbr":"tpt"
+  },
+  {
+    "Abbreviate":"Transportation",
+    "abbr":"tn"
+  },
+  {
+    "Abbreviate":"Troop",
+    "abbr":"tp"
+  },
+  {
+    "Abbreviate":"Troop Carrying Vehicle",
+    "abbr":"TCV"
+  },
+  {
+    "Abbreviate":"Tube-launched Optically guided Warhead",
+    "abbr":"TOW"
+  },
+  {
+    "Abbreviate":"Tutorial Discussion",
+    "abbr":"TD"
+  },
+  {
+    "Abbreviate":"Ultra High Frequency",
+    "abbr":"UHF"
+  },
+  {
+    "Abbreviate":"Ultra Low Frequency",
+    "abbr":"ULF"
+  },
+  {
+    "Abbreviate":"Umpire",
+    "abbr":"ump"
+  },
+  {
+    "Abbreviate":"UNCLASSIFIED",
+    "abbr":"UNCLAS"
+  },
+  {
+    "Abbreviate":"Unconventional Warfare",
+    "abbr":"UCW"
+  },
+  {
+    "Abbreviate":"Under Command",
+    "abbr":"UC"
+  },
+  {
+    "Abbreviate":"Under Command for Administration",
+    "abbr":"UCADMIN"
+  },
+  {
+    "Abbreviate":"Under Command for Daily Maintenance",
+    "abbr":"UCDM"
+  },
+  {
+    "Abbreviate":"Under Command for Movement",
+    "abbr":"UCM"
+  },
+  {
+    "Abbreviate":"Under Mention",
+    "abbr":"u/m"
+  },
+  {
+    "Abbreviate":"Underwater Warfare",
+    "abbr":"UWW"
+  },
+  {
+    "Abbreviate":"Unexploded Bomb",
+    "abbr":"UXB"
+  },
+  {
+    "Abbreviate":"Uniform",
+    "abbr":"unf"
+  },
+  {
+    "Abbreviate":"Unmanned aerial vehicle",
+    "abbr":"UAV"
+  },
+  {
+    "Abbreviate":"Utilize",
+    "abbr":"ut"
+  },
+  {
+    "Abbreviate":"Vacancy",
+    "abbr":"vac"
+  },
+  {
+    "Abbreviate":"Vacuum",
+    "abbr":"vacu"
+  },
+  {
+    "Abbreviate":"Vanguard",
+    "abbr":"van gd"
+  },
+  {
+    "Abbreviate":"Variable Depth Sonar",
+    "abbr":"VDS"
+  },
+  {
+    "Abbreviate":"Variable Time",
+    "abbr":"VT"
+  },
+  {
+    "Abbreviate":"Vehicle Awaiting Area",
+    "abbr":"VAA"
+  },
+  {
+    "Abbreviate":"Vehicle Radio Communication",
+    "abbr":"VRC"
+  },
+  {
+    "Abbreviate":"Vehicle Sub-Depot",
+    "abbr":"VSD"
+  },
+  {
+    "Abbreviate":"Vehicle(s) off the Road",
+    "abbr":"VOR"
+  },
+  {
+    "Abbreviate":"Vehicles Per Mile",
+    "abbr":"vpm"
+  },
+  {
+    "Abbreviate":"Velocity",
+    "abbr":"vel"
+  },
+  {
+    "Abbreviate":"Venereal Disease",
+    "abbr":"VD"
+  },
+  {
+    "Abbreviate":"Vertical Coverage Diagram",
+    "abbr":"VCD"
+  },
+  {
+    "Abbreviate":"Vertical Replenishment ",
+    "abbr":"VERTREP"
+  },
+  {
+    "Abbreviate":"Vertical/Short Take-off and Landing",
+    "abbr":"V/STOL"
+  },
+  {
+    "Abbreviate":"Very High Frequency",
+    "abbr":"VHF"
+  },
+  {
+    "Abbreviate":"Very Low Frequency",
+    "abbr":"VLF"
+  },
+  {
+    "Abbreviate":"Very/Very Very Important Person",
+    "abbr":"VIP/VVIP"
+  },
+  {
+    "Abbreviate":"Veterinary",
+    "abbr":"vet"
+  },
+  {
+    "Abbreviate":"Vice",
+    "abbr":"V(title)"
+  },
+  {
+    "Abbreviate":"Village",
+    "abbr":"vill"
+  },
+  {
+    "Abbreviate":"Village Defence Party",
+    "abbr":"VDP"
+  },
+  {
+    "Abbreviate":"Visual Display Unit",
+    "abbr":"VDU"
+  },
+  {
+    "Abbreviate":"Visual Flight Rules",
+    "abbr":"VFR"
+  },
+  {
+    "Abbreviate":"Visual Meteorological Conditions",
+    "abbr":"VMC"
+  },
+  {
+    "Abbreviate":"Visual Reconnaissance",
+    "abbr":"VR"
+  },
+  {
+    "Abbreviate":"Visual Signaling",
+    "abbr":"V/S"
+  },
+  {
+    "Abbreviate":"Vocabulary",
+    "abbr":"vocab"
+  },
+  {
+    "Abbreviate":"Volume",
+    "abbr":"vol"
+  },
+  {
+    "Abbreviate":"Vulnerable",
+    "abbr":"vul"
+  },
+  {
+    "Abbreviate":"Vulnerable Area",
+    "abbr":"VA"
+  },
+  {
+    "Abbreviate":"Vulnerable Point",
+    "abbr":"VP"
+  },
+  {
+    "Abbreviate":"Wagon Line",
+    "abbr":"WL"
+  },
+  {
+    "Abbreviate":"War Establishment",
+    "abbr":"WE"
+  },
+  {
+    "Abbreviate":"War Game",
+    "abbr":"WG"
+  },
+  {
+    "Abbreviate":"War Maintenance Reserve",
+    "abbr":"WMR"
+  },
+  {
+    "Abbreviate":"Wardroom",
+    "abbr":"WR"
+  },
+  {
+    "Abbreviate":"Warning",
+    "abbr":"wng"
+  },
+  {
+    "Abbreviate":"Warning Order",
+    "abbr":"wng O"
+  },
+  {
+    "Abbreviate":"Watchkeeper",
+    "abbr":"w/k"
+  },
+  {
+    "Abbreviate":"Water Line",
+    "abbr":"WL"
+  },
+  {
+    "Abbreviate":"Water Point",
+    "abbr":"WP"
+  },
+  {
+    "Abbreviate":"Water Trailer",
+    "abbr":"W Tlr"
+  },
+  {
+    "Abbreviate":"Waterproof",
+    "abbr":"wpf"
+  },
+  {
+    "Abbreviate":"Watertight",
+    "abbr":"wth"
+  },
+  {
+    "Abbreviate":"Weapon (ry)",
+    "abbr":"wpn"
+  },
+  {
+    "Abbreviate":"Weapon, Equipment & Statistics",
+    "abbr":"WE&S"
+  },
+  {
+    "Abbreviate":"Weather",
+    "abbr":"Wx"
+  },
+  {
+    "Abbreviate":"Weight (age)",
+    "abbr":"wt"
+  },
+  {
+    "Abbreviate":"Wheel",
+    "abbr":"wh"
+  },
+  {
+    "Abbreviate":"Wide Area Network",
+    "abbr":"WAN"
+  },
+  {
+    "Abbreviate":"Wing",
+    "abbr":"wg"
+  },
+  {
+    "Abbreviate":"Winter Collective Training",
+    "abbr":"WCT"
+  },
+  {
+    "Abbreviate":"Wireless",
+    "abbr":"wrls"
+  },
+  {
+    "Abbreviate":"Wireless Set",
+    "abbr":"WS"
+  },
+  {
+    "Abbreviate":"Wireless Telegraphy",
+    "abbr":"W/T"
+  },
+  {
+    "Abbreviate":"With Effect from",
+    "abbr":"wef"
+  },
+  {
+    "Abbreviate":"With Reference to",
+    "abbr":"wrt"
+  },
+  {
+    "Abbreviate":"Withdraw",
+    "abbr":"wdr"
+  },
+  {
+    "Abbreviate":"Words per Minute",
+    "abbr":"wpm"
+  },
+  {
+    "Abbreviate":"Work Order",
+    "abbr":"wkO"
+  },
+  {
+    "Abbreviate":"Workshop",
+    "abbr":"wksp"
+  },
+  {
+    "Abbreviate":"World Wide Web",
+    "abbr":"WWW"
+  },
+  {
+    "Abbreviate":"Wounded in Action",
+    "abbr":"WIA"
+  },
+  {
+    "Abbreviate":"Yard",
+    "abbr":"yd"
+  },
+  {
+    "Abbreviate":"Year Ending",
+    "abbr":"YE"
+  },
+  {
+    "Abbreviate":"Year (ly)",
+    "abbr":"yr"
+  },
+  {
+    "Abbreviate":"Young Officer",
+    "abbr":"YO"
+  },
+  {
+    "Abbreviate":"Zone (s)",
+    "abbr":"Z"
+  },
+  {
+    "Abbreviate":"Zone Commander",
+    "abbr":"ZC"
+  },
+  {
+    "Abbreviate":"Zone of Fire",
+    "abbr":"ZF"
+  },
+  {
+    "Abbreviate":"Zone (al) Headquarters",
+    "abbr":"ZHQ"
+  },
+  {
+    "Abbreviate":"Zone (al) Military Commander",
+    "abbr":"ZMC"
+  },
+  {
+    "Abbreviate":"Field Marshal",
+    "abbr":"FM"
+  },
+  {
+    "Abbreviate":"General ",
+    "abbr":"Gen"
+  },
+  {
+    "Abbreviate":"Lieutenant General",
+    "abbr":"Lt Gen"
+  },
+  {
+    "Abbreviate":"Major General",
+    "abbr":"Maj Gen"
+  },
+  {
+    "Abbreviate":"Brigadier General",
+    "abbr":"Brig Gen"
+  },
+  {
+    "Abbreviate":"Colonel",
+    "abbr":"Col"
+  },
+  {
+    "Abbreviate":"Lieutenant Colonel",
+    "abbr":"Lt Col"
+  },
+  {
+    "Abbreviate":"Major",
+    "abbr":"Maj"
+  },
+  {
+    "Abbreviate":"Captain",
+    "abbr":"Capt"
+  },
+  {
+    "Abbreviate":"Lieutenant",
+    "abbr":"Lt"
+  },
+  {
+    "Abbreviate":"Second Lieutenant",
+    "abbr":"2Lt"
+  },
+  {
+    "Abbreviate":"Master Warrant Officer",
+    "abbr":"MWO"
+  },
+  {
+    "Abbreviate":"Senior Warrant Officer",
+    "abbr":"SWO"
+  },
+  {
+    "Abbreviate":"Warrant Officer",
+    "abbr":"WO"
+  },
+  {
+    "Abbreviate":"Sergeant",
+    "abbr":"Sgt"
+  },
+  {
+    "Abbreviate":"Corporal",
+    "abbr":"Cpl"
+  },
+  {
+    "Abbreviate":"Lance Corporal",
+    "abbr":"L Cpl"
+  },
+  {
+    "Abbreviate":"Sainik",
+    "abbr":"Snk"
+  },
+  {
+    "Abbreviate":"Sepoy",
+    "abbr":"Sep"
+  },
+  {
+    "Abbreviate":"Pioneer",
+    "abbr":"Pnr"
+  },
+  {
+    "Abbreviate":"Sapper",
+    "abbr":"Spr"
+  },
+  {
+    "Abbreviate":"Signalman",
+    "abbr":"Sig"
+  },
+  {
+    "Abbreviate":"Sowar",
+    "abbr":"Swr"
+  },
+  {
+    "Abbreviate":"Squadron Quarter Master Sergeant",
+    "abbr":"SQMS"
+  },
+  {
+    "Abbreviate":"Squadron Sergeant Major",
+    "abbr":"SSM"
+  },
+  {
+    "Abbreviate":"Gentleman Cadet",
+    "abbr":"GC"
+  },
+  {
+    "Abbreviate":"Gentle Woman Cadet",
+    "abbr":"GWC"
+  },
+  {
+    "Abbreviate":"Non-Combatants (Enrolled)",
+    "abbr":"NC(E)"
+  },
+  {
+    "Abbreviate":"Non-Combatants (Unenrolled)",
+    "abbr":"NC(U)"
+  },
+  {
+    "Abbreviate":"Recruit",
+    "abbr":"Rect"
+  },
+  {
+    "Abbreviate":"Religious Teacher",
+    "abbr":"RT"
+  },
+  {
+    "Abbreviate":"Admiral of the Fleet",
+    "abbr":"AF"
+  },
+  {
+    "Abbreviate":"Admiral",
+    "abbr":"Adm"
+  },
+  {
+    "Abbreviate":"Vice Admiral",
+    "abbr":"V Adm"
+  },
+  {
+    "Abbreviate":"Rear Admiral",
+    "abbr":"R Adm"
+  },
+  {
+    "Abbreviate":"Commodore",
+    "abbr":"Cdre"
+  },
+  {
+    "Abbreviate":"Captain",
+    "abbr":"Capt"
+  },
+  {
+    "Abbreviate":"Commander",
+    "abbr":"Cdr"
+  },
+  {
+    "Abbreviate":"Lieutenant Commander",
+    "abbr":"Lt Cdr"
+  },
+  {
+    "Abbreviate":"Lieutenant",
+    "abbr":"Lt"
+  },
+  {
+    "Abbreviate":"Sub Lieutenant",
+    "abbr":"S Lt"
+  },
+  {
+    "Abbreviate":"Acting Sub Lieutenant",
+    "abbr":"Ag S Lt"
+  },
+  {
+    "Abbreviate":"Midshipman",
+    "abbr":"Mid"
+  },
+  {
+    "Abbreviate":"Officer Cadet",
+    "abbr":"Offr Cdt"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer",
+    "abbr":"MCPO"
+  },
+  {
+    "Abbreviate":"Chief Petty Officer",
+    "abbr":"CPO"
+  },
+  {
+    "Abbreviate":"Petty Officer",
+    "abbr":"PO"
+  },
+  {
+    "Abbreviate":"Leading Seaman",
+    "abbr":"LS"
+  },
+  {
+    "Abbreviate":"Able Seaman",
+    "abbr":"AB"
+  },
+  {
+    "Abbreviate":"Ordinary Seaman",
+    "abbr":"OD"
+  },
+  {
+    "Abbreviate":"Marshal of the Air Force",
+    "abbr":"Mshl of the AF"
+  },
+  {
+    "Abbreviate":"Air Chief Marshal",
+    "abbr":"Air Chf Mshl"
+  },
+  {
+    "Abbreviate":"Air Marshal",
+    "abbr":"Air Mshl"
+  },
+  {
+    "Abbreviate":"Air Vice Marshal",
+    "abbr":"AVM"
+  },
+  {
+    "Abbreviate":"Air Commodore ",
+    "abbr":"Air Cdre"
+  },
+  {
+    "Abbreviate":"Group Captain",
+    "abbr":"Gp Capt"
+  },
+  {
+    "Abbreviate":"Wing Commander",
+    "abbr":"Wg Cdr"
+  },
+  {
+    "Abbreviate":"Squadron Leader",
+    "abbr":"Sqn Ldr"
+  },
+  {
+    "Abbreviate":"Flight Lieutenant",
+    "abbr":"Flt Lt"
+  },
+  {
+    "Abbreviate":"Flying Officer",
+    "abbr":"Flg Offr"
+  },
+  {
+    "Abbreviate":"Pilot Officer",
+    "abbr":"Plt Offr"
+  },
+  {
+    "Abbreviate":"Flight Cadet",
+    "abbr":"Flt Cdt"
+  },
+  {
+    "Abbreviate":"Cadet",
+    "abbr":"Cdt"
+  },
+  {
+    "Abbreviate":"Master Warrant Officer",
+    "abbr":"MWO"
+  },
+  {
+    "Abbreviate":"Senior Warrant Officer",
+    "abbr":"SWO"
+  },
+  {
+    "Abbreviate":"Warrant Officer",
+    "abbr":"WO"
+  },
+  {
+    "Abbreviate":"Sergeant",
+    "abbr":"Sgt"
+  },
+  {
+    "Abbreviate":"Corporal",
+    "abbr":"Cpl"
+  },
+  {
+    "Abbreviate":"Leading Aircraftmen ",
+    "abbr":"LAC"
+  },
+  {
+    "Abbreviate":"Aircraftmen 1",
+    "abbr":"AC 1"
+  },
+  {
+    "Abbreviate":"Aircraftmen 2",
+    "abbr":"AC 2"
+  },
+  {
+    "Abbreviate":"Apprentice",
+    "abbr":"Appr"
+  },
+  {
+    "Abbreviate":"Recruits",
+    "abbr":"Rect"
+  },
+  {
+    "Abbreviate":"Adjutant",
+    "abbr":"Adjt"
+  },
+  {
+    "Abbreviate":"Adjutant General",
+    "abbr":"AG"
+  },
+  {
+    "Abbreviate":"Aid-de-Camp",
+    "abbr":"ADC"
+  },
+  {
+    "Abbreviate":"Ammunition Technical Officer",
+    "abbr":"ATO"
+  },
+  {
+    "Abbreviate":"Armourer",
+    "abbr":"Armr"
+  },
+  {
+    "Abbreviate":"Artificer",
+    "abbr":"Art"
+  },
+  {
+    "Abbreviate":"Assistant Adjutant and Quarter Master General",
+    "abbr":"AA&QMG"
+  },
+  {
+    "Abbreviate":"Assistant Director of Ordnance Service",
+    "abbr":"ADOS"
+  },
+  {
+    "Abbreviate":"Bandsman",
+    "abbr":"Bdsm"
+  },
+  {
+    "Abbreviate":"Battalion Quarter Master Sergeant",
+    "abbr":"BQMS"
+  },
+  {
+    "Abbreviate":"Battalion Sergeant Major",
+    "abbr":"BSM"
+  },
+  {
+    "Abbreviate":"Battery Commander",
+    "abbr":"BC"
+  },
+  {
+    "Abbreviate":"Brigade Major",
+    "abbr":"BM"
+  },
+  {
+    "Abbreviate":"Brigade Ordnance Junior Commissioned Officer",
+    "abbr":"BOJCO"
+  },
+  {
+    "Abbreviate":"Brigadier General Staff",
+    "abbr":"BGS"
+  },
+  {
+    "Abbreviate":"Carpenter",
+    "abbr":"Carp"
+  },
+  {
+    "Abbreviate":"Chief Engineer",
+    "abbr":"CE"
+  },
+  {
+    "Abbreviate":"Chief Instructor",
+    "abbr":"CI"
+  },
+  {
+    "Abbreviate":"Chief of Army Staff",
+    "abbr":"CAS"
+  },
+  {
+    "Abbreviate":"Chief of General Staff",
+    "abbr":"CGS"
+  },
+  {
+    "Abbreviate":"Chief of Staff",
+    "abbr":"COS"
+  },
+  {
+    "Abbreviate":"Colonel General Staff",
+    "abbr":"Col GS"
+  },
+  {
+    "Abbreviate":"Colonel Staff",
+    "abbr":"Col Staff"
+  },
+  {
+    "Abbreviate":"Commandant",
+    "abbr":"Comdt"
+  },
+  {
+    "Abbreviate":"Commander",
+    "abbr":"Comd"
+  },
+  {
+    "Abbreviate":"Commander Artillery",
+    "abbr":"C Arty"
+  },
+  {
+    "Abbreviate":"Commander Electrical and Mechanical Engineers",
+    "abbr":"CEME"
+  },
+  {
+    "Abbreviate":"Commander Military Engineering Service",
+    "abbr":"CMES"
+  },
+  {
+    "Abbreviate":"Commanding Officer",
+    "abbr":"CO"
+  },
+  {
+    "Abbreviate":"Company Quarter Master Sergeant ",
+    "abbr":"CQMS"
+  },
+  {
+    "Abbreviate":"Company Sergeant Major",
+    "abbr":"CSM"
+  },
+  {
+    "Abbreviate":"Craftsman",
+    "abbr":"Cfn"
+  },
+  {
+    "Abbreviate":"Deputy Assistant Director of Health",
+    "abbr":"DADH"
+  },
+  {
+    "Abbreviate":"Directing Staff",
+    "abbr":"DS"
+  },
+  {
+    "Abbreviate":"Director of Armoured Corps",
+    "abbr":"DAC"
+  },
+  {
+    "Abbreviate":"Director of Artillery",
+    "abbr":"D Arty"
+  },
+  {
+    "Abbreviate":"Director of Budget",
+    "abbr":"D Budget"
+  },
+  {
+    "Abbreviate":"Director of Education",
+    "abbr":"D Edn"
+  },
+  {
+    "Abbreviate":"Director of Electrical and Mechanical Engineers",
+    "abbr":"DEME"
+  },
+  {
+    "Abbreviate":"Director of Engineers",
+    "abbr":"D Engr"
+  },
+  {
+    "Abbreviate":"Director of Infantry ",
+    "abbr":"D Inf"
+  },
+  {
+    "Abbreviate":"Director of Inspection and Technical Development",
+    "abbr":"DITD"
+  },
+  {
+    "Abbreviate":"Director of Medical Services (Army)",
+    "abbr":"DMS (Army)"
+  },
+  {
+    "Abbreviate":"Director of Military Intelligence",
+    "abbr":"DMI"
+  },
+  {
+    "Abbreviate":"Director of Military Operations",
+    "abbr":"DMO"
+  },
+  {
+    "Abbreviate":"Director of Military Training ",
+    "abbr":"DMT"
+  },
+  {
+    "Abbreviate":"Director of Movement and Quartering",
+    "abbr":"DMQ"
+  },
+  {
+    "Abbreviate":"Director of Ordnance Services",
+    "abbr":"DOS"
+  },
+  {
+    "Abbreviate":"Director of Pay, Pension and Accounts",
+    "abbr":"DPP&A"
+  },
+  {
+    "Abbreviate":"Director of Personnel Administration",
+    "abbr":"DPA"
+  },
+  {
+    "Abbreviate":"Director of Personal Services",
+    "abbr":"DPS"
+  },
+  {
+    "Abbreviate":"Director of Signals",
+    "abbr":"D Sigs"
+  },
+  {
+    "Abbreviate":"Director of Staff Duties",
+    "abbr":"DSD"
+  },
+  {
+    "Abbreviate":"Director of Supply and Transport",
+    "abbr":"DST"
+  },
+  {
+    "Abbreviate":"Director of Weapons, Equipment and Statistics",
+    "abbr":"DWE&S"
+  },
+  {
+    "Abbreviate":"Director of Works",
+    "abbr":"D Wks"
+  },
+  {
+    "Abbreviate":"Director of Works and Chief Engineer (Army)",
+    "abbr":"DW&CE (Army)"
+  },
+  {
+    "Abbreviate":"Division Ordnance Junior Commissioned Officer ",
+    "abbr":"DOJCO"
+  },
+  {
+    "Abbreviate":"Draftsman",
+    "abbr":"Dtmn"
+  },
+  {
+    "Abbreviate":"Driver",
+    "abbr":"Dvr"
+  },
+  {
+    "Abbreviate":"Engineer in Chief",
+    "abbr":"E in C"
+  },
+  {
+    "Abbreviate":"Executive Engineer",
+    "abbr":"XEN"
+  },
+  {
+    "Abbreviate":"Field Intelligence Officer",
+    "abbr":"FIO"
+  },
+  {
+    "Abbreviate":"Fitter",
+    "abbr":"Ftr"
+  },
+  {
+    "Abbreviate":"Foreman of Signals",
+    "abbr":"F of S"
+  },
+  {
+    "Abbreviate":"Forward Air Controller",
+    "abbr":"FAC"
+  },
+  {
+    "Abbreviate":"Forward Observation Officer",
+    "abbr":"FOO"
+  },
+  {
+    "Abbreviate":"General Officer Commanding",
+    "abbr":"GOC"
+  },
+  {
+    "Abbreviate":"General Staff Officer First Grade",
+    "abbr":"GSO 1"
+  },
+  {
+    "Abbreviate":"General Staff Officer Second Grade",
+    "abbr":"GSO 2"
+  },
+  {
+    "Abbreviate":"General Staff Officer Second Grade in Operations Branch",
+    "abbr":"GSO 2 (Ops)"
+  },
+  {
+    "Abbreviate":"General Staff Officer Third Grade",
+    "abbr":"GSO 3"
+  },
+  {
+    "Abbreviate":"Ground Liaison Officer",
+    "abbr":"GLO"
+  },
+  {
+    "Abbreviate":"Gun Position Officer",
+    "abbr":"GPO"
+  },
+  {
+    "Abbreviate":"Instructor",
+    "abbr":"Instr"
+  },
+  {
+    "Abbreviate":"Instructor Gunnery",
+    "abbr":"IG"
+  },
+  {
+    "Abbreviate":"Intelligence Officer",
+    "abbr":"IO"
+  },
+  {
+    "Abbreviate":"Judge Advocate General",
+    "abbr":"JAG"
+  },
+  {
+    "Abbreviate":"Junior Commissioned Officer",
+    "abbr":"JCO"
+  },
+  {
+    "Abbreviate":"Liaison Officer",
+    "abbr":"LO"
+  },
+  {
+    "Abbreviate":"Master General of the Ordnance",
+    "abbr":"MGO"
+  },
+  {
+    "Abbreviate":"Mechanical Transport Officer",
+    "abbr":"MTO"
+  },
+  {
+    "Abbreviate":"Medical Officer",
+    "abbr":"MO"
+  },
+  {
+    "Abbreviate":"Military Secretary",
+    "abbr":"MS"
+  },
+  {
+    "Abbreviate":"Mortar Position Officer",
+    "abbr":"MPO"
+  },
+  {
+    "Abbreviate":"Movement Control Officer",
+    "abbr":"MCO"
+  },
+  {
+    "Abbreviate":"Musician",
+    "abbr":"Musn"
+  },
+  {
+    "Abbreviate":"Naib Subedar Adjutant",
+    "abbr":"NSA"
+  },
+  {
+    "Abbreviate":"Naib Subedar Quarter Master",
+    "abbr":"NSQM"
+  },
+  {
+    "Abbreviate":"Non Commissioned Officer ",
+    "abbr":"NCO"
+  },
+  {
+    "Abbreviate":"Officer Commanding",
+    "abbr":"OC"
+  },
+  {
+    "Abbreviate":"Officer in Charge",
+    "abbr":"OIC"
+  },
+  {
+    "Abbreviate":"Personal Assistant",
+    "abbr":"PA"
+  },
+  {
+    "Abbreviate":"Physical Training Staff Officer",
+    "abbr":"PTSO"
+  },
+  {
+    "Abbreviate":"Principal Staff Officer",
+    "abbr":"PSO"
+  },
+  {
+    "Abbreviate":"Provost Marshal",
+    "abbr":"PM"
+  },
+  {
+    "Abbreviate":"Quarter Master General",
+    "abbr":"QMG"
+  },
+  {
+    "Abbreviate":"Quartermaster",
+    "abbr":"QM"
+  },
+  {
+    "Abbreviate":"Regimental Medical Officer",
+    "abbr":"RMO"
+  },
+  {
+    "Abbreviate":"Regimental Quartermaster Sergeant",
+    "abbr":"RQMS"
+  },
+  {
+    "Abbreviate":"Regimental Sergeant Major",
+    "abbr":"RSM"
+  },
+  {
+    "Abbreviate":"Riflemen",
+    "abbr":"Rfn"
+  },
+  {
+    "Abbreviate":"Second in Command",
+    "abbr":"2IC"
+  },
+  {
+    "Abbreviate":"Senior Instructor",
+    "abbr":"SI"
+  },
+  {
+    "Abbreviate":"Senior Medical Officer",
+    "abbr":"SMO"
+  },
+  {
+    "Abbreviate":"Senior Record Officer",
+    "abbr":"SRO"
+  },
+  {
+    "Abbreviate":"Staff Captain",
+    "abbr":"SC"
+  },
+  {
+    "Abbreviate":"Staff Officer",
+    "abbr":"SO"
+  },
+  {
+    "Abbreviate":"Station Staff Officer",
+    "abbr":"SSO"
+  },
+  {
+    "Abbreviate":"Station Transport Officer",
+    "abbr":"STO"
+  },
+  {
+    "Abbreviate":"Storeman Supply",
+    "abbr":"SMS"
+  },
+  {
+    "Abbreviate":"Storeman Technical",
+    "abbr":"SMT"
+  },
+  {
+    "Abbreviate":"Superintendent",
+    "abbr":"Supdt"
+  },
+  {
+    "Abbreviate":"Technical Staff Officer",
+    "abbr":"TSO"
+  },
+  {
+    "Abbreviate":"Unit Security Officer",
+    "abbr":"USO"
+  },
+  {
+    "Abbreviate":"Warrant Officer Adjutant",
+    "abbr":"WOA"
+  },
+  {
+    "Abbreviate":"Warrant Officer Quarter Master",
+    "abbr":"WOQM"
+  },
+  {
+    "Abbreviate":"Weapon Training Officer",
+    "abbr":"WTO"
+  },
+  {
+    "Abbreviate":"Welder",
+    "abbr":"Wldr"
+  },
+  {
+    "Abbreviate":"Yeoman of Signals",
+    "abbr":"Y of S"
+  },
+  {
+    "Abbreviate":"Assistant Chief of Naval Staff (Logistics)",
+    "abbr":"ACNS (Log)"
+  },
+  {
+    "Abbreviate":"Assistant Chief of Naval Staff (Material)",
+    "abbr":"ACNS (M)"
+  },
+  {
+    "Abbreviate":"Assistant Chief of Naval Staff (Operation)",
+    "abbr":"ACNS (O)"
+  },
+  {
+    "Abbreviate":"Assistant Chief of Naval Staff (Personnel)",
+    "abbr":"ACNS (P)"
+  },
+  {
+    "Abbreviate":"Base Electrical Officer",
+    "abbr":"BLO"
+  },
+  {
+    "Abbreviate":"Base Engineering Officer",
+    "abbr":"BEO"
+  },
+  {
+    "Abbreviate":"Base Supply Officer",
+    "abbr":"BSO"
+  },
+  {
+    "Abbreviate":"Blind Pilotage Officer",
+    "abbr":"BPO"
+  },
+  {
+    "Abbreviate":"Bombardment Control Officer",
+    "abbr":"BCO"
+  },
+  {
+    "Abbreviate":"Chief Communications Yeoman",
+    "abbr":"CCY"
+  },
+  {
+    "Abbreviate":"Chief Electrical Artificer",
+    "abbr":"CEA"
+  },
+  {
+    "Abbreviate":"Chief Engine Room Artificer",
+    "abbr":"CERA"
+  },
+  {
+    "Abbreviate":"Chief of Naval Staff",
+    "abbr":"CNS"
+  },
+  {
+    "Abbreviate":"Chief Ordnance Artificer",
+    "abbr":"COA"
+  },
+  {
+    "Abbreviate":"Chief Petty Officer",
+    "abbr":"CPO"
+  },
+  {
+    "Abbreviate":"Chief Petty Officer (Cook)",
+    "abbr":"CPO (Ck)"
+  },
+  {
+    "Abbreviate":"Chief Petty Officer (Medical)",
+    "abbr":"CPO (Med)"
+  },
+  {
+    "Abbreviate":"Chief Petty Officer (Steward)",
+    "abbr":"CPO (Stw)"
+  },
+  {
+    "Abbreviate":"Chief Petty Officer (Stores)",
+    "abbr":"CPO (S)"
+  },
+  {
+    "Abbreviate":"Chief Petty Officer (Writer)",
+    "abbr":"CPO (W)"
+  },
+  {
+    "Abbreviate":"Chief Radio Communication Supervisor",
+    "abbr":"CRS"
+  },
+  {
+    "Abbreviate":"Chief Radio Communication Supervisor (General)",
+    "abbr":"CRS (G)"
+  },
+  {
+    "Abbreviate":"Chief Radio Electrical Artificer",
+    "abbr":"CREA"
+  },
+  {
+    "Abbreviate":"Chief Radio Supervisor",
+    "abbr":"CRS"
+  },
+  {
+    "Abbreviate":"Chief Shipwright Artificer",
+    "abbr":"CERA (S)"
+  },
+  {
+    "Abbreviate":"Commander Design and Drawing",
+    "abbr":"CDD"
+  },
+  {
+    "Abbreviate":"Commander Planning and Estimation",
+    "abbr":"CPE"
+  },
+  {
+    "Abbreviate":"Commanding Officer",
+    "abbr":"CO"
+  },
+  {
+    "Abbreviate":"Commodore Commanding BN Flotilla",
+    "abbr":"COMBAN"
+  },
+  {
+    "Abbreviate":"Commodore Commanding Chittagong",
+    "abbr":"COMCHIT"
+  },
+  {
+    "Abbreviate":"Commodore Commanding Khulna",
+    "abbr":"COMKHUL"
+  },
+  {
+    "Abbreviate":"Commodore Superintendent BN Dockyard",
+    "abbr":"CSD"
+  },
+  {
+    "Abbreviate":"Cook",
+    "abbr":"Ck"
+  },
+  {
+    "Abbreviate":"Cook 1st Class",
+    "abbr":"Ck I"
+  },
+  {
+    "Abbreviate":"Cook 2nd Class",
+    "abbr":"Ck II"
+  },
+  {
+    "Abbreviate":"Director of Budget",
+    "abbr":"D Budget"
+  },
+  {
+    "Abbreviate":"Director of Civilian Personnel",
+    "abbr":"DCP"
+  },
+  {
+    "Abbreviate":"Director of Hydrography",
+    "abbr":"D Hyd"
+  },
+  {
+    "Abbreviate":"Director of Medical Services (Navy)",
+    "abbr":"DMS (Navy)"
+  },
+  {
+    "Abbreviate":"Director of Naval Armament Inspection and Supply",
+    "abbr":"DNAI &S"
+  },
+  {
+    "Abbreviate":"Director of Naval Armament Supply",
+    "abbr":"DNAS"
+  },
+  {
+    "Abbreviate":"Director of Naval Education Service",
+    "abbr":"DNES"
+  },
+  {
+    "Abbreviate":"Director of Naval Engineering ",
+    "abbr":"DNE"
+  },
+  {
+    "Abbreviate":"Director of Naval Intelligence",
+    "abbr":"DNI"
+  },
+  {
+    "Abbreviate":"Director of Naval Operations",
+    "abbr":"DNO"
+  },
+  {
+    "Abbreviate":"Director of Naval Plans",
+    "abbr":"DNP"
+  },
+  {
+    "Abbreviate":"Director of Naval Signals",
+    "abbr":"DN Sigs"
+  },
+  {
+    "Abbreviate":"Director of Naval Stores",
+    "abbr":"DNS"
+  },
+  {
+    "Abbreviate":"Director of Naval Training",
+    "abbr":"DNT"
+  },
+  {
+    "Abbreviate":"Director of Naval Weapons and Electrical Engineering",
+    "abbr":"DNW&EE"
+  },
+  {
+    "Abbreviate":"Director of Pay, Pension and Accounts",
+    "abbr":"DPP&A"
+  },
+  {
+    "Abbreviate":"Director of Personnel Services ",
+    "abbr":"DPS"
+  },
+  {
+    "Abbreviate":"Director of Technical Inspection",
+    "abbr":"DTI"
+  },
+  {
+    "Abbreviate":"Director of Technical Stores",
+    "abbr":"DTS"
+  },
+  {
+    "Abbreviate":"Director of Welfare",
+    "abbr":"D Wel"
+  },
+  {
+    "Abbreviate":"Director of Works",
+    "abbr":"D Works"
+  },
+  {
+    "Abbreviate":"Director of Works and Chief Engineer (Navy)",
+    "abbr":"DW&CE(Navy)"
+  },
+  {
+    "Abbreviate":"Drafting Authority",
+    "abbr":"DA"
+  },
+  {
+    "Abbreviate":"Electrician 1st Class",
+    "abbr":"EN I"
+  },
+  {
+    "Abbreviate":"Electrician 2nd Class",
+    "abbr":"EN II"
+  },
+  {
+    "Abbreviate":"Electrical Artificer",
+    "abbr":"EA"
+  },
+  {
+    "Abbreviate":"Electrical Artificer 4th Class",
+    "abbr":"EA-IV"
+  },
+  {
+    "Abbreviate":"Electrical Officer",
+    "abbr":"LO"
+  },
+  {
+    "Abbreviate":"Electrician",
+    "abbr":"EN"
+  },
+  {
+    "Abbreviate":"Engine Room Artificer",
+    "abbr":"ERA"
+  },
+  {
+    "Abbreviate":"Engine Room Artificer (Shipwright)",
+    "abbr":"ERA(S)"
+  },
+  {
+    "Abbreviate":"Engine Room Artificer 4th Class",
+    "abbr":"ERA IV"
+  },
+  {
+    "Abbreviate":"Engineer Officer",
+    "abbr":"EO"
+  },
+  {
+    "Abbreviate":"Engineering Mechanic",
+    "abbr":"EM"
+  },
+  {
+    "Abbreviate":"Engineering Mechanic 1st Class",
+    "abbr":"M (E) I"
+  },
+  {
+    "Abbreviate":"Engineering Mechanic 2nd Class",
+    "abbr":"M (E) II"
+  },
+  {
+    "Abbreviate":"Executive Officer",
+    "abbr":"XO"
+  },
+  {
+    "Abbreviate":"Flag Lieutenant",
+    "abbr":"Flag Lt"
+  },
+  {
+    "Abbreviate":"Flotilla Communication Officer",
+    "abbr":"FCO"
+  },
+  {
+    "Abbreviate":"Flotilla Diving Officer",
+    "abbr":"FDO"
+  },
+  {
+    "Abbreviate":"Flotilla Electrical Officer",
+    "abbr":"FLO"
+  },
+  {
+    "Abbreviate":"Flotilla Engineer Officer",
+    "abbr":"FEO"
+  },
+  {
+    "Abbreviate":"Flotilla Gunnery Officer",
+    "abbr":"FGO"
+  },
+  {
+    "Abbreviate":"Flotilla Intelligence Officer",
+    "abbr":"FIO"
+  },
+  {
+    "Abbreviate":"Flotilla Medical Officer",
+    "abbr":"FMO"
+  },
+  {
+    "Abbreviate":"Flotilla Motor Transport Officer",
+    "abbr":"FMTO"
+  },
+  {
+    "Abbreviate":"Flotilla Navigation & Direction Officer",
+    "abbr":"FNDO"
+  },
+  {
+    "Abbreviate":"Flotilla Operations Officer",
+    "abbr":"FOO"
+  },
+  {
+    "Abbreviate":"Flotilla Ordnance Engineer Officer",
+    "abbr":"FOEO"
+  },
+  {
+    "Abbreviate":"Flotilla Sports & Recreation Officer",
+    "abbr":"FSRO"
+  },
+  {
+    "Abbreviate":"Flotilla Sports and Physical Training Officer",
+    "abbr":"FSPTO"
+  },
+  {
+    "Abbreviate":"Flotilla Supply Officer",
+    "abbr":"FSO"
+  },
+  {
+    "Abbreviate":"Flotilla Torpedo and Anti Submarine Officer",
+    "abbr":"FTASO"
+  },
+  {
+    "Abbreviate":"Flotilla Training Officer",
+    "abbr":"FTO"
+  },
+  {
+    "Abbreviate":"Gunnery Officer",
+    "abbr":"GO"
+  },
+  {
+    "Abbreviate":"Judge Advocate General",
+    "abbr":"JAG"
+  },
+  {
+    "Abbreviate":"Leading Cook",
+    "abbr":"L Ck"
+  },
+  {
+    "Abbreviate":"Leading Electrician ",
+    "abbr":"LEN"
+  },
+  {
+    "Abbreviate":"Leading Engineering Mechanic",
+    "abbr":"LME"
+  },
+  {
+    "Abbreviate":"Leading Medical Assistant",
+    "abbr":"LMA"
+  },
+  {
+    "Abbreviate":"Leading Patrolman",
+    "abbr":"LPM"
+  },
+  {
+    "Abbreviate":"Leading Steward",
+    "abbr":"L Stw"
+  },
+  {
+    "Abbreviate":"Leading Store Assistant",
+    "abbr":"L /SA"
+  },
+  {
+    "Abbreviate":"Leading Tactical Communication Operation",
+    "abbr":"LTO"
+  },
+  {
+    "Abbreviate":"Leading Tactical Radio Communication Operation",
+    "abbr":"LRO"
+  },
+  {
+    "Abbreviate":"Leading Topass",
+    "abbr":"L  Top"
+  },
+  {
+    "Abbreviate":"Leading Writer",
+    "abbr":"L Wtr"
+  },
+  {
+    "Abbreviate":"Manager Personnel & Administration",
+    "abbr":"MPAD"
+  },
+  {
+    "Abbreviate":"Manager Planning and Estimation",
+    "abbr":"MPE"
+  },
+  {
+    "Abbreviate":"Manager Production",
+    "abbr":"MP"
+  },
+  {
+    "Abbreviate":"Manager Yard Service",
+    "abbr":"MYS"
+  },
+  {
+    "Abbreviate":"Marine Engineer Officer",
+    "abbr":"MEO"
+  },
+  {
+    "Abbreviate":"Master At Arms",
+    "abbr":"MAA"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer ((Communication)",
+    "abbr":"MCPO (Com)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Catering)",
+    "abbr":"MCPO (Cat)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Electrical)",
+    "abbr":"MCPO (L)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Engineering)",
+    "abbr":"MCPO (E)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Executive)",
+    "abbr":"MCPO (X)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Medical)",
+    "abbr":"MCPO (Med)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Ordnance)",
+    "abbr":"MCPO (Ord)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Radio)",
+    "abbr":"MCPO (R)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Regulation)",
+    "abbr":"MCPO (Reg)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Shipwright)",
+    "abbr":"MCPO (SW)"
+  },
+  {
+    "Abbreviate":"Master Chief Petty Officer (Supply)",
+    "abbr":"MCPO (S)"
+  },
+  {
+    "Abbreviate":"Medical Assistant",
+    "abbr":"MA"
+  },
+  {
+    "Abbreviate":"Medical Assistant 1st Class",
+    "abbr":"MA I"
+  },
+  {
+    "Abbreviate":"Medical Assistant 2nd Class",
+    "abbr":"MA II"
+  },
+  {
+    "Abbreviate":"Medical Officer",
+    "abbr":"MO"
+  },
+  {
+    "Abbreviate":"Musician",
+    "abbr":"Mus"
+  },
+  {
+    "Abbreviate":"Naval Armament Supply Officer",
+    "abbr":"NASO"
+  },
+  {
+    "Abbreviate":"Naval Biletting Officer",
+    "abbr":"NBO"
+  },
+  {
+    "Abbreviate":"Naval Distributing Authority ",
+    "abbr":"NDA"
+  },
+  {
+    "Abbreviate":"Naval Gunfire Support Liaison Officer",
+    "abbr":"NGSLO"
+  },
+  {
+    "Abbreviate":"Naval Local Audit Officer",
+    "abbr":"NLAO"
+  },
+  {
+    "Abbreviate":"Naval Officer in Charge",
+    "abbr":"NOIC"
+  },
+  {
+    "Abbreviate":"Naval Provost Marshal",
+    "abbr":"NPM"
+  },
+  {
+    "Abbreviate":"Naval Store Keeping Officer",
+    "abbr":"NSKO"
+  },
+  {
+    "Abbreviate":"Navigating Officer",
+    "abbr":"NO"
+  },
+  {
+    "Abbreviate":"Officer in Tactical Command",
+    "abbr":"OTC"
+  },
+  {
+    "Abbreviate":"Officer of the Day",
+    "abbr":"OOD"
+  },
+  {
+    "Abbreviate":"Officer of the Watch",
+    "abbr":"OOW"
+  },
+  {
+    "Abbreviate":"Ordnance Artificer",
+    "abbr":"OA"
+  },
+  {
+    "Abbreviate":"Ordnance Artificer 4th Class",
+    "abbr":"OA IV"
+  },
+  {
+    "Abbreviate":"Ordnance Artificer 5th Class",
+    "abbr":"OA V"
+  },
+  {
+    "Abbreviate":"Patrolman",
+    "abbr":"PM"
+  },
+  {
+    "Abbreviate":"Petty Officer Communication Yeoman",
+    "abbr":"PO (CY)"
+  },
+  {
+    "Abbreviate":"Petty Officer Cook",
+    "abbr":"PO (Ck)"
+  },
+  {
+    "Abbreviate":"Petty Officer Medical",
+    "abbr":"PO (Med)"
+  },
+  {
+    "Abbreviate":"Petty Officer Radio Supervisor",
+    "abbr":"PO (RS)"
+  },
+  {
+    "Abbreviate":"Petty Officer Regulating",
+    "abbr":"PO (R)"
+  },
+  {
+    "Abbreviate":"Petty Officer Steward",
+    "abbr":"PO (Stw)"
+  },
+  {
+    "Abbreviate":"Petty Officer Stores",
+    "abbr":"PO (S)"
+  },
+  {
+    "Abbreviate":"Petty Officer Writer",
+    "abbr":"PO (Wtr)"
+  },
+  {
+    "Abbreviate":"Principal Control Officer",
+    "abbr":"PCO"
+  },
+  {
+    "Abbreviate":"Principal Warfare Officer",
+    "abbr":"PWO"
+  },
+  {
+    "Abbreviate":"Radio Communication Operator (General)",
+    "abbr":"RO(G)"
+  },
+  {
+    "Abbreviate":"Radio Electrical Artificer",
+    "abbr":"REA"
+  },
+  {
+    "Abbreviate":"Radio Electrician",
+    "abbr":"REN"
+  },
+  {
+    "Abbreviate":"Radio Operator 1st Class",
+    "abbr":"RO I"
+  },
+  {
+    "Abbreviate":"Radio Operator 2nd Class",
+    "abbr":"RO II"
+  },
+  {
+    "Abbreviate":"Senior Medical Officer",
+    "abbr":"SMO"
+  },
+  {
+    "Abbreviate":"Senior Naval Officer (Afloat)",
+    "abbr":"SNO (A)"
+  },
+  {
+    "Abbreviate":"Signal Communication Officer",
+    "abbr":"SCO"
+  },
+  {
+    "Abbreviate":"Staff Officer/Supply Officer",
+    "abbr":"SO"
+  },
+  {
+    "Abbreviate":"Staff Supply Officer",
+    "abbr":"SSO"
+  },
+  {
+    "Abbreviate":"Steward",
+    "abbr":"Stw"
+  },
+  {
+    "Abbreviate":"Steward 1st Class",
+    "abbr":"Stw I"
+  },
+  {
+    "Abbreviate":"Steward 2nd Class",
+    "abbr":"Stw II"
+  },
+  {
+    "Abbreviate":"Store Assistant",
+    "abbr":"SA"
+  },
+  {
+    "Abbreviate":"Tactical Communication Operator 1st Class",
+    "abbr":"TO I"
+  },
+  {
+    "Abbreviate":"Tactical Communication Operator 2nd Class",
+    "abbr":"TO  II"
+  },
+  {
+    "Abbreviate":"Topass",
+    "abbr":"TOP"
+  },
+  {
+    "Abbreviate":"Topass 1st Class",
+    "abbr":"TOP 1"
+  },
+  {
+    "Abbreviate":"Topass 2nd Class",
+    "abbr":"TOP 2"
+  },
+  {
+    "Abbreviate":"Torpedo and Anti-Submarine Officer",
+    "abbr":"TASO"
+  },
+  {
+    "Abbreviate":"Under Training Cook",
+    "abbr":"Ck/UT"
+  },
+  {
+    "Abbreviate":"Under Training Electrician",
+    "abbr":"EN/UT"
+  },
+  {
+    "Abbreviate":"Under Training Engineering Mechanic",
+    "abbr":"ME/UT"
+  },
+  {
+    "Abbreviate":"Under Training Medical Assistant",
+    "abbr":"MA/UT"
+  },
+  {
+    "Abbreviate":"Under Training Patrolman",
+    "abbr":"PM/UT"
+  },
+  {
+    "Abbreviate":"Under Training Radio Operator",
+    "abbr":"RO/UT"
+  },
+  {
+    "Abbreviate":"Under Training Sailor",
+    "abbr":"OD/UT"
+  },
+  {
+    "Abbreviate":"Under Training Steward",
+    "abbr":"Stw/UT"
+  },
+  {
+    "Abbreviate":"Under Training Stores Assistant",
+    "abbr":"SA/UT"
+  },
+  {
+    "Abbreviate":"Under Training Tactical Operator",
+    "abbr":"TO/UT"
+  },
+  {
+    "Abbreviate":"Under Training Topass",
+    "abbr":"TOP/UT"
+  },
+  {
+    "Abbreviate":"Under Training Writer",
+    "abbr":"Wtr/UT"
+  },
+  {
+    "Abbreviate":"Upper Yardman",
+    "abbr":"UYM"
+  },
+  {
+    "Abbreviate":"Writer",
+    "abbr":"Wtr"
+  },
+  {
+    "Abbreviate":"Writer 1st Class",
+    "abbr":"Wtr I"
+  },
+  {
+    "Abbreviate":"Writer 2nd Class",
+    "abbr":"Wtr II"
+  },
+  {
+    "Abbreviate":"Adjutant",
+    "abbr":"Adjt"
+  },
+  {
+    "Abbreviate":"Aide - de- Camp",
+    "abbr":"ADC"
+  },
+  {
+    "Abbreviate":"Air Liaison Officer",
+    "abbr":"ALO"
+  },
+  {
+    "Abbreviate":"Air Officer Commanding",
+    "abbr":"AOC"
+  },
+  {
+    "Abbreviate":"Air Traffic Control Officer",
+    "abbr":"ATCO"
+  },
+  {
+    "Abbreviate":"Air Transport Liaison Officer",
+    "abbr":"ATLO"
+  },
+  {
+    "Abbreviate":"Assistant Chief of Air Staff (Administration)",
+    "abbr":"ACOAS(A)"
+  },
+  {
+    "Abbreviate":"Assistant Chief of Air Staff (Maintenance)",
+    "abbr":"ACOAS(M)"
+  },
+  {
+    "Abbreviate":"Assistant Chief of Air Staff (Operation and Training)",
+    "abbr":"ACOAS(O&T)"
+  },
+  {
+    "Abbreviate":"Base Adjutant",
+    "abbr":"Base Adjt"
+  },
+  {
+    "Abbreviate":"Base Commander",
+    "abbr":"Base Cdr"
+  },
+  {
+    "Abbreviate":"Base Security Officer",
+    "abbr":"BSO"
+  },
+  {
+    "Abbreviate":"Base Warrant Officer",
+    "abbr":"BWO"
+  },
+  {
+    "Abbreviate":"Brigade Air Support Officer",
+    "abbr":"BASO"
+  },
+  {
+    "Abbreviate":"Chief Engineer (Air)",
+    "abbr":"CE(Air)"
+  },
+  {
+    "Abbreviate":"Chief of Air Staff",
+    "abbr":"COAS"
+  },
+  {
+    "Abbreviate":"Director of Administration and Coordination",
+    "abbr":"DAC"
+  },
+  {
+    "Abbreviate":"Director of Air Defence ",
+    "abbr":"DAD "
+  },
+  {
+    "Abbreviate":"Director of Air Intelligence",
+    "abbr":"DAI"
+  },
+  {
+    "Abbreviate":"Director of Air Operations",
+    "abbr":"DAO"
+  },
+  {
+    "Abbreviate":"Director of Air Traffic Services ",
+    "abbr":"DATS"
+  },
+  {
+    "Abbreviate":"Director of Air Training",
+    "abbr":"DAT"
+  },
+  {
+    "Abbreviate":"Director of Armament and Weapons",
+    "abbr":"DA&W"
+  },
+  {
+    "Abbreviate":"Director of Communication and Electronics",
+    "abbr":"DC&E"
+  },
+  {
+    "Abbreviate":"Director of Education",
+    "abbr":"D Edn"
+  },
+  {
+    "Abbreviate":"Director of Engineering",
+    "abbr":"D Engg"
+  },
+  {
+    "Abbreviate":"Director of Finance",
+    "abbr":"D Fin"
+  },
+  {
+    "Abbreviate":"Director of Flight Safety",
+    "abbr":"DFS"
+  },
+  {
+    "Abbreviate":"Director of Medical Services (Air) ",
+    "abbr":"DMS(Air)"
+  },
+  {
+    "Abbreviate":"Director of Meteorology",
+    "abbr":"D Met"
+  },
+  {
+    "Abbreviate":"Director of Personnel",
+    "abbr":"D Pers"
+  },
+  {
+    "Abbreviate":"Director of Plan ",
+    "abbr":"D Plan"
+  },
+  {
+    "Abbreviate":"Director of Project",
+    "abbr":"D Proj"
+  },
+  {
+    "Abbreviate":"Director of Recruitment ",
+    "abbr":"D Rect"
+  },
+  {
+    "Abbreviate":"Director of Supply",
+    "abbr":"D Sup"
+  },
+  {
+    "Abbreviate":"Director of Welfare and Ceremony",
+    "abbr":"DW&C"
+  },
+  {
+    "Abbreviate":"Director of Works",
+    "abbr":"D Wks"
+  },
+  {
+    "Abbreviate":"Duty Air Traffic Control Officer",
+    "abbr":"DATCO"
+  },
+  {
+    "Abbreviate":"Duty Officer",
+    "abbr":"DO"
+  },
+  {
+    "Abbreviate":"Duty Staff Officer",
+    "abbr":"DSO"
+  },
+  {
+    "Abbreviate":"Flight Safety Officer",
+    "abbr":"FSO"
+  },
+  {
+    "Abbreviate":"Forward Air Controller",
+    "abbr":"FAC"
+  },
+  {
+    "Abbreviate":"Ground Liaison Officer",
+    "abbr":"GLO"
+  },
+  {
+    "Abbreviate":"Ground Safety Officer",
+    "abbr":"GSO"
+  },
+  {
+    "Abbreviate":"Judge Advocate General ",
+    "abbr":"JAG"
+  },
+  {
+    "Abbreviate":"Nuclear Biological and Chemical Defence Officer",
+    "abbr":"NBCDO"
+  },
+  {
+    "Abbreviate":"Officer Commanding",
+    "abbr":"OC"
+  },
+  {
+    "Abbreviate":"Officer in Charge",
+    "abbr":"OIC"
+  },
+  {
+    "Abbreviate":"Orderly Officer",
+    "abbr":"OO"
+  },
+  {
+    "Abbreviate":"Provost Marshal",
+    "abbr":"PM"
+  },
+  {
+    "Abbreviate":"Range Safety Officer ",
+    "abbr":"RSO"
+  },
+  {
+    "Abbreviate":"Senior Air Traffic Control Officer",
+    "abbr":"SATCO"
+  },
+  {
+    "Abbreviate":"Staff Operation Officer",
+    "abbr":"SOO"
+  },
+  {
+    "Abbreviate":"Administrative Officer",
+    "abbr":"AO"
+  },
+  {
+    "Abbreviate":"Assistant Secretary",
+    "abbr":"AS"
+  },
+  {
+    "Abbreviate":"Cantonment Executive Officer",
+    "abbr":"CEO"
+  },
+  {
+    "Abbreviate":"Chief Administrative Officer",
+    "abbr":"CAO"
+  },
+  {
+    "Abbreviate":"Civilian Gazetted Officer",
+    "abbr":"CGO"
+  },
+  {
+    "Abbreviate":"Civilian Staff Officer",
+    "abbr":"CSO"
+  },
+  {
+    "Abbreviate":"Clerk",
+    "abbr":"clk"
+  },
+  {
+    "Abbreviate":"Commander in Chief",
+    "abbr":"C in C"
+  },
+  {
+    "Abbreviate":"Controller General of Defence Finance ",
+    "abbr":"CGDF"
+  },
+  {
+    "Abbreviate":"Deputy Commissioner",
+    "abbr":"DC"
+  },
+  {
+    "Abbreviate":"Deputy Secretary",
+    "abbr":"DS"
+  },
+  {
+    "Abbreviate":"Director General Bangladesh Rifles",
+    "abbr":"DGBDR"
+  },
+  {
+    "Abbreviate":"Director General Medical Services",
+    "abbr":"DGMS"
+  },
+  {
+    "Abbreviate":"Director General National Security Intelligence",
+    "abbr":"DGNSI"
+  },
+  {
+    "Abbreviate":"Director General of Defence Purchase",
+    "abbr":"DGDP"
+  },
+  {
+    "Abbreviate":"Director Inter Services Public Relations",
+    "abbr":"DISPR"
+  },
+  {
+    "Abbreviate":"Director Military Lands and Cantonments",
+    "abbr":"DMLC"
+  },
+  {
+    "Abbreviate":"Duty Medical Officer",
+    "abbr":"DMO"
+  },
+  {
+    "Abbreviate":"Executive Engineer",
+    "abbr":"XEN"
+  },
+  {
+    "Abbreviate":"Field Controller of Military Accounts",
+    "abbr":"FCMA"
+  },
+  {
+    "Abbreviate":"Finance Controller",
+    "abbr":"FC"
+  },
+  {
+    "Abbreviate":"Financial Adviser",
+    "abbr":"FA"
+  },
+  {
+    "Abbreviate":"Garrison Engineer",
+    "abbr":"GE"
+  },
+  {
+    "Abbreviate":"Ground Combateer(s)",
+    "abbr":"G Cbt"
+  },
+  {
+    "Abbreviate":"Inspector General of Police",
+    "abbr":"IGP"
+  },
+  {
+    "Abbreviate":"Joint Secretary",
+    "abbr":"JS"
+  },
+  {
+    "Abbreviate":"Lower Division Clerk",
+    "abbr":"LDC"
+  },
+  {
+    "Abbreviate":"Military Adviser/Attache",
+    "abbr":"MA"
+  },
+  {
+    "Abbreviate":"Military Estate Officer",
+    "abbr":"MEO"
+  },
+  {
+    "Abbreviate":"Military Secretary to the President",
+    "abbr":"MSP"
+  },
+  {
+    "Abbreviate":"Military Secretary to the Prime Minister",
+    "abbr":"MSPM"
+  },
+  {
+    "Abbreviate":"Personal Assistant",
+    "abbr":"PA"
+  },
+  {
+    "Abbreviate":"Private Secretary",
+    "abbr":"PS"
+  },
+  {
+    "Abbreviate":"Public Relations Officer",
+    "abbr":"PRO"
+  },
+  {
+    "Abbreviate":"Secretary",
+    "abbr":"Secy"
+  },
+  {
+    "Abbreviate":"Section Officer",
+    "abbr":"SO"
+  },
+  {
+    "Abbreviate":"Senior Administrative Officer",
+    "abbr":"SAO"
+  },
+  {
+    "Abbreviate":"Senior Finance Controller ",
+    "abbr":"SFC"
+  },
+  {
+    "Abbreviate":"Upper Division Clerk",
+    "abbr":"UDC"
+  },
+  {
+    "Abbreviate":"Airborne;After Burner",
+    "abbr":"AB"
+  },
+  {
+    "Abbreviate":"Air Defence/Despatch",
+    "abbr":"AD"
+  },
+  {
+    "Abbreviate":"Air Defence Area; Action Data Automation; Air Defence Alert",
+    "abbr":"ADA"
+  },
+  {
+    "Abbreviate":"Advanced Dressing Station; Air Despatch Service ",
+    "abbr":"ADS"
+  },
+  {
+    "Abbreviate":"Air Intelligence; Air Interception",
+    "abbr":"AI"
+  },
+  {
+    "Abbreviate":"Army Instruction Bangladesh; Air Investigation Board",
+    "abbr":"AIB"
+  },
+  {
+    "Abbreviate":"Army Maintenance Area; Airhead Maintenance Area",
+    "abbr":"AMA"
+  },
+  {
+    "Abbreviate":"Armoured/Artillery Officers Basic Course",
+    "abbr":"AOBC"
+  },
+  {
+    "Abbreviate":"Area of Responsibility; Aircraft Occurrence Report",
+    "abbr":"AOR"
+  },
+  {
+    "Abbreviate":"Ammunition Point; Air Publication; Armed Police; Armour Piercing",
+    "abbr":"AP"
+  },
+  {
+    "Abbreviate":"Appropriate(ly)/Appropriation",
+    "abbr":"Appr"
+  },
+  {
+    "Abbreviate":"Arrangement/Arrange",
+    "abbr":"arng"
+  },
+  {
+    "Abbreviate":"Animal Transport; Air Transport",
+    "abbr":"AT"
+  },
+  {
+    "Abbreviate":"Actual Time of Departure; Army Training Directive",
+    "abbr":"ATD"
+  },
+  {
+    "Abbreviate":"Automatic (ally)/Automation",
+    "abbr":"Auto"
+  },
+  {
+    "Abbreviate":"Available/ availability",
+    "abbr":"aval"
+  },
+  {
+    "Abbreviate":"Brigade Administrative Area; Bangladesh Army Act ",
+    "abbr":"BAA"
+  },
+  {
+    "Abbreviate":"Bir Bikram; Baily Bridge; Battleship ",
+    "abbr":"BB"
+  },
+  {
+    "Abbreviate":"Basic Commando Course; Basic Conversion Course",
+    "abbr":"BCC"
+  },
+  {
+    "Abbreviate":"Bomb Disposal; Battle Dress",
+    "abbr":"BD"
+  },
+  {
+    "Abbreviate":"Bring/Brought Forward",
+    "abbr":"BF"
+  },
+  {
+    "Abbreviate":"Bill of Landing; Bomb Line",
+    "abbr":"BL"
+  },
+  {
+    "Abbreviate":"Bridge; Branch",
+    "abbr":"br"
+  },
+  {
+    "Abbreviate":"Calculation; Calibrate",
+    "abbr":"cal"
+  },
+  {
+    "Abbreviate":"Casual/Casualty",
+    "abbr":"cas"
+  },
+  {
+    "Abbreviate":"Counter Bombardment; Charge Book; Circuit Breaker",
+    "abbr":"CB"
+  },
+  {
+    "Abbreviate":"Casualty Collection Point/Post",
+    "abbr":"CCP"
+  },
+  {
+    "Abbreviate":"Certificate/Certified Issue Voucher",
+    "abbr":"CIV"
+  },
+  {
+    "Abbreviate":"Casual Leave; Confinement to Lines",
+    "abbr":"CL"
+  },
+  {
+    "Abbreviate":"Commander Land Forces/Landing Force",
+    "abbr":"CLF"
+  },
+  {
+    "Abbreviate":"Clerk/Clerical",
+    "abbr":"clk"
+  },
+  {
+    "Abbreviate":"Clothe/Cloth",
+    "abbr":"clo"
+  },
+  {
+    "Abbreviate":"Command Post; Critical Point",
+    "abbr":"CP"
+  },
+  {
+    "Abbreviate":"Casualty Return; Central Register",
+    "abbr":"CR"
+  },
+  {
+    "Abbreviate":"Certificate/Certified Receipt Voucher",
+    "abbr":"CRV"
+  },
+  {
+    "Abbreviate":"Cryptographer/Cryptography",
+    "abbr":"Crypto"
+  },
+  {
+    "Abbreviate":"Callsign/Commando Ship ",
+    "abbr":"CS"
+  },
+  {
+    "Abbreviate":"Commander Task Element/Force/Group/Unit",
+    "abbr":"CTE/F/G/U"
+  },
+  {
+    "Abbreviate":"Aircraft Carrier; Combat/Command Vehicle",
+    "abbr":"CV"
+  },
+  {
+    "Abbreviate":"Defence Attache; Drafting Authority; Distributing Authority",
+    "abbr":"DA"
+  },
+  {
+    "Abbreviate":"Defend/Deficiency/Deficient",
+    "abbr":"def"
+  },
+  {
+    "Abbreviate":"Depot/Depart",
+    "abbr":"dep"
+  },
+  {
+    "Abbreviate":"Defensive Fire; Direction Finding",
+    "abbr":"DF"
+  },
+  {
+    "Abbreviate":"Decision Height; Direct Hit",
+    "abbr":"DH"
+  },
+  {
+    "Abbreviate":"Divide/Division",
+    "abbr":"div"
+  },
+  {
+    "Abbreviate":"Distribution Point; Delivery Point; Dumping Point",
+    "abbr":"DP"
+  },
+  {
+    "Abbreviate":"Despatch Rider; Discrepancy Report",
+    "abbr":"DR"
+  },
+  {
+    "Abbreviate":"Directing Staff; Direct Support; Deputy Secretary",
+    "abbr":"DS"
+  },
+  {
+    "Abbreviate":"Driver/Driving",
+    "abbr":"dvr"
+  },
+  {
+    "Abbreviate":"Emergency Cash Requisition; Enemy Contact Report;  Engine Control Room ",
+    "abbr":"ECR"
+  },
+  {
+    "Abbreviate":"Electric/electrical/electrician/electricity/electronic",
+    "abbr":"elec"
+  },
+  {
+    "Abbreviate":"Embussing/Embarkation",
+    "abbr":"emb"
+  },
+  {
+    "Abbreviate":"Estimated Time of Arrival/Completion/Departure/Return",
+    "abbr":"ETA/C/D/R"
+  },
+  {
+    "Abbreviate":"Early Warning; Electronic Warfare",
+    "abbr":"EW"
+  },
+  {
+    "Abbreviate":"Electronic Warfare Control Ship/Station ",
+    "abbr":"EWCS"
+  },
+  {
+    "Abbreviate":"Extend/Extension/extended",
+    "abbr":"ext"
+  },
+  {
+    "Abbreviate":"Fighter; Fleet",
+    "abbr":"F"
+  },
+  {
+    "Abbreviate":"Firm Base; Fighter Bomber; Fire Base",
+    "abbr":"FB"
+  },
+  {
+    "Abbreviate":"Fighter Control/Controller; Finance Controller; Field Craft",
+    "abbr":"FC"
+  },
+  {
+    "Abbreviate":"Freedom Fighter; Field Firing/ Frigate",
+    "abbr":"FF"
+  },
+  {
+    "Abbreviate":"Fire/Free Flight Rocket; Fitted for Radio",
+    "abbr":"FFR"
+  },
+  {
+    "Abbreviate":"Flight Information Service; Flying Instructor's School",
+    "abbr":"FIS"
+  },
+  {
+    "Abbreviate":"Frequency Modulated/Modulation",
+    "abbr":"FM"
+  },
+  {
+    "Abbreviate":"Foreign Object Detection; Forward Ordnance Depot.",
+    "abbr":"FOD"
+  },
+  {
+    "Abbreviate":"Field Security/Service",
+    "abbr":"FS"
+  },
+  {
+    "Abbreviate":"Field/Formation Training Exercise",
+    "abbr":"FTX"
+  },
+  {
+    "Abbreviate":"Ground Attack; General Alert",
+    "abbr":"GA"
+  },
+  {
+    "Abbreviate":"General Air Picture/Plot",
+    "abbr":"GAP"
+  },
+  {
+    "Abbreviate":"General Deployment Plan; Gun Direction Platform",
+    "abbr":"GDP"
+  },
+  {
+    "Abbreviate":"General Staff Training Publication; General Service Training Pamphlet.",
+    "abbr":"GSTP"
+  },
+  {
+    "Abbreviate":"Guerilla Warfare; Guided Weapon",
+    "abbr":"GW"
+  },
+  {
+    "Abbreviate":"Hul/Hydrographer (BN only)",
+    "abbr":"H"
+  },
+  {
+    "Abbreviate":"High Explosive; Hydrophone Effect",
+    "abbr":"HE"
+  },
+  {
+    "Abbreviate":"High Frequency; Harassing Fire ",
+    "abbr":"HF"
+  },
+  {
+    "Abbreviate":"Hospital/Hospitalized",
+    "abbr":"hosp"
+  },
+  {
+    "Abbreviate":"In Charge, Internal Combustion ",
+    "abbr":"IC"
+  },
+  {
+    "Abbreviate":"Image Intensification/Intensifier",
+    "abbr":"II"
+  },
+  {
+    "Abbreviate":"Important/Importance",
+    "abbr":"imp"
+  },
+  {
+    "Abbreviate":"Independent(ly)/independence",
+    "abbr":"indep"
+  },
+  {
+    "Abbreviate":"Institute/Institution",
+    "abbr":"inst"
+  },
+  {
+    "Abbreviate":"Insurgency/insurgent",
+    "abbr":"insurg"
+  },
+  {
+    "Abbreviate":"Intelligence/Intelligent",
+    "abbr":"int"
+  },
+  {
+    "Abbreviate":"Instructional Practice; Initial Point",
+    "abbr":"IP"
+  },
+  {
+    "Abbreviate":"Identification Safety Range; Infantry Support Raft ",
+    "abbr":"ISR"
+  },
+  {
+    "Abbreviate":"Joint Warfare; Jungle Warfare",
+    "abbr":"JW"
+  },
+  {
+    "Abbreviate":"Key Area; Killing Area",
+    "abbr":"KA"
+  },
+  {
+    "Abbreviate":"Killing Ground; Kilo Gramme",
+    "abbr":"KG"
+  },
+  {
+    "Abbreviate":"Key Terrain; Kilo Ton",
+    "abbr":"KT"
+  },
+  {
+    "Abbreviate":"Laboratory/ Labour",
+    "abbr":"lab"
+  },
+  {
+    "Abbreviate":"Local Air Picture/Plot",
+    "abbr":"LAP"
+  },
+  {
+    "Abbreviate":"Landing Craft Mechanized/Medium",
+    "abbr":"LCM"
+  },
+  {
+    "Abbreviate":"Leading/ Landing",
+    "abbr":"ldg "
+  },
+  {
+    "Abbreviate":"Locality/ Locate",
+    "abbr":"loc"
+  },
+  {
+    "Abbreviate":"Longitude/longitudinal(ly)",
+    "abbr":"long"
+  },
+  {
+    "Abbreviate":"Landing Point; Local Purchase; Low Power ",
+    "abbr":"LP"
+  },
+  {
+    "Abbreviate":"Light(ly)/Left",
+    "abbr":"lt"
+  },
+  {
+    "Abbreviate":"Magazine/Magnetize",
+    "abbr":"mag"
+  },
+  {
+    "Abbreviate":"Main Effort; Map Exercise",
+    "abbr":"ME"
+  },
+  {
+    "Abbreviate":"Master/Mixer Control Unit",
+    "abbr":"MCU"
+  },
+  {
+    "Abbreviate":"Material/materiel",
+    "abbr":"mat"
+  },
+  {
+    "Abbreviate":"Mechanical/ Motor Transport",
+    "abbr":"MT"
+  },
+  {
+    "Abbreviate":"Medical/Medicine/Medium",
+    "abbr":"med"
+  },
+  {
+    "Abbreviate":"Medium Range System; Master Radar Station",
+    "abbr":"MRS"
+  },
+  {
+    "Abbreviate":"Medium Range; Multi-Role",
+    "abbr":"MR"
+  },
+  {
+    "Abbreviate":"Meteorology/meteorological/meteorologist",
+    "abbr":"met"
+  },
+  {
+    "Abbreviate":"Military Assistant/Attache",
+    "abbr":"MA"
+  },
+  {
+    "Abbreviate":"Mine Sweeper; Mile Stone",
+    "abbr":"MS"
+  },
+  {
+    "Abbreviate":"Minute/Minimize",
+    "abbr":"min"
+  },
+  {
+    "Abbreviate":"Mission Oriented Task; Mission Oriented Training",
+    "abbr":"MOT"
+  },
+  {
+    "Abbreviate":"Mobile Observer Unit; Memorandum of Understanding",
+    "abbr":"MOU"
+  },
+  {
+    "Abbreviate":"Mobile/Mobilize",
+    "abbr":"mob"
+  },
+  {
+    "Abbreviate":"Mobile/Mortar Fire Controller",
+    "abbr":"MFC"
+  },
+  {
+    "Abbreviate":"Motor Cycle;  Movement Control",
+    "abbr":"MC"
+  },
+  {
+    "Abbreviate":"Object/Objective",
+    "abbr":"obj"
+  },
+  {
+    "Abbreviate":"Operational Control/ Conversion Unit",
+    "abbr":"OCU"
+  },
+  {
+    "Abbreviate":"Over Head Protector/Projection",
+    "abbr":"OHP"
+  },
+  {
+    "Abbreviate":"Over the Horizon Radar; Operational Hazard Report",
+    "abbr":"OHR"
+  },
+  {
+    "Abbreviate":"Observer Target; Operation Theatre",
+    "abbr":"OT"
+  },
+  {
+    "Abbreviate":"One Time Process/Pad",
+    "abbr":"OTP"
+  },
+  {
+    "Abbreviate":"Paragraph/Parachute",
+    "abbr":"para"
+  },
+  {
+    "Abbreviate":"Photographic Interpretation/interpreter",
+    "abbr":"PI"
+  },
+  {
+    "Abbreviate":"Phase/Pipe Line",
+    "abbr":"PL"
+  },
+  {
+    "Abbreviate":"Platoon; Please",
+    "abbr":"Pl"
+  },
+  {
+    "Abbreviate":"Photographic Reconnaissance; Public Relations",
+    "abbr":"PR"
+  },
+  {
+    "Abbreviate":"Psychological/psychology",
+    "abbr":"psy"
+  },
+  {
+    "Abbreviate":"Portable/Portability",
+    "abbr":"ptbl"
+  },
+  {
+    "Abbreviate":"Prisoner of War; Prosecution Witness",
+    "abbr":"PW"
+  },
+  {
+    "Abbreviate":"Quantify/Quantity",
+    "abbr":"qty"
+  },
+  {
+    "Abbreviate":"Qualified/Qualify/Qualification",
+    "abbr":"qual"
+  },
+  {
+    "Abbreviate":"Radio Telephone/Telephony",
+    "abbr":"RT"
+  },
+  {
+    "Abbreviate":"Receipt Voucher; Rendezvous",
+    "abbr":"RV"
+  },
+  {
+    "Abbreviate":"Recoilless Rifle; Radio Relay",
+    "abbr":"RR"
+  },
+  {
+    "Abbreviate":"Record/Retired Officer",
+    "abbr":"RO"
+  },
+  {
+    "Abbreviate":"Refuelling Point; Regimental Police; Replenishment Park",
+    "abbr":"RP"
+  },
+  {
+    "Abbreviate":"Register/Registered",
+    "abbr":"regd"
+  },
+  {
+    "Abbreviate":"Reinforced Cement Concrete; Rescue Coordination Centre ",
+    "abbr":"RCC"
+  },
+  {
+    "Abbreviate":"Release; Relieve ",
+    "abbr":"rel"
+  },
+  {
+    "Abbreviate":"Responsible/Responsibility",
+    "abbr":"resp"
+  },
+  {
+    "Abbreviate":"Rest and Refit/Recuperation",
+    "abbr":"R&R"
+  },
+  {
+    "Abbreviate":"Road; Round",
+    "abbr":"rd"
+  },
+  {
+    "Abbreviate":"Runway; Riverine Warfare",
+    "abbr":"RW"
+  },
+  {
+    "Abbreviate":"Sanitary/Sanitation",
+    "abbr":"san"
+  },
+  {
+    "Abbreviate":"Special Branch; Stretcher Bearer",
+    "abbr":"SB"
+  },
+  {
+    "Abbreviate":"Service Dress; Staff Duty",
+    "abbr":"SD"
+  },
+  {
+    "Abbreviate":"Section/sector (al)",
+    "abbr":"sec"
+  },
+  {
+    "Abbreviate":"Security Force(s); Striking Force(s) ",
+    "abbr":"SF"
+  },
+  {
+    "Abbreviate":"Security Intelligence; Seriously Ill ",
+    "abbr":"SI"
+  },
+  {
+    "Abbreviate":"Sub-Machine-Gun; Speed Made Good",
+    "abbr":"SMG"
+  },
+  {
+    "Abbreviate":"Save Our Soul; Struck off Strength",
+    "abbr":"SOS"
+  },
+  {
+    "Abbreviate":"Self Propelled; Signal Publication; Start Point",
+    "abbr":"SP"
+  },
+  {
+    "Abbreviate":"Submarine; Star Shell",
+    "abbr":"SS"
+  },
+  {
+    "Abbreviate":"Station Supply/Stores Depot",
+    "abbr":"SSD"
+  },
+  {
+    "Abbreviate":"Guided Missile Submarine; Special Service Group",
+    "abbr":"SSG"
+  },
+  {
+    "Abbreviate":"Statistics/Statistical",
+    "abbr":"stat"
+  },
+  {
+    "Abbreviate":"Surface Picture/Plot ",
+    "abbr":"Su P"
+  },
+  {
+    "Abbreviate":"Torpedo Anti-Submarine; True Air Speed",
+    "abbr":"TAS"
+  },
+  {
+    "Abbreviate":"Task Element/Force/Group/Unit",
+    "abbr":"TE/F/G/U"
+  },
+  {
+    "Abbreviate":"Technical/Technician/Technique",
+    "abbr":"tech"
+  },
+  {
+    "Abbreviate":"Telephone/Telephonist/Telephony",
+    "abbr":"tel"
+  },
+  {
+    "Abbreviate":"Temperature; temporary (temporarily)",
+    "abbr":"temp"
+  },
+  {
+    "Abbreviate":"Terrain; territorial/territory",
+    "abbr":"terr"
+  },
+  {
+    "Abbreviate":"Telegram/Telegraph(ic)(ist)(y)",
+    "abbr":"tg"
+  },
+  {
+    "Abbreviate":"Thermal Imager(y)/ Imaging",
+    "abbr":"TI"
+  },
+  {
+    "Abbreviate":"Topographic(al)/Topography",
+    "abbr":"topo"
+  },
+  {
+    "Abbreviate":"Time on Target (Artillery); Time Over Target (Aircraft)",
+    "abbr":"TOT"
+  },
+  {
+    "Abbreviate":"Turning Point; Traffic Post ",
+    "abbr":"TP"
+  },
+  {
+    "Abbreviate":"Teleprinter; transporter",
+    "abbr":"tptr"
+  },
+  {
+    "Abbreviate":"Trigonometrical/trigonometry",
+    "abbr":"trig"
+  },
+  {
+    "Abbreviate":"Television; Transfer Voucher",
+    "abbr":"TV"
+  },
+  {
+    "Abbreviate":"Unserviceable/Unserviceability",
+    "abbr":"U/S"
+  },
+  {
+    "Abbreviate":"Unit Entitlement/Establishment",
+    "abbr":"UE"
+  },
+  {
+    "Abbreviate":"Unit Repair Organization; Unit Routine Order",
+    "abbr":"URO"
+  },
+  {
+    "Abbreviate":"Vehicle Covering Diagram; Video Compact Disc",
+    "abbr":"VCD"
+  },
+  {
+    "Abbreviate":"Vehicle Check/Collecting Point",
+    "abbr":"VCP"
+  },
+  {
+    "Abbreviate":"Vehicle/Vehicular",
+    "abbr":"veh"
+  },
+  {
+    "Abbreviate":"Visibility/Visible/Visualize",
+    "abbr":"vis"
+  },
+  {
+    "Abbreviate":"Week (ly), work",
+    "abbr":"wk"
+  },
+  {
+    "Abbreviate":"Weapon Training; Water Tight",
+    "abbr":"WT"
+  },
+  {
+    "Abbreviate":"Armourd Corps Centre and School",
+    "abbr":"ACC&S"
+  },
+  {
+    "Abbreviate":"Army Medical Corps Centre and School",
+    "abbr":"AMCC&S"
+  },
+  {
+    "Abbreviate":"Army School of Education and Administration",
+    "abbr":"ASEA"
+  },
+  {
+    "Abbreviate":"Army School of Music",
+    "abbr":"ASM"
+  },
+  {
+    "Abbreviate":"Army School of Physical Training and Sports",
+    "abbr":"ASPTS"
+  },
+  {
+    "Abbreviate":"Artillery Centre and School",
+    "abbr":"AC&S"
+  },
+  {
+    "Abbreviate":"Army Supply Corps Centre and School",
+    "abbr":"ASCC&S"
+  },
+  {
+    "Abbreviate":"Bangladesh Air Force Academy",
+    "abbr":"BAFA"
+  },
+  {
+    "Abbreviate":"Bangladesh Infantry Regimental Centre",
+    "abbr":"BIRC"
+  },
+  {
+    "Abbreviate":"Bangladesh Institute of Peace Support Operation and Training",
+    "abbr":"BIPSOT"
+  },
+  {
+    "Abbreviate":"Bangladesh Military Academy",
+    "abbr":"BMA"
+  },
+  {
+    "Abbreviate":"Bangladesh Naval Academy",
+    "abbr":"BNA"
+  },
+  {
+    "Abbreviate":"Corps of Military Police Centre and School",
+    "abbr":"CMPC&S"
+  },
+  {
+    "Abbreviate":"Command and Staff Training Institute",
+    "abbr":"CSTI"
+  },
+  {
+    "Abbreviate":"Defence Services Command and Staff College",
+    "abbr":"DSCSC"
+  },
+  {
+    "Abbreviate":"East Bengal Regimental Centre",
+    "abbr":"EBRC"
+  },
+  {
+    "Abbreviate":"Electrical and Mechanical Engineering Centre and School",
+    "abbr":"EMEC&S"
+  },
+  {
+    "Abbreviate":"Engineer Centre and School of Military Engineering",
+    "abbr":"ECSME"
+  },
+  {
+    "Abbreviate":"Equitation School",
+    "abbr":"ES"
+  },
+  {
+    "Abbreviate":"Individual Studies School",
+    "abbr":"ISS"
+  },
+  {
+    "Abbreviate":"Military Institute of Science and Technology ",
+    "abbr":"MIST"
+  },
+  {
+    "Abbreviate":"National Defence College",
+    "abbr":"NDC"
+  },
+  {
+    "Abbreviate":"Non Commission Officer�s Academy",
+    "abbr":"NCOA"
+  },
+  {
+    "Abbreviate":"Ordnance Centre and School",
+    "abbr":"OC&S"
+  },
+  {
+    "Abbreviate":"Recruit Training School",
+    "abbr":"RTS"
+  },
+  {
+    "Abbreviate":"School of Infantry and Tactics",
+    "abbr":"SI&T"
+  },
+  {
+    "Abbreviate":"School of Military Intelligence",
+    "abbr":"SMI"
+  },
+  {
+    "Abbreviate":"Signal Training Centre and School",
+    "abbr":"STC&S"
+  },
+  {
+    "Abbreviate":"Armed Forces Medical College",
+    "abbr":"AFMC"
+  },
+  {
+    "Abbreviate":"Bengal Cavalry",
+    "abbr":"Bengal Cav"
+  },
+  {
+    "Abbreviate":"1 Cavalry",
+    "abbr":"1 Cav"
+  },
+  {
+    "Abbreviate":"4 Horse",
+    "abbr":"4 H"
+  },
+  {
+    "Abbreviate":"B Squadron 5 Horse",
+    "abbr":"B Sqn 5 H"
+  },
+  {
+    "Abbreviate":"A Squadron 6 Horse",
+    "abbr":"A Sqn 6 H"
+  },
+  {
+    "Abbreviate":"2 Field Regiment",
+    "abbr":"2 Fd Regt"
+  },
+  {
+    "Abbreviate":"3 Medium Regiment",
+    "abbr":"3 Med Regt"
+  },
+  {
+    "Abbreviate":"4 Mortar Regiment",
+    "abbr":"4 Mor Regt"
+  },
+  {
+    "Abbreviate":"5 Light Anti-Aircraft Regiment",
+    "abbr":"5 LAA Regt"
+  },
+  {
+    "Abbreviate":"40 Medium Regiment",
+    "abbr":"40 Med Regt"
+  },
+  {
+    "Abbreviate":"29 Division Locating Battery",
+    "abbr":"29 Div Loc Bty"
+  },
+  {
+    "Abbreviate":"R Battery 1 Field Regiment",
+    "abbr":"R Bty 1 Fd Regt"
+  },
+  {
+    "Abbreviate":"P Battery 2 Field Regiment",
+    "abbr":"P Bty 2 Fd Regt"
+  },
+  {
+    "Abbreviate":"Q Battery  2 Field Regiment",
+    "abbr":"Q Bty 2 Fd Regt"
+  },
+  {
+    "Abbreviate":"1 Engineer Battalion",
+    "abbr":"1 Engr Bn"
+  },
+  {
+    "Abbreviate":"3 Engineer Battalion ",
+    "abbr":"3 Engr Bn"
+  },
+  {
+    "Abbreviate":"5 Riverine Engineer Battalion",
+    "abbr":"5 RE Bn"
+  },
+  {
+    "Abbreviate":"9 Engineer Battalion",
+    "abbr":"9 Engr Bn"
+  },
+  {
+    "Abbreviate":"16 Engineer Construction  Battalion",
+    "abbr":"16 ECB"
+  },
+  {
+    "Abbreviate":"22 Field Company 5 Engineer Battalion",
+    "abbr":"22 Fd Coy 5 Engr Bn"
+  },
+  {
+    "Abbreviate":"Headquarters Army Signal Brigade",
+    "abbr":"HQ Army Sig Bde"
+  },
+  {
+    "Abbreviate":"1 Signal Battalion",
+    "abbr":"1 Sig Bn"
+  },
+  {
+    "Abbreviate":"5 Signal Battalion",
+    "abbr":"5 Sig Bn"
+  },
+  {
+    "Abbreviate":"10 Signal Battalion",
+    "abbr":"10 Sig Bn"
+  },
+  {
+    "Abbreviate":"Army Static Signal Battalion",
+    "abbr":"Army Static Sig Bn"
+  },
+  {
+    "Abbreviate":"105 Brigade Signal Company",
+    "abbr":"105 Bde Sig Coy"
+  },
+  {
+    "Abbreviate":"Static Signal Company Savar",
+    "abbr":"Static Sig Coy Savar"
+  },
+  {
+    "Abbreviate":"1 East Bengal Regiment",
+    "abbr":"1 E Bengal "
+  },
+  {
+    "Abbreviate":"5 East Bengal Regiment",
+    "abbr":"5 E Bengal"
+  },
+  {
+    "Abbreviate":"29 East Bengal Regiment (Divisional Support)",
+    "abbr":"29 Div Sp Bn"
+  },
+  {
+    "Abbreviate":"8 Bangladesh Infantry Regiment",
+    "abbr":"8 BIR"
+  },
+  {
+    "Abbreviate":"1 Bangladesh Infantry Regiment",
+    "abbr":"1 BIR"
+  },
+  {
+    "Abbreviate":"1 Para Commando Battalion",
+    "abbr":"1 Para Cdo Bn"
+  },
+  {
+    "Abbreviate":"Army Aviation",
+    "abbr":"Army Avn"
+  },
+  {
+    "Abbreviate":"Army Service Corps",
+    "abbr":"ASC"
+  },
+  {
+    "Abbreviate":"(31 Supply & Transport Battalion)",
+    "abbr":"(31 ST Bn)"
+  },
+  {
+    "Abbreviate":"(601 Supply and Transport Company)",
+    "abbr":"(601 ST Coy)"
+  },
+  {
+    "Abbreviate":"",
+    "abbr":""
+  },
+  {
+    "Abbreviate":"Army Medical Corps",
+    "abbr":"AMC"
+  },
+  {
+    "Abbreviate":"(11 Field Ambulance)",
+    "abbr":"(11 Fd Amb)"
+  },
+  {
+    "Abbreviate":"Army Ordnance Corps",
+    "abbr":"AOC"
+  },
+  {
+    "Abbreviate":"(17 Division Ordnance Company)",
+    "abbr":"(17 Div Ord Coy)"
+  },
+  {
+    "Abbreviate":"Electrical and Mechanical Engineers Corps",
+    "abbr":"EME"
+  },
+  {
+    "Abbreviate":"(5 Field Workshop Company)",
+    "abbr":"(5 Fd Wksp Coy)"
+  },
+  {
+    "Abbreviate":"Remount Veterinary and Farm Corps",
+    "abbr":"RV& FC"
+  },
+  {
+    "Abbreviate":"Army Dental Corps",
+    "abbr":"ADC"
+  },
+  {
+    "Abbreviate":"Corps of Military Police",
+    "abbr":"CMP"
+  },
+  {
+    "Abbreviate":"Army Education Corps",
+    "abbr":"AEC"
+  },
+  {
+    "Abbreviate":"Army Corps of Clerks",
+    "abbr":"ACC"
+  },
+  {
+    "Abbreviate":"Armed Forces Nursing Service",
+    "abbr":"AFNS"
+  }
+]

@@ -35,6 +35,12 @@ public class HomeActivity extends Activity  {
     private void initUI() {
         main_menu_li = (LinearLayout) findViewById(R.id.main_menu_li);
         menu_imageview=(ImageView)findViewById(R.id.menu_imageview);
+    }public void ABBR(View v) {
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
+        intent.putExtra("header","ABBRIATION");
+        startActivity(intent);
     }
 
     public void AIRHQ(View v) {
@@ -120,26 +126,22 @@ public class HomeActivity extends Activity  {
         startActivity(intent);
     }
 
-    public void POLICE(View v) {
+    public void RANK(View v) {
         dataBaseUtility.getNwdData(mContext);
         main_menu_li.startAnimation(outToleftAnimation());
         main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, OthersMainActivity.class);
-        intent.putExtra("orgCode","1");
-        intent.putExtra("orgName","POLICE");
+        Intent intent = new Intent(this, RankActivity.class);
         startActivity(intent);
     }
 
-    public void AIRLINES(View v) {
+    public void HIS(View v) {
         dataBaseUtility.getNwdData(mContext);
         main_menu_li.startAnimation(outToleftAnimation());
         main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, OthersMainActivity.class);
-        intent.putExtra("orgCode","2");
-        intent.putExtra("orgName","AIRLINES");
+        Intent intent = new Intent(this, HistoryActivity.class);
         startActivity(intent);
     }
-    public void HOSPITAL(View v) {
+    public void LOC(View v) {
         dataBaseUtility.getNwdData(mContext);
         main_menu_li.startAnimation(outToleftAnimation());
         main_menu_li.setVisibility(View.GONE);
@@ -148,15 +150,14 @@ public class HomeActivity extends Activity  {
         intent.putExtra("orgName","HOSPITAL");
         startActivity(intent);
     }
-    public void SCHOOL(View v) {
-        dataBaseUtility.getNwdData(mContext);
+   /* public void GENABB(View v) {
+        //dataBaseUtility.getAbbrData(mContext);
         main_menu_li.startAnimation(outToleftAnimation());
         main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, OthersMainActivity.class);
-        intent.putExtra("orgCode","3");
-        intent.putExtra("orgName","SCHOOL COLLEGE");
+        Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
+        intent.putExtra("header","ABBRIATION");
         startActivity(intent);
-    }
+    }*/
     public void RSTATION(View v) {
         dataBaseUtility.getNwdData(mContext);
         main_menu_li.startAnimation(outToleftAnimation());

@@ -233,7 +233,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textColor="@color/white"
-                    android:text="@string/lodger_niit"
+                    android:text="@string/lodger_unit"
                     android:textSize="14sp" />
 
                 <ImageView

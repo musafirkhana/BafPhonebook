@@ -193,7 +193,7 @@
                 android:layout_weight="2"
                 android:textColor="@color/black"
                 android:gravity="center"
-                android:text="996"
+                android:text="991"
                 android:textSize="12sp"
                 android:textStyle="bold" />
 

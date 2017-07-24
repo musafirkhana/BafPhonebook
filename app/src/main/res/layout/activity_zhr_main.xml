@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background_main"
     android:orientation="vertical">
+
     <LinearLayout
         android:id="@+id/top_linear"
         android:layout_width="match_parent"
@@ -14,20 +15,36 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:background="@color/button_background"
-            >
+            android:background="@color/button_background">
 
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/home"
-                android:layout_centerVertical="true"
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
                 android:clickable="true"
-                android:onClick="HOME"
-                android:layout_marginLeft="10dp"
-                android:layout_alignParentLeft="true" />
+                android:onClick="BACK"
+                android:layout_alignParentLeft="true">
 
-            <TextView android:id="@+id/topbar"
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rounded_button_selector">
+
+                </ImageView>
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/back">
+
+                </ImageView>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/topbar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
@@ -41,77 +58,209 @@
 
     </LinearLayout>
 
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_linear">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="15dp">
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+           >
 
-            <RelativeLayout
-                android:id="@+id/llOrderfood"
-                android:layout_width="fill_parent"
-                android:layout_height="62dp"
-                android:layout_centerHorizontal="true"
-                android:clickable="true"
-                android:layout_marginTop="1dp"
-                android:onClick="LODGER"
-                android:background="@drawable/home_selector"
-                >
-                <TextView
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="15dp"
-                    android:textColor="@color/white"
-                    android:text="MOBILE NO"
-                    android:textSize="14sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="15dp">
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="62dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/home_selector"
+                    android:clickable="true"
+                    android:onClick="ZHQ">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="12dp"
-                    android:src="@drawable/arrow" />
-            </RelativeLayout>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="BASE HQ"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
 
-            <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="62dp"
-                android:layout_alignLeft="@+id/llOrderfood"
-                android:layout_below="@+id/llOrderfood"
-                android:layout_marginTop="10dp"
-                android:clickable="true"
-                android:onClick="CANTD"
-                android:background="@drawable/home_selector"
-                >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
 
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="15dp"
-                    android:textColor="@color/white"
-                    android:text="PABX"
-                    android:textSize="14sp" />
+                <RelativeLayout
+                    android:id="@+id/llOrderfood"
+                    android:layout_width="fill_parent"
+                    android:layout_height="62dp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/home_selector"
+                    android:clickable="true"
+                    android:onClick="WING1">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="12dp"
-                    android:src="@drawable/arrow" />
-            </RelativeLayout>
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/flying_wing"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
 
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
 
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="62dp"
+                    android:layout_alignLeft="@+id/llOrderfood"
+                    android:layout_below="@+id/llOrderfood"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/home_selector"
+                    android:clickable="true"
+                    android:onClick="WING2">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/ops_wing"                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="62dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/home_selector"
+                    android:clickable="true"
+                    android:onClick="WING3">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/maintain_wing"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="62dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/home_selector"
+                    android:clickable="true"
+                    android:onClick="WING4">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/admin_wing"
+                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="62dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/home_selector"
+                    android:clickable="true"
+                    android:onClick="WING5">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/trg_wing"                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="62dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/home_selector"
+                    android:clickable="true"
+                    android:onClick="WING6">
+
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:text="@string/lodger_unit"                        android:textColor="@color/white"
+                        android:textSize="14sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/arrow" />
+                </RelativeLayout>
+
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-
+    </ScrollView>
 </RelativeLayout>
