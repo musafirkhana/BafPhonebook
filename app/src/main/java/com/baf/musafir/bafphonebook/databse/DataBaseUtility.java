@@ -8,6 +8,7 @@ import android.util.Log;
 import com.baf.musafir.bafphonebook.holder.AllAbbrListVector;
 import com.baf.musafir.bafphonebook.holder.AllCadetCollegeListVector;
 import com.baf.musafir.bafphonebook.holder.AllContactListVector;
+import com.baf.musafir.bafphonebook.holder.AllLocationListVector;
 import com.baf.musafir.bafphonebook.holder.AllMobileListVector;
 import com.baf.musafir.bafphonebook.holder.AllNwdListVector;
 import com.baf.musafir.bafphonebook.holder.AllOthersListVector;
@@ -16,6 +17,7 @@ import com.baf.musafir.bafphonebook.holder.AllRanlListVector;
 import com.baf.musafir.bafphonebook.model.AbbrlListModel;
 import com.baf.musafir.bafphonebook.model.CadetCollegeListModel;
 import com.baf.musafir.bafphonebook.model.ContactListModel;
+import com.baf.musafir.bafphonebook.model.LocationListModel;
 import com.baf.musafir.bafphonebook.model.MobileListModel;
 import com.baf.musafir.bafphonebook.model.NwdListModel;
 import com.baf.musafir.bafphonebook.model.OthersListModel;
@@ -394,6 +396,37 @@ public class DataBaseUtility {
                 allCadetCollegeListVector.setAllCadetCollegelist(cadetCollegeListModel);
                 cadetCollegeListModel = null;
                 Log.w(TAG, "getCCData: " + cursor.getString(0));
+            } while (cursor.moveToNext());
+        }
+        db.close();
+    }
+    /*****************************
+     * Get All Cadet College Data
+     *
+     * @param context
+     *****************************/
+    public void getLocationData(Context context) {
+        AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
+        SQLiteDatabase db = databaseOpenHelper.openDatabase();
+        Log.w(TAG, "getLocationData: " + db.getPath());
+
+
+        Cursor cursor = db.rawQuery(
+                "SELECT * from location;",
+                null);
+        Log.w(TAG, "Query Are : " + cursor);
+        AllLocationListVector locationListVector = new AllLocationListVector();
+        locationListVector.removeLocationlist();
+        if (cursor.moveToFirst()) {
+            do {
+                LocationListModel locationListModel = new LocationListModel();
+                locationListModel.setLatitude(cursor.getString(0));
+                locationListModel.setLongitude(cursor.getString(1));
+                locationListModel.setPlace_name(cursor.getString(2));
+
+                locationListVector.setAllLocationlist(locationListModel);
+                locationListModel = null;
+                Log.w(TAG, "getLocationData: " + cursor.getString(0));
             } while (cursor.moveToNext());
         }
         db.close();

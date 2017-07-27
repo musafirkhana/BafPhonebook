@@ -142,12 +142,10 @@ public class HomeActivity extends Activity  {
         startActivity(intent);
     }
     public void LOC(View v) {
-        dataBaseUtility.getNwdData(mContext);
+        dataBaseUtility.getLocationData(mContext);
         main_menu_li.startAnimation(outToleftAnimation());
         main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, OthersMainActivity.class);
-        intent.putExtra("orgCode","6");
-        intent.putExtra("orgName","HOSPITAL");
+        Intent intent = new Intent(this, LocationMapActivity.class);
         startActivity(intent);
     }
    /* public void GENABB(View v) {
