@@ -423,7 +423,7 @@ public class DataBaseUtility {
                 locationListModel.setLatitude(cursor.getString(0));
                 locationListModel.setLongitude(cursor.getString(1));
                 locationListModel.setPlace_name(cursor.getString(2));
-
+                locationListModel.setService_id(cursor.getString(3));
                 locationListVector.setAllLocationlist(locationListModel);
                 locationListModel = null;
                 Log.w(TAG, "getLocationData: " + cursor.getString(0));

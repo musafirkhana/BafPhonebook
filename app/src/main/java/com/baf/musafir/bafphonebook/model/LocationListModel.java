@@ -4,6 +4,7 @@ public class LocationListModel {
 
 	private String latitude = "";
 	private String longitude = "";
+	private String service_id = "";
 	private String place_name = "";
 
 	public String getLatitude() {
@@ -22,6 +23,14 @@ public class LocationListModel {
 		this.longitude = longitude;
 	}
 
+	public String getService_id() {
+		return service_id;
+	}
+
+	public void setService_id(String service_id) {
+		this.service_id = service_id;
+	}
+
 	public String getPlace_name() {
 		return place_name;
 	}
@@ -35,6 +44,7 @@ public class LocationListModel {
 		return "LocationListModel{" +
 				"latitude='" + latitude + '\'' +
 				", longitude='" + longitude + '\'' +
+				", service_id='" + service_id + '\'' +
 				", place_name='" + place_name + '\'' +
 				'}';
 	}

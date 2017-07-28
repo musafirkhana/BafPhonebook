@@ -69,9 +69,9 @@ private Context mContext;
             GeoJsonLayer layer = new GeoJsonLayer(mMap, R.raw.bdallgeo, getApplicationContext());
 
             GeoJsonPolygonStyle style = layer.getDefaultPolygonStyle();
-            style.setFillColor(Color.MAGENTA);
-            style.setStrokeColor(Color.MAGENTA);
-            style.setStrokeWidth(10F);
+            style.setFillColor(Color.GREEN);
+            style.setStrokeColor(Color.RED);
+            style.setStrokeWidth(5F);
 
             layer.addLayerToMap();
 
@@ -90,7 +90,7 @@ private Context mContext;
 
             try {
                 LAT_LONG = new LatLng(Double.parseDouble(query.getLatitude()), Double.parseDouble(query.getLongitude()));
-                drawMarker(new LatLng(Double.parseDouble(query.getLatitude()), Double.parseDouble(query.getLongitude())),query.getPlace_name());
+                drawMarker(new LatLng(Double.parseDouble(query.getLatitude()), Double.parseDouble(query.getLongitude())),query.getPlace_name(),query.getService_id());
                 // Move the camera instantly to hamburg with a zoom of 15.
                 CameraPosition cameraPosition = new CameraPosition.Builder().target(
                         new LatLng(Double.parseDouble(AllLocationListVector.getAllLocationlist().elementAt(2).getLatitude()),
@@ -108,10 +108,17 @@ private Context mContext;
         }
     }
 
-    private void drawMarker(LatLng point,String title) {
+    private void drawMarker(LatLng point,String title,String serviceId) {
         // Creating an instance of MarkerOptions
-        MarkerOptions markerOptions = new MarkerOptions().icon(BitmapDescriptorFactory
-                .fromResource(R.drawable.location));
+        MarkerOptions markerOptions=null;
+        if(serviceId.equalsIgnoreCase("1")){
+             markerOptions = new MarkerOptions().icon(BitmapDescriptorFactory
+                    .fromResource(R.drawable.location));
+        }else if(serviceId.equalsIgnoreCase("2")){
+            markerOptions = new MarkerOptions().icon(BitmapDescriptorFactory
+                    .fromResource(R.drawable.army_loc));
+        }
+
 
         // Setting latitude and longitude for the marker
         markerOptions.position(point);
