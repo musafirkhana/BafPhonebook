@@ -192,7 +192,6 @@ public class SplashActivity extends Activity {
     private void createFolderStructure() {
         if (!mainDir.exists()) {
             mainDir.mkdirs();
-
         }
 
         if (!edenRefDir.exists()) {

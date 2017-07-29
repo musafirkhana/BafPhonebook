@@ -31,41 +31,42 @@ public class MaintWingActivity extends Activity {
         wingID = getIntent().getStringExtra("wing_id");
 
     }
-    public void HOME(View v) {
+    public void BACK(View v) {
         this.finish();
     }
+
     public void MAINT1(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"1");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.maint_0));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.maint_0));
         startActivity(intent);
 
     }
     public void MAINT2(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"2");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.pkp_maint_1));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_maint_1));
         startActivity(intent);
 
     }
     public void MAINT3(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"3");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.pkp_maint_2));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_maint_2));
         startActivity(intent);
 
     }
     public void MAINT4(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"4");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.pkp_maint_3));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_maint_3));
         startActivity(intent);
 
     }
     public void MAINT5(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"5");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.pkp_maint_4));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_maint_4));
         startActivity(intent);
 
     }
@@ -73,14 +74,14 @@ public class MaintWingActivity extends Activity {
     public void MAINT6(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"6");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.pkp_maint_5));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_maint_5));
         startActivity(intent);
 
     }
     public void MAINT7(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"7");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.pkp_maint_6));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_maint_6));
         startActivity(intent);
 
     }

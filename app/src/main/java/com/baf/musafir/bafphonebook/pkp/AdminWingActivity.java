@@ -32,36 +32,39 @@ public class AdminWingActivity extends Activity {
         wingID = getIntent().getStringExtra("wing_id");
 
     }
+    public void BACK(View v) {
+        this.finish();
+    }
 
     public void ADMIN1(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"1");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.admin_0));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.admin_0));
         startActivity(intent);
 
     }
     public void ADMIN2(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"2");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.admin_1));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.admin_1));
         startActivity(intent);
     }
     public void ADMIN3(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"3");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.admin_2));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.admin_2));
         startActivity(intent);
     }
     public void ADMIN4(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"4");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.admin_3));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.admin_3));
         startActivity(intent);
     }
     public void ADMIN5(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"5");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.admin_4));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.admin_4));
         startActivity(intent);
 
     }

@@ -32,6 +32,9 @@ public class MaintWingActivity extends Activity {
         wingID = getIntent().getStringExtra("wing_id");
 
     }
+    public void BACK(View v) {
+        this.finish();
+    }
 
     public void MAINT1(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"1");

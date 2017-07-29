@@ -82,6 +82,12 @@ public class SearchMainActivity extends Activity {
 
     }
 
+    /*****************************************************************
+     * This Method is used for separate Different Base Data
+     * By selecting any of the base ID one can get only corrosponding base data
+     * Like if we select BASEID=2 that means ZHR base is selected
+     * @param v
+     *************************************/
     public void PABX(View v) {
 
         if (baseID.equalsIgnoreCase("2")) {
@@ -90,26 +96,24 @@ public class SearchMainActivity extends Activity {
             intent.putExtra("header", "ZHR");
             intent.putExtra("base_id", baseID);
             startActivity(intent);
-        }else if (baseID.equalsIgnoreCase("0")) {
+        } else if (baseID.equalsIgnoreCase("0")) {
             dataBaseUtility.getAllData(mContext);
             Intent intent = new Intent(this, SearchListActivity.class);
             intent.putExtra("header", "SEARCH");
             startActivity(intent);
-        }else if (baseID.equalsIgnoreCase("3")) {
+        } else if (baseID.equalsIgnoreCase("3")) {
             //dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MtrMainActivity.class);
             intent.putExtra("header", "MTR");
             intent.putExtra("base_id", baseID);
             startActivity(intent);
-        }else if (baseID.equalsIgnoreCase("7")) {
+        } else if (baseID.equalsIgnoreCase("7")) {
             //dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, PkpMainActivity.class);
             intent.putExtra("header", "PKP");
             intent.putExtra("base_id", baseID);
             startActivity(intent);
-        }
-
-        /* else if (baseID.equalsIgnoreCase("4")) {
+        } else if (baseID.equalsIgnoreCase("4")) {
             if (AllPabxListVector.getAllPabxlist().size() > 0) {
                 dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
                 Intent intent = new Intent(this, SearchListActivity.class);
@@ -139,23 +143,13 @@ public class SearchMainActivity extends Activity {
             } else {
                 toastUtil.appSuccessMsg(mContext, AppConstant.NO_DATA);
             }
-        } else if (baseID.equalsIgnoreCase("7")) {
-            if (AllPabxListVector.getAllPabxlist().size() > 0) {
-                dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
-                Intent intent = new Intent(this, SearchListActivity.class);
-                intent.putExtra("header", "PKP SEARCH");
-                startActivity(intent);
-                this.finish();
-            } else {
-                toastUtil.appSuccessMsg(mContext, AppConstant.NO_DATA);
-            }
         } else if (baseID.equalsIgnoreCase("0")) {
             dataBaseUtility.getAllData(mContext);
             Intent intent = new Intent(this, SearchListActivity.class);
             intent.putExtra("header", "SEARCH");
             startActivity(intent);
             this.finish();
-        }*/
+        }
 
 
     }

@@ -55,7 +55,7 @@ public class ToastUtil {
 	public void appSuccessMsg(Context context, String message) {
 		Toast toast = new Toast(context);
 		toast.setDuration(Toast.LENGTH_LONG);
-		toast.setGravity(Gravity.BOTTOM, 0, 60);
+		toast.setGravity(Gravity.BOTTOM, 0, 100);
 		LayoutInflater inflater = (LayoutInflater) context
 				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		View layout = inflater.inflate(R.layout.toast_message,

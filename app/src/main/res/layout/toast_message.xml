@@ -2,7 +2,7 @@
     android:id="@+id/toast_layout_root"
     android:layout_width="fill_parent"
     android:layout_height="50dp"
-    android:background="@color/black_translucent"
+    android:background="@color/green_title"
     android:orientation="horizontal"
     android:layout_marginRight="20dp"
     android:layout_marginLeft="20dp"

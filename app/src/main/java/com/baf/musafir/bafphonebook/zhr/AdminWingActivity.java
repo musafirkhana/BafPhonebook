@@ -33,6 +33,9 @@ public class AdminWingActivity extends Activity {
         wingID = getIntent().getStringExtra("wing_id");
 
     }
+    public void BACK(View v) {
+        this.finish();
+    }
 
     public void ADMIN1(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"1");

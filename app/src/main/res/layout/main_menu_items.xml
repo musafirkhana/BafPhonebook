@@ -233,7 +233,7 @@
             </RelativeLayout>
 
 
-           <!-- <View
+            <View
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
                 android:layout_marginLeft="10dp"
@@ -242,7 +242,7 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="RSTATION"
+                android:onClick="ANTHEM"
                 android:orientation="horizontal"
                 android:padding="10dp"
                 android:weightSum="1.5">
@@ -261,14 +261,14 @@
                     android:layout_marginLeft="10dp"
                     android:layout_toRightOf="@+id/imageview_9"
                     android:gravity="center_vertical"
-                    android:text="RAILWAY STATION"
+                    android:text="NATIONAL ANTHEM"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
 
             </RelativeLayout>
 
-            <View
+            <!--<View
                 android:layout_width="fill_parent"
                 android:layout_height="1dp"
                 android:layout_marginLeft="10dp"

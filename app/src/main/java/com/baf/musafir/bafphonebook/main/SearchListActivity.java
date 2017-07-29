@@ -36,12 +36,10 @@ public class SearchListActivity extends Activity {
 
         initUI();
     }
-    public void HOME(View v) {
+    public void BACK(View v) {
         this.finish();
-        Intent intent=new Intent(this,HomeActivity.class);
-        startActivity(intent);
-
     }
+
     private void initUI() {
         topbar = (TextView) findViewById(R.id.topbar);
         topbar.setText(Header);

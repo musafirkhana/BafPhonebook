@@ -1,8 +1,11 @@
 package com.baf.musafir.bafphonebook.main;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.location.LocationManager;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -11,6 +14,7 @@ import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
@@ -21,6 +25,8 @@ public class HomeActivity extends Activity  {
 
     private LinearLayout main_menu_li;
     private ImageView menu_imageview;
+    private AlertDialog mGPSDialog;
+    private static final int GPS_ENABLE_REQUEST = 0x1001;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,8 +42,6 @@ public class HomeActivity extends Activity  {
         main_menu_li = (LinearLayout) findViewById(R.id.main_menu_li);
         menu_imageview=(ImageView)findViewById(R.id.menu_imageview);
     }public void ABBR(View v) {
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
         Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
         intent.putExtra("header","ABBRIATION");
         startActivity(intent);
@@ -142,11 +146,20 @@ public class HomeActivity extends Activity  {
         startActivity(intent);
     }
     public void LOC(View v) {
-        dataBaseUtility.getLocationData(mContext);
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, LocationMapActivity.class);
-        startActivity(intent);
+        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+        if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))
+        {
+            dataBaseUtility.getLocationData(mContext);
+            main_menu_li.startAnimation(outToleftAnimation());
+            main_menu_li.setVisibility(View.GONE);
+            Intent intent = new Intent(this, LocationMapActivity.class);
+            startActivity(intent);
+        }else
+        {
+            showGPSDiabledDialog();
+        }
+
+
     }
    /* public void GENABB(View v) {
         //dataBaseUtility.getAbbrData(mContext);
@@ -156,13 +169,11 @@ public class HomeActivity extends Activity  {
         intent.putExtra("header","ABBRIATION");
         startActivity(intent);
     }*/
-    public void RSTATION(View v) {
-        dataBaseUtility.getNwdData(mContext);
+    public void ANTHEM(View v) {
+
         main_menu_li.startAnimation(outToleftAnimation());
         main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, OthersMainActivity.class);
-        intent.putExtra("orgCode","4");
-        intent.putExtra("orgName","RAILWAY STATION");
+        Intent intent = new Intent(this, NationalAnthemActivity.class);
         startActivity(intent);
     }
     public void FIRESERVICE(View v) {
@@ -262,4 +273,23 @@ public class HomeActivity extends Activity  {
                 break;
         }
     }*/
+
+    public void showGPSDiabledDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("GPS Disabled");
+        builder.setMessage("Gps is disabled, in order to use the application properly you need to enable GPS of your device");
+        builder.setPositiveButton("Enable GPS", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                startActivityForResult(new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS), GPS_ENABLE_REQUEST);
+            }
+        }).setNegativeButton("No, Just Exit", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        mGPSDialog = builder.create();
+        mGPSDialog.show();
+    }
 }

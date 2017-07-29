@@ -24,7 +24,7 @@ public class LodgerUnitActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.mtr_lodger_unit);
+        setContentView(R.layout.pkp_lodger_unit);
         mContext = this;
         toastUtil = new ToastUtil(this);
         dataBaseUtility = new DataBaseUtility();
@@ -32,67 +32,52 @@ public class LodgerUnitActivity extends Activity {
         wingID = getIntent().getStringExtra("wing_id");
 
     }
+    public void BACK(View v) {
+        this.finish();
+    }
 
     public void LODG1(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"1");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.m_lodger_1));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_lodger_1));
         startActivity(intent);
     }
 
     public void LODG2(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"2");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.m_lodger_2));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_lodger_2));
         startActivity(intent);
     }
 
     public void LODG3(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"3");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.m_lodger_3));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_lodger_3));
         startActivity(intent);
     }
 
     public void LODG4(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"4");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.m_lodger_4));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_lodger_4));
         startActivity(intent);
     }
 
     public void LODG5(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"5");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.m_lodger_5));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_lodger_5));
         startActivity(intent);
     }
 
     public void LODG6(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"6");
         Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.m_lodger_6));
+        intent.putExtra("header", "PKP , "+getResources().getString(R.string.pkp_lodger_6));
         startActivity(intent);
     }
 
-    public void LODG7(View v) {
-        dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"7");
-        Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.m_lodger_7));
-        startActivity(intent);
-    }
 
-    public void LODG8(View v) {
-        dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"8");
-        Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.m_lodger_8));
-        startActivity(intent);
-    }
-    public void LODG9(View v) {
-        dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"8");
-        Intent intent = new Intent(this, SearchListActivity.class);
-        intent.putExtra("header", "MTR , "+getResources().getString(R.string.m_lodger_9));
-        startActivity(intent);
-    }
 
 }

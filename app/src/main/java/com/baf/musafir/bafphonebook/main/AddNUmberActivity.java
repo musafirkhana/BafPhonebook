@@ -28,7 +28,7 @@ import java.util.List;
 /***************************
  * copyright@ Musafir Ali
  * Bangladesh Airforce
- */
+ **********************/
 public class AddNUmberActivity extends Activity implements View.OnClickListener {
     private String TAG = "AddNUmberActivity";
     private Context mContext;
@@ -133,6 +133,12 @@ public class AddNUmberActivity extends Activity implements View.OnClickListener 
         }
     }
 
+    /************************************
+     * Insert Data into new Raw
+     * @param baseName
+     * @param designationString
+     * @param number
+     */
     private void insertData(String baseName, String designationString, String number) {
         AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(mContext);
         SQLiteDatabase db = databaseOpenHelper.openDatabase();

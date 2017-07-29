@@ -19,15 +19,30 @@
             android:layout_height="60dp"
             android:background="@color/button_background">
 
-            <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_alignParentLeft="true"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/home"
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
                 android:clickable="true"
-                android:onClick="HOME" />
+                android:onClick="BACK"
+                android:layout_alignParentLeft="true">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/rounded_button_selector">
+
+                </ImageView>
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/back">
+
+                </ImageView>
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/topbar"

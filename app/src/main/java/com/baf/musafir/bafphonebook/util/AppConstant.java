@@ -11,7 +11,7 @@ public class AppConstant extends Application {
     /*************************************
      * Google Push Noticifation Constant
      *******************/
-    public static final String NO_DATA = "No Data Available.....Thanks You Sir Please Excuse Me Sir....";
+    public static final String NO_DATA = "No Data Available.....";
     public static Uri outputFileUri = null;
     public static String password = null;
     public static final String CLASSIFIED = "classifieds";

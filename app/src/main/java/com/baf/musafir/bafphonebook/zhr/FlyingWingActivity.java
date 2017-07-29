@@ -32,6 +32,9 @@ public class FlyingWingActivity extends Activity {
         baseID = getIntent().getStringExtra("base_id");
         wingID = getIntent().getStringExtra("wing_id");
     }
+    public void BACK(View v) {
+        this.finish();
+    }
 
     public void FLY1(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"2");

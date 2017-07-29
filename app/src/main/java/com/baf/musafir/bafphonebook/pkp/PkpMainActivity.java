@@ -30,7 +30,11 @@ public class PkpMainActivity extends Activity {
         baseID = getIntent().getStringExtra("base_id");
 
     }
-    public void PKPHQ(View v) {
+    public void BACK(View v) {
+        this.finish();
+    }
+
+    public void MTRHQ(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,"1","1");
         Intent intent = new Intent(this, SearchListActivity.class);
         intent.putExtra("header", "PKP , BASE HQ");

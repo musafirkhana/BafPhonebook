@@ -33,6 +33,9 @@ public class LodgerUnitActivity extends Activity {
         wingID = getIntent().getStringExtra("wing_id");
 
     }
+    public void BACK(View v) {
+        this.finish();
+    }
 
     public void LODG1(View v) {
         dataBaseUtility.getPabxDataSqnID(mContext, baseID,wingID,"1");

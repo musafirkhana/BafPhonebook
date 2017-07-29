@@ -69,7 +69,7 @@ private Context mContext;
             GeoJsonLayer layer = new GeoJsonLayer(mMap, R.raw.bdallgeo, getApplicationContext());
 
             GeoJsonPolygonStyle style = layer.getDefaultPolygonStyle();
-            style.setFillColor(Color.GREEN);
+            style.setFillColor(R.color.accent_color);
             style.setStrokeColor(Color.RED);
             style.setStrokeWidth(5F);
 
