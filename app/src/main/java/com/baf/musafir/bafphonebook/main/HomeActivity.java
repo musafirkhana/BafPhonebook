@@ -176,13 +176,8 @@ public class HomeActivity extends Activity  {
         Intent intent = new Intent(this, NationalAnthemActivity.class);
         startActivity(intent);
     }
-    public void FIRESERVICE(View v) {
-        dataBaseUtility.getNwdData(mContext);
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, OthersMainActivity.class);
-        intent.putExtra("orgCode","5");
-        intent.putExtra("orgName","FIRE SERVICE");
+    public void CMDCON(View v) {
+        Intent intent = new Intent(this, CommandControlActivity.class);
         startActivity(intent);
     }
     public void HOTEL(View v) {
