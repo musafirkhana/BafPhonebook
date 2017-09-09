@@ -14,6 +14,7 @@ import com.baf.musafir.bafphonebook.holder.AllNwdListVector;
 import com.baf.musafir.bafphonebook.holder.AllOthersListVector;
 import com.baf.musafir.bafphonebook.holder.AllPabxListVector;
 import com.baf.musafir.bafphonebook.holder.AllRanlListVector;
+import com.baf.musafir.bafphonebook.holder.AllUnitListVector;
 import com.baf.musafir.bafphonebook.model.AbbrlListModel;
 import com.baf.musafir.bafphonebook.model.CadetCollegeListModel;
 import com.baf.musafir.bafphonebook.model.ContactListModel;
@@ -23,6 +24,7 @@ import com.baf.musafir.bafphonebook.model.NwdListModel;
 import com.baf.musafir.bafphonebook.model.OthersListModel;
 import com.baf.musafir.bafphonebook.model.PabxListModel;
 import com.baf.musafir.bafphonebook.model.RankListModel;
+import com.baf.musafir.bafphonebook.model.UnitListModel;
 
 
 public class DataBaseUtility {
@@ -487,6 +489,38 @@ public class DataBaseUtility {
                 allAbbrListVector.setAllAbbrlist(abbrlListModel);
                 abbrlListModel = null;
                 Log.w(TAG, "Contact Data Data : " + cursor.getString(0));
+            } while (cursor.moveToNext());
+        }
+        db.close();
+    }
+
+    /****************************************
+     * Getting All SQN or UNIT Related Data from DB
+     ****************************************/
+    public void getSqnUnitData(Context context, String code) {
+        AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
+        SQLiteDatabase db = databaseOpenHelper.openDatabase();
+        Log.w("Contact Data Data", "cnt: " + db.getPath());
+
+        Cursor cursor = db.rawQuery(
+                "SELECT * from sqn_unit where Others='" +
+                        code +
+                        "';",
+                null);
+        Log.w(TAG, "Query Are : " + cursor);
+        AllUnitListVector allUnitListVector = new AllUnitListVector();
+        allUnitListVector.removeUnitlist();
+        if (cursor.moveToFirst()) {
+            do {
+                UnitListModel unitListModel = new UnitListModel();
+                unitListModel.setUnit(cursor.getString(1));
+                unitListModel.setTypes(cursor.getString(2));
+                unitListModel.setOthers(cursor.getString(3));
+                unitListModel.setBase_name(cursor.getString(4));
+
+
+                allUnitListVector.setAllUnitlist(unitListModel);
+                unitListModel = null;
             } while (cursor.moveToNext());
         }
         db.close();

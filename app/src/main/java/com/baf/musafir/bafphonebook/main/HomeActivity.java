@@ -90,7 +90,18 @@ public class HomeActivity extends Activity  {
         intent.putExtra("base_id", "5");
         startActivity(intent);
     }
-
+    public void UNIT(View v) {
+        dataBaseUtility.getSqnUnitData(mContext,"2");
+        Intent intent = new Intent(this, RankDetailActivity.class);
+        intent.putExtra("header","UNITS");
+        startActivity(intent);
+    }
+    public void SQN(View v) {
+        dataBaseUtility.getSqnUnitData(mContext,"1");
+        Intent intent = new Intent(this, RankDetailActivity.class);
+        intent.putExtra("header","SQUADRON");
+        startActivity(intent);
+    }
 
     public void MENU(View v) {
         if (main_menu_li.getVisibility() == View.VISIBLE) {
