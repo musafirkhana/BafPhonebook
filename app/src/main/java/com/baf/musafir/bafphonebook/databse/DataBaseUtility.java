@@ -513,10 +513,10 @@ public class DataBaseUtility {
         if (cursor.moveToFirst()) {
             do {
                 UnitListModel unitListModel = new UnitListModel();
-                unitListModel.setUnit(cursor.getString(1));
-                unitListModel.setTypes(cursor.getString(2));
-                unitListModel.setOthers(cursor.getString(3));
-                unitListModel.setBase_name(cursor.getString(4));
+                unitListModel.setUnit(cursor.getString(0));
+                unitListModel.setTypes(cursor.getString(1));
+                unitListModel.setOthers(cursor.getString(2));
+                unitListModel.setBase_name(cursor.getString(3));
 
 
                 allUnitListVector.setAllUnitlist(unitListModel);

@@ -11,14 +11,15 @@ import android.widget.TextView;
 
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.adapter.RankAdapter;
+import com.baf.musafir.bafphonebook.adapter.UnitAdapter;
 
 /*****************************
  * Search All Mobile No
  *****************************/
 public class UnitDetailActivity extends Activity {
     private Context mContext;
-    private RankAdapter rankAdapter;
-    private ListView rankdetail_list;
+    private UnitAdapter unitAdapter;
+    private ListView unit_list;
     private TextView topbar;
     private String Header="";
     @Override
@@ -40,9 +41,9 @@ public class UnitDetailActivity extends Activity {
 private void initUI(){
     topbar=(TextView)findViewById(R.id.topbar);
     topbar.setText(Header);
-    rankdetail_list = (ListView) findViewById(R.id.rankdetail_list);
-    rankAdapter = new RankAdapter(this);
-    rankdetail_list.setAdapter(rankAdapter);
+    unit_list = (ListView) findViewById(R.id.unit_list);
+    unitAdapter = new UnitAdapter(this);
+    unit_list.setAdapter(unitAdapter);
 
 
 

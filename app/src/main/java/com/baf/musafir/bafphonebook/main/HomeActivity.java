@@ -92,13 +92,13 @@ public class HomeActivity extends Activity  {
     }
     public void UNIT(View v) {
         dataBaseUtility.getSqnUnitData(mContext,"2");
-        Intent intent = new Intent(this, RankDetailActivity.class);
+        Intent intent = new Intent(this, UnitDetailActivity.class);
         intent.putExtra("header","UNITS");
         startActivity(intent);
     }
     public void SQN(View v) {
         dataBaseUtility.getSqnUnitData(mContext,"1");
-        Intent intent = new Intent(this, RankDetailActivity.class);
+        Intent intent = new Intent(this, UnitDetailActivity.class);
         intent.putExtra("header","SQUADRON");
         startActivity(intent);
     }

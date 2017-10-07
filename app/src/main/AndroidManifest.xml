@@ -324,14 +324,14 @@
             android:name=".main.UnitDetailActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
-            android:screenOrientation="landscape">
+            android:screenOrientation="portrait">
 
         </activity>
         <activity
             android:name=".main.SqnDetailActivity"
             android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:launchMode="singleTop"
-            android:screenOrientation="landscape">
+            android:screenOrientation="portrait">
 
         </activity>
     </application>
