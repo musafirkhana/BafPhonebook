@@ -2,197 +2,59 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_main"
     android:orientation="vertical">
 
-    <ScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true">
+    <LinearLayout
+        android:id="@+id/top_linear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/button_background"
+        android:gravity="center">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:padding="15dp">
+            android:layout_height="50dp"
+            android:background="@color/button_background">
 
-            <RelativeLayout
-                android:id="@+id/llOrderfood"
-                android:layout_width="fill_parent"
-                android:layout_height="62dp"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="1dp"
-                android:onClick="ZHRCLICK"
-                android:background="@drawable/radious_button"
-                >
-                <TextView
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="15dp"
-                    android:textColor="@color/white"
-                    android:text="@string/name_zhr"
-                    android:textSize="20sp" />
+            <TextView
+                android:id="@+id/topbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Bangladesh Air force"
+                android:textColor="@color/fontcolor"
+                android:textSize="18sp"
+                android:textStyle="bold|normal" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="12dp"
-                    android:src="@drawable/arrow" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="62dp"
-                android:layout_alignLeft="@+id/llOrderfood"
-                android:layout_below="@+id/llOrderfood"
-                android:layout_marginTop="10dp"
-                android:onClick="BBDCLICK"
-                android:background="@drawable/radious_button"
-                >
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="15dp"
-
-                    android:textColor="@color/white"
-                    android:text="@string/app_bbd"
-                    android:textSize="20sp" />
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="12dp"
-                    android:src="@drawable/arrow" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="62dp"
-                android:layout_alignLeft="@+id/llTrackMyOrder"
-                android:layout_below="@+id/llTrackMyOrder"
-                android:layout_marginTop="10dp"
-                android:onClick="BSRCLICK"
-                android:background="@drawable/radious_button"
-                >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="12dp"
-                    android:src="@drawable/arrow" />
-
-                <TextView
-                    android:id="@+id/textView1234"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:textColor="@color/white"
-                    android:layout_marginLeft="15dp"
-                    android:text="@string/app_bsr"
-                    android:textSize="20sp" />
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="62dp"
-                android:layout_alignLeft="@+id/llBookaTable"
-                android:layout_below="@id/llBookaTable"
-                android:layout_marginTop="10dp"
-                android:onClick="MTRCLICK"
-                android:background="@drawable/radious_button"
-                >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-                    android:layout_marginRight="12dp"
-                    android:src="@drawable/arrow" />
-
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:textColor="@color/white"
-                    android:layout_marginLeft="15dp"
-                    android:text="@string/app_mtr"
-                    android:textSize="20sp" />
+        </RelativeLayout>
 
 
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="62dp"
-                android:layout_alignLeft="@+id/llBookaTable"
-                android:layout_below="@id/llBookaTable"
-                android:layout_marginTop="10dp"
-                android:onClick="PKPCLICK"
-                android:background="@drawable/radious_button"
-                >
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
-
-                    android:layout_marginRight="12dp"
-                    android:src="@drawable/arrow" />
-
-                <TextView
-                    android:id="@+id/txtSignIn"
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:textColor="@color/white"
-                    android:layout_marginLeft="15dp"
-                    android:text="@string/name_pkp"
-                    android:textSize="20sp" />
+    </LinearLayout>
 
 
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="62dp"
-                android:layout_alignLeft="@+id/llBookaTable"
-                android:layout_below="@id/llBookaTable"
-                android:layout_marginTop="10dp"
-                android:onClick="COXCLICK"
-                android:background="@drawable/radious_button"
-                >
+    <LinearLayout
+        android:id="@+id/main_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_linear"
+        android:visibility="visible">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"
+        <include layout="@layout/activity_home_support" />
 
-                    android:layout_marginRight="12dp"
-                    android:src="@drawable/arrow" />
+    </LinearLayout>
 
-                <TextView
-                    android:layout_width="150dp"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:textColor="@color/white"
-                    android:layout_marginLeft="15dp"
-                    android:text="@string/app_coxs"
-                    android:textSize="20sp" />
+  <LinearLayout
+        android:id="@+id/main_menu_li"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/top_linear"
+        android:orientation="vertical"
+        android:visibility="gone" >
 
+        <include layout="@layout/main_menu_items" />
+    </LinearLayout>
 
-            </RelativeLayout>
-        </LinearLayout>
-    </ScrollView>
 
 </RelativeLayout>

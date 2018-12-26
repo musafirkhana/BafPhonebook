@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion '25.0.0'
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "com.baf.musafir.bafphonebook"
         minSdkVersion 15
@@ -28,4 +28,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.google.android.gms:play-services-maps:10.2.4'
     compile 'com.google.maps.android:android-maps-utils:0.5+'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+
 }

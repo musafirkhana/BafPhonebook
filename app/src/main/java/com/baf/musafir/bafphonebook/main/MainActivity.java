@@ -1,48 +1,360 @@
 package com.baf.musafir.bafphonebook.main;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.location.LocationManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
+import android.view.animation.AccelerateInterpolator;
+import android.view.animation.Animation;
+import android.view.animation.TranslateAnimation;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.baf.musafir.bafphonebook.R;
+import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
+import com.daimajia.slider.library.SliderLayout;
+import com.daimajia.slider.library.SliderTypes.BaseSliderView;
+import com.daimajia.slider.library.SliderTypes.TextSliderView;
+import com.daimajia.slider.library.Tricks.ViewPagerEx;
 
-public class MainActivity extends Activity {
-private Context mContext;
+import java.util.HashMap;
+
+public class MainActivity extends Activity implements BaseSliderView.OnSliderClickListener,
+        ViewPagerEx.OnPageChangeListener{
+    private Context mContext;
+    private DataBaseUtility dataBaseUtility;
+    HashMap<String, Integer> HashMapForLocalRes;
+    SliderLayout sliderLayout;
+    private LinearLayout main_menu_li;
+    private static final int GPS_ENABLE_REQUEST = 0x1001;
+    private AlertDialog mGPSDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
         mContext=this;
+        dataBaseUtility = new DataBaseUtility();
+        initUI();
+    }
+    private void initUI() {
+        main_menu_li = (LinearLayout) findViewById(R.id.main_menu_li);
+        sliderLayout = (SliderLayout) findViewById(R.id.slider);
+
+
+        //Call this method to add images from local drawable folder .
+        AddImageUrlFormLocalRes();
+
+        //Call this method to stop automatic sliding.
+        //sliderLayout.stopAutoCycle();
+
+        for (String name : HashMapForLocalRes.keySet()) {
+
+            TextSliderView textSliderView = new TextSliderView(MainActivity.this);
+
+            textSliderView
+                    .description(name)
+                    .image(HashMapForLocalRes.get(name))
+                    .setScaleType(BaseSliderView.ScaleType.Fit)
+                    .setOnSliderClickListener(this);
+
+            textSliderView.bundle(new Bundle());
+
+            textSliderView.getBundle()
+                    .putString("extra", name);
+
+            sliderLayout.addSlider(textSliderView);
+        }
+    }
+    public void ABBR(View v) {
+        Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
+        intent.putExtra("header","ABBRIATION");
+        startActivity(intent);
     }
 
-    public void ZHRCLICK(View v) {
-        Toast.makeText(mContext,"Clicket",Toast.LENGTH_LONG).show();
+    public void AIRHQ(View v) {
+        dataBaseUtility.getAirHqLodgerData(mContext);
+        Intent intent = new Intent(this, ContactListActivity.class);
+        intent.putExtra("header", "AIR HQ & ITS LODGER UNITS");
+        startActivity(intent);
+    }
+    public void SEARCH(View v) {
+        Intent intent = new Intent(this, SearchMainActivity.class);
+        intent.putExtra("base_id", "0");
+        startActivity(intent);
 
     }
 
-    public void BBDCLICK(View v) {
+    public void ZHR(View v) {
+        Intent intent = new Intent(this, SearchMainActivity.class);
+        intent.putExtra("base_id", "2");
+        startActivity(intent);
+    }
+    public void MTR(View v) {
+        Intent intent = new Intent(this, SearchMainActivity.class);
+        intent.putExtra("base_id", "3");
+        startActivity(intent);
+    }
+    public void PKP(View v) {
+        Intent intent = new Intent(this, SearchMainActivity.class);
+        intent.putExtra("base_id", "7");
+        startActivity(intent);
+    }
+    public void BBD(View v) {
+        Intent intent = new Intent(this, SearchMainActivity.class);
+        intent.putExtra("base_id", "6");
+        startActivity(intent);
+    }
+    public void BSR(View v) {
+        Intent intent = new Intent(this, SearchMainActivity.class);
+        intent.putExtra("base_id", "4");
+        startActivity(intent);
+    }
+    public void COXS(View v) {
+        Intent intent = new Intent(this, SearchMainActivity.class);
+        intent.putExtra("base_id", "5");
+        startActivity(intent);
+    }
+    public void UNIT(View v) {
+        dataBaseUtility.getSqnUnitData(mContext,"2");
+        Intent intent = new Intent(this, UnitDetailActivity.class);
+        intent.putExtra("header","UNITS");
+        startActivity(intent);
+    }
+    public void SQN(View v) {
+        dataBaseUtility.getSqnUnitData(mContext,"1");
+        Intent intent = new Intent(this, UnitDetailActivity.class);
+        intent.putExtra("header","SQUADRON");
+        startActivity(intent);
+    }
+
+
+    @Override
+    protected void onStop() {
+
+        sliderLayout.stopAutoCycle();
+
+        super.onStop();
+    }
+
+    @Override
+    public void onSliderClick(BaseSliderView slider) {
+
+        Toast.makeText(this, slider.getBundle().get("extra") + "", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+    }
+
+    @Override
+    public void onPageSelected(int position) {
+
+        Log.d("Slider Demo", "Page Changed: " + position);
 
     }
 
-    public void BSRCLICK(View v) {
+    @Override
+    public void onPageScrollStateChanged(int state) {
 
     }
 
-    public void MTRCLICK(View v) {
+    public void AddImageUrlFormLocalRes() {
+
+        HashMapForLocalRes = new HashMap<String, Integer>();
+        HashMapForLocalRes.put("Img 1", R.drawable.banner1);
+        HashMapForLocalRes.put("Img 2", R.drawable.banner2);
+        HashMapForLocalRes.put("Img 3", R.drawable.background_main);
+        HashMapForLocalRes.put("Img 4", R.drawable.banner3);
+        HashMapForLocalRes.put("Img 5", R.drawable.background_main);
 
     }
 
-    public void PKPCLICK(View v) {
 
+
+
+    /********************************More Menu****************/
+    public void MENU(View v) {
+        if (main_menu_li.getVisibility() == View.VISIBLE) {
+            main_menu_li.startAnimation(outToleftAnimation());
+            main_menu_li.setVisibility(View.GONE);
+        } else {
+            main_menu_li.startAnimation(inFromLeftAnimation());
+            main_menu_li.setVisibility(View.VISIBLE);
+            main_menu_li.bringToFront();
+
+        }
+    }
+    public void BLANKLI(View v) {
+        if (main_menu_li.getVisibility() == View.VISIBLE) {
+            main_menu_li.startAnimation(outToleftAnimation());
+            main_menu_li.setVisibility(View.GONE);
+        } else {
+            main_menu_li.startAnimation(inFromLeftAnimation());
+            main_menu_li.setVisibility(View.VISIBLE);
+            main_menu_li.bringToFront();
+
+        }
     }
 
-    public void COXCLICK(View v) {
-
+    public void NUMBERPLAN(View v) {
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, NumberPlanningActivity.class);
+        startActivity(intent);
     }
 
+    public void NWD(View v) {
+        dataBaseUtility.getNwdData(mContext);
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, NwdListActivity.class);
+        startActivity(intent);
+    }
+
+    public void RANK(View v) {
+        dataBaseUtility.getNwdData(mContext);
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, RankActivity.class);
+        startActivity(intent);
+    }
+
+    public void HIS(View v) {
+        dataBaseUtility.getNwdData(mContext);
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, HistoryActivity.class);
+        startActivity(intent);
+    }
+    public void LOC(View v) {
+        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+        if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))
+        {
+            dataBaseUtility.getLocationData(mContext);
+            main_menu_li.startAnimation(outToleftAnimation());
+            main_menu_li.setVisibility(View.GONE);
+            Intent intent = new Intent(this, LocationMapActivity.class);
+            startActivity(intent);
+        }else
+        {
+            showGPSDiabledDialog();
+        }
+
+
+    }
+    /* public void GENABB(View v) {
+         //dataBaseUtility.getAbbrData(mContext);
+         main_menu_li.startAnimation(outToleftAnimation());
+         main_menu_li.setVisibility(View.GONE);
+         Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
+         intent.putExtra("header","ABBRIATION");
+         startActivity(intent);
+     }*/
+    public void ANTHEM(View v) {
+
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, NationalAnthemActivity.class);
+        startActivity(intent);
+    }
+    public void CMDCON(View v) {
+        Intent intent = new Intent(this, CommandControlActivity.class);
+        startActivity(intent);
+    }
+    public void HOTEL(View v) {
+        dataBaseUtility.getNwdData(mContext);
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, OthersMainActivity.class);
+        intent.putExtra("orgCode","8");
+        intent.putExtra("orgName","HOTEL");
+        startActivity(intent);
+    }
+    public void BANK(View v) {
+        dataBaseUtility.getNwdData(mContext);
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, OthersMainActivity.class);
+        intent.putExtra("orgCode","7");
+        intent.putExtra("orgName","BANK");
+        startActivity(intent);
+    }
+    public void CADETCOLLEGE(View v) {
+        dataBaseUtility.getCCData(mContext);
+        main_menu_li.startAnimation(outToleftAnimation());
+        main_menu_li.setVisibility(View.GONE);
+        Intent intent = new Intent(this, CadetCollegeListActivity.class);
+        intent.putExtra("header","CADET COLLEGE");
+        startActivity(intent);
+    }
+
+
+    private Animation inFromLeftAnimation() {
+        Animation inFromLeft = new TranslateAnimation(
+                Animation.RELATIVE_TO_PARENT, -1.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f);
+        inFromLeft.setDuration(500);
+        inFromLeft.setInterpolator(new AccelerateInterpolator());
+        return inFromLeft;
+    }
+    private Animation outToleftAnimation() {
+        Animation inFromLeft = new TranslateAnimation(
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, -1.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f);
+        inFromLeft.setDuration(500);
+        inFromLeft.setInterpolator(new AccelerateInterpolator());
+        return inFromLeft;
+    }
+    private Animation outToRightAnimation() {
+        Animation outtoRight = new TranslateAnimation(
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, +1.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f);
+        outtoRight.setDuration(500);
+        outtoRight.setInterpolator(new AccelerateInterpolator());
+        return outtoRight;
+    }
+
+    private Animation inFromRightAnimation() {
+
+        Animation inFromRight = new TranslateAnimation(
+                Animation.RELATIVE_TO_PARENT, +1.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f,
+                Animation.RELATIVE_TO_PARENT, 0.0f);
+        inFromRight.setDuration(500);
+        inFromRight.setInterpolator(new AccelerateInterpolator());
+        return inFromRight;
+    }
+    public void showGPSDiabledDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("GPS Disabled");
+        builder.setMessage("Gps is disabled, in order to use the application properly you need to enable GPS of your device");
+        builder.setPositiveButton("Enable GPS", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                startActivityForResult(new Intent(android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS), GPS_ENABLE_REQUEST);
+            }
+        }).setNegativeButton("No, Just Exit", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+
+            }
+        });
+        mGPSDialog = builder.create();
+        mGPSDialog.show();
+    }
 
 }

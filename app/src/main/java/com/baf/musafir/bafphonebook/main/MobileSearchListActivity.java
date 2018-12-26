@@ -39,7 +39,7 @@ public class MobileSearchListActivity extends Activity {
     }
     public void HOME(View v) {
         this.finish();
-        Intent intent=new Intent(this,HomeActivity.class);
+        Intent intent=new Intent(this,MainActivity.class);
         startActivity(intent);
 
     }

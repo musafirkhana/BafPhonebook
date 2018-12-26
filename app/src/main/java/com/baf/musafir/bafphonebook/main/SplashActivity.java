@@ -70,7 +70,7 @@ public class SplashActivity extends Activity {
 
 
     public void GO(View v) {
-        Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
+        Intent intent = new Intent(SplashActivity.this, MainActivity.class);
         startActivity(intent);
         SplashActivity.this.finish();
     }

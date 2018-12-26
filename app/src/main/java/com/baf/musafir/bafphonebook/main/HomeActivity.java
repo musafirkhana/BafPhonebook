@@ -41,7 +41,8 @@ public class HomeActivity extends Activity  {
     private void initUI() {
         main_menu_li = (LinearLayout) findViewById(R.id.main_menu_li);
         menu_imageview=(ImageView)findViewById(R.id.menu_imageview);
-    }public void ABBR(View v) {
+    }
+    public void ABBR(View v) {
         Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
         intent.putExtra("header","ABBRIATION");
         startActivity(intent);
