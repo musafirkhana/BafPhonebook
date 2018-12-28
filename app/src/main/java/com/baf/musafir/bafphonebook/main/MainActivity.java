@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.location.LocationManager;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -188,10 +189,13 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
 
     }
     public void VIDEO(View v) {
-
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse("https://www.youtube.com/channel/UC7L-FsmHK9MNDZhNdEDq1LQ"));
+        startActivity(intent);
     }
     public void WEB(View v) {
-
+        Intent intent = new Intent(this, WebsiteActivity.class);
+        startActivity(intent);
     }
     public void MENU(View v) {
         Intent intent = new Intent(this, MenuActivity.class);

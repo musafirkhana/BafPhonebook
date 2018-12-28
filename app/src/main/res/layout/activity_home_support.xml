@@ -240,7 +240,6 @@
         android:layout_height="0dp"
         android:layout_weight="2"
         android:background="@color/home_bg_2"
-
         android:orientation="horizontal"
         android:padding="0dp">
 
@@ -342,7 +341,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:gravity="center"
-        android:background="@color/gray">
+        android:background="#F4F2F5">
 
         <LinearLayout
             android:layout_width="match_parent"
