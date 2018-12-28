@@ -180,164 +180,26 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
 
 
     /********************************More Menu****************/
+    public void HOME(View v) {
+
+    }
+
+    public void INFO(View v) {
+
+    }
+    public void VIDEO(View v) {
+
+    }
+    public void WEB(View v) {
+
+    }
     public void MENU(View v) {
-        if (main_menu_li.getVisibility() == View.VISIBLE) {
-            main_menu_li.startAnimation(outToleftAnimation());
-            main_menu_li.setVisibility(View.GONE);
-        } else {
-            main_menu_li.startAnimation(inFromLeftAnimation());
-            main_menu_li.setVisibility(View.VISIBLE);
-            main_menu_li.bringToFront();
-
-        }
-    }
-    public void BLANKLI(View v) {
-        if (main_menu_li.getVisibility() == View.VISIBLE) {
-            main_menu_li.startAnimation(outToleftAnimation());
-            main_menu_li.setVisibility(View.GONE);
-        } else {
-            main_menu_li.startAnimation(inFromLeftAnimation());
-            main_menu_li.setVisibility(View.VISIBLE);
-            main_menu_li.bringToFront();
-
-        }
-    }
-
-    public void NUMBERPLAN(View v) {
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, NumberPlanningActivity.class);
-        startActivity(intent);
-    }
-
-    public void NWD(View v) {
-        dataBaseUtility.getNwdData(mContext);
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, NwdListActivity.class);
-        startActivity(intent);
-    }
-
-    public void RANK(View v) {
-        dataBaseUtility.getNwdData(mContext);
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, RankActivity.class);
-        startActivity(intent);
-    }
-
-    public void HIS(View v) {
-        dataBaseUtility.getNwdData(mContext);
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, HistoryActivity.class);
-        startActivity(intent);
-    }
-    public void LOC(View v) {
-        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-        if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))
-        {
-            dataBaseUtility.getLocationData(mContext);
-            main_menu_li.startAnimation(outToleftAnimation());
-            main_menu_li.setVisibility(View.GONE);
-            Intent intent = new Intent(this, LocationMapActivity.class);
-            startActivity(intent);
-        }else
-        {
-            showGPSDiabledDialog();
-        }
-
-
-    }
-    /* public void GENABB(View v) {
-         //dataBaseUtility.getAbbrData(mContext);
-         main_menu_li.startAnimation(outToleftAnimation());
-         main_menu_li.setVisibility(View.GONE);
-         Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
-         intent.putExtra("header","ABBRIATION");
-         startActivity(intent);
-     }*/
-    public void ANTHEM(View v) {
-
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, NationalAnthemActivity.class);
-        startActivity(intent);
-    }
-    public void CMDCON(View v) {
-        Intent intent = new Intent(this, CommandControlActivity.class);
-        startActivity(intent);
-    }
-    public void HOTEL(View v) {
-        dataBaseUtility.getNwdData(mContext);
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, OthersMainActivity.class);
-        intent.putExtra("orgCode","8");
-        intent.putExtra("orgName","HOTEL");
-        startActivity(intent);
-    }
-    public void BANK(View v) {
-        dataBaseUtility.getNwdData(mContext);
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, OthersMainActivity.class);
-        intent.putExtra("orgCode","7");
-        intent.putExtra("orgName","BANK");
-        startActivity(intent);
-    }
-    public void CADETCOLLEGE(View v) {
-        dataBaseUtility.getCCData(mContext);
-        main_menu_li.startAnimation(outToleftAnimation());
-        main_menu_li.setVisibility(View.GONE);
-        Intent intent = new Intent(this, CadetCollegeListActivity.class);
-        intent.putExtra("header","CADET COLLEGE");
+        Intent intent = new Intent(this, MenuActivity.class);
         startActivity(intent);
     }
 
 
-    private Animation inFromLeftAnimation() {
-        Animation inFromLeft = new TranslateAnimation(
-                Animation.RELATIVE_TO_PARENT, -1.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f);
-        inFromLeft.setDuration(500);
-        inFromLeft.setInterpolator(new AccelerateInterpolator());
-        return inFromLeft;
-    }
-    private Animation outToleftAnimation() {
-        Animation inFromLeft = new TranslateAnimation(
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, -1.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f);
-        inFromLeft.setDuration(500);
-        inFromLeft.setInterpolator(new AccelerateInterpolator());
-        return inFromLeft;
-    }
-    private Animation outToRightAnimation() {
-        Animation outtoRight = new TranslateAnimation(
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, +1.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f);
-        outtoRight.setDuration(500);
-        outtoRight.setInterpolator(new AccelerateInterpolator());
-        return outtoRight;
-    }
 
-    private Animation inFromRightAnimation() {
-
-        Animation inFromRight = new TranslateAnimation(
-                Animation.RELATIVE_TO_PARENT, +1.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f,
-                Animation.RELATIVE_TO_PARENT, 0.0f);
-        inFromRight.setDuration(500);
-        inFromRight.setInterpolator(new AccelerateInterpolator());
-        return inFromRight;
-    }
     public void showGPSDiabledDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("GPS Disabled");

@@ -23,18 +23,10 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_centerInParent="true"
-                android:src="@drawable/rounded_button_selector">
+                android:src="@drawable/back_selector">
 
             </ImageView>
 
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_centerInParent="true"
-                android:src="@drawable/back">
-
-            </ImageView>
         </RelativeLayout>
 
         <TextView android:id="@+id/topbar"
