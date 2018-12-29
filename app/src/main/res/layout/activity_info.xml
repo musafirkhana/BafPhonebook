@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <RelativeLayout
         android:id="@+id/top_linear"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentTop="true"
-        android:background="@color/button_background"
-        >
+        android:background="@color/button_background">
 
         <RelativeLayout
             android:layout_width="50dp"
             android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
             android:clickable="true"
-            android:onClick="BACK"
-            android:layout_alignParentLeft="true">
+            android:onClick="BACK">
 
             <ImageView
                 android:layout_width="40dp"
@@ -28,10 +28,10 @@
             </ImageView>
 
 
-
         </RelativeLayout>
 
-        <TextView android:id="@+id/topbar"
+        <TextView
+            android:id="@+id/topbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -43,24 +43,140 @@
     </RelativeLayout>
 
 
-    <View android:id="@+id/view"
+    <View
+        android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_below="@+id/top_linear"
-        android:layout_height="1dp"></View>
+        android:layout_height="1dp"
+        android:layout_below="@+id/top_linear"></View>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_above="@+id/excercise_scroll"
         android:layout_below="@+id/view"
         android:background="@color/login_background"
-        android:layout_above="@+id/excercise_scroll"
         android:orientation="horizontal">
 
 
+        <RelativeLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+
+            <ImageView
+                android:id="@+id/header_cover_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@color/white"
+                android:scaleType="centerCrop"
+
+                android:src="@drawable/nav_menu_header_bg" />
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+
+                android:id="@+id/profile"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+
+                android:layout_below="@+id/header_cover_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-130dp"
+                android:clickable="true"
+                android:elevation="5dp"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/man"
+                app:civ_border_color="#FFFFFFFF"
+                app:civ_border_width="3dp" />
+
+            <RelativeLayout
+                android:id="@+id/profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_cover_image"
+                android:background="@color/blue_title"
+                android:elevation="4dp"
+                android:paddingBottom="24dp">
+
+
+                <ImageView
+                    android:id="@+id/edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="16dp"
+                    android:clickable="true"
+
+                    android:src="@android:drawable/ic_menu_edit" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="70dp"
+                    android:text="Musafir Ali"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/designation"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:text="BAF"
+                    android:textColor="#fff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/designation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:text="Flt Lt"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/profile_layout"
+                android:elevation="4dp"
+               >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@color/white"
+                    android:scaleType="centerCrop"
+
+                    android:src="@drawable/nav_menu_header_bg" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="2dp"
+                    android:text="All Rights Reserved @ Bangladesh Air Force"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
 
 
     </LinearLayout>
+
     <TextView
         android:id="@+id/excercise_scroll"
         android:layout_width="fill_parent"
@@ -72,12 +188,12 @@
         android:focusableInTouchMode="true"
         android:freezesText="true"
         android:gravity="center"
-        android:textStyle="bold"
         android:marqueeRepeatLimit="marquee_forever"
         android:scrollHorizontally="true"
         android:singleLine="true"
-        android:textSize="20sp"
         android:text="@string/bottom_text"
-        android:textColor="@color/white" />
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

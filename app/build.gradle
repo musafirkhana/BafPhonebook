@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 22
-    buildToolsVersion '27.0.3'
+    buildToolsVersion '22.0.0'
     defaultConfig {
         applicationId "com.baf.musafir.bafphonebook"
         minSdkVersion 15
@@ -32,5 +32,5 @@ dependencies {
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.daimajia.slider:library:1.1.5@aar'
     compile 'de.hdodenhof:circleimageview:2.1.0'
-
+    compile 'com.github.barteksc:android-pdf-viewer:2.8.2'
 }

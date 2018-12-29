@@ -132,7 +132,7 @@
             android:layout_height="40dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/call" />
+            android:background="@drawable/call_gray" />
 
         <LinearLayout
 

@@ -219,7 +219,7 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_alignParentLeft="true"
-                            android:src="@drawable/bank" />
+                            android:src="@drawable/rank" />
 
                         <TextView
                             android:layout_width="fill_parent"

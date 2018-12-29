@@ -119,7 +119,7 @@ public class MobileSearchAdapter extends ArrayAdapter<MobileListModel> {
                 for (MobileListModel p : planetList) {
 
                     if (p.getDesignation().toUpperCase().startsWith(constraint.toString().toUpperCase())||
-                            p.getBase_name().toUpperCase().startsWith(constraint.toString().toUpperCase())) {
+                            p.getMobileno().toUpperCase().contains(constraint.toString().toUpperCase())) {
                         nPlanetList.add(p);
                     }
 
