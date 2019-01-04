@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
+import com.baf.musafir.bafphonebook.util.AppConstant;
 import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
@@ -80,46 +81,50 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
     }
 
     public void AIRHQ(View v) {
-        dataBaseUtility.getAirHqLodgerData(mContext);
-        Intent intent = new Intent(this, ContactListActivity.class);
+        //dataBaseUtility.getAirHqLodgerData(mContext);
+        /*Intent intent = new Intent(this, ContactListActivity.class);
         intent.putExtra("header", "AIR HQ & ITS LODGER UNITS");
+        startActivity(intent);*/
+
+        Intent intent = new Intent(this, SearchMainActivity.class);
+        intent.putExtra("base_id", AppConstant.BAF_AHQ);
         startActivity(intent);
     }
     public void SEARCH(View v) {
         Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", "0");
+        intent.putExtra("base_id", AppConstant.BAF_SEARCH);
         startActivity(intent);
 
     }
 
     public void ZHR(View v) {
         Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", "2");
+        intent.putExtra("base_id", AppConstant.BAF_ZHR);
         startActivity(intent);
     }
     public void MTR(View v) {
         Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", "3");
+        intent.putExtra("base_id", AppConstant.BAF_MTR);
         startActivity(intent);
     }
     public void PKP(View v) {
         Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", "7");
+        intent.putExtra("base_id", AppConstant.BAF_PKP);
         startActivity(intent);
     }
     public void BBD(View v) {
         Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", "6");
+        intent.putExtra("base_id", AppConstant.BAF_BBD);
         startActivity(intent);
     }
     public void BSR(View v) {
         Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", "4");
+        intent.putExtra("base_id", AppConstant.BAF_BSR);
         startActivity(intent);
     }
     public void COXS(View v) {
         Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", "5");
+        intent.putExtra("base_id", AppConstant.BAF_COXS);
         startActivity(intent);
     }
     public void UNIT(View v) {

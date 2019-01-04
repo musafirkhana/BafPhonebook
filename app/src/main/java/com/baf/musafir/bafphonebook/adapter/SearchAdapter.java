@@ -53,9 +53,9 @@ public class SearchAdapter extends ArrayAdapter<PabxListModel> {
 
         private TextView txt_designation;
         private TextView txt_office_ext;
-        private TextView txt_office_auto;
+        //private TextView txt_office_auto;
         private TextView txt_res_ext;
-        private TextView txt_res_auto;
+        //private TextView txt_res_auto;
         private RelativeLayout call_linear;
         private TextView pabx_mobile_no;
         private TextView txt_appoinment;
@@ -79,9 +79,9 @@ public class SearchAdapter extends ArrayAdapter<PabxListModel> {
 
             holder.txt_designation = (TextView) v.findViewById(R.id.row_txt_designation);
             holder.txt_office_ext = (TextView) v.findViewById(R.id.row_txt_office_ext);
-            holder.txt_office_auto = (TextView) v.findViewById(R.id.row_txt_office_auto);
+            //holder.txt_office_auto = (TextView) v.findViewById(R.id.row_txt_office_auto);
             holder.txt_res_ext = (TextView) v.findViewById(R.id.row_txt_res_ext);
-            holder.txt_res_auto = (TextView) v.findViewById(R.id.row_txt_res_auto);
+            //holder.txt_res_auto = (TextView) v.findViewById(R.id.row_txt_res_auto);
             holder.pabx_mobile_no = (TextView) v.findViewById(R.id.row_pabx_mobile_no);
             holder.txt_appoinment = (TextView) v.findViewById(R.id.row_txt_appoinment);
             holder.txt_basename = (TextView) v.findViewById(R.id.txt_basename);
@@ -96,9 +96,9 @@ public class SearchAdapter extends ArrayAdapter<PabxListModel> {
             PabxListModel query = planetList.get(position);
             holder.txt_designation.setText(query.getDesignation());
             holder.txt_office_ext.setText(query.getOffice_ext());
-            holder.txt_office_auto.setText(query.getOffice_auto());
+            //holder.txt_office_auto.setText(query.getOffice_auto());
             holder.txt_res_ext.setText(query.getResident_ext());
-            holder.txt_res_auto.setText(query.getResident_auto());
+            //holder.txt_res_auto.setText(query.getResident_auto());
 
             holder.txt_basename.setText(query.getBase_name()+ " "+query.getWing_name());
             holder.txt_sqnname.setText(query.getSqn_name());
@@ -161,7 +161,7 @@ public class SearchAdapter extends ArrayAdapter<PabxListModel> {
                 for (PabxListModel p : planetList) {
 
                     if (p.getDesignation().toUpperCase().startsWith(constraint.toString().toUpperCase())||
-                            p.getSqn_name().toUpperCase().startsWith(constraint.toString().toUpperCase())||
+                            p.getSqn_name().toUpperCase().contains(constraint.toString().toUpperCase())||
                             p.getOffice_ext().toUpperCase().startsWith(constraint.toString().toUpperCase())) {
                         nPlanetList.add(p);
                     }

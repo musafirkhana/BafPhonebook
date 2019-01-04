@@ -21,5 +21,15 @@ public class AppConstant extends Application {
     public static final String MAIN_DIR = "/www";
     public static final String EDEN_REFERENCE_DIR = "/www/Airforce Reference Data";
     public static final String DB_BASE_URL = "/www/Airforce Reference Data/Airforce Database/";
+    public static final String BAF_AHQ = "0";
+    public static final String BAF_BSR = "4";
+    public static final String BAF_BBD = "5";
+    public static final String BAF_ZHR = "2";
+    public static final String BAF_MTR = "3";
+    public static final String BAF_PKP = "7";
+    public static final String BAF_COXS = "6";
+    public static final String BAF_SEARCH = "1";
+
+
 
     }

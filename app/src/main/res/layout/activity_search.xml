@@ -88,7 +88,7 @@
         android:layout_height="30dp"
         android:layout_below="@+id/middle_linear"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/list_shape"
+        android:background="@color/gray"
         android:orientation="horizontal">
 
         <TextView
@@ -99,7 +99,7 @@
             android:gravity="center"
             android:text="Designation"
             android:textColor="@color/black"
-            android:textSize="10sp"
+            android:textSize="12sp"
             android:textStyle="bold" />
 
         <View
@@ -112,14 +112,14 @@
             android:id="@+id/text_2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:gravity="center"
             android:text="Office(ext)"
             android:textColor="@color/black"
-            android:textSize="10sp"
+            android:textSize="12sp"
             android:textStyle="bold" />
 
-        <View
+       <!-- <View
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight=".03"
@@ -134,7 +134,7 @@
             android:text="Office(auto)"
             android:textColor="@color/black"
             android:textSize="10sp"
-            android:textStyle="bold" />
+            android:textStyle="bold" />-->
 
         <View
             android:layout_width="0dp"
@@ -146,14 +146,14 @@
             android:id="@+id/text_4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="3"
             android:gravity="center"
             android:text="Res(ext)"
             android:textColor="@color/black"
-            android:textSize="10sp"
+            android:textSize="12sp"
             android:textStyle="bold" />
 
-        <View
+        <!--<View
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight=".03"
@@ -168,14 +168,18 @@
             android:text="Res(auto)"
             android:textColor="@color/black"
             android:textSize="10sp"
-            android:textStyle="bold" />
+            android:textStyle="bold" />-->
     </LinearLayout>
-
+    <View android:id="@+id/view_separator"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/header_linear"
+        android:layout_height="1dp"
+        android:background="@color/white"></View>
     <ListView
         android:id="@+id/pabx_no_list"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@+id/header_linear"
+        android:layout_below="@+id/view_separator"
         android:layout_above="@+id/excercise_scroll"
         android:background="@color/divider">
 

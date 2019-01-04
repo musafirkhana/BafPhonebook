@@ -35,7 +35,7 @@ public class SearchMainActivity extends Activity {
         baseID = getIntent().getStringExtra("base_id");
         dataBaseUtility = new DataBaseUtility();
         detail_relative=(RelativeLayout)findViewById(R.id.detail_relative);
-       if(baseID.equalsIgnoreCase("0")){
+       if(baseID.equalsIgnoreCase(AppConstant.BAF_SEARCH)){
            detail_relative.setVisibility(View.GONE);
        }
     }
@@ -48,38 +48,42 @@ public class SearchMainActivity extends Activity {
     }
 
     public void MOBILE(View v) {
-        if (baseID.equalsIgnoreCase("2")) {
+        if (baseID.equalsIgnoreCase(AppConstant.BAF_AHQ)) {
+            dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
+            Intent intent = new Intent(this, MobileSearchListActivity.class);
+            intent.putExtra("header", "AHQ SEARCH");
+            startActivity(intent);
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_ZHR)) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "ZHR SEARCH");
             startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("3")) {
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_MTR)) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "MTR SEARCH");
             startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("4")) {
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_BSR)) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "BSR SEARCH");
             startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("5")) {
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_COXS)) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "COXS SEARCH");
             startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("6")) {
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_BBD)) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "BBD SEARCH");
             startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("7")) {
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_PKP)) {
             dataBaseUtility.getAllMobileDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "PKP SEARCH");
             startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("0")) {
-
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_SEARCH)) {
             dataBaseUtility.getAllMobileData(mContext);
             Intent intent = new Intent(this, MobileSearchListActivity.class);
             intent.putExtra("header", "SEARCH");
@@ -96,61 +100,54 @@ public class SearchMainActivity extends Activity {
      * @param v
      *************************************/
     public void PABX(View v) {
-
-        if (baseID.equalsIgnoreCase("2")) {
+        if (baseID.equalsIgnoreCase(AppConstant.BAF_AHQ)) {
+            dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
+            Intent intent = new Intent(this, SearchListActivity.class);
+            intent.putExtra("header", "AHQ");
+           // intent.putExtra("base_id", baseID);
+            startActivity(intent);
+            this.finish();
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_ZHR)) {
             dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, SearchListActivity.class);
             intent.putExtra("header", "ZHR");
-            intent.putExtra("base_id", baseID);
+           // intent.putExtra("base_id", baseID);
             startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("0")) {
-            dataBaseUtility.getAllData(mContext);
-            Intent intent = new Intent(this, SearchListActivity.class);
-            intent.putExtra("header", "SEARCH");
-            startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("3")) {
+            this.finish();
+        }  else if (baseID.equalsIgnoreCase(AppConstant.BAF_MTR)) {
             dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, SearchListActivity.class);
             intent.putExtra("header", "MTR");
-            intent.putExtra("base_id", baseID);
+            //intent.putExtra("base_id", baseID);
             startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("7")) {
+            this.finish();
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_PKP)) {
             dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
             Intent intent = new Intent(this, SearchListActivity.class);
             intent.putExtra("header", "PKP");
-            intent.putExtra("base_id", baseID);
+            //intent.putExtra("base_id", baseID);
             startActivity(intent);
-        } else if (baseID.equalsIgnoreCase("4")) {
-            if (AllPabxListVector.getAllPabxlist().size() > 0) {
+            this.finish();
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_BSR)) {
                 dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
                 Intent intent = new Intent(this, SearchListActivity.class);
-                intent.putExtra("header", "BSR SEARCH");
+                intent.putExtra("header", "BSR");
                 startActivity(intent);
                 this.finish();
-            } else {
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_COXS)) {
                 toastUtil.appSuccessMsg(mContext, AppConstant.NO_DATA);
-            }
-        } else if (baseID.equalsIgnoreCase("5")) {
-            if (AllPabxListVector.getAllPabxlist().size() > 0) {
-                dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
+                /*dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
                 Intent intent = new Intent(this, SearchListActivity.class);
                 intent.putExtra("header", "COXS SEARCH");
                 startActivity(intent);
-                this.finish();
-            } else {
-                toastUtil.appSuccessMsg(mContext, AppConstant.NO_DATA);
-            }
-        } else if (baseID.equalsIgnoreCase("6")) {
-            if (AllPabxListVector.getAllPabxlist().size() > 0) {
+                this.finish();*/
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_BBD)) {
                 dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
                 Intent intent = new Intent(this, SearchListActivity.class);
-                intent.putExtra("header", "BBD SEARCH");
+                intent.putExtra("header", "BBD");
                 startActivity(intent);
                 this.finish();
-            } else {
-                toastUtil.appSuccessMsg(mContext, AppConstant.NO_DATA);
-            }
-        } else if (baseID.equalsIgnoreCase("0")) {
+        } else if (baseID.equalsIgnoreCase(AppConstant.BAF_SEARCH)) {
             dataBaseUtility.getAllData(mContext);
             Intent intent = new Intent(this, SearchListActivity.class);
             intent.putExtra("header", "SEARCH");
@@ -215,7 +212,7 @@ public class SearchMainActivity extends Activity {
             } else {
                 toastUtil.appSuccessMsg(mContext, AppConstant.NO_DATA);
             }
-        } else if (baseID.equalsIgnoreCase("0")) {
+        } else if (baseID.equalsIgnoreCase("10")) {
             dataBaseUtility.getAllData(mContext);
             Intent intent = new Intent(this, SearchListActivity.class);
             intent.putExtra("header", "SEARCH");
