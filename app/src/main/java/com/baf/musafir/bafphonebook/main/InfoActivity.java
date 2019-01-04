@@ -22,5 +22,8 @@ private Context mContext;
 
     }
 
+    public void BACK(View v){
+        this.finish();
 
+    }
 }

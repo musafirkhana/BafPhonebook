@@ -22,12 +22,12 @@ private Context mContext;
         mContext=this;
         history_text= (JustifiedTextView) findViewById(R.id.history_text);
         history_text.setText(getResources().getString(R.string.airforcr_history));
-        history_text.setTextColor(R.color.white);
+        history_text.setTextColor(R.color.black);
         history_text.setAlignment(Paint.Align.LEFT);
-        history_text.setTextSize(0,60);
+        history_text.setTextSize(0,35);
     }
 
-public void HOME(View v){
+public void BACK(View v){
     this.finish();
 
 }

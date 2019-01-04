@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_main"
+    android:background="@drawable/app_background"
     android:orientation="vertical">
 
     <LinearLayout
@@ -18,28 +18,19 @@
             android:background="@color/button_background">
 
             <RelativeLayout
-                android:layout_width="50dp"
-                android:layout_height="match_parent"
-                android:clickable="true"
-                android:onClick="BACK"
-                android:layout_alignParentLeft="true">
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:clickable="true"
+            android:onClick="BACK">
 
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_centerInParent="true"
-                    android:src="@drawable/rounded_button_selector">
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/back_selector">
 
-                </ImageView>
-
-
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_centerInParent="true"
-                    android:src="@drawable/back">
-
-                </ImageView>
+            </ImageView>
             </RelativeLayout>
 
             <TextView
@@ -60,6 +51,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/app_background"
         android:layout_above="@+id/excercise_scroll"
         android:layout_below="@+id/top_linear">
 
@@ -78,10 +70,10 @@
                 <RelativeLayout
                     android:id="@+id/llOrderfood"
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="1dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="MAINT1">
 
@@ -105,11 +97,11 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_alignLeft="@+id/llOrderfood"
                     android:layout_below="@+id/llOrderfood"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="MAINT2">
 
@@ -132,10 +124,10 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="MAINT3">
 
@@ -159,10 +151,10 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="MAINT4">
 
@@ -186,10 +178,10 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="MAINT5">
 
@@ -212,10 +204,10 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="MAINT6">
 
@@ -239,10 +231,10 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="MAINT7">
 
@@ -266,10 +258,10 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="MAINT8">
 

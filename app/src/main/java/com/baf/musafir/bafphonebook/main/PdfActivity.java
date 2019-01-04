@@ -6,6 +6,7 @@ import android.media.SoundPool;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.view.Window;
 
 import com.baf.musafir.bafphonebook.R;
@@ -29,7 +30,7 @@ private Context mContext;
     Integer pageNumber = 0;
 
    private PDFView pdfView;
-
+private String pdf_name;
 
     String pdfFileName;
     @Override
@@ -39,21 +40,21 @@ private Context mContext;
         setContentView(R.layout.activity_pdfview);
         mContext=this;
         pdfView=(PDFView)findViewById(R.id.pdfView);
-        displayFromAsset("sample.pdf");
+        pdfFileName=getIntent().getStringExtra("pdfName");
+        displayFromAsset(pdfFileName);
     }
 
     private void displayFromAsset(String assetFileName) {
         pdfFileName = assetFileName;
 
         pdfView.fromAsset(pdfFileName)
-                .pages(0, 2, 1, 3, 3, 3) // all pages are displayed by default
+               // .pages(0, 2, 1, 3, 3, 3) // all pages are displayed by default
                 .enableSwipe(true) // allows to block changing pages using swipe
-                .swipeHorizontal(false)
+                .swipeHorizontal(true)
                 .enableDoubletap(true)
                 .defaultPage(0)
                 // allows to draw something on the current page, usually visible in the middle of the screen
-
-                .enableAnnotationRendering(false) // render annotations (such as comments, colors or forms)
+                .enableAnnotationRendering(true) // render annotations (such as comments, colors or forms)
                 .password(null)
                 .scrollHandle(null)
                 .enableAntialiasing(true) // improve rendering a little bit on low-res screens
@@ -94,5 +95,9 @@ private Context mContext;
     public void onPageChanged(int page, int pageCount) {
         pageNumber = page;
         setTitle(String.format("%s %s / %s", pdfFileName, page + 1, pageCount));
+    }
+    public void BACK(View v){
+        this.finish();
+
     }
 }

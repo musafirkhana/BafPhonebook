@@ -182,7 +182,7 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
 
     /********************************More Menu****************/
     public void HOME(View v) {
-        Intent intent = new Intent(this, PdfActivity.class);
+        Intent intent = new Intent(this, PdfMainActivity.class);
         startActivity(intent);
     }
 
