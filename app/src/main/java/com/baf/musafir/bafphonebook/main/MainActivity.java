@@ -174,11 +174,15 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
     public void AddImageUrlFormLocalRes() {
 
         HashMapForLocalRes = new HashMap<String, Integer>();
-        HashMapForLocalRes.put("Img 1", R.drawable.banner1);
-        HashMapForLocalRes.put("Img 2", R.drawable.banner2);
-        HashMapForLocalRes.put("Img 3", R.drawable.background_main);
-        HashMapForLocalRes.put("Img 4", R.drawable.banner3);
-        HashMapForLocalRes.put("Img 5", R.drawable.background_main);
+        HashMapForLocalRes.put("MIG 29", R.drawable.banner1);
+        HashMapForLocalRes.put("MI 17 SHA", R.drawable.banner2);
+        HashMapForLocalRes.put("C 130", R.drawable.banner3);
+        HashMapForLocalRes.put("F7 BG", R.drawable.banner4);
+        HashMapForLocalRes.put("K8W", R.drawable.banner5);
+        HashMapForLocalRes.put("L 410", R.drawable.banner6);
+        HashMapForLocalRes.put("PT 6", R.drawable.banner7);
+        HashMapForLocalRes.put("AW 139", R.drawable.banner8);
+        HashMapForLocalRes.put("AN 32", R.drawable.banner9);
 
     }
 
