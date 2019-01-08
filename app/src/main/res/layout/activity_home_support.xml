@@ -377,9 +377,9 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/info_selector"
+                    android:background="@drawable/location_selector"
                     android:clickable="true"
-                    android:onClick="INFO" />
+                    android:onClick="LOCATION" />
 
 
             </LinearLayout>

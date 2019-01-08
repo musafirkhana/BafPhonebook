@@ -8,6 +8,7 @@ import android.util.Log;
 import com.baf.musafir.bafphonebook.holder.AllAbbrListVector;
 import com.baf.musafir.bafphonebook.holder.AllCadetCollegeListVector;
 import com.baf.musafir.bafphonebook.holder.AllContactListVector;
+import com.baf.musafir.bafphonebook.holder.AllEmailListVector;
 import com.baf.musafir.bafphonebook.holder.AllLocationListVector;
 import com.baf.musafir.bafphonebook.holder.AllMobileListVector;
 import com.baf.musafir.bafphonebook.holder.AllNwdListVector;
@@ -18,6 +19,7 @@ import com.baf.musafir.bafphonebook.holder.AllUnitListVector;
 import com.baf.musafir.bafphonebook.model.AbbrlListModel;
 import com.baf.musafir.bafphonebook.model.CadetCollegeListModel;
 import com.baf.musafir.bafphonebook.model.ContactListModel;
+import com.baf.musafir.bafphonebook.model.EmailListModel;
 import com.baf.musafir.bafphonebook.model.LocationListModel;
 import com.baf.musafir.bafphonebook.model.MobileListModel;
 import com.baf.musafir.bafphonebook.model.NwdListModel;
@@ -525,4 +527,34 @@ public class DataBaseUtility {
         }
         db.close();
     }
+
+
+    /**********************************
+     * Getting All Email from DB
+     * Email Address of All Bases
+     **********************************/
+    public void getAllEmailAddData(Context context) {
+        AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
+        SQLiteDatabase db = databaseOpenHelper.openDatabase();
+        Cursor cursor = db.rawQuery(
+                "SELECT * from baf_mail;",
+                null);
+        Log.i(TAG, "Database Query Are :" + cursor);
+        AllEmailListVector emailListVector = new AllEmailListVector();
+        emailListVector.removeEmaillist();
+        if (cursor.moveToFirst()) {
+            do {
+                EmailListModel emailListModel = new EmailListModel();
+                emailListModel.setDesignation(cursor.getString(0));
+                emailListModel.setEmail_add(cursor.getString(1));
+                emailListModel.setUnit_base(cursor.getString(2));
+                emailListModel.setUnit_id(cursor.getString(3));
+                emailListVector.setAllEmaillist(emailListModel);
+                emailListModel = null;
+                Log.w(TAG, "getAllMobileData: " + cursor.getString(0));
+            } while (cursor.moveToNext());
+        }
+        db.close();
+    }
+
 }

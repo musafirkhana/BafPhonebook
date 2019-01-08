@@ -29,7 +29,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/rounded_button_selector">
+                    android:src="@drawable/back_selector">
 
                 </ImageView>
 
@@ -75,10 +75,10 @@
                 android:padding="15dp">
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="CMD1">
 
@@ -103,9 +103,9 @@
                 <RelativeLayout
                     android:id="@+id/llOrderfood"
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="CMD2">
 
@@ -129,11 +129,11 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_alignLeft="@+id/llOrderfood"
                     android:layout_below="@+id/llOrderfood"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="CMD3">
 
@@ -156,10 +156,10 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="CMD4">
 
@@ -183,10 +183,10 @@
 
                 <RelativeLayout
                     android:layout_width="fill_parent"
-                    android:layout_height="62dp"
+                    android:layout_height="50dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:background="@drawable/home_selector"
+                    android:background="@drawable/button_edge_selector"
                     android:clickable="true"
                     android:onClick="CMD5">
 

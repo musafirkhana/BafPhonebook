@@ -64,19 +64,15 @@ private Context mContext;
         Intent intent = new Intent(this, HistoryActivity.class);
         startActivity(intent);
     }
-    public void LOC(View v) {
-        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
-        if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))
-        {
-            dataBaseUtility.getLocationData(mContext);
-            Intent intent = new Intent(this, LocationMapActivity.class);
-            startActivity(intent);
-        }else
-        {
-            showGPSDiabledDialog();
-        }
-
-
+    public void INFO(View v) {
+        Intent intent = new Intent(this, InfoActivity.class);
+        intent.putExtra("header","EMAIL");
+        startActivity(intent);
+    }
+    public void EMAIL(View v) {
+        dataBaseUtility.getAllEmailAddData(mContext);
+        Intent intent = new Intent(this, MailListActivity.class);
+        startActivity(intent);
     }
     /* public void GENABB(View v) {
          //dataBaseUtility.getAbbrData(mContext);

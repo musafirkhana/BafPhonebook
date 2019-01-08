@@ -26,7 +26,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="15dp"
             android:layout_toRightOf="@+id/logo_imag"
-            android:text="Bangladesh Airforce"
+            android:text="Add a Number"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold|normal" />

@@ -195,9 +195,22 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
         startActivity(intent);
     }
 
-    public void INFO(View v) {
-        Intent intent = new Intent(this, InfoActivity.class);
-        startActivity(intent);
+    public void LOCATION(View v) {
+
+
+
+
+        LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+        if (locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER))
+        {
+            dataBaseUtility.getLocationData(mContext);
+            Intent intent = new Intent(this, LocationMapActivity.class);
+            startActivity(intent);
+        }else
+        {
+            showGPSDiabledDialog();
+        }
+
     }
     public void VIDEO(View v) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
