@@ -21,8 +21,8 @@ import com.baf.musafir.bafphonebook.model.OthersListModel;
 public class OthersListActivity extends Activity {
     private Context mContext;
     private OthersAdapter othersAdapter;
-    public EditText mobile_no_search;
-    private ListView others_mobile_no_list;
+    public EditText others_search;
+    private ListView others_list;
     private TextView topbar;
     private String Header="";
     @Override
@@ -44,11 +44,11 @@ public class OthersListActivity extends Activity {
 private void initUI(){
     topbar=(TextView)findViewById(R.id.topbar);
     topbar.setText(Header);
-    mobile_no_search = (EditText) findViewById(R.id.mobile_no_search);
-    others_mobile_no_list = (ListView) findViewById(R.id.others_mobile_no_list);
+    others_search = (EditText) findViewById(R.id.others_search);
+    others_list = (ListView) findViewById(R.id.others_list);
     othersAdapter = new OthersAdapter(this);
-    others_mobile_no_list.setAdapter(othersAdapter);
-    others_mobile_no_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+    others_list.setAdapter(othersAdapter);
+    /*others_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
         @Override
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
@@ -59,11 +59,11 @@ private void initUI(){
             startActivity(intent);
 
         }
-    });
+    });*/
     // TextFilter
-    others_mobile_no_list.setTextFilterEnabled(true);
+    others_list.setTextFilterEnabled(true);
 
-    mobile_no_search.addTextChangedListener(new TextWatcher() {
+    others_search.addTextChangedListener(new TextWatcher() {
 
         @Override
         public void onTextChanged(CharSequence s, int start, int before,

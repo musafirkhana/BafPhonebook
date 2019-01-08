@@ -48,8 +48,11 @@ public class OthersAdapter extends ArrayAdapter<OthersListModel> {
 
     static class ViewHolder {
 
-        private TextView row_others_mobile_no;
-        private TextView row_txt_appoinment;
+        private TextView other_designation;
+        private TextView others_name;
+        private TextView others_id;
+        private TextView others_office;
+        private TextView others_res;
 
 
 
@@ -67,18 +70,22 @@ public class OthersAdapter extends ArrayAdapter<OthersListModel> {
             // convertView = _inflater.inflate(R.layout.list_row, null);
             holder = new ViewHolder();
 
-            holder.row_others_mobile_no = (TextView) v.findViewById(R.id.row_others_mobile_no);
-            holder.row_txt_appoinment = (TextView) v.findViewById(R.id.row_txt_appoinment);
-
-
+            holder.other_designation = (TextView) v.findViewById(R.id.other_designation);
+            holder.others_name = (TextView) v.findViewById(R.id.others_name);
+            holder.others_id = (TextView) v.findViewById(R.id.others_id);
+            holder.others_office = (TextView) v.findViewById(R.id.others_office);
+            holder.others_res = (TextView) v.findViewById(R.id.others_res);
             v.setTag(holder);
         } else {
             holder = (ViewHolder) v.getTag();
         }
         if (position < AllOthersListVector.getAllOtherslist().size()) {
             OthersListModel query = planetList.get(position);
-            holder.row_others_mobile_no.setText(query.getNumber());
-            holder.row_txt_appoinment.setText(query.getDesignation()+","+query.getArea_name());
+            holder.other_designation.setText(query.getDesignation());
+            holder.others_name.setText(query.getOrg_name());
+            holder.others_id.setText(query.getOrg_id());
+            holder.others_office.setText(query.getOffice_ext());
+            holder.others_res.setText(query.getRes_ext());
 
         }
 
@@ -115,7 +122,8 @@ public class OthersAdapter extends ArrayAdapter<OthersListModel> {
                 List<OthersListModel> nPlanetList = new ArrayList<OthersListModel>();
                 for (OthersListModel p : planetList) {
 
-                    if (p.getDesignation().toUpperCase().startsWith(constraint.toString().toUpperCase())) {
+                    if (p.getDesignation().toUpperCase().contains(constraint.toString().toUpperCase())||
+                            p.getOffice_ext().toUpperCase().contains(constraint.toString().toUpperCase())) {
                         nPlanetList.add(p);
                     }
 

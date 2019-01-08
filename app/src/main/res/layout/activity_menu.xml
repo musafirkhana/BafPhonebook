@@ -114,7 +114,46 @@
                             android:src="@drawable/forword" />
 
                     </RelativeLayout>
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="#c2c2c2" />
 
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:clickable="true"
+                        android:onClick="OTHERS"
+                        android:orientation="horizontal"
+                        android:padding="10dp"
+                        android:weightSum="1.5">
+
+                        <ImageView
+                            android:id="@+id/other_image"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentLeft="true"
+                            android:src="@drawable/others" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/other_image"
+                            android:gravity="center_vertical"
+                            android:text="Others"
+                            android:textColor="@color/fontBlack"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/forword" />
+
+                    </RelativeLayout>
                     <View
                         android:layout_width="fill_parent"
                         android:layout_height="1dp"
@@ -383,7 +422,7 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_alignParentLeft="true"
-                            android:src="@drawable/airforce_logo_1" />
+                            android:src="@drawable/cmd_control" />
 
                         <TextView
                             android:layout_width="fill_parent"
@@ -425,7 +464,7 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_alignParentLeft="true"
-                            android:src="@drawable/airforce_logo_1" />
+                            android:src="@drawable/unit" />
 
                         <TextView
                             android:layout_width="fill_parent"
@@ -467,7 +506,7 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp"
                             android:layout_alignParentLeft="true"
-                            android:src="@drawable/airforce_logo_1" />
+                            android:src="@drawable/squadron" />
 
                         <TextView
                             android:layout_width="fill_parent"

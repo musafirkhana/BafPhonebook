@@ -11,6 +11,7 @@ import com.baf.musafir.bafphonebook.holder.AllContactListVector;
 import com.baf.musafir.bafphonebook.holder.AllEmailListVector;
 import com.baf.musafir.bafphonebook.holder.AllLocationListVector;
 import com.baf.musafir.bafphonebook.holder.AllMobileListVector;
+import com.baf.musafir.bafphonebook.holder.AllNumberPlanListVector;
 import com.baf.musafir.bafphonebook.holder.AllNwdListVector;
 import com.baf.musafir.bafphonebook.holder.AllOthersListVector;
 import com.baf.musafir.bafphonebook.holder.AllPabxListVector;
@@ -22,6 +23,7 @@ import com.baf.musafir.bafphonebook.model.ContactListModel;
 import com.baf.musafir.bafphonebook.model.EmailListModel;
 import com.baf.musafir.bafphonebook.model.LocationListModel;
 import com.baf.musafir.bafphonebook.model.MobileListModel;
+import com.baf.musafir.bafphonebook.model.NumberPlanListModel;
 import com.baf.musafir.bafphonebook.model.NwdListModel;
 import com.baf.musafir.bafphonebook.model.OthersListModel;
 import com.baf.musafir.bafphonebook.model.PabxListModel;
@@ -339,17 +341,14 @@ public class DataBaseUtility {
     /*********************************
      * Getting Area code of BD
      *********************************/
-    public void getOthersData(Context context, String orgCode, String areaCode) {
+    public void getOthersData(Context context,String orgId) {
         AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
         SQLiteDatabase db = databaseOpenHelper.openDatabase();
         Log.w(TAG, "getOthersData: " + db.getPath());
 
 
         Cursor cursor = db.rawQuery(
-                "SELECT * from others_number where org_code='" +
-                        orgCode +
-                        "' and area_code='" +
-                        areaCode +
+                "SELECT * from others_pabs_data where org_id='"+orgId+
                         "';",
                 null);
         Log.w(TAG, "Query Are : " + cursor);
@@ -358,12 +357,11 @@ public class DataBaseUtility {
         if (cursor.moveToFirst()) {
             do {
                 OthersListModel othersListModel = new OthersListModel();
-                othersListModel.setOrg_code(cursor.getString(0));
-                othersListModel.setOrg_name(cursor.getString(1));
-                othersListModel.setArea_code(cursor.getString(2));
-                othersListModel.setArea_name(cursor.getString(3));
-                othersListModel.setDesignation(cursor.getString(4));
-                othersListModel.setNumber(cursor.getString(5));
+                othersListModel.setOrg_name(cursor.getString(0));
+                othersListModel.setOrg_id(cursor.getString(1));
+                othersListModel.setDesignation(cursor.getString(2));
+                othersListModel.setOffice_ext(cursor.getString(3));
+                othersListModel.setRes_ext(cursor.getString(4));
 
                 allOthersListVector.setAllOtherslist(othersListModel);
                 othersListModel = null;
@@ -556,5 +554,32 @@ public class DataBaseUtility {
         }
         db.close();
     }
-
+    /**********************************
+     * Getting All Number Plan from DB
+     * Number Plan of All Services
+     **********************************/
+    public void getAllNumberplanData(Context context) {
+        AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
+        SQLiteDatabase db = databaseOpenHelper.openDatabase();
+        Cursor cursor = db.rawQuery(
+                "SELECT * from intr_service_exchange;",
+                null);
+        Log.i(TAG, "Database Query Are :" + cursor);
+        AllNumberPlanListVector allNumberPlanListVector = new AllNumberPlanListVector();
+        allNumberPlanListVector.removeNumberPlanlist();
+        if (cursor.moveToFirst()) {
+            do {
+                NumberPlanListModel numberPlanListModel = new NumberPlanListModel();
+                numberPlanListModel.setName(cursor.getString(0));
+                numberPlanListModel.setExt_code(cursor.getString(1));
+                numberPlanListModel.setMobile_code(cursor.getString(2));
+                numberPlanListModel.setService_id(cursor.getString(3));
+                numberPlanListModel.setService_name(cursor.getString(4));
+                allNumberPlanListVector.setAllNumberPlanlist(numberPlanListModel);
+                numberPlanListModel = null;
+                Log.w(TAG, "getAllMobileData: " + cursor.getString(0));
+            } while (cursor.moveToNext());
+        }
+        db.close();
+    }
 }

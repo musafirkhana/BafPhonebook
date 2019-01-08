@@ -2,20 +2,11 @@ package com.baf.musafir.bafphonebook.model;
 
 public class OthersListModel {
 
-	private String org_code = "";
 	private String org_name = "";
-	private String area_code = "";
-	private String area_name = "";
+	private String org_id = "";
 	private String designation = "";
-	private String number = "";
-
-	public String getOrg_code() {
-		return org_code;
-	}
-
-	public void setOrg_code(String org_code) {
-		this.org_code = org_code;
-	}
+	private String office_ext = "";
+	private String res_ext = "";
 
 	public String getOrg_name() {
 		return org_name;
@@ -25,20 +16,12 @@ public class OthersListModel {
 		this.org_name = org_name;
 	}
 
-	public String getArea_code() {
-		return area_code;
+	public String getOrg_id() {
+		return org_id;
 	}
 
-	public void setArea_code(String area_code) {
-		this.area_code = area_code;
-	}
-
-	public String getArea_name() {
-		return area_name;
-	}
-
-	public void setArea_name(String area_name) {
-		this.area_name = area_name;
+	public void setOrg_id(String org_id) {
+		this.org_id = org_id;
 	}
 
 	public String getDesignation() {
@@ -49,23 +32,30 @@ public class OthersListModel {
 		this.designation = designation;
 	}
 
-	public String getNumber() {
-		return number;
+	public String getOffice_ext() {
+		return office_ext;
 	}
 
-	public void setNumber(String number) {
-		this.number = number;
+	public void setOffice_ext(String office_ext) {
+		this.office_ext = office_ext;
+	}
+
+	public String getRes_ext() {
+		return res_ext;
+	}
+
+	public void setRes_ext(String res_ext) {
+		this.res_ext = res_ext;
 	}
 
 	@Override
 	public String toString() {
 		return "OthersListModel{" +
-				"org_code='" + org_code + '\'' +
-				", org_name='" + org_name + '\'' +
-				", area_code='" + area_code + '\'' +
-				", area_name='" + area_name + '\'' +
+				"org_name='" + org_name + '\'' +
+				", org_id='" + org_id + '\'' +
 				", designation='" + designation + '\'' +
-				", number='" + number + '\'' +
+				", office_ext='" + office_ext + '\'' +
+				", res_ext='" + res_ext + '\'' +
 				'}';
 	}
 }

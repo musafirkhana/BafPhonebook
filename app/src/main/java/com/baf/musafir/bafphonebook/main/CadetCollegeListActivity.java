@@ -34,10 +34,9 @@ public class CadetCollegeListActivity extends Activity {
         Header=getIntent().getStringExtra("header");
         initUI();
     }
-    public void HOME(View v) {
+    public void BACK(View v) {
         this.finish();
-        Intent intent=new Intent(this,HomeActivity.class);
-        startActivity(intent);
+
 
     }
 private void initUI(){

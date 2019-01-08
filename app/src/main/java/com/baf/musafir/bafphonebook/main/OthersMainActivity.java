@@ -13,47 +13,103 @@ import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
 public class OthersMainActivity extends Activity {
 private Context mContext;
     private DataBaseUtility dataBaseUtility;
-    private String orgCode="";
-    private String orgName="";
+    private String header="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_others_main);
         mContext=this;
-        orgCode=getIntent().getStringExtra("orgCode");
-        orgName=getIntent().getStringExtra("orgName");
+        header=getIntent().getStringExtra("header");
         dataBaseUtility = new DataBaseUtility();
     }
-    public void HOME(View v) {
+    public void BACK(View v) {
         this.finish();
-        Intent intent=new Intent(this,HomeActivity.class);
-        startActivity(intent);
 
     }
-    public void CHITTAGONG(View v) {
 
-        dataBaseUtility.getOthersData(mContext,orgCode,"1");
+    public void OTHERS1(View v) {
+
+        dataBaseUtility.getOthersData(mContext,"1");
         Intent intent = new Intent(this, OthersListActivity.class);
-        intent.putExtra("header",orgName+",CHITTAGONG AREA");
+        intent.putExtra("header","President's Office");
         startActivity(intent);
 
     }
-    public void DHAKA(View v) {
-        dataBaseUtility.getOthersData(mContext,orgCode,"1");
+    public void OTHERS2(View v) {
+
+        dataBaseUtility.getOthersData(mContext,"2");
         Intent intent = new Intent(this, OthersListActivity.class);
-        intent.putExtra("header","DHAKA AREA");
+        intent.putExtra("header","Prime Minister's Office");
         startActivity(intent);
 
     }
+    public void OTHERS3(View v) {
 
-    public void JESSORE(View v) {
-        dataBaseUtility.getOthersData(mContext,orgCode,"1");
+        dataBaseUtility.getOthersData(mContext,"3");
         Intent intent = new Intent(this, OthersListActivity.class);
-        intent.putExtra("header","JESSORE AREA");
+        intent.putExtra("header","Special Security Force (SSF)");
         startActivity(intent);
 
     }
+    public void OTHERS4(View v) {
+
+        dataBaseUtility.getOthersData(mContext,"4");
+        Intent intent = new Intent(this, OthersListActivity.class);
+        intent.putExtra("header","Ministry of Defence (MOD)");
+        startActivity(intent);
+
+    }
+    public void OTHERS5(View v) {
+
+        dataBaseUtility.getOthersData(mContext,"5");
+        Intent intent = new Intent(this, OthersListActivity.class);
+        intent.putExtra("header","Armed Forces Division (AFD)");
+        startActivity(intent);
+
+    }
+    public void OTHERS6(View v) {
+
+        dataBaseUtility.getOthersData(mContext,"6");
+        Intent intent = new Intent(this, OthersListActivity.class);
+        intent.putExtra("header","Army Headquarters (AHQ)");
+        startActivity(intent);
+
+    }
+    public void OTHERS7(View v) {
+
+        dataBaseUtility.getOthersData(mContext,"7");
+        Intent intent = new Intent(this, OthersListActivity.class);
+        intent.putExtra("header","Naval Headquarters (NHQ)");
+        startActivity(intent);
+
+    }
+    public void OTHERS8(View v) {
+
+        dataBaseUtility.getOthersData(mContext,"8");
+        Intent intent = new Intent(this, OthersListActivity.class);
+        intent.putExtra("header","DGFI");
+        startActivity(intent);
+
+    }
+    public void OTHERS9(View v) {
+
+        dataBaseUtility.getOthersData(mContext,"9");
+        Intent intent = new Intent(this, OthersListActivity.class);
+        intent.putExtra("header","DGDP");
+        startActivity(intent);
+
+    }
+    public void OTHERS10(View v) {
+
+        dataBaseUtility.getOthersData(mContext,"10");
+        Intent intent = new Intent(this, OthersListActivity.class);
+        intent.putExtra("header","ISSB,NDC,DSCSC");
+        startActivity(intent);
+
+    }
+
+
 
 
 

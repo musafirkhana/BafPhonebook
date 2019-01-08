@@ -18,7 +18,7 @@
             android:background="@drawable/back_selector"
             android:layout_centerVertical="true"
             android:clickable="true"
-            android:onClick="HOME"
+            android:onClick="BACK"
             android:layout_marginLeft="10dp"
             android:layout_alignParentLeft="true" />
 

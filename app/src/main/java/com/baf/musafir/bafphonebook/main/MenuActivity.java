@@ -30,8 +30,15 @@ private Context mContext;
 
     }
     public void NUMBERPLAN(View v) {
-
+        dataBaseUtility.getAllNumberplanData(mContext);
         Intent intent = new Intent(this, NumberPlanningActivity.class);
+        intent.putExtra("header","Number Plan");
+        startActivity(intent);
+    }
+    public void OTHERS(View v) {
+        dataBaseUtility.getAllNumberplanData(mContext);
+        Intent intent = new Intent(this, OthersMainActivity.class);
+        intent.putExtra("header","Others Number");
         startActivity(intent);
     }
 

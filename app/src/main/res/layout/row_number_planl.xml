@@ -20,30 +20,30 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/other_designation"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Designation"
-                android:textColor="@color/accent_color"
-                android:textSize="10sp"
-                android:textStyle="bold" />
-            <TextView
-                android:id="@+id/others_name"
+                android:id="@+id/plan_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Name"
+                android:textColor="@color/accent_color"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/service_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Designation"
                 android:textColor="@color/black"
                 android:textSize="8sp"
                 />
             <TextView
-                android:id="@+id/others_id"
+                android:id="@+id/service_id"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:visibility="gone"
                 android:gravity="center"
-                android:text="Id"
+                android:text="Designation"
                 android:textColor="@color/black"
                 android:textSize="8sp"
                 />
@@ -59,14 +59,14 @@
             android:background="@color/black"></View>
 
         <TextView
-            android:id="@+id/others_office"
+            android:id="@+id/ext_code"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="3"
             android:gravity="center"
-            android:text="Office Ext"
+            android:text="Ext Code"
             android:textColor="@color/black"
-            android:textSize="8sp" />
+            android:textSize="12sp" />
         <View
             android:layout_width="0dp"
             android:layout_height="fill_parent"
@@ -74,14 +74,14 @@
             android:background="@color/black"></View>
 
         <TextView
-            android:id="@+id/others_res"
+            android:id="@+id/mobile_code"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="3"
             android:gravity="center"
-            android:text="Others res"
+            android:text="Mobile Code"
             android:textColor="@color/black"
-            android:textSize="8sp" />
+            android:textSize="12sp" />
 
     </LinearLayout>
 
