@@ -4,20 +4,13 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
 import android.view.Window;
-import android.widget.AdapterView;
-import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.baf.musafir.bafphonebook.R;
-import com.baf.musafir.bafphonebook.adapter.MobileSearchAdapter;
 import com.baf.musafir.bafphonebook.adapter.RankAdapter;
-import com.baf.musafir.bafphonebook.holder.AllMobileListVector;
-import com.baf.musafir.bafphonebook.model.MobileListModel;
 
 /*****************************
  * Search All Mobile No
@@ -39,8 +32,7 @@ public class RankDetailActivity extends Activity {
     }
     public void HOME(View v) {
         this.finish();
-        Intent intent=new Intent(this,HomeActivity.class);
-        startActivity(intent);
+
 
     }
 

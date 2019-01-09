@@ -38,8 +38,7 @@ public class PabxListActivity extends Activity {
     }
     public void HOME(View v) {
         this.finish();
-        Intent intent=new Intent(this,HomeActivity.class);
-        startActivity(intent);
+
 
     }
 

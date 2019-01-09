@@ -100,7 +100,7 @@ public class SplashActivity extends Activity {
                         @Override
                         public void run() {
                             stopTimer();
-                            Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
+                            Intent intent = new Intent(SplashActivity.this, DetailBaseActivity.class);
                             startActivity(intent);
                             SplashActivity.this.finish();
 
@@ -230,7 +230,7 @@ public class SplashActivity extends Activity {
 
 
 
-          /*  final Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
+          /*  final Intent intent = new Intent(SplashActivity.this, DetailBaseActivity.class);
             startActivity(intent);
             SplashActivity.this.finish();*/
 

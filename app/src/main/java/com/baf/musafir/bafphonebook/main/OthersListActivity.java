@@ -8,15 +8,12 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
 import android.view.Window;
-import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.adapter.OthersAdapter;
-import com.baf.musafir.bafphonebook.holder.AllOthersListVector;
-import com.baf.musafir.bafphonebook.model.OthersListModel;
 
 public class OthersListActivity extends Activity {
     private Context mContext;
@@ -37,8 +34,7 @@ public class OthersListActivity extends Activity {
 
     public void HOME(View v) {
         this.finish();
-        Intent intent=new Intent(this,HomeActivity.class);
-        startActivity(intent);
+
 
     }
 private void initUI(){

@@ -9,11 +9,7 @@ import android.view.Window;
 
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
-import com.baf.musafir.bafphonebook.holder.AllPabxListVector;
-import com.baf.musafir.bafphonebook.main.HomeActivity;
-import com.baf.musafir.bafphonebook.main.MobileSearchListActivity;
 import com.baf.musafir.bafphonebook.main.SearchListActivity;
-import com.baf.musafir.bafphonebook.util.AppConstant;
 import com.baf.musafir.bafphonebook.util.ToastUtil;
 
 public class ZhrMainActivity extends Activity {

@@ -166,19 +166,21 @@ public class SearchMainActivity extends Activity {
 
         if (baseID.equalsIgnoreCase("2")) {
             //dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
-            Intent intent = new Intent(this, ZhrMainActivity.class);
+
+            dataBaseUtility.getPabxDataByBaseUniqueID(mContext, baseID);
+            Intent intent = new Intent(this, DetailBaseActivity.class);
             intent.putExtra("header", "ZHR");
             intent.putExtra("base_id", baseID);
             startActivity(intent);
         }  else if (baseID.equalsIgnoreCase("3")) {
-            //dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
-            Intent intent = new Intent(this, MtrMainActivity.class);
+            dataBaseUtility.getPabxDataByBaseUniqueID(mContext, baseID);
+            Intent intent = new Intent(this, DetailBaseActivity.class);
             intent.putExtra("header", "MTR");
             intent.putExtra("base_id", baseID);
             startActivity(intent);
         } else if (baseID.equalsIgnoreCase("7")) {
-            //dataBaseUtility.getPabxDataByBaseID(mContext, baseID);
-            Intent intent = new Intent(this, PkpMainActivity.class);
+            dataBaseUtility.getPabxDataByBaseUniqueID(mContext, baseID);
+            Intent intent = new Intent(this, DetailBaseActivity.class);
             intent.putExtra("header", "PKP");
             intent.putExtra("base_id", baseID);
             startActivity(intent);

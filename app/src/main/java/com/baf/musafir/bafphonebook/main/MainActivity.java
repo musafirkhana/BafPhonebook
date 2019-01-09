@@ -46,7 +46,7 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
         initUI();
     }
     private void initUI() {
-        main_menu_li = (LinearLayout) findViewById(R.id.main_menu_li);
+       // main_menu_li = (LinearLayout) findViewById(R.id.main_menu_li);
         sliderLayout = (SliderLayout) findViewById(R.id.slider);
 
 

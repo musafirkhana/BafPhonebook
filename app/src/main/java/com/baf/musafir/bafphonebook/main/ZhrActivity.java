@@ -23,7 +23,7 @@ private Context mContext;
     }
     public void HOME(View v) {
         this.finish();
-        Intent intent=new Intent(this,HomeActivity.class);
+        Intent intent=new Intent(this,DetailBaseActivity.class);
         startActivity(intent);
 
     }
