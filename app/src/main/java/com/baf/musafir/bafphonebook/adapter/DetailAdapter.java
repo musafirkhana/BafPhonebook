@@ -12,25 +12,27 @@ import android.widget.TextView;
 
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.holder.AllAbbrListVector;
+import com.baf.musafir.bafphonebook.holder.AllDetailVector;
 import com.baf.musafir.bafphonebook.holder.AllPabxListVector;
 import com.baf.musafir.bafphonebook.model.AbbrlListModel;
+import com.baf.musafir.bafphonebook.model.DetailModel;
 import com.baf.musafir.bafphonebook.model.PabxListModel;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DetailAdapter extends ArrayAdapter<PabxListModel> implements SpinnerAdapter {
+public class DetailAdapter extends ArrayAdapter<DetailModel> implements SpinnerAdapter {
     Context context;
     private File sdCard = Environment.getExternalStorageDirectory();
 
     private Filter planetFilter;
-    private List<PabxListModel> origPlanetList;
+    private List<DetailModel> detailModels;
 
     public DetailAdapter(Context context,int textViewResourceId) {
-        super(context, R.layout.row_detail, AllPabxListVector.getAllPabxlist());
+        super(context, R.layout.row_detail, AllDetailVector.getAllDetail());
         this.context = context;
-        this.origPlanetList = AllPabxListVector.getAllPabxlist();
+        this.detailModels = AllDetailVector.getAllDetail();
 
     }
 
@@ -74,8 +76,8 @@ public class DetailAdapter extends ArrayAdapter<PabxListModel> implements Spinne
         } else {
             holder = (ViewHolder) v.getTag();
         }
-        if (position < AllPabxListVector.getAllPabxlist().size()) {
-            PabxListModel query = origPlanetList.get(position);
+        if (position < AllDetailVector.getAllDetail().size()) {
+            DetailModel query = detailModels.get(position);
             holder.txt_section.setText(query.getWing_name());
             holder.txt_id.setText(query.getBase_id());
 

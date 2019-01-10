@@ -9,6 +9,7 @@ import com.baf.musafir.bafphonebook.holder.AllAbbrListVector;
 import com.baf.musafir.bafphonebook.holder.AllCadetCollegeListVector;
 import com.baf.musafir.bafphonebook.holder.AllContactListVector;
 import com.baf.musafir.bafphonebook.holder.AllDetailListVector;
+import com.baf.musafir.bafphonebook.holder.AllDetailVector;
 import com.baf.musafir.bafphonebook.holder.AllEmailListVector;
 import com.baf.musafir.bafphonebook.holder.AllLocationListVector;
 import com.baf.musafir.bafphonebook.holder.AllMobileListVector;
@@ -22,6 +23,7 @@ import com.baf.musafir.bafphonebook.model.AbbrlListModel;
 import com.baf.musafir.bafphonebook.model.CadetCollegeListModel;
 import com.baf.musafir.bafphonebook.model.ContactListModel;
 import com.baf.musafir.bafphonebook.model.DetailListModel;
+import com.baf.musafir.bafphonebook.model.DetailModel;
 import com.baf.musafir.bafphonebook.model.EmailListModel;
 import com.baf.musafir.bafphonebook.model.LocationListModel;
 import com.baf.musafir.bafphonebook.model.MobileListModel;
@@ -301,8 +303,8 @@ public class DataBaseUtility {
         db.close();
     }
     /***********************************
-     * Getting All Contact from DB
-     * Get Pabx Number by their base ID
+     * Getting All Detail Data from DB
+     * Only Wing Name id etc
      * Unused
      ***********************************/
     public void getPabxDataByBaseUniqueID(Context context, String baseID) {
@@ -314,26 +316,27 @@ public class DataBaseUtility {
                             " group by wing_id;",
                 null);
         Log.i(TAG, "Base ID are Are :" + baseID);
-        AllPabxListVector pabxListVector = new AllPabxListVector();
-        pabxListVector.removePabxlist();
+        AllDetailVector detailVector = new AllDetailVector();
+        detailVector.removeDetail();
         if (cursor.moveToFirst()) {
             do {
-                PabxListModel pabxListModel = new PabxListModel();
-                pabxListModel.setBase_id(cursor.getString(1));
-                pabxListModel.setSqn_name(cursor.getString(4));
-                pabxListModel.setWing_name(cursor.getString(2));
-                pabxListModel.setSqn_id(cursor.getString(5));
-                pabxListModel.setWing_id(cursor.getString(3));
-                pabxListVector.setAllPabxlist(pabxListModel);
-                pabxListModel = null;
+                DetailModel detailModel = new DetailModel();
+                detailModel.setBase_id(cursor.getString(1));
+                detailModel.setSqn_name(cursor.getString(4));
+                detailModel.setWing_name(cursor.getString(2));
+                detailModel.setSqn_id(cursor.getString(5));
+                detailModel.setWing_id(cursor.getString(3));
+                detailVector.setAllDetail(detailModel);
+                detailModel = null;
                 Log.w(TAG, "getPabxDataByBaseID: " + cursor.getString(0));
             } while (cursor.moveToNext());
         }
         db.close();
     }
     /***********************************
-     * Getting All Contact from DB
-     * Get Pabx Number by their base ID
+     *
+     * Getting All Detail Data from DB
+     * Only Sqn Name id etc
      * Unused
      ***********************************/
     public void getPabxDataByBaseUniqueSqnID(Context context, String baseID,String sqnId) {
@@ -372,6 +375,50 @@ public class DataBaseUtility {
         }
         db.close();
     }
+
+
+
+    /***********************************
+     * Getting All Contact from DB
+     * Get Pabx Number by their base ID
+     * Unused
+     ***********************************/
+    public void getPabxDataForDetail(Context context, String baseID,String wingID,String sqnID) {
+        AssetDatabaseOpenHelper databaseOpenHelper = new AssetDatabaseOpenHelper(context);
+        SQLiteDatabase db = databaseOpenHelper.openDatabase();
+        Cursor cursor = db.rawQuery(
+                "SELECT *  from pabs_data where base_id=" +
+                        baseID +
+                        " and wing_id=" +
+                        wingID +
+                        " and sqn_id=" +
+                        sqnID+";",
+                null);
+        Log.i(TAG, "Database Query Are :" + cursor);
+        AllPabxListVector pabxListVector = new AllPabxListVector();
+        pabxListVector.removePabxlist();
+        if (cursor.moveToFirst()) {
+            do {
+                PabxListModel pabxListModel = new PabxListModel();
+                pabxListModel.setDesignation(cursor.getString(6));
+                pabxListModel.setOffice_auto(cursor.getString(8));
+                pabxListModel.setOffice_ext(cursor.getString(7));
+                pabxListModel.setResident_auto(cursor.getString(10));
+                pabxListModel.setResident_ext(cursor.getString(9));
+                pabxListModel.setMobile_no(cursor.getString(14));
+                pabxListModel.setBase_name(cursor.getString(0));
+                pabxListModel.setSqn_name(cursor.getString(2));
+                pabxListModel.setWing_name(cursor.getString(4));
+                pabxListVector.setAllPabxlist(pabxListModel);
+                pabxListModel = null;
+                Log.w(TAG, "getPabxDataByBaseID: " + cursor.getString(0));
+            } while (cursor.moveToNext());
+        }
+        db.close();
+    }
+
+
+
     /***********************************
      * Getting All Contact from DB
      * Get Pabx Number by their
