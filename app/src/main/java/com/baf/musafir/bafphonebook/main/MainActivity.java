@@ -81,11 +81,6 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
     }
 
     public void AIRHQ(View v) {
-        //dataBaseUtility.getAirHqLodgerData(mContext);
-        /*Intent intent = new Intent(this, ContactListActivity.class);
-        intent.putExtra("header", "AIR HQ & ITS LODGER UNITS");
-        startActivity(intent);*/
-
         Intent intent = new Intent(this, SearchMainActivity.class);
         intent.putExtra("base_id", AppConstant.BAF_AHQ);
         startActivity(intent);

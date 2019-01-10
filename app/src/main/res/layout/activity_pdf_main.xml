@@ -269,7 +269,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_toRightOf="@+id/imageview_5"
                             android:gravity="center_vertical"
-                            android:text="Baf List Engg"
+                            android:text="Baf List"
                             android:textColor="@color/fontBlack"
                             android:textSize="14sp"
                             android:textStyle="bold" />

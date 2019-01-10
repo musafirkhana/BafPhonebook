@@ -2,26 +2,27 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray_dark"
     android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/top_linear"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:background="@color/button_background"
-        >
+        android:background="@color/button_background">
 
         <ImageView
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/back_selector"
+            android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:clickable="true"
-            android:onClick="HOME"
             android:layout_marginLeft="10dp"
-            android:layout_alignParentLeft="true" />
+            android:background="@drawable/back_selector"
+            android:clickable="true"
+            android:onClick="BACK" />
 
-        <TextView android:id="@+id/topbar"
+        <TextView
+            android:id="@+id/topbar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
@@ -37,31 +38,44 @@
         android:layout_height="1dp"></View>
 
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-    <Spinner
-        android:id="@+id/spinner1"
+        <Spinner
+            android:id="@+id/wing_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="2.5dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:background="@drawable/spinner_back"
+            android:paddingLeft="5dp"
+            android:popupBackground="@color/white" />
+
+        <Spinner
+            android:id="@+id/sqn_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="2.5dp"
+            android:layout_marginRight="2.5dp"
+            android:layout_marginTop="2.5dp"
+            android:background="@drawable/spinner_back"
+            android:paddingLeft="5dp"
+            android:popupBackground="@color/white" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/middle_linear"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:popupBackground="#FFFF99"/>
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:popupBackground="#FFFF99"/>
-</LinearLayout>
-    <RelativeLayout android:id="@+id/middle_linear"
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:background="@color/gray"
-        android:layout_below="@+id/top_linear">
+        android:layout_below="@+id/top_linear"
+        android:background="@color/gray">
 
         <EditText
             android:id="@+id/detail_search"
@@ -70,12 +84,11 @@
             android:layout_marginBottom="5dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
             android:background="@color/google_white"
             android:hint="Search By Designation or Office no"
             android:imeOptions="actionSearch"
-            android:paddingLeft="40dp"
             android:inputType="textAutoCorrect"
+            android:paddingLeft="40dp"
             android:singleLine="true"
             android:text=""
             android:textColor="@color/black"
@@ -84,6 +97,7 @@
 
             <requestFocus />
         </EditText>
+
         <ImageView
             android:id="@+id/search_image"
             android:layout_width="30dp"
@@ -165,17 +179,20 @@
             android:textSize="10sp"
             android:textStyle="bold" />-->
     </LinearLayout>
-    <View android:id="@+id/view_separator"
+
+    <View
+        android:id="@+id/view_separator"
         android:layout_width="fill_parent"
-        android:layout_below="@+id/header_linear"
         android:layout_height="1dp"
+        android:layout_below="@+id/header_linear"
         android:background="@color/white"></View>
+
     <ListView
         android:id="@+id/detail_no_list"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@+id/view_separator"
         android:layout_above="@+id/excercise_scroll"
+        android:layout_below="@+id/view_separator"
         android:background="@color/divider">
 
     </ListView>

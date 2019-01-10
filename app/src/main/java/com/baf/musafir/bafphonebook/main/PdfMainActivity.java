@@ -49,7 +49,7 @@ private Context mContext;
     }
     public void PDF5(View v) {
         Intent intent = new Intent(this, PdfActivity.class);
-        intent.putExtra("pdfName","enggbr.pdf");
+        intent.putExtra("pdfName","baf_list.pdf");
         startActivity(intent);
     }
     public void BACK(View v){

@@ -172,7 +172,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginLeft="10dp"
                     android:textColor="@color/gray"
-                    android:text="Squadron Leader Muhiuddin"
+                    android:text="Lorem Ipsum is simply dummy text"
                     android:layout_marginBottom="15dp"
                     android:textSize="12sp" />
                 <View

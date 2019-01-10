@@ -32,7 +32,7 @@ public class OthersListActivity extends Activity {
         initUI();
     }
 
-    public void HOME(View v) {
+    public void BACK(View v) {
         this.finish();
 
 
