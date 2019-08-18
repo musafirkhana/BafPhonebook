@@ -76,7 +76,7 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
     }
     public void ABBR(View v) {
         Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
-        intent.putExtra("header","ABBRIATION");
+        intent.putExtra("header","Abbreviation");
         startActivity(intent);
     }
 
@@ -213,7 +213,7 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
         startActivity(intent);
     }
     public void WEB(View v) {
-        Intent intent = new Intent(this, WebsiteActivity.class);
+        Intent intent = new Intent(this, WebMainActivity.class);
         startActivity(intent);
     }
     public void MENU(View v) {
