@@ -2,13 +2,19 @@ package com.baf.musafir.bafphonebook.main;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.database.SQLException;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -19,6 +25,7 @@ import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseHelper;
 import com.baf.musafir.bafphonebook.parser.AbbriviationListParser;
 import com.baf.musafir.bafphonebook.util.AppConstant;
+import com.baf.musafir.bafphonebook.util.ToastUtil;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -27,6 +34,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import static android.Manifest.permission.ACCESS_FINE_LOCATION;
+import static android.Manifest.permission.INTERNET;
+import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+import static android.Manifest.permission_group.CAMERA;
 
 public class SplashActivity extends Activity {
     private String TAG = SplashActivity.class.getSimpleName();
@@ -38,6 +50,7 @@ public class SplashActivity extends Activity {
 
     private String text;
     private String respones_results;
+    private static final int PERMISSION_REQUEST_CODE = 200;
 
 
     public static ProgressDialog progDialogConfirm;
@@ -56,13 +69,13 @@ public class SplashActivity extends Activity {
        // initUI();
         // startTimer();
         initUI();
-        flag = SharedPreferencesHelper.getFirstTime(context);
+       /* flag = SharedPreferencesHelper.getFirstTime(context);
         if (flag) {
             Toast.makeText(context, "Export Database Starting....", Toast.LENGTH_LONG).show();
             exportDatabse();
         }
         createFolderStructure();
-        new LoaddbAsyncTask().execute();
+        new LoaddbAsyncTask().execute();*/
 
     }
 
@@ -70,9 +83,9 @@ public class SplashActivity extends Activity {
 
 
     public void GO(View v) {
-        Intent intent = new Intent(SplashActivity.this, MainActivity.class);
-        startActivity(intent);
-        SplashActivity.this.finish();
+
+
+        requestPermission();
     }
 
     void stopTimer() {
@@ -331,5 +344,78 @@ public class SplashActivity extends Activity {
         super.onPause();
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case PERMISSION_REQUEST_CODE:
+                if (grantResults.length > 0) {
 
+                    boolean locationAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
+                    boolean storage = grantResults[1] == PackageManager.PERMISSION_GRANTED;
+                    boolean internet = grantResults[2] == PackageManager.PERMISSION_GRANTED;
+
+                    if (locationAccepted && storage && internet){
+
+                        flag = SharedPreferencesHelper.getFirstTime(context);
+                        if (flag) {
+                            Toast.makeText(context, "Export Database Starting....", Toast.LENGTH_LONG).show();
+                            exportDatabse();
+                        }
+                        createFolderStructure();
+                        new LoaddbAsyncTask().execute();
+
+                        Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                        startActivity(intent);
+                        SplashActivity.this.finish();
+                    }
+
+                    else {
+                        Toast.makeText(context,"Permission Denied.",Toast.LENGTH_LONG).show();
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                            if (shouldShowRequestPermissionRationale(ACCESS_FINE_LOCATION)) {
+                                showMessageOKCancel("You need to allow access to both the permissions",
+                                        new DialogInterface.OnClickListener() {
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                                                    requestPermissions(new String[]{ACCESS_FINE_LOCATION, CAMERA},
+                                                            PERMISSION_REQUEST_CODE);
+                                                }
+                                            }
+                                        });
+                                return;
+                            }
+                        }
+
+                    }
+                }
+
+
+                break;
+        }
+
+
+    }
+    private boolean checkPermission() {
+        int result = ContextCompat.checkSelfPermission(getApplicationContext(), ACCESS_FINE_LOCATION);
+        int result1 = ContextCompat.checkSelfPermission(getApplicationContext(), CAMERA);
+
+        return result == PackageManager.PERMISSION_GRANTED && result1 == PackageManager.PERMISSION_GRANTED;
+    }
+
+    private void requestPermission() {
+
+        ActivityCompat.requestPermissions(this, new String[]{ACCESS_FINE_LOCATION, WRITE_EXTERNAL_STORAGE,INTERNET}, PERMISSION_REQUEST_CODE);
+
+    }
+
+
+    private void showMessageOKCancel(String message, DialogInterface.OnClickListener okListener) {
+        new AlertDialog.Builder(SplashActivity.this)
+                .setMessage(message)
+                .setPositiveButton("OK", okListener)
+                .setNegativeButton("Cancel", null)
+                .create()
+                .show();
+    }
 }

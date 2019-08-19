@@ -32,6 +32,11 @@ private Context mContext;
         intent.putExtra("url","https://mtrwf.com/");
         startActivity(intent);
     }
+    public void MTRRADAR(View v) {
+
+        Intent intent = new Intent(this, RadarViewActivity.class);
+        startActivity(intent);
+    }
 
 
     public void BACK(View v){
