@@ -12,6 +12,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Environment;
+import android.util.Log;
 
 import com.baf.musafir.bafphonebook.util.AppConstant;
 
@@ -32,7 +33,14 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 	public DataBaseHelper(Context context) {
 		super(context, DB_NAME, null, 1);// 1? its Database Version
 		// DB_PATH = "/data/data/" + context.getPackageName() + "/databases/";
-		DB_SD_CARD_PATH = sdCard.getAbsolutePath() + AppConstant.DB_BASE_URL;
+		//DB_SD_CARD_PATH = sdCard.getAbsolutePath() + AppConstant.DB_BASE_URL;
+		//DB_SD_CARD_PATH = "//data//" + context.getPackageName() + "//databases//" + AppConstant.DB_NAME + "";
+		if (android.os.Build.VERSION.SDK_INT >= 17)
+			DB_SD_CARD_PATH = context.getApplicationInfo().dataDir + "/databases/"+ AppConstant.DB_NAME + "";
+		else
+			DB_SD_CARD_PATH = "/data/data/" + context.getPackageName() + "/databases/"+ AppConstant.DB_NAME + "";
+		Log.d("path", DB_SD_CARD_PATH);
+
 		this.mContext = context;
 	}
 
@@ -40,9 +48,10 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 		// If database not exists copy it from the assets
 
 		boolean mDataBaseExist = checkDataBase();
-		if (!mDataBaseExist) {
-			this.getReadableDatabase();
-			this.close();
+		if (mDataBaseExist) {
+			Log.v("DB Exists", "db exists");
+			/*this.getReadableDatabase();
+			this.close();*/
 			// try {
 			// // Copy the database from assests
 			// copyDataBase();
@@ -51,6 +60,21 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 			// throw new Error("ErrorCopyingDataBase");
 			// }
 		}
+		boolean dbExist1 = checkDataBase();
+		if(!dbExist1)
+		{
+			this.getReadableDatabase();
+			try
+			{
+				this.close();
+				copyDataBase();
+			}
+			catch (IOException e)
+			{
+				throw new Error("Error copying database");
+			}
+		}
+
 	}
 
 	// Check that the database exists here: /data/data/your package/databases/Da
@@ -85,6 +109,17 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 		return mDataBase != null;
 	}
 
+
+	//delete database
+	public void db_delete()
+	{
+		File file = new File(DB_SD_CARD_PATH + DB_NAME);
+		if(file.exists())
+		{
+			file.delete();
+			System.out.println("delete database file.");
+		}
+	}
 	@Override
 	public synchronized void close() {
 		if (mDataBase != null)

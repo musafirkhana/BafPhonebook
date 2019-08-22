@@ -47,6 +47,11 @@ private String imageUrl="https://wx.baf.mil.bd/METBSR/images/omar/RadarSingle/mt
 
 
     }
+    public void BACK(View v) {
+      this.finish();
+
+    }
+
 
 
 

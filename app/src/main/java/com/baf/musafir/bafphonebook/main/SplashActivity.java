@@ -36,8 +36,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import static android.Manifest.permission.ACCESS_FINE_LOCATION;
+import static android.Manifest.permission.CALL_PHONE;
 import static android.Manifest.permission.INTERNET;
-import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 import static android.Manifest.permission_group.CAMERA;
 
 public class SplashActivity extends Activity {
@@ -292,7 +292,7 @@ public class SplashActivity extends Activity {
         }
 
     }
-
+// Use only for storage
     public void exportDatabse() {
         try {
             // File sd = Environment.getExternalStorageDirectory();
@@ -351,17 +351,17 @@ public class SplashActivity extends Activity {
                 if (grantResults.length > 0) {
 
                     boolean locationAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
-                    boolean storage = grantResults[1] == PackageManager.PERMISSION_GRANTED;
-                    boolean internet = grantResults[2] == PackageManager.PERMISSION_GRANTED;
+                    boolean internet = grantResults[1] == PackageManager.PERMISSION_GRANTED;
+                    boolean callphone = grantResults[2] == PackageManager.PERMISSION_GRANTED;
 
-                    if (locationAccepted && storage && internet){
+                    if (locationAccepted && internet && callphone){
 
                         flag = SharedPreferencesHelper.getFirstTime(context);
                         if (flag) {
-                            Toast.makeText(context, "Export Database Starting....", Toast.LENGTH_LONG).show();
-                            exportDatabse();
+                           //Toast.makeText(context, "Export Database Starting....", Toast.LENGTH_LONG).show();
+                           // exportDatabse();
                         }
-                        createFolderStructure();
+                       // createFolderStructure();
                         new LoaddbAsyncTask().execute();
 
                         Intent intent = new Intent(SplashActivity.this, MainActivity.class);
@@ -378,7 +378,7 @@ public class SplashActivity extends Activity {
                                             @Override
                                             public void onClick(DialogInterface dialog, int which) {
                                                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                                                    requestPermissions(new String[]{ACCESS_FINE_LOCATION, CAMERA},
+                                                    requestPermissions(new String[]{ACCESS_FINE_LOCATION, CAMERA,CALL_PHONE},
                                                             PERMISSION_REQUEST_CODE);
                                                 }
                                             }
@@ -405,7 +405,7 @@ public class SplashActivity extends Activity {
 
     private void requestPermission() {
 
-        ActivityCompat.requestPermissions(this, new String[]{ACCESS_FINE_LOCATION, WRITE_EXTERNAL_STORAGE,INTERNET}, PERMISSION_REQUEST_CODE);
+        ActivityCompat.requestPermissions(this, new String[]{ACCESS_FINE_LOCATION,INTERNET,CALL_PHONE}, PERMISSION_REQUEST_CODE);
 
     }
 

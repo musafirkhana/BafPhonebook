@@ -26,7 +26,12 @@ public class AssetDatabaseOpenHelper {
 	}
 
 	public SQLiteDatabase openDatabase() {
-		DB_SD_CARD_PATH = sdCard.getAbsolutePath() + AppConstant.DB_BASE_URL;
+		//DB_SD_CARD_PATH = sdCard.getAbsolutePath() + AppConstant.DB_BASE_URL;
+		//DB_SD_CARD_PATH = "//data//" + context.getPackageName() + "//databases//" + AppConstant.DB_NAME + "";
+		if (android.os.Build.VERSION.SDK_INT >= 17)
+			DB_SD_CARD_PATH = context.getApplicationInfo().dataDir + "/databases/"+ AppConstant.DB_NAME + "";
+		else
+			DB_SD_CARD_PATH = "/data/data/" + context.getPackageName() + "/databases/"+ AppConstant.DB_NAME + "";
 		File dbFile = new File(DB_SD_CARD_PATH + DB_NAME);
 
 //		if (!dbFile.exists()) {
