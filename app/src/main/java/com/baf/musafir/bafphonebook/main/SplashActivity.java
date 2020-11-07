@@ -13,13 +13,14 @@ import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
 
+
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseHelper;

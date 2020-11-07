@@ -24,6 +24,7 @@ import com.daimajia.slider.library.SliderLayout;
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
+import com.google.android.material.card.MaterialCardView;
 
 import java.util.HashMap;
 
@@ -36,6 +37,20 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
     private LinearLayout main_menu_li;
     private static final int GPS_ENABLE_REQUEST = 0x1001;
     private AlertDialog mGPSDialog;
+
+    private MaterialCardView matcard_abbr;
+    private MaterialCardView matcard_search;
+    private MaterialCardView matcard_airhq;
+    private MaterialCardView matcard_bsr;
+    private MaterialCardView matcard_bbd;
+    private MaterialCardView matcard_zhr;
+    private MaterialCardView matcard_mtr;
+    private MaterialCardView matcard_pkp;
+    private MaterialCardView matcard_coxs;
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,68 +88,96 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
 
             sliderLayout.addSlider(textSliderView);
         }
-    }
-    public void ABBR(View v) {
-        Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
-        intent.putExtra("header","Abbreviation");
-        startActivity(intent);
+        matcard_abbr=(MaterialCardView)findViewById(R.id.matcard_abbr);
+        matcard_search=(MaterialCardView)findViewById(R.id.matcard_search);
+        matcard_airhq=(MaterialCardView)findViewById(R.id.matcard_airhq);
+        matcard_bsr=(MaterialCardView)findViewById(R.id.matcard_bsr);
+        matcard_bbd=(MaterialCardView)findViewById(R.id.matcard_bbd);
+        matcard_zhr=(MaterialCardView)findViewById(R.id.matcard_zhr);
+        matcard_mtr=(MaterialCardView)findViewById(R.id.matcard_mtr);
+        matcard_pkp=(MaterialCardView)findViewById(R.id.matcard_pkp);
+        matcard_coxs=(MaterialCardView)findViewById(R.id.matcard_coxs);
+
+        matcard_abbr.setOnClickListener(onclickListner);
+        matcard_search.setOnClickListener(onclickListner);
+        matcard_airhq.setOnClickListener(onclickListner);
+        matcard_bsr.setOnClickListener(onclickListner);
+        matcard_bbd.setOnClickListener(onclickListner);
+        matcard_zhr.setOnClickListener(onclickListner);
+        matcard_mtr.setOnClickListener(onclickListner);
+        matcard_pkp.setOnClickListener(onclickListner);
+        matcard_coxs.setOnClickListener(onclickListner);
     }
 
-    public void AIRHQ(View v) {
-        Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", AppConstant.BAF_AHQ);
-        startActivity(intent);
-    }
-    public void SEARCH(View v) {
-        Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", AppConstant.BAF_SEARCH);
-        startActivity(intent);
 
-    }
 
-    public void ZHR(View v) {
-        Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", AppConstant.BAF_ZHR);
-        startActivity(intent);
-    }
-    public void MTR(View v) {
-        Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", AppConstant.BAF_MTR);
-        startActivity(intent);
-    }
-    public void PKP(View v) {
-        Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", AppConstant.BAF_PKP);
-        startActivity(intent);
-    }
-    public void BBD(View v) {
-        Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", AppConstant.BAF_BBD);
-        startActivity(intent);
-    }
-    public void BSR(View v) {
-        Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", AppConstant.BAF_BSR);
-        startActivity(intent);
-    }
-    public void COXS(View v) {
-        Intent intent = new Intent(this, SearchMainActivity.class);
-        intent.putExtra("base_id", AppConstant.BAF_COXS);
-        startActivity(intent);
-    }
-    public void UNIT(View v) {
-        dataBaseUtility.getSqnUnitData(mContext,"2");
-        Intent intent = new Intent(this, UnitDetailActivity.class);
-        intent.putExtra("header","UNITS");
-        startActivity(intent);
-    }
-    public void SQN(View v) {
-        dataBaseUtility.getSqnUnitData(mContext,"1");
-        Intent intent = new Intent(this, UnitDetailActivity.class);
-        intent.putExtra("header","SQUADRON");
-        startActivity(intent);
-    }
 
+
+    public View.OnClickListener onclickListner = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            switch (v.getId()) {
+
+                case R.id.matcard_abbr:
+                    Intent intent = new Intent(mContext, GenerelAbbribiationActivity.class);
+                    intent.putExtra("header","Abbreviation");
+                    startActivity(intent);
+                    break;
+
+                case R.id.matcard_search:
+                    Intent intentSearch = new Intent(mContext, SearchMainActivity.class);
+                    intentSearch.putExtra("base_id", AppConstant.BAF_SEARCH);
+                    startActivity(intentSearch);
+                    break;
+
+                case R.id.matcard_airhq:
+                    Intent intentAirhq = new Intent(mContext, SearchMainActivity.class);
+                    intentAirhq.putExtra("base_id", AppConstant.BAF_AHQ);
+                    startActivity(intentAirhq);
+                    break;
+
+                case R.id.matcard_bsr:
+                    Intent intentBsr = new Intent(mContext, SearchMainActivity.class);
+                    intentBsr.putExtra("base_id", AppConstant.BAF_BSR);
+                    startActivity(intentBsr);
+                    break;
+
+                case R.id.matcard_bbd:
+                    Intent intentBbd = new Intent(mContext, SearchMainActivity.class);
+                    intentBbd.putExtra("base_id", AppConstant.BAF_BBD);
+                    startActivity(intentBbd);
+                    break;
+
+                case R.id.matcard_zhr:
+                    Intent intentZhr = new Intent(mContext, SearchMainActivity.class);
+                    intentZhr.putExtra("base_id", AppConstant.BAF_ZHR);
+                    startActivity(intentZhr);
+                    break;
+
+                case R.id.matcard_mtr:
+                    Intent intentMtr = new Intent(mContext, SearchMainActivity.class);
+                    intentMtr.putExtra("base_id", AppConstant.BAF_MTR);
+                    startActivity(intentMtr);
+                    break;
+
+                case R.id.matcard_pkp:
+                    Intent intentPkp = new Intent(mContext, SearchMainActivity.class);
+                    intentPkp.putExtra("base_id", AppConstant.BAF_PKP);
+                    startActivity(intentPkp);
+                    break;
+
+                case R.id.matcard_coxs:
+                    Intent intentCoxs = new Intent(mContext, SearchMainActivity.class);
+                    intentCoxs.putExtra("base_id", AppConstant.BAF_COXS);
+                    startActivity(intentCoxs);
+                    break;
+
+                default:
+                    break;
+
+            }
+        }
+    };
 
     @Override
     protected void onStop() {

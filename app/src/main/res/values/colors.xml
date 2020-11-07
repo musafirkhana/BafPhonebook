@@ -53,14 +53,15 @@
     <color name="refresh_progress_2">@color/accent_color_dark</color>
     <color name="refresh_progress_3">@color/primary_color</color>
     <color name="leftmenu_divider">#36434C</color>
-    <color name="button_background">#2697D7</color>
+    <color name="button_background">#4cb5ff</color>
+    <color name="sky">#468efa</color>
     <color name="login_background">#F1F5F7</color>
     <color name="edtitext_back">#FFFFFF</color>
     <color name="edtitext_hintcolor">#9FA2A4</color>
-    <color name="app_background">#023B4C</color>
+    <color name="app_background">#ffffff</color>
     <color name="text_color">#616161</color>
     <color name="white">#FFFFFF</color>
-    <color name="sky">#0099CC</color>
+
     <color name="card_background">#ffffff</color>
     <color name="card_shadow">#10000000</color>
     <color name="lite_blue">#ff359ff2</color>
@@ -83,4 +84,5 @@
     <color name="scan_btbg">#9A5F30</color>
     <color name="circle_color">#112B38</color>
     <color name="fontcolor">#DD8C4E</color>
+    <color name="color_GullGray">#9CB3BE</color>
 </resources>

@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -16,6 +15,7 @@ import com.baf.musafir.bafphonebook.holder.AllLocationListVector;
 import com.baf.musafir.bafphonebook.model.LocationListModel;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -29,7 +29,7 @@ import org.json.JSONException;
 
 import java.io.IOException;
 
-public class LocationMapActivity extends FragmentActivity implements OnMapReadyCallback {
+public class LocationMapActivity extends Activity implements OnMapReadyCallback {
     private String TAG="LocationMapActivity";
 private Context mContext;
     private GoogleMap mMap;
@@ -41,8 +41,11 @@ private Context mContext;
         setContentView(R.layout.activity_map);
         mContext=this;
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+  /*      SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);*/
+
+        MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
 
@@ -62,7 +65,7 @@ private Context mContext;
         mMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
         mMap.getUiSettings().setZoomControlsEnabled(true);
 
-        mMap.setMyLocationEnabled(true);
+//        mMap.setMyLocationEnabled(true);
 
 
         try {
