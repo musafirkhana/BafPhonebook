@@ -131,44 +131,72 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
                     break;
 
                 case R.id.matcard_airhq:
-                    Intent intentAirhq = new Intent(mContext, SearchMainActivity.class);
+                    dataBaseUtility.getPabxDataByBaseID(mContext, AppConstant.BAF_AHQ);
+                    dataBaseUtility.getAllMobileDataByBaseID(mContext, AppConstant.BAF_AHQ);
+                    dataBaseUtility.getPabxDataByBaseUniqueID(mContext, AppConstant.BAF_AHQ);
+                    Intent intentAirhq = new Intent(mContext, SearchActivity.class);
                     intentAirhq.putExtra("base_id", AppConstant.BAF_AHQ);
+                    intentAirhq.putExtra("header", AppConstant.BAF_AHQ_HEADER);
                     startActivity(intentAirhq);
                     break;
 
                 case R.id.matcard_bsr:
-                    Intent intentBsr = new Intent(mContext, SearchMainActivity.class);
+                    dataBaseUtility.getPabxDataByBaseID(mContext, AppConstant.BAF_BSR);
+                    dataBaseUtility.getAllMobileDataByBaseID(mContext, AppConstant.BAF_BSR);
+                    dataBaseUtility.getPabxDataByBaseUniqueID(mContext, AppConstant.BAF_BSR);
+                    Intent intentBsr = new Intent(mContext, SearchActivity.class);
                     intentBsr.putExtra("base_id", AppConstant.BAF_BSR);
+                    intentBsr.putExtra("header", AppConstant.BAF_BSR_HEADER);
                     startActivity(intentBsr);
                     break;
 
                 case R.id.matcard_bbd:
-                    Intent intentBbd = new Intent(mContext, SearchMainActivity.class);
+                    dataBaseUtility.getPabxDataByBaseID(mContext, AppConstant.BAF_BBD);
+                    dataBaseUtility.getAllMobileDataByBaseID(mContext, AppConstant.BAF_BBD);
+                    dataBaseUtility.getPabxDataByBaseUniqueID(mContext, AppConstant.BAF_BBD);
+                    Intent intentBbd = new Intent(mContext, SearchActivity.class);
                     intentBbd.putExtra("base_id", AppConstant.BAF_BBD);
+                    intentBbd.putExtra("header", AppConstant.BAF_BBD_HEADER);
                     startActivity(intentBbd);
                     break;
 
                 case R.id.matcard_zhr:
-                    Intent intentZhr = new Intent(mContext, SearchMainActivity.class);
+                    dataBaseUtility.getPabxDataByBaseID(mContext, AppConstant.BAF_ZHR);
+                    dataBaseUtility.getAllMobileDataByBaseID(mContext, AppConstant.BAF_ZHR);
+                    dataBaseUtility.getPabxDataByBaseUniqueID(mContext, AppConstant.BAF_ZHR);
+                    Intent intentZhr = new Intent(mContext, SearchActivity.class);
                     intentZhr.putExtra("base_id", AppConstant.BAF_ZHR);
+                    intentZhr.putExtra("header", AppConstant.BAF_ZHR_HEADER);
                     startActivity(intentZhr);
                     break;
 
                 case R.id.matcard_mtr:
-                    Intent intentMtr = new Intent(mContext, SearchMainActivity.class);
+                    dataBaseUtility.getPabxDataByBaseID(mContext, AppConstant.BAF_MTR);
+                    dataBaseUtility.getAllMobileDataByBaseID(mContext, AppConstant.BAF_MTR);
+                    dataBaseUtility.getPabxDataByBaseUniqueID(mContext, AppConstant.BAF_MTR);
+                    Intent intentMtr = new Intent(mContext, SearchActivity.class);
                     intentMtr.putExtra("base_id", AppConstant.BAF_MTR);
+                    intentMtr.putExtra("header", AppConstant.BAF_MTR_HEADER);
                     startActivity(intentMtr);
                     break;
 
                 case R.id.matcard_pkp:
-                    Intent intentPkp = new Intent(mContext, SearchMainActivity.class);
+                    dataBaseUtility.getPabxDataByBaseID(mContext, AppConstant.BAF_PKP);
+                    dataBaseUtility.getAllMobileDataByBaseID(mContext, AppConstant.BAF_PKP);
+                    dataBaseUtility.getPabxDataByBaseUniqueID(mContext, AppConstant.BAF_PKP);
+                    Intent intentPkp = new Intent(mContext, SearchActivity.class);
                     intentPkp.putExtra("base_id", AppConstant.BAF_PKP);
+                    intentPkp.putExtra("header", AppConstant.BAF_PKP_HEADER);
                     startActivity(intentPkp);
                     break;
 
                 case R.id.matcard_coxs:
-                    Intent intentCoxs = new Intent(mContext, SearchMainActivity.class);
+                    dataBaseUtility.getPabxDataByBaseID(mContext, AppConstant.BAF_COXS);
+                    dataBaseUtility.getAllMobileDataByBaseID(mContext, AppConstant.BAF_COXS);
+                    dataBaseUtility.getPabxDataByBaseUniqueID(mContext, AppConstant.BAF_COXS);
+                    Intent intentCoxs = new Intent(mContext, SearchActivity.class);
                     intentCoxs.putExtra("base_id", AppConstant.BAF_COXS);
+                    intentCoxs.putExtra("header", AppConstant.BAF_COXS_HEADER);
                     startActivity(intentCoxs);
                     break;
 

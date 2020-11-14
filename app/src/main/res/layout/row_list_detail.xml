@@ -13,6 +13,7 @@
         android:gravity="left|center"
         android:layout_weight="6"
         android:paddingLeft="10dp"
+        android:fontFamily="@font/robotolight"
         android:textColor="@color/blue"
         android:text="Description is here" />
 

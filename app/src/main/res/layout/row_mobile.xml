@@ -9,8 +9,6 @@
         android:layout_width="fill_parent"
         android:layout_height="68dp"
         android:background="@color/lite_blue"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
         android:gravity="center_vertical"
         android:paddingLeft="10dp">
 
@@ -37,6 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="2.5dp"
                 android:clickable="true"
+                android:fontFamily="@font/robotolight"
                 android:text="+8801911764894"
                 android:textColor="@color/google_white"
                 android:textSize="14sp" />
@@ -46,6 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="CAOS"
+                android:fontFamily="@font/robotolight"
                 android:textColor="@color/google_white"
                 android:textSize="12sp"
                 android:textStyle="normal" />

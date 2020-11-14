@@ -383,6 +383,16 @@
             android:screenOrientation="landscape">
 
         </activity>
+        <activity
+            android:name=".main.SearchActivity"
+            android:configChanges="locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+
     </application>
 
 </manifest>

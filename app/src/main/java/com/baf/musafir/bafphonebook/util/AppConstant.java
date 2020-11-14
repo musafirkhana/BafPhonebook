@@ -31,7 +31,7 @@ public class AppConstant extends Application {
     public static final String BAF_SEARCH = "1";
 
 
-    public static final String BAF_AHQ_HEADER = "BAF Air Hq";
+    public static final String BAF_AHQ_HEADER = "BAF AIR HQ";
     public static final String BAF_BSR_HEADER = "BAF BASE BSR";
     public static final String BAF_BBD_HEADER = "BAF BASE BBD";
     public static final String BAF_ZHR_HEADER = "BAF BASE ZHR";
