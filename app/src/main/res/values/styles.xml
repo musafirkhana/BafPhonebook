@@ -8,9 +8,13 @@
         -->
     </style>
     <!-- Application theme. -->
-    <style name="AppTheme" parent="AppBaseTheme">
-        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/primary_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
+
     <style name="DialogTheme" parent="@android:style/Theme.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
@@ -24,6 +28,8 @@
         <item name="cornerSizeBottomLeft">0dp</item>
         <item name="contentPadding">0dp</item>
     </style>
+
+
 
 
 </resources>

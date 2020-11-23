@@ -44,8 +44,8 @@ import static android.Manifest.permission_group.CAMERA;
 public class SplashActivity extends Activity {
     private String TAG = SplashActivity.class.getSimpleName();
     private TimerTask sostt;
-    private final long period = 5000;
-    private final int delay = 5000;
+    private final long period = 2000;
+    private final int delay = 2000;
     private Timer sostimer;
     private Context context;
 
@@ -70,6 +70,7 @@ public class SplashActivity extends Activity {
        // initUI();
         // startTimer();
         initUI();
+        startTimer();
        /* flag = SharedPreferencesHelper.getFirstTime(context);
         if (flag) {
             Toast.makeText(context, "Export Database Starting....", Toast.LENGTH_LONG).show();
@@ -86,7 +87,6 @@ public class SplashActivity extends Activity {
     public void GO(View v) {
 
 
-        requestPermission();
     }
 
     void stopTimer() {
@@ -114,9 +114,10 @@ public class SplashActivity extends Activity {
                         @Override
                         public void run() {
                             stopTimer();
-                            Intent intent = new Intent(SplashActivity.this, DetailBaseActivity.class);
-                            startActivity(intent);
-                            SplashActivity.this.finish();
+//                            Intent intent = new Intent(SplashActivity.this, DetailBaseActivity.class);
+//                            startActivity(intent);
+//                            SplashActivity.this.finish();
+                            requestPermission();
 
                         }
                     });

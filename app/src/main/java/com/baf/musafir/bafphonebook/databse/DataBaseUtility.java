@@ -151,7 +151,7 @@ public class DataBaseUtility {
                 mobileListModel.setBase_name(cursor.getString(3));
                 contactListVector.setAllMobilelist(mobileListModel);
                 mobileListModel = null;
-                Log.w(TAG, "getAllMobileDataByBaseID: " + cursor.getString(0));
+                Log.w(TAG, "Mobile Data: " + cursor.getString(1));
             } while (cursor.moveToNext());
         }
         db.close();

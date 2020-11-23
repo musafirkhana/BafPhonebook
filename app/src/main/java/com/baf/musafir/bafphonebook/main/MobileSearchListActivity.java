@@ -44,8 +44,8 @@ public class MobileSearchListActivity extends Activity {
     }
     public void PLUS(View v) {
         this.finish();
-        Intent intent=new Intent(this,AddNUmberActivity.class);
-        startActivity(intent);
+//        Intent intent=new Intent(this,AddNUmberActivity.class);
+//        startActivity(intent);
 
     }
 

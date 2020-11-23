@@ -9,6 +9,8 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.baf.musafir.bafphonebook.R;
 import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
 import com.baf.musafir.bafphonebook.holder.AllLocationListVector;
@@ -29,7 +31,7 @@ import org.json.JSONException;
 
 import java.io.IOException;
 
-public class LocationMapActivity extends Activity implements OnMapReadyCallback {
+public class LocationMapActivity extends AppCompatActivity implements OnMapReadyCallback {
     private String TAG="LocationMapActivity";
 private Context mContext;
     private GoogleMap mMap;
@@ -45,7 +47,11 @@ private Context mContext;
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);*/
 
-        MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
+//        MapFragment mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
+
+
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
 

@@ -25,7 +25,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/white"
+        android:background="@color/login_background"
         android:orientation="vertical">
 
         <LinearLayout
@@ -42,6 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/main_view_height"
                 android:layout_weight="3"
+                android:layout_marginBottom="10dp"
                 android:background="@drawable/button_selector">
 
 
