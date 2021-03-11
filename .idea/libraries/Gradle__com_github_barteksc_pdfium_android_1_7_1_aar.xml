@@ -8,6 +8,15 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c6051ec955c3a0159e6e0a887a93f799/jetified-pdfium-android-1.7.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c6051ec955c3a0159e6e0a887a93f799/jetified-pdfium-android-1.7.1/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c6051ec955c3a0159e6e0a887a93f799/jetified-pdfium-android-1.7.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dae9014fddb318db4c7e8988ab0644ea/jetified-pdfium-android-1.7.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dae9014fddb318db4c7e8988ab0644ea/jetified-pdfium-android-1.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dae9014fddb318db4c7e8988ab0644ea/jetified-pdfium-android-1.7.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d9f8b2c2ede853a1276d5c028e05300/jetified-pdfium-android-1.7.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d9f8b2c2ede853a1276d5c028e05300/jetified-pdfium-android-1.7.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8d9f8b2c2ede853a1276d5c028e05300/jetified-pdfium-android-1.7.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66ccb877cc0ba4569443348809d72c4e/jetified-pdfium-android-1.7.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66ccb877cc0ba4569443348809d72c4e/jetified-pdfium-android-1.7.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/66ccb877cc0ba4569443348809d72c4e/jetified-pdfium-android-1.7.1/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.barteksc/pdfium-android/1.7.1/89b2c068c8fd5c088f1edbcab0fade1fe377865b/pdfium-android-1.7.1-javadoc.jar!/" />

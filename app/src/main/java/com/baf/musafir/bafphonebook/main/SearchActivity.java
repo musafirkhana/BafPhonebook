@@ -292,9 +292,7 @@ public class SearchActivity extends Activity implements RadioGroup.OnCheckedChan
         }else if (baseName.equalsIgnoreCase("PKP")) {
             baseID = "7";
         }
-
         return baseID;
-
     }
     private void setPabxList() {
         pabxAdapter = new SearchAdapter(this);
@@ -472,8 +470,8 @@ public class SearchActivity extends Activity implements RadioGroup.OnCheckedChan
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setView(dialogView);
         final AlertDialog alertDialog = builder.create();
-        Button pabx_btnm_cancel = (Button) dialogView.findViewById(R.id.pabx_btnm_cancel);
-        Button pabx_btnm_save = (Button) dialogView.findViewById(R.id.pabx_btnm_save);
+        TextView pabx_btnm_cancel = (TextView) dialogView.findViewById(R.id.pabx_btnm_cancel);
+        TextView pabx_btnm_save = (TextView) dialogView.findViewById(R.id.pabx_btnm_save);
         final Spinner pabx_wing_spinner = (Spinner) dialogView.findViewById(R.id.pabx_wing_spinner);
         final Spinner pabx_sqn_spinner = (Spinner) dialogView.findViewById(R.id.pabx_sqn_spinner);
         final EditText edt_pabx_designation=(EditText)dialogView.findViewById(R.id.edt_pabx_designation);
@@ -521,8 +519,9 @@ public class SearchActivity extends Activity implements RadioGroup.OnCheckedChan
             @Override
             public void onClick(View v) {
                 DetailListModel query = AllDetailListVector.getAllDetaillist().elementAt(swnPosition);
-                Log.i(TAG,query.getBase_id()+" "+query.getWing_id()+" "+query.getSqn_id()
-                +" "+edt_pabx_designation.getText().toString()+" "+edt_pabx_number.getText().toString());
+                Log.i(TAG,query.getBase_id()+" "+query.getBase_name()+" "+query.getWing_id()+" "+query.getWing_name()+" "+query.getSqn_id()
+                        +query.getSqn_name()+" "+getBaseName(baseID)+"  "+baseID+
+                " "+edt_pabx_designation.getText().toString()+" "+edt_pabx_number.getText().toString());
 //                setFilterPabxList(query.getBase_id(), query.getWing_id(), query.getSqn_id());
                 alertDialog.dismiss();
             }
@@ -530,5 +529,25 @@ public class SearchActivity extends Activity implements RadioGroup.OnCheckedChan
         alertDialog.show();
     }
 
+
+    private String getBaseName(String baseID) {
+        String baseName = "";
+        if (baseID.equalsIgnoreCase("0")) {
+            baseName = "Air Headquarter";
+        } else if (baseName.equalsIgnoreCase("2")) {
+            baseName = "ZHR";
+        } else if (baseName.equalsIgnoreCase("3")) {
+            baseName = "MTR";
+        } else if (baseName.equalsIgnoreCase("4")) {
+            baseName = "BSR";
+        } else if (baseName.equalsIgnoreCase("6")) {
+            baseName = "CXB";
+        } else if (baseName.equalsIgnoreCase("5")) {
+            baseName = "BBD";
+        }else if (baseName.equalsIgnoreCase("7")) {
+            baseName = "PKP";
+        }
+        return baseName;
+    }
 
 }

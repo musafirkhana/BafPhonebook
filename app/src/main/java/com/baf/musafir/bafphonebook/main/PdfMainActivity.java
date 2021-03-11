@@ -47,11 +47,11 @@ private Context mContext;
         intent.putExtra("pdfName","SEC3.pdf");
         startActivity(intent);
     }
-    public void PDF5(View v) {
+  /*  public void PDF5(View v) {
         Intent intent = new Intent(this, PdfActivity.class);
         intent.putExtra("pdfName","baf_list.pdf");
         startActivity(intent);
-    }
+    }*/
     public void BACK(View v){
         this.finish();
 
