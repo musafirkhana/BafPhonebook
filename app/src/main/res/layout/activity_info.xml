@@ -202,7 +202,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginLeft="15dp"
                     android:textColor="@color/gray"
-                    android:text="Squadron Leader Muhiuddin"
+                    android:text="Lorem Ipsum is simply dummy text"
                     android:layout_marginBottom="10dp"
                     android:textSize="12sp" />
                 <View
@@ -230,7 +230,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="2dp"
-                    android:text="Flight Lieutenant Ali"
+                    android:text="Lorem Ipsum is simply dummy text"
                     android:layout_marginLeft="10dp"
                     android:layout_marginBottom="15dp"
                     android:textColor="@color/gray"

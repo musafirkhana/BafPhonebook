@@ -18,6 +18,7 @@ import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.baf.musafir.bafphonebook.R;
+import com.baf.musafir.bafphonebook.adapter.EmailAdapter;
 import com.baf.musafir.bafphonebook.databse.DataBaseUtility;
 import com.baf.musafir.bafphonebook.util.AppConstant;
 import com.daimajia.slider.library.SliderLayout;
@@ -39,7 +40,7 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
     private AlertDialog mGPSDialog;
 
     private MaterialCardView matcard_abbr;
-    private MaterialCardView matcard_search;
+    private MaterialCardView matcard_email;
     private MaterialCardView matcard_airhq;
     private MaterialCardView matcard_bsr;
     private MaterialCardView matcard_bbd;
@@ -89,7 +90,7 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
             sliderLayout.addSlider(textSliderView);
         }
         matcard_abbr=(MaterialCardView)findViewById(R.id.matcard_abbr);
-        matcard_search=(MaterialCardView)findViewById(R.id.matcard_search);
+        matcard_email=(MaterialCardView)findViewById(R.id.matcard_email);
         matcard_airhq=(MaterialCardView)findViewById(R.id.matcard_airhq);
         matcard_bsr=(MaterialCardView)findViewById(R.id.matcard_bsr);
         matcard_bbd=(MaterialCardView)findViewById(R.id.matcard_bbd);
@@ -99,7 +100,7 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
         matcard_coxs=(MaterialCardView)findViewById(R.id.matcard_coxs);
 
         matcard_abbr.setOnClickListener(onclickListner);
-        matcard_search.setOnClickListener(onclickListner);
+        matcard_email.setOnClickListener(onclickListner);
         matcard_airhq.setOnClickListener(onclickListner);
         matcard_bsr.setOnClickListener(onclickListner);
         matcard_bbd.setOnClickListener(onclickListner);
@@ -124,9 +125,9 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
                     startActivity(intent);
                     break;
 
-                case R.id.matcard_search:
-                    Intent intentSearch = new Intent(mContext, SearchMainActivity.class);
-                    intentSearch.putExtra("base_id", AppConstant.BAF_SEARCH);
+                case R.id.matcard_email:
+                    dataBaseUtility.getAllEmailAddData(mContext);
+                    Intent intentSearch = new Intent(mContext, MailListActivity.class);
                     startActivity(intentSearch);
                     break;
 
@@ -248,7 +249,6 @@ public class MainActivity extends Activity implements BaseSliderView.OnSliderCli
         HashMapForLocalRes.put("L 410", R.drawable.banner6);
         HashMapForLocalRes.put("PT 6", R.drawable.banner7);
         HashMapForLocalRes.put("AW 139", R.drawable.banner8);
-        HashMapForLocalRes.put("AN 32", R.drawable.banner9);
 
     }
 

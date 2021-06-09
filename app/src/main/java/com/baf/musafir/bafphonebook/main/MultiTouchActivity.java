@@ -27,22 +27,7 @@ public class MultiTouchActivity extends Activity {
 
         setContentView(img);*/
         touchImageView=(TouchImageView)findViewById(R.id.touch_imageview);
-        if(category.equalsIgnoreCase("1")){
-            topbar.setText("AIR HQ ORG");
-            touchImageView.setImageResource(R.drawable.airhqoeg);
-        }else if(category.equalsIgnoreCase("2")){
-            topbar.setText("OPS AND TRG BRANCH");
-            touchImageView.setImageResource(R.drawable.opsandtrg);
-        }else if(category.equalsIgnoreCase("3")){
-            topbar.setText("ADMIN BRANCH");
-            touchImageView.setImageResource(R.drawable.admin);
-        }else if(category.equalsIgnoreCase("4")){
-            topbar.setText("MAINTENANCE BRANCH");
-            touchImageView.setImageResource(R.drawable.maintbranch);
-        }else if(category.equalsIgnoreCase("5")){
-            topbar.setText("FUNCTIONAL ORG");
-            touchImageView.setImageResource(R.drawable.functionalorg);
-        }
+
 
         touchImageView.setMaxZoom(6f);
     }

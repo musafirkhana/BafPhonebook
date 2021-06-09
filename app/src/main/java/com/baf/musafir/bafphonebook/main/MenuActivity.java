@@ -49,23 +49,8 @@ private Context mContext;
         startActivity(intent);
     }
 
-    public void RANK(View v) {
-        dataBaseUtility.getNwdData(mContext);
-        Intent intent = new Intent(this, RankActivity.class);
-        startActivity(intent);
-    }
-    public void UNIT(View v) {
-        dataBaseUtility.getSqnUnitData(mContext,"2");
-        Intent intent = new Intent(this, UnitDetailActivity.class);
-        intent.putExtra("header","UNITS");
-        startActivity(intent);
-    }
-    public void SQN(View v) {
-        dataBaseUtility.getSqnUnitData(mContext,"1");
-        Intent intent = new Intent(this, UnitDetailActivity.class);
-        intent.putExtra("header","SQUADRON");
-        startActivity(intent);
-    }
+
+
     public void HIS(View v) {
         dataBaseUtility.getNwdData(mContext);
         Intent intent = new Intent(this, HistoryActivity.class);
@@ -73,38 +58,18 @@ private Context mContext;
     }
     public void INFO(View v) {
         Intent intent = new Intent(this, InfoActivity.class);
-        intent.putExtra("header","EMAIL");
+        intent.putExtra("header","Info");
         startActivity(intent);
     }
-    public void EMAIL(View v) {
-        dataBaseUtility.getAllEmailAddData(mContext);
-        Intent intent = new Intent(this, MailListActivity.class);
-        startActivity(intent);
-    }
-    /* public void GENABB(View v) {
-         //dataBaseUtility.getAbbrData(mContext);
-         main_menu_li.startAnimation(outToleftAnimation());
-         main_menu_li.setVisibility(View.GONE);
-         Intent intent = new Intent(this, GenerelAbbribiationActivity.class);
-         intent.putExtra("header","ABBRIATION");
-         startActivity(intent);
-     }*/
+
+
     public void ANTHEM(View v) {
 
         Intent intent = new Intent(this, NationalAnthemActivity.class);
         startActivity(intent);
     }
-    public void CMDCON(View v) {
-        Intent intent = new Intent(this, CommandControlActivity.class);
-        startActivity(intent);
-    }
-    public void HOTEL(View v) {
-        dataBaseUtility.getNwdData(mContext);
-        Intent intent = new Intent(this, OthersMainActivity.class);
-        intent.putExtra("orgCode","8");
-        intent.putExtra("orgName","HOTEL");
-        startActivity(intent);
-    }
+
+
     public void BANK(View v) {
         dataBaseUtility.getNwdData(mContext);
         Intent intent = new Intent(this, OthersMainActivity.class);

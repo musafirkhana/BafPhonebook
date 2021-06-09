@@ -245,46 +245,7 @@
                         android:layout_marginRight="20dp"
                         android:background="#c2c2c2" />
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:onClick="RANK"
-                        android:orientation="horizontal"
-                        android:padding="10dp"
-                        android:weightSum="1.5">
 
-                        <ImageView
-                            android:id="@+id/imageview_4"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_alignParentLeft="true"
-                            android:src="@drawable/rank" />
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="10dp"
-                            android:layout_toRightOf="@+id/imageview_4"
-                            android:gravity="center_vertical"
-                            android:text="Rank"
-                            android:textColor="@color/fontBlack"
-                            android:textSize="14sp"
-                            android:textStyle="bold" />
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginRight="10dp"
-                            android:layout_alignParentRight="true"
-                            android:src="@drawable/forword" />
-
-                    </RelativeLayout>
-                    <View
-                        android:layout_width="fill_parent"
-                        android:layout_height="1dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="#c2c2c2" />
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -327,46 +288,7 @@
                         android:layout_marginRight="20dp"
                         android:background="#c2c2c2" />
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:onClick="EMAIL"
-                        android:orientation="horizontal"
-                        android:padding="10dp"
-                        android:weightSum="1.5">
 
-                        <ImageView
-                            android:id="@+id/imageview_13"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_alignParentLeft="true"
-                            android:src="@drawable/email_clicked" />
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="10dp"
-                            android:layout_toRightOf="@+id/imageview_13"
-                            android:gravity="center_vertical"
-                            android:text="Baf Email"
-                            android:textColor="@color/fontBlack"
-                            android:textSize="14sp"
-                            android:textStyle="bold" />
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginRight="10dp"
-                            android:layout_alignParentRight="true"
-                            android:src="@drawable/forword" />
-                    </RelativeLayout>
-                    <View
-                        android:layout_width="fill_parent"
-                        android:layout_height="1dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="#c2c2c2" />
                     <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
@@ -402,47 +324,7 @@
                             android:src="@drawable/forword" />
                     </RelativeLayout>
 
-                    <View
-                        android:layout_width="fill_parent"
-                        android:layout_height="1dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="#c2c2c2" />
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:onClick="CMDCON"
-                        android:orientation="horizontal"
-                        android:padding="10dp"
-                        android:weightSum="1.5">
-
-                        <ImageView
-                            android:id="@+id/imageview_10"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_alignParentLeft="true"
-                            android:src="@drawable/cmd_control" />
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="10dp"
-                            android:layout_toRightOf="@+id/imageview_10"
-                            android:gravity="center_vertical"
-                            android:text="@string/comcontrl"
-                            android:textColor="@color/fontBlack"
-                            android:textSize="14sp"
-                            android:textStyle="bold" />
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginRight="10dp"
-                            android:layout_alignParentRight="true"
-                            android:src="@drawable/forword" />
-
-                    </RelativeLayout>
 
                     <View
                         android:layout_width="fill_parent"
@@ -451,88 +333,7 @@
                         android:layout_marginRight="20dp"
                         android:background="#c2c2c2" />
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:onClick="UNIT"
-                        android:orientation="horizontal"
-                        android:padding="10dp"
-                        android:weightSum="1.5">
 
-                        <ImageView
-                            android:id="@+id/imageview_11"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_alignParentLeft="true"
-                            android:src="@drawable/unit" />
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="10dp"
-                            android:layout_toRightOf="@+id/imageview_11"
-                            android:gravity="center_vertical"
-                            android:text="Important Unit"
-                            android:textColor="@color/fontBlack"
-                            android:textSize="14sp"
-                            android:textStyle="bold" />
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginRight="10dp"
-                            android:layout_alignParentRight="true"
-                            android:src="@drawable/forword" />
-
-                    </RelativeLayout>
-
-                    <View
-                        android:layout_width="fill_parent"
-                        android:layout_height="1dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="#c2c2c2" />
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:onClick="SQN"
-                        android:orientation="horizontal"
-                        android:padding="10dp"
-                        android:weightSum="1.5">
-
-                        <ImageView
-                            android:id="@+id/imageview_12"
-                            android:layout_width="40dp"
-                            android:layout_height="40dp"
-                            android:layout_alignParentLeft="true"
-                            android:src="@drawable/squadron" />
-
-                        <TextView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginLeft="10dp"
-                            android:layout_toRightOf="@+id/imageview_12"
-                            android:gravity="center_vertical"
-                            android:textColor="@color/fontBlack"
-                            android:text="Important Sqn"
-                            android:textSize="14sp"
-                            android:textStyle="bold" />
-
-                        <ImageView
-                            android:layout_width="20dp"
-                            android:layout_height="20dp"
-                            android:layout_marginRight="10dp"
-                            android:layout_alignParentRight="true"
-                            android:src="@drawable/forword" />
-                    </RelativeLayout>
-                    <View
-                        android:layout_width="fill_parent"
-                        android:layout_height="1dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="20dp"
-                        android:background="#c2c2c2" />
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -580,23 +381,6 @@
 
 
     </LinearLayout>
-    <TextView
-        android:id="@+id/excercise_scroll"
-        android:layout_width="fill_parent"
-        android:layout_height="50dip"
-        android:layout_alignParentBottom="true"
-        android:background="@color/button_background"
-        android:ellipsize="marquee"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:freezesText="true"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:marqueeRepeatLimit="marquee_forever"
-        android:scrollHorizontally="true"
-        android:singleLine="true"
-        android:textSize="20sp"
-        android:text="@string/bottom_text"
-        android:textColor="@color/white" />
+
 
 </RelativeLayout>

@@ -11,6 +11,7 @@
     <string name="app_coxs">COXS</string>
     <string name="dir">/MEA</string>
     <string name="app_dir">/app</string>
+    <string name="name_email">EMAIL</string>
     <string name="db_dir">/database_mea</string>
     <string name="bottom_text">                                 FREE SHALL WE KEEP THE SKY OF BANGLADESH                         </string>
 

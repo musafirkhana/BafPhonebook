@@ -65,7 +65,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"
-            android:background="@mipmap/img_btn_play"
+            android:background="@drawable/img_btn_play"
             android:onClick="Pouse"
             />
 
@@ -75,7 +75,7 @@
             android:layout_height="50dp"
             android:background="@null"
             android:onClick="PlayAgain"
-            android:src="@mipmap/img_btn_pause" />
+            android:src="@drawable/img_btn_pause" />
 
     </LinearLayout>
 

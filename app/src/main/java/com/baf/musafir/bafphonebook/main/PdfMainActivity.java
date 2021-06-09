@@ -23,12 +23,7 @@ private Context mContext;
         mContext=this;
 
     }
-    public void PDF1(View v) {
 
-        Intent intent = new Intent(this, PdfActivity.class);
-        intent.putExtra("pdfName","SOHBAIR.pdf");
-        startActivity(intent);
-    }
 
     public void PDF2(View v) {
 
